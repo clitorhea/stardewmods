@@ -1,0 +1,28 @@
+
+{
+  "Changes": [
+		    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Laezel",
+      "Entries": {
+//---------------------------------莱埃泽尔行程表----------------------------（贺寻编排/贺寻测试完成）
+//周一  床上-卧室站着——博德村水井旁擦剑——博德村森林河樱花树坐着-酒馆吧台-卧室坐着
+  "Mon": "610 Custom_Flower_House 22 12 3/700 Custom_Flower_House 28 15 3/930 Custom_Baldur_Village 34 19 2 Laezel_cleanweapon/1200 Custom_Baldur_Village_Forest 14 31 2 Laezel_kneel/1700 Custom_Elfsong_Tavern 28 31 0/2000 Custom_Flower_House 29 12 2 Laezel_sitdown/2300 Custom_Flower_House 22 12 3 Laezel_sleep",
+//周二  床上-卧室沙发-卧室擦剑——博德村湖边耍剑-客厅厨房-卧室擦剑-床上
+  "Tue": "610 Custom_Flower_House 22 12 3/700 Custom_Flower_House 29 12 2 Laezel_sitdown/900 Custom_Flower_House 28 14 2 Laezel_kneel/1100 Custom_Baldur_Village 28 74 3 Laezel_cleanweapon/1700 Custom_Flower_House 17 25 0/1900 Custom_Flower_House 28 14 2 Laezel_cleanweapon/2200 Custom_Flower_House 22 12 3 Laezel_sleep",
+//周三  床上-卧室坐着-客厅电视沙发前——博德村南边树下擦剑——酒馆棕色沙发坐着——酒馆枭胸雕像旁喝酒——回家睡觉
+  "Wed": "610  Custom_Flower_House 22 12 3/700 Custom_Flower_House 29 12 2 Laezel_sitdown/900 Custom_Flower_House 17 25 0/1100 Custom_Baldur_Village 67 64 2 Laezel_cleanweapon/1400 Custom_Elfsong_Tavern 21 34 2 Laezel_sitdown/1800 Custom_Elfsong_Tavern 31 31 3 Laezel_dirnkright/2300 Custom_Flower_House 22 12 3 Laezel_sleep",
+//周四  床上-卧室沙发-卧室擦剑——博德村东边擦剑-客厅厨房-卧室擦剑-床上
+  "Thu": "610 Custom_Flower_House 22 12 3/700 Custom_Flower_House 29 12 2 Laezel_sitdown/900 Custom_Flower_House 28 14 2 Laezel_kneel/1100 Custom_Baldur_Village 109 60 2 Laezel_cleanweapon/1700 Custom_Flower_House 17 25 0/1900 Custom_Flower_House 28 14 2 Laezel_cleanweapon/2200 Custom_Flower_House 22 12 3 Laezel_sleep",
+//周五  床上-冰箱前-博德村南边码头跪坐着——鹈鹕镇狗窝前——沙龙门口和影心坐着——沙龙喝酒——回家睡觉
+  "Fri": "610 Custom_Flower_House 22 12 3/700 Custom_Flower_House 17 25 0/830 Custom_Baldur_Village 64 72 2 Laezel_kneel/1200 Town 52 71 0/1530 Town 44 77 0 Laezel_sitdown/2000 Saloon 26 18 3 Laezel_dirnkright/2230 Custom_Flower_House 22 12 3 Laezel_sleep",
+//周六  床上-卧室沙发坐着-博德村门口看库存-精灵之诗沙发坐着-演出厅靠墙站着喝酒——回家睡觉
+  "Sat": "610  Custom_Flower_House 22 12 3/700 Custom_Flower_House 29 12 2 Laezel_sitdown/900 Custom_Baldur_Village 64 24 2/1300 Custom_Elfsong_Tavern 21 34 2 Laezel_sitdown/1800 Custom_Elfsong_Tavern 15 26 3 Laezel_dirnkright/2200 Custom_Elfsong_Tavern 15 23 0/2300 Custom_Flower_House 22 12 3 Laezel_sleep",
+//周日  床上——卧室沙发坐着——牛棚旁边树下擦剑——酒馆吧台——演出厅靠墙站着喝酒——精灵之诗演奏厅桌前——回家睡觉
+  "Sun": "610  Custom_Flower_House 22 12 3/700 Custom_Flower_House 29 12 2 Laezel_sitdown/900 Custom_Baldur_Village 38 19 2 Laezel_cleanweapon/1300 Custom_Elfsong_Tavern 23 31 0/1600 Custom_Elfsong_Tavern 15 26 3 Laezel_dirnkright/2100 Custom_Elfsong_Tavern 15 23 0/2300 Custom_Flower_House 22 12 3 Laezel_sleep",
+//雨天  床上——卧室站着——卧室擦剑——精灵之诗吧台——客厅厨房——卧室擦剑——床上
+  "rain": "610 Custom_Flower_House 22 12 3/700 Custom_Flower_House 28 15 3/900 Custom_Flower_House 28 14 2 Laezel_cleanweapon/1200 Custom_Elfsong_Tavern 28 31 1/1700 Custom_Flower_House 17 25 2/1900 Custom_Flower_House 28 14 2 Laezel_cleanweapon/2200 Custom_Flower_House 22 12 3 Laezel_sleep"
+	  }
+    }
+  ]
+  }

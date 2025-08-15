@@ -1,0 +1,15 @@
+﻿{
+    "Changes": [
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Mountain",
+            "FromFile": "Assets/Maps/EntryMaps/Entry.tmx",
+            "ToArea": {
+                "X": 18,
+                "Y": 0,
+                "Width": 11,
+                "Height": 7
+            }
+        }
+    ]
+}

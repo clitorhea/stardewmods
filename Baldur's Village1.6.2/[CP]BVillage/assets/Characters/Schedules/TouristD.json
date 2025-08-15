@@ -1,0 +1,27 @@
+
+{
+  "Changes": [
+		    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/TouristD",
+      "Entries": {
+  //---------------------------------黑发女子----------------------------（贺寻编排/贺寻测试完成）
+  "Mon": "700 Custom_Baldurs_Gate 5 5 2",
+
+  "Tue": "700 Custom_Baldurs_Gate 5 5 2",
+
+  "Wed": "700 Custom_Baldurs_Gate 5 5 2",
+
+  "Thu": "700 Custom_Baldurs_Gate 5 5 2",
+//周五 吧台右侧——雕像前和拉拉安面对面——演奏厅沙发——回家
+  "Fri": "1200 Custom_Elfsong_Tavern 35 29 3/1430 Custom_Elfsong_Tavern 31 32 1/1900 Custom_Elfsong_Tavern 5 20 1 Cirllla_sitdownleft/2200 Custom_Baldurs_Gate 5 5 2",
+//周六 吧台右侧——雕像前和拉拉安面对面——舞台前跪坐着——回家
+  "Sat": "1000 Custom_Elfsong_Tavern 35 29 3/1300 Custom_Elfsong_Tavern 31 32 1/1500 Custom_Elfsong_Tavern 10 19 0/1600 Custom_Elfsong_Tavern 10 19 1/2000 Custom_Elfsong_Tavern 12 18 2 Cirllla_kneel/2300 Custom_Baldurs_Gate 5 5 2",
+//周日 花房子门口购物车——花房子内仓库——演奏厅跪坐——外面沙发坐着——回家
+  "Sun": "800 Custom_Baldur_Village 56 22 0/1200 Custom_Flower_House 15 33 2/1400 Custom_Elfsong_Tavern 9 19 2 Cirllla_kneel 3/2000 Custom_Elfsong_Tavern 13 34 2 Cirllla_sitdown /2300 Custom_Baldurs_Gate 5 5 2",
+
+   "rain": "700 Custom_Baldurs_Gate 5 5 2"
+	  }
+    }
+  ]
+  }

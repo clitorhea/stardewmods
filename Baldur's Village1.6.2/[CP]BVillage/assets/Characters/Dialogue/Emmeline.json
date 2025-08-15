@@ -1,0 +1,132 @@
+
+{
+	"Changes": [
+	  { 
+	  "LogName":"Emmeline", 
+	  "Action": "EditData",
+	  "Target": "Characters/Dialogue/Emmeline",
+	  "Entries": { 
+					//ConversationTopic
+					"62130039welcome":"{{i18n:event-62130039-Emmeline.2}}", 
+					
+					//Gifts
+					"AcceptBirthdayGift_Loved": "{{i18n:Emmeline.Dialogue.AcceptBirthdayGift_Loved}}",
+					"AcceptBirthdayGift_Like": "{{i18n:Emmeline.Dialogue.AcceptBirthdayGift_Like}}",
+					"AcceptBirthdayGift_Negative": "{{i18n:Emmeline.Dialogue.AcceptBirthdayGift_Negative}}",
+					"AcceptBirthdayGift_Disliked": "{{i18n:Emmeline.Dialogue.AcceptBirthdayGift_Disliked}}",
+					"AcceptBirthdayGift_Hated": "{{i18n:Emmeline.Dialogue.AcceptBirthdayGift_Hated}}",	
+					//Movie
+					"MovieInvitation": "{{i18n:Emmeline.Dialogue.MovieInvitation}}",
+					//Daily
+					"Introduction": "{{i18n:Emmeline.Dialogue.Introduction}}",
+					//Spring
+					//Spring 0 hearts
+					"Mon": "{{i18n:Emmeline.Dialogue.Mon}}",
+					"Tue": "{{i18n:Emmeline.Dialogue.Tue}}",
+					"Wed": "{{i18n:Emmeline.Dialogue.Wed}}",
+					"Thu": "{{i18n:Emmeline.Dialogue.Thu}}",
+					"Fri": "{{i18n:Emmeline.Dialogue.Fri}}",
+					"Sat": "{{i18n:Emmeline.Dialogue.Sat}}",
+					"Sun": "{{i18n:Emmeline.Dialogue.Sun}}",
+					//Spring 4 hearts
+					"Mon4": "{{i18n:Emmeline.Dialogue.Mon4}}",
+					"Tue4": "{{i18n:Emmeline.Dialogue.Tue4}}",
+					"Wed4": "{{i18n:Emmeline.Dialogue.Wed4}}",
+					"Thu4": "{{i18n:Emmeline.Dialogue.Thu4}}",
+					"Fri4": "{{i18n:Emmeline.Dialogue.Fri4}}",
+					"Sat4": "{{i18n:Emmeline.Dialogue.Sat4}}",
+					"Sun4": "{{i18n:Emmeline.Dialogue.Sun4}}",
+					//Spring 8 hearts
+					"Mon8": "{{i18n:Emmeline.Dialogue.Mon8}}",
+					"Tue8": "{{i18n:Emmeline.Dialogue.Tue8}}",
+					"Wed8": "{{i18n:Emmeline.Dialogue.Wed8}}",
+					"Thu8": "{{i18n:Emmeline.Dialogue.Thu8}}",
+					"Fri8": "{{i18n:Emmeline.Dialogue.Fri8}}",
+					"Sat8": "{{i18n:Emmeline.Dialogue.Sat8}}",
+					"Sun8": "{{i18n:Emmeline.Dialogue.Sun8}}",
+					//Summer
+					//Summer 0 Heart
+					"summer_Mon": "{{i18n:Emmeline.Dialogue.summer_Mon}}",
+					"summer_Tue": "{{i18n:Emmeline.Dialogue.summer_Tue}}",
+					"summer_Wed": "{{i18n:Emmeline.Dialogue.summer_Wed}}",
+					"summer_Thu": "{{i18n:Emmeline.Dialogue.summer_Thu}}",
+					"summer_Fri": "{{i18n:Emmeline.Dialogue.summer_Fri}}",
+					"summer_Sat": "{{i18n:Emmeline.Dialogue.summer_Sat}}",
+					"summer_Sun": "{{i18n:Emmeline.Dialogue.summer_Sun}}",
+					//Summer 4 Hearts
+					"summer_Mon4": "{{i18n:Emmeline.Dialogue.summer_Mon4}}",
+					"summer_Tue4": "{{i18n:Emmeline.Dialogue.summer_Tue4}}",
+					"summer_Wed4": "{{i18n:Emmeline.Dialogue.summer_Wed4}}",
+					"summer_Thu4": "{{i18n:Emmeline.Dialogue.summer_Thu4}}",
+					"summer_Fri4": "{{i18n:Emmeline.Dialogue.summer_Fri4}}",
+					"summer_Sat4": "{{i18n:Emmeline.Dialogue.summer_Sat4}}",
+					"summer_Sun4": "{{i18n:Emmeline.Dialogue.summer_Sun4}}",
+					//Summer 8 Hearts
+					"summer_Mon8": "{{i18n:Emmeline.Dialogue.summer_Mon8}}",
+					"summer_Tue8": "{{i18n:Emmeline.Dialogue.summer_Tue8}}",
+					"summer_Wed8": "{{i18n:Emmeline.Dialogue.summer_Wed8}}",
+					"summer_Thu8": "{{i18n:Emmeline.Dialogue.summer_Thu8}}",
+					"summer_Fri8": "{{i18n:Emmeline.Dialogue.summer_Fri8}}",
+					"summer_Sat8": "{{i18n:Emmeline.Dialogue.summer_Sat8}}",
+					"summer_Sun8": "{{i18n:Emmeline.Dialogue.summer_Sun8}}",
+					//Fall
+					//Fall 0 Hearts
+					"fall_Mon": "{{i18n:Emmeline.Dialogue.fall_Mon}}",
+					"fall_Tue": "{{i18n:Emmeline.Dialogue.fall_Tue}}",
+					"fall_Wed": "{{i18n:Emmeline.Dialogue.fall_Wed}}",
+					"fall_Thu": "{{i18n:Emmeline.Dialogue.fall_Thu}}",
+					"fall_Fri": "{{i18n:Emmeline.Dialogue.fall_Fri}}",
+					"fall_Sat": "{{i18n:Emmeline.Dialogue.fall_Sat}}",
+					"fall_Sun": "{{i18n:Emmeline.Dialogue.fall_Sun}}",
+					//Fall 4 Hearts
+					"fall_Mon4": "{{i18n:Emmeline.Dialogue.fall_Mon4}}",
+					"fall_Tue4": "{{i18n:Emmeline.Dialogue.fall_Tue4}}",
+					"fall_Wed4": "{{i18n:Emmeline.Dialogue.fall_Wed4}}",
+					"fall_Thu4": "{{i18n:Emmeline.Dialogue.fall_Thu4}}",
+					"fall_Fri4": "{{i18n:Emmeline.Dialogue.fall_Fri4}}",
+					"fall_Sat4": "{{i18n:Emmeline.Dialogue.fall_Sat4}}",
+					"fall_Sun4": "{{i18n:Emmeline.Dialogue.fall_Sun4}}",
+					//Fall 8 Hearts
+					"fall_Mon8": "{{i18n:Emmeline.Dialogue.fall_Mon8}}",
+					"fall_Tue8": "{{i18n:Emmeline.Dialogue.fall_Tue8}}",
+					"fall_Wed8": "{{i18n:Emmeline.Dialogue.fall_Wed8}}",
+					"fall_Thu8": "{{i18n:Emmeline.Dialogue.fall_Thu8}}",
+					"fall_Fri8": "{{i18n:Emmeline.Dialogue.fall_Fri8}}",
+					"fall_Sat8": "{{i18n:Emmeline.Dialogue.fall_Sat8}}",
+					"fall_Sun8": "{{i18n:Emmeline.Dialogue.fall_Sun8}}",
+					//Winter
+					//winter 0 Hearts
+					"winter_Mon": "{{i18n:Emmeline.Dialogue.winter_Mon}}",
+					"winter_Tue": "{{i18n:Emmeline.Dialogue.winter_Tue}}",
+					"winter_Wed": "{{i18n:Emmeline.Dialogue.winter_Wed}}",
+					"winter_Thu": "{{i18n:Emmeline.Dialogue.winter_Thu}}",
+					"winter_Fri": "{{i18n:Emmeline.Dialogue.winter_Fri}}",
+					"winter_Sat": "{{i18n:Emmeline.Dialogue.winter_Sat}}",
+					"winter_Sun": "{{i18n:Emmeline.Dialogue.winter_Sun}}",
+					//winter 4 Hearts
+					"winter_Mon4": "{{i18n:Emmeline.Dialogue.winter_Mon4}}",
+					"winter_Tue4": "{{i18n:Emmeline.Dialogue.winter_Tue4}}",
+					"winter_Wed4": "{{i18n:Emmeline.Dialogue.winter_Wed4}}",
+					"winter_Thu4": "{{i18n:Emmeline.Dialogue.winter_Thu4}}",
+					"winter_Fri4": "{{i18n:Emmeline.Dialogue.winter_Fri4}}",
+					"winter_Sat4": "{{i18n:Emmeline.Dialogue.winter_Sat4}}",
+					"winter_Sun4": "{{i18n:Emmeline.Dialogue.winter_Sun4}}",
+					//winter 8 Hearts
+					"winter_Mon8": "{{i18n:Emmeline.Dialogue.winter_Mon8}}",
+					"winter_Tue8": "{{i18n:Emmeline.Dialogue.winter_Tue8}}",
+					"winter_Wed8": "{{i18n:Emmeline.Dialogue.winter_Wed8}}",
+					"winter_Thu8": "{{i18n:Emmeline.Dialogue.winter_Thu8}}",
+					"winter_Fri8": "{{i18n:Emmeline.Dialogue.winter_Fri8}}",
+					"winter_Sat8": "{{i18n:Emmeline.Dialogue.winter_Sat8}}",
+					"winter_Sun8": "{{i18n:Emmeline.Dialogue.winter_Sun8}}",
+					
+					//Wedding comment 
+					"married_Astarion": "{{i18n:Emmeline.Dialogue.married_Astarion}}",
+
+					//Others
+					///Dumpster
+					"DumpsterDiveComment": "{{i18n:Emmeline.Dialogue.DumpsterDiveComment}}",	   
+				}
+			}
+		]
+	}

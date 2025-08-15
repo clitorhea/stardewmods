@@ -1,0 +1,21 @@
+{
+    "Changes": [
+        {
+            //Mail Letters
+            "LogName": "Mail Letters",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                //general event
+                "ElfverseWelcomeLetter":"{{i18n:Mail_Letters_1}}",
+                "BGVillageWelcomeMail":"{{i18n:Mail_Letters_3}}",
+
+                //Astraion event
+                "Astarion5HeartLetter": "{{i18n:Mail_Letters_2}}",
+                "Astarion8HeartLetter": "{{i18n:Mail_Letters_4}}",
+                "Astarion10HeartBoyfriendMail": "{{i18n:Mail_Letters_5}}",
+            
+            }
+        }
+    ]
+}

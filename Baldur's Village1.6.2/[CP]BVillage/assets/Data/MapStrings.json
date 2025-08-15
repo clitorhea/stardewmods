@@ -1,0 +1,47 @@
+{
+"Changes": [
+
+	//MAP Strings
+	{
+		"Action": "EditData",
+		"Target": "Strings/StringsFromMaps",
+		"Entries": {
+			"bv.object1": "{{i18n:MapString.bv.object1}}",
+			"bv.object2": "{{i18n:MapString.bv.object2}}",
+			"bv.object3": "{{i18n:MapString.bv.object3}}",
+			"bv.object4": "{{i18n:MapString.bv.object4}}",
+			"bv.object5": "{{i18n:MapString.bv.object5}}",
+			"Bigesthouse.object1": "{{i18n:MapString.Bigesthouse.object1}}",
+			"Bigesthouse.object2": "{{i18n:MapString.Bigesthouse.object2}}",
+			"Bigesthouse.object3": "{{i18n:MapString.Bigesthouse.object3}}",
+			"Bigesthouse.object4": "{{i18n:MapString.Bigesthouse.object4}}",
+			"Bigesthouse.object5": "{{i18n:MapString.Bigesthouse.object5}}",
+			"Bigesthouse.object6": "{{i18n:MapString.Bigesthouse.object6}}",
+			"Bigesthouse.object7": "{{i18n:MapString.Bigesthouse.object7}}",
+			"Bigesthouse.object8": "{{i18n:MapString.Bigesthouse.object8}}",
+			"Bigesthouse.object9": "{{i18n:MapString.Bigesthouse.object9}}",
+			"Bigesthouse.object10": "{{i18n:MapString.Bigesthouse.object10}}",
+			"flowerhouse.object1": "{{i18n:MapString.flowerhouse.object1}}",
+			"flowerhouse.object2": "{{i18n:MapString.flowerhouse.object2}}",
+			"flowerhouse.object3": "{{i18n:MapString.flowerhouse.object3}}",
+			"flowerhouse.object4": "{{i18n:MapString.flowerhouse.object4}}",
+			"Astarion.object1": "{{i18n:MapString.Astarion.object1}}",
+			"Astarion.object2": "{{i18n:MapString.Astarion.object2}}",
+			"Astarion.object3": "{{i18n:MapString.Astarion.object3}}",
+			"Astarion.object4": "{{i18n:MapString.Astarion.object4}}",
+			"Astarion.object5": "{{i18n:MapString.Astarion.object5}}",
+			"Astarion.object6": "{{i18n:MapString.Astarion.object6}}",
+			"Astarion.object7": "{{i18n:MapString.Astarion.object7}}",
+			"Astarion.object8": "{{i18n:MapString.Astarion.object8}}",
+			"KallachWyllHouse.object1": "{{i18n:MapString.KallachWyllHouse.object1}}",
+			"KallachWyllHouse.object2": "{{i18n:MapString.KallachWyllHouse.object2}}",
+			"KallachWyllHouse.object3": "{{i18n:MapString.KallachWyllHouse.object3}}",
+			"KallachWyllHouse.object4": "{{i18n:MapString.KallachWyllHouse.object4}}",
+			"KallachWyllHouse.object5": "{{i18n:MapString.KallachWyllHouse.object5}}",
+			"KallachWyllHouse.object6": "{{i18n:MapString.KallachWyllHouse.object6}}"
+		}
+	}
+
+
+]
+}

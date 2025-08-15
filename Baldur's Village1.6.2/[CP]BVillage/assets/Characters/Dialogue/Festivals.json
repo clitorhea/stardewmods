@@ -1,0 +1,157 @@
+{
+  "Changes": [
+//////////////
+//spring13//
+//////////////
+    {
+      "LogName": "Festival Egg Festival-spring13",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "Entries": {
+        "Astarion": "{{i18n:festivals.Astarion.spring13}}",
+        "Astarion_spouse": "{{i18n:festivals.Astarion.spring13_spouse}}",
+        "Halsin_spouse": "{{i18n:festivals.Halsin.spring13_spouse}}",
+        "Halsin": "{{i18n:festivals.Halsin.spring13}}",
+        "Laezel": "{{i18n:festivals.Laezel.spring13}}",
+        "Shadowheart": "{{i18n:festivals.Shadowheart.spring13}}",
+        "Arnell": "{{i18n:festivals.Arnell.spring13}}",
+        "Emmeline": "{{i18n:festivals.Emmeline.spring13}}",
+        "30888_Gale": "{{i18n:festivals.30888_Gale.spring13}}"
+  }
+},
+//////////////
+//spring24//
+//////////////
+      {
+      "LogName": "Festival Flower Dance-spring24",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "Entries": {
+        "Astarion": "{{i18n:festivals.Astarion.spring24}}",
+        "Astarion_spouse": "{{i18n:festivals.Astarion.spring24_spouse}}",
+        "Astarion_accept": "{{i18n:Astarion.Dialogue.FlowerDance_accept}}",
+        "Astarion_accept_spouse": "{{i18n:Astarion.Dialogue.FlowerDance_accept_spouse}}",
+        "Astarion_decline": "{{i18n:Astarion.Dialogue.FlowerDance_decline}}",
+        "Halsin": "{{i18n:festivals.Halsin.spring24}}",
+        "Halsin_spouse": "{{i18n:festivals.Halsin.spring24_spouse}}",
+        "Halsin_accept_spouse": "{{i18n:Halsin.Dialogue.FlowerDance_accept_spouse}}",
+        "Halsin_accept": "{{i18n:Halsin.Dialogue.FlowerDance_accept}}",
+        "Halsin_decline": "{{i18n:Halsin.Dialogue.FlowerDance_decline}}",
+        "Laezel": "{{i18n:festivals.Laezel.spring24}}",
+        "Shadowheart": "{{i18n:festivals.Shadowheart.spring24}}",
+        "Arnell": "{{i18n:festivals.Arnell.spring24}}",
+        "Emmeline": "{{i18n:festivals.Emmeline.spring24}}",
+        "30888_Gale": "{{i18n:festivals.30888_Gale.spring24}}",
+        "Alfira": "{{i18n:festivals.Alfira.spring24}}"
+        }
+      },
+////////////////
+//summer11//
+////////////////
+      {
+      "LogName": "Festival Luau-summer11",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "Entries": {
+        "Astarion": "{{i18n:festivals.Astarion.summer11}}",
+        "Astarion_spouse": "{{i18n:festivals.Astarion.summer11_spouse}}",
+        "Halsin": "{{i18n:festivals.Halsin.summer11}}",
+        "Laezel": "{{i18n:festivals.Laezel.summer11}}",
+        "Shadowheart": "{{i18n:festivals.Shadowheart.summer11}}",
+        "30888_Gale": "{{i18n:festivals.30888_Gale.summer11}}"
+        }
+      },
+////////////////
+//summer28//
+////////////////
+      {
+      "LogName": "Festival Moonlight Jellies-summer28",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "Entries": {
+        "Astarion": "{{i18n:festivals.Astarion.summer28}}",
+        "Astarion_spouse": "{{i18n:festivals.Astarion.summer28_spouse}}",
+        "Halsin": "{{i18n:festivals.Halsin.summer28}}",
+        "Laezel": "{{i18n:festivals.Laezel.summer28}}",
+        "Shadowheart": "{{i18n:festivals.Shadowheart.summer28}}",
+        "30888_Gale": "{{i18n:festivals.30888_Gale.summer28}}"
+        }
+      },
+//////////
+//fall16//
+//////////
+      {
+      "LogName": "Festival SDV Fair-fall16",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "Entries": {
+        "Astarion": "{{i18n:festivals.Astarion.fall16}}",
+        "Astarion_spouse": "{{i18n:festivals.Astarion.fall16_spouse}}",
+        "Halsin": "{{i18n:festivals.Halsin.fall16}}",
+        "Halsin_spouse": "{{i18n:festivals.Halsin.fall16_spouse}}",
+        "Laezel": "{{i18n:festivals.Laezel.fall16}}",
+        "Shadowheart": "{{i18n:festivals.Shadowheart.fall16}}",
+        "Arnell": "{{i18n:festivals.Arnell.fall16}}",
+        "Emmeline": "{{i18n:festivals.Emmeline.fall16}}",
+        "30888_Gale": "{{i18n:festivals.30888_Gale.fall16}}",
+        "Alfira": "{{i18n:festivals.Alfira.fall16}}",
+        "Rolan1": "{{i18n:festivals.Rolan1.fall16}}"
+        }
+      },
+//////////
+//fall27//
+//////////
+      {
+        "LogName": "Festival Spirits Eve-fall27",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+        "Entries": {
+         "Astarion": "{{i18n:festivals.Astarion.fall27}}",
+         "Astarion_spouse": "{{i18n:festivals.Astarion.fall27_spouse}}",
+         "Halsin": "{{i18n:festivals.Halsin.fall27}}",
+         "Halsin_spouse": "{{i18n:festivals.Halsin.fall27_spouse}}",
+         "Laezel": "{{i18n:festivals.Laezel.fall27}}",
+         "Shadowheart": "{{i18n:festivals.Shadowheart.fall27}}",
+         "30888_Gale": "{{i18n:festivals.30888_Gale.fall27}}",
+         "Alfira": "{{i18n:festivals.Alfira.fall27}}",
+         "Rolan1": "{{i18n:festivals.Rolan1.fall27}}"        
+      }
+      },
+/////////////
+//winter8//
+////////////
+      {
+      "LogName": "Festival Ice Festival-winter8",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "Entries": {
+        "Astarion": "{{i18n:festivals.Astarion.winter8}}",
+        "Astarion_spouse": "{{i18n:festivals.Astarion.winter8_spouse}}",
+        "Halsin": "{{i18n:festivals.Halsin.winter8}}",
+        "Halsin_spouse": "{{i18n:festivals.Halsin.winter8_spouse}}",
+        "Laezel": "{{i18n:festivals.Laezel.winter8}}",
+        "Shadowheart": "{{i18n:festivals.Shadowheart.winter8}}",
+        "30888_Gale": "{{i18n:festivals.30888_Gale.winter8}}"
+        }
+      },
+//////////////
+//winter25//
+//////////////
+      {
+      "LogName": "Festival Winter Star-winter25",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "Entries": {
+        "Astarion": "{{i18n:festivals.Astarion.winter25}}",
+        "Astarion_spouse": "{{i18n:festivals.Astarion.winter25_spouse}}",
+        "Halsin": "{{i18n:festivals.Halsin.winter25}}",
+        "Halsin_spouse": "{{i18n:festivals.Halsin.winter25_spouse}}",
+        "Laezel": "{{i18n:festivals.Laezel.winter25}}",
+        "Shadowheart": "{{i18n:festivals.Shadowheart.winter25}}",
+        "Arnell": "{{i18n:festivals.Arnell.winter25}}",
+        "Emmeline": "{{i18n:festivals.Emmeline.winter25}}",
+        "30888_Gale": "{{i18n:festivals.30888_Gale.winter25}}"        
+      }
+      },
+  ]
+}

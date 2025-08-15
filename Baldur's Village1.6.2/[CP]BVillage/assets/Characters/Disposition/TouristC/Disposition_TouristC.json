@@ -1,0 +1,68 @@
+{
+  "Changes": [
+    
+{
+  "LogName": "NPC Dispositions", 
+  "Action": "EditData",
+   "Target": "Data/Characters",
+   "Entries": {
+    "TouristC": {
+     "DisplayName": "{{i18n:Name.TouristC}}",
+     "HomeRegion": "Town",
+     "Language": 0,
+     "Gender": "Female",
+     "Age": 0,
+     "Manner": "Rude",
+     "SocialAnxiety": "Outgoing",
+     "Optimism": "Positive",
+     "IsDarkSkinned": false,
+     "CanBeRomanced": false,
+     "CanCommentOnPurchasedShopItems": true,
+     "IntroductionsQuest": false,
+     "ItemDeliveryQuests": false,
+     "WinterStarParticipant": true,
+     "LoveInterest": "",
+     "Calendar": 0,
+     "SocialTab": 0,
+     "SocializeConditions": null,
+     "CanSocialize": false,
+     "CanVisitIsland": "FALSE",
+     "ExcludeFromIntroductionsQuest": true,
+     "ExcludeFromPerfectionScore": true,
+     "EndSlideShow": 1,
+     "FriendsAndFamily": {},
+     "DumpsterDiveEmote": 16,
+     "DumpsterDiveFriendshipEffect": 0,
+     "FlowerDanceCanDance": false,
+     "UnlockConditions": true,
+     "SpawnIfMissing": true,
+     "Home": [
+      {
+       "Id": "Default",
+       "Location": "Custom_Baldurs_Gate",
+       "Tile": {
+        "X": 6,
+        "Y": 5
+       },
+      "Direction": "down"
+      }
+
+     ],
+     "TextureName": null,
+     "Size": {
+      "X": 16,
+      "Y": 32
+     },
+     "Breather": true,
+     "HiddenProfileEmoteSound": null,
+     "HiddenProfileEmoteDuration": -1,
+     "HiddenProfileEmoteStartFrame": 16,
+     "HiddenProfileEmoteFrameCount": 4,
+     "HiddenProfileEmoteFrameDuration": 200.0,
+    // "FestivalVanillaActorIndex": 0,
+     "CustomFields": {}
+    }
+   }
+  }
+  ]
+}

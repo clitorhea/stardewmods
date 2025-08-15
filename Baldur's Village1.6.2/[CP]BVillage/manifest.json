@@ -1,0 +1,21 @@
+{
+  "Name": "[CP] Baldur's Village",
+  "Author": "Xun&Yu&Haru&Kawener&Sirris",
+  "Version": "1.6.2",
+  "Description": "CP proj: Baldur's Gate 3 characters and events in Stardew Valley",
+  "UniqueID": "BaldursVillage.BVCP",
+  "UpdateKeys": ["Nexus:30888"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "BaldursVillage.BVSMAPI",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Platonymous.Portraiture",
+      "IsRequired": false
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+    "Changes": [
+        {
+            "LogName": "Mail Triggers",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                //HEART EVENT MAILS
+                //Astarion sends letter to farmer (Astarion 5 hearts)
+                "6213_Astarion5HeartMail": {
+                    "Id": "6213_Astarion5HeartMail",
+                    "Trigger": "DayStarted",
+                    //"Condition": "PLAYER_FRIENDSHIP_POINTS Current Astarion 1250, PLAYER_HAS_SEEN_EVENT Current 62130013, !PLAYER_HAS_MAIL Current Astarion5HeartLetter",				
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astarion 1250, PLAYER_HAS_SEEN_EVENT Current 62130013, !PLAYER_HAS_MAIL Current Astarion5HeartLetter",
+                    "HostOnly": false,
+                    "Actions": [
+                        "AddMail Current Astarion5HeartLetter now",
+                        "MarkEventSeen Current 62130016",
+                    ]
+                },
+                //GENERAL EVENT MAILS
+                //ElfVerse sends first letter to farmer (first day)
+                "6213_ElfverseWelcome": {
+                    "Id": "6213_ElfverseWelcome",
+                    "Trigger": "DayStarted",
+                    "Condition": "!PLAYER_HAS_MAIL Current ElfverseWelcomeLetter",
+                    "HostOnly": false,
+                    "Actions": [
+                        "AddMail Current ElfverseWelcomeLetter now",
+                        "MarkEventSeen Current 62130024",
+                    ]
+                },
+                "6213_WelcomeMail": {
+                    "Id": "6213_WelcomeMail",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 62130025, !PLAYER_HAS_MAIL Current BGVillageWelcomeMail, !PLAYER_HAS_SEEN_EVENT Current 62130039, WEATHER Here Sun, !IS_FESTIVAL_DAY ANY",
+                    "HostOnly": false,
+                    "Actions": [
+                        "AddMail Current BGVillageWelcomeMail now",
+                        "AddConversationTopic 6213_WelcomePartyDay 2",
+                    ]
+                },
+                "6213_Astarion8HeartNotSeenMail": {
+                    "Id": "6213_Astarion8HeartNotSeenMail",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astarion 2250, !PLAYER_HAS_SEEN_EVENT Current 62130034, !PLAYER_HAS_MAIL Current Astarion8HeartLetter",
+                    "HostOnly": false,
+                    "Actions": [
+                        "AddMail Current Astarion8HeartLetter now"
+                    ]
+                },
+                "30888_Astarion10HeartBoyfriendMail": {
+                    "Id": "30888_Astarion10HeartBoyfriendMail",
+                    "Trigger": "DayStarted",
+                    //308880015 is used for the mail
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astarion 2500, !PLAYER_HAS_SEEN_EVENT Current 308880015, !PLAYER_HAS_MAIL Current Astarion10HeartBoyfriendMail, WEATHER Here Sun, !IS_FESTIVAL_DAY ANY",
+                    "HostOnly": false,
+                    "Actions": [
+                        "AddMail Current Astarion10HeartBoyfriendMail now",
+                        "MarkEventSeen Current 308880015"              
+                    ]
+                },
+            }
+        }
+    ]
+}

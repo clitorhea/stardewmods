@@ -1,0 +1,25 @@
+
+{
+"Changes": [
+  { 
+  "LogName":"Scratch", 
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Scratch",
+  "Entries": {  
+				//Daily
+				//Spring 0 hearts
+				"Mon": "{{i18n:Scratch.Dialogue.Fri_{{Random: 0, 1, 2, 3, 4}}}}",
+				"Tue": "{{i18n:Scratch.Dialogue.Fri_{{Random: 0, 1, 2, 3, 4}}}}",
+				"Wed": "{{i18n:Scratch.Dialogue.Fri_{{Random: 0, 1, 2, 3, 4}}}}",
+				"Thu": "{{i18n:Scratch.Dialogue.Fri_{{Random: 0, 1, 2, 3, 4}}}}",
+				"Fri": "{{i18n:Scratch.Dialogue.Fri_{{Random: 0, 1, 2, 3, 4}}}}",
+				"Sat": "{{i18n:Scratch.Dialogue.Sat_{{Random: 0, 1, 2, 3, 4}}}}",
+				"Sun": "{{i18n:Scratch.Dialogue.Sun_{{Random: 0, 1, 2, 3, 4}}}}",
+				
+				//Others
+				///Dumpster
+				"DumpsterDiveComment": "{{i18n:Scratch.Dialogue.DumpsterDiveComment}}",	    
+			}
+		}
+	]
+}

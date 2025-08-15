@@ -1,0 +1,42 @@
+
+{
+"Changes": [
+  { 
+  "LogName":"TouristA", 
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/TouristA",
+  "Entries": {  
+				//Gifts
+				"AcceptBirthdayGift_Loved": "{{i18n:TouristA.Dialogue.AcceptBirthdayGift_Loved}}",
+				"AcceptBirthdayGift_Like": "{{i18n:TouristA.Dialogue.AcceptBirthdayGift_Like}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:TouristA.Dialogue.AcceptBirthdayGift_Negative}}",
+				"AcceptBirthdayGift_Disliked": "{{i18n:TouristA.Dialogue.AcceptBirthdayGift_Disliked}}",
+				"AcceptBirthdayGift_Hated": "{{i18n:TouristA.Dialogue.AcceptBirthdayGift_Hated}}",	
+				//Daily
+				"Introduction": "{{i18n:TouristA.Dialogue.Introduction}}",
+				//Spring
+				//Spring 0 hearts
+				"Wed": "{{i18n:TouristA.Dialogue.Wed_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"Fri": "{{i18n:TouristA.Dialogue.Fri_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"Sat": "{{i18n:TouristA.Dialogue.Sat_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+	
+                //Summer
+				//Summer 0 Heart
+				"summer_Wed": "{{i18n:TouristA.Dialogue.summer_Wed_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"summer_Fri": "{{i18n:TouristA.Dialogue.summer_Fri_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"summer_Sat": "{{i18n:TouristA.Dialogue.summer_Sat_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				//Fall
+				//Fall 0 Hearts
+				"fall_Wed": "{{i18n:TouristA.Dialogue.fall_Wed_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"fall_Fri": "{{i18n:TouristA.Dialogue.fall_Fri_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"fall_Sat": "{{i18n:TouristA.Dialogue.fall_Sat_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				//Winter
+				//winter 0 Hearts
+				"winter_Wed": "{{i18n:TouristA.Dialogue.winter_Wed_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"winter_Fri": "{{i18n:TouristA.Dialogue.winter_Fri_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"winter_Sat": "{{i18n:TouristA.Dialogue.winter_Sat_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}"
+
+			}
+		}
+	]
+}

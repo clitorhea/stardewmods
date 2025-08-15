@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
+ <properties>
+  <property name="AmbientLight" value="95 95 95"/>
+ </properties>
+ <tileset firstgid="1" source="townInterior.tsx"/>
+ <tileset firstgid="2177" source="furniture.tsx"/>
+ <tileset firstgid="5153" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <layer id="1" name="Back" width="6" height="9">
+  <data encoding="csv">
+1772,1772,1772,1772,1772,1772,
+1772,1772,1772,1772,1772,1772,
+200,201,200,201,200,201,
+232,233,232,233,232,233,
+264,265,264,265,264,265,
+232,233,232,233,232,233,
+264,265,264,265,264,265,
+232,233,232,233,232,233,
+264,265,264,265,264,265
+</data>
+ </layer>
+ <layer id="3" name="Back2" width="6" height="9">
+  <data encoding="csv">
+0,3859,3718,3719,3859,176,
+0,3891,3750,3751,3891,0,
+0,0,0,0,0,0,
+201,229,200,201,229,201,
+0,261,0,0,261,0,
+0,252,253,254,0,0,
+0,3946,3947,3948,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+81,81,81,81,81,81,
+113,113,113,113,113,113,
+535,0,1487,560,561,562,
+0,0,0,0,0,3684,
+0,0,0,0,0,0,
+0,653,654,655,0,714,
+0,685,686,687,0,746,
+0,0,0,0,433,364
+</data>
+ </layer>
+ <layer id="5" name="Front" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,2147485436,2147485435,2147485434,1424,1425,
+503,2147485468,2147485467,528,529,530,
+0,0,0,0,0,3652,
+0,0,0,0,0,0,
+0,621,622,623,0,2147484018,
+0,0,1046,0,0,650,
+0,0,0,0,0,332,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="AlwaysFront" width="6" height="9">
+  <data encoding="csv">
+4913,0,0,0,0,0,
+4945,0,0,0,0,0,
+0,0,0,0,0,3620,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,682,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="8" name="Path" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,5161,0,0,5161,0,
+0,0,0,0,0,0,
+0,0,0,0,0,5161,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,5161,0,0,0,
+0,0,0,0,0,0,
+0,0,5160,0,0,0
+</data>
+ </layer>
+</map>

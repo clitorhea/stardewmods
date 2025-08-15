@@ -1,0 +1,71 @@
+{
+  "Changes": [
+    
+{
+  "LogName": "NPC Dispositions", 
+  "Action": "EditData",
+   "Target": "Data/Characters",
+   "Entries": {
+    "Arnell": {
+     "DisplayName": "{{i18n:Name.Arnell}}",
+     "BirthSeason": "Fall",
+     "BirthDay": 25,
+     "HomeRegion": "Town",
+     "Language": 0,
+     "Gender": "Male",
+     "Age": 0,
+     "Manner": "Polite",
+     "SocialAnxiety": "Neutral",
+     "Optimism": "Neutral",
+     "IsDarkSkinned": false,
+     "CanBeRomanced": false,
+     "CanCommentOnPurchasedShopItems": true,
+     "CanGreetNearbyCharacters": false,
+     "IntroductionsQuest": true,
+     "ItemDeliveryQuests": true,
+     "WinterStarParticipant": true,
+     "LoveInterest": "",
+     "Calendar": 0,
+     "SocialTab": 0,
+     "SocializeConditions": null,
+     "CanVisitIsland": "FALSE",
+     "ExcludeFromIntroductionsQuest": false,
+     "ExcludeFromPerfectionScore": true,
+     "EndSlideShow": 1,
+     "FriendsAndFamily": {},
+     "DumpsterDiveEmote": 16,
+     "DumpsterDiveFriendshipEffect": 0,
+     "FlowerDanceCanDance": false,
+     "UnlockConditions": true,
+     "SpawnIfMissing": true,
+
+     "Home": [
+      {
+       "Id": "Default",
+       "Location": "Custom_Flower_House",
+       "Tile": {
+        "X": 49,
+        "Y": 28
+       },
+      "Direction": "down"
+      }
+
+     ],
+     "TextureName": null,
+     "Size": {
+      "X": 16,
+      "Y": 32
+     },
+     "Breather": true,
+     "HiddenProfileEmoteSound": null,
+     "HiddenProfileEmoteDuration": -1,
+     "HiddenProfileEmoteStartFrame": 16,
+     "HiddenProfileEmoteFrameCount": 4,
+     "HiddenProfileEmoteFrameDuration": 200.0,
+     //"FestivalVanillaActorIndex": 0,
+     "CustomFields": {}
+    }
+   }
+  }
+  ]
+}

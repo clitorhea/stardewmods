@@ -1,0 +1,351 @@
+{
+    "Changes": [
+  /*      //Load images
+		{
+			"Action": "Load",
+			"Target": "LooseSprites/ElfsongRolan2",
+			"FromFile": "assets/Characters/Portraits/Rolan2.png"
+            
+		}, */
+
+        //Shop
+        {
+			"Action": "EditMap",
+			"Target": "Maps/Custom_Elfsong_Tavern",
+			"MapTiles": [
+				{
+					"Position": { "X": 29, "Y": 30 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "OpenShop Elfsong.BV.CustomShop"
+					}
+				}
+			]
+		},
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "Elfsong.BV.CustomShop": {
+                    "Owners": [
+                        {
+                            "Name": "Any",
+                  //          "Portrait": "LooseSprites/ElfsongRolan2",
+                             "Portrait": "disable",
+
+                            "Dialogues": [
+                                {
+                                    "Id": "Elfsong.BV_Default",
+                                    "Dialogue": "{{i18n:Rolan2.Dialogue.Shop}}"
+                                }
+                            ]
+                        }
+                    ],
+                    "Items": [
+                        {
+
+                        //————————————————————春季商店售卖——————————————————————
+
+                            "Id": "30888_MonasteryFirewine", //修道院火酒 
+                            "ItemId": "(O)30888_MonasteryFirewine",
+                            "Price": 300,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Spring"
+                        },
+                        {
+                            "Id": "30888_ArkhensHoard", //阿肯的宝藏
+                            "ItemId": "(O)30888_ArkhensHoard",
+                            "Price":500,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Spring Fall"
+                        },
+                        {
+                            "Id": "30888_PurpleDragonBlush", //紫龙腮红
+                            "ItemId": "(O)30888_PurpleDragonBlush",
+                            "Price": 700,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Spring Fall"
+                        },
+                        {
+                            "Id": "30888_SalmonPie", //三文鱼派
+                            "ItemId": "(O)30888_SalmonPie",
+                            "Price": 1200,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Spring Summer"
+                        },
+                        {
+                            "Id": "30888_WaterdhavianCheeseWheel", //深水城奶酪
+                            "ItemId": "(O)30888_WaterdhavianCheeseWheel",
+                            "Price": 900,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Spring Summer"
+                        },
+                        {
+                            "Id": "30888_PotionofSpeed", //速度药水
+                            "ItemId": "(O)30888_PotionofSpeed",
+                            "Price": 2000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Spring"
+                        },
+                        //————————————————————夏季商店售卖——————————————————————
+                        {
+                            "Id": "30888_HighsunLiqueur", //高阳利口酒
+                            "ItemId": "(O)30888_HighsunLiqueur",
+                            "Price": 500,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Summer"
+                        },
+                        {
+                            "Id": "30888_FarseaMarshwine", //远海沼泽酒
+                            "ItemId": "(O)30888_FarseaMarshwine",
+                            "Price": 350,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Summer"
+                        },
+                        {
+                            "Id": "30888_MermaidWhiskey", //人鱼威士忌
+                            "ItemId": "(O)30888_MermaidWhiskey",
+                            "Price": 700,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Summer"
+                        },
+                        {
+                            "Id": "30888_GrilledMiniatureGiantSpaceHamsterr", //烤迷你巨型太空仓鼠
+                            "ItemId": "(O)30888_GrilledMiniatureGiantSpaceHamsterr",
+                            "Price": 1250,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Summer"
+                        },
+                        {
+                            "Id": "30888_ElixirofBloodlust", //嗜血灵药
+                            "ItemId": "(O)30888_ElixirofBloodlust",
+                            "Price": 3500,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Summer"
+                        },
+                        //————————————————————秋季商店售卖——————————————————————
+                        {
+                            "Id": "30888_AshabaDusk", //阿沙巴黄昏
+                            "ItemId": "(O)30888_AshabaDusk",
+                            "Price": 450,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Fall"
+                        },
+                        {
+                            "Id": "30888_NeogiRolls", //纽吉肉拼盘
+                            "ItemId": "(O)30888_NeogiRolls",
+                            "Price": 1200,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Fall"
+                        },
+                        {
+                            "Id": "30888_MurkyStew", //浑浊炖菜
+                            "ItemId": "(O)30888_MurkyStew",
+                            "Price": 900,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Fall Winter"
+                        },
+                        {
+                            "Id": "30888_BoiledBeholderEyestalks", //煮熟的眼魔眼
+                            "ItemId": "(O)30888_BoiledBeholderEyestalks",
+                            "Price": 3200,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Fall"
+                        },
+                        {
+                            "Id": "30888_ElixirofHumanVersatility", //人类通才灵药
+                            "ItemId": "(O)30888_ElixirofHumanVersatility",
+                            "Price": 2000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Fall"
+                        },
+                        //————————————————————冬季商店售卖——————————————————————
+                        {
+                            "Id": "30888_MarsemberIceWine", //马森贝尔冰酒
+                            "ItemId": "(O)30888_MarsemberIceWine",
+                            "Price": 600,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Winter"
+                        },
+                        {
+                            "Id": "30888_BalorAle", //巴洛尔啤酒
+                            "ItemId": "(O)30888_BalorAle",
+                            "Price": 700,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Winter"
+                        },
+                        {
+                            "Id": "30888_ArabellanDry", //阿拉贝尔干红
+                            "ItemId": "(O)30888_ArabellanDry",
+                            "Price": 420,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Winter"
+                        },
+                        {
+                            "Id": "30888_Haggis", //哈吉斯
+                            "ItemId": "(O)30888_Haggis",
+                            "Price": 800,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Winter"
+                        },
+                        {
+                            "Id": "30888_NeverWinterStew", //无冬炖菜
+                            "ItemId": "(O)30888_NeverWinterStew",
+                            "Price": 950,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Winter"
+                        },
+                        {
+                            "Id": "30888_HoneyedHam", //蜜汁火腿
+                            "ItemId": "(O)30888_HoneyedHam",
+                            "Price": 1200,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Winter"
+                        },
+                        {
+                            "Id": "30888_ElixirofCloudGiantStrength", //云巨人力量灵药
+                            "ItemId": "(O)30888_ElixirofCloudGiantStrength",
+                            "Price": 3200,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "SEASON Winter"
+
+                        },
+                        //————————————————————常规商店售卖——————————————————————
+                        {
+                            "Id": "30888_LovelyMaltyBeer",//可爱的啤酒
+                            "ItemId": "(O)30888_LovelyMaltyBeer",
+                            "Price": 800,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "DAY_OF_WEEK Saturday"
+                        },
+                        {
+                            "Id": "30888_MixedCoffee",//混合咖啡
+                            "ItemId": "(O)30888_MixedCoffee",
+                            "Price": 1400,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "DAY_OF_WEEK Monday"
+                        },
+                        {
+                            
+                            "Id": "30888_BlackMarketBlood",//黑市血液//NPC赠礼
+                            "ItemId": "(O)30888_BlackMarketBlood",
+                            "Price": 2200,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "DAY_OF_WEEK Friday"
+                        },
+                        {
+                            "Id": "30888_SeasonalFruitTea",//四季茶
+                            "ItemId": "(O)30888_SeasonalFruitTea",
+                            "Price": 2400,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "DAY_OF_WEEK"
+                        },
+                        {
+                            "Id": "30888_UnidentifiedEnergy",//未鉴定能量
+                            "ItemId": "(O)30888_UnidentifiedEnergy",
+                            "Price": 1500,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "DAY_OF_WEEK"
+                        },
+                        {
+                            
+                            "Id": "30888_NightOrchid",//夜兰花
+                            "ItemId": "(O)30888_NightOrchid",
+                            "Price": 700,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "DAY_OF_WEEK"
+                        },
+                        {
+                            "Id": "30888_Whetstone", //磨刀石
+                            "ItemId": "(O)30888_Whetstone",
+                            "Price": 1200,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "DAY_OF_WEEK"
+                        },
+                        {
+                            
+                            "Id": "30888_StrongBleach",//漂白剂
+                            "ItemId": "(O)30888_StrongBleach",
+                            "Price": 900,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "DAY_OF_WEEK"
+                        },
+                        {
+                            "Id": "30888_FirstAidBandage",//急救绷带
+                            "ItemId": "(O)30888_FirstAidBandage",
+                            "Price": 300,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "DAY_OF_WEEK"
+                        },
+                        {
+                            "Id": "30888_MysteriousInk",//魔法墨水
+                            "ItemId": "(O)30888_MysteriousInk",
+                            "Price": 2300,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "DAY_OF_WEEK"
+                        },
+                        {
+                            "Id": "30888_PetFurConditioner",//宠物护毛膏
+                            "ItemId": "(O)30888_PetFurConditioner",
+                            "Price": 600,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "DAY_OF_WEEK"
+                        },
+                        {
+                            "Id": "30888_BladeOil",
+                            "ItemId": "(O)30888_BladeOil",//护刀油
+                            "Price": 1650,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "DAY_OF_WEEK"
+
+                        },
+                        {
+                            "Id": "30888_ElixirofHillGiantStrength", //山丘巨人力量药水
+                            "ItemId": "(O)30888_ElixirofHillGiantStrength",
+                            "Price": 1500,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "DAY_OF_WEEK Monday"
+
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

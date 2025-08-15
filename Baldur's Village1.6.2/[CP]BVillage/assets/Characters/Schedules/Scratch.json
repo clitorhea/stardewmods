@@ -1,0 +1,28 @@
+
+{
+  "Changes": [
+		    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Scratch",
+      "Entries": {
+  //---------------------------------挠挠行程表----------------------------（贺寻编排）
+  //周一 影心家仓库坐着——影心家门口坐着——酒馆吧台侧坐着——回家电视机前睡觉
+  "Mon": "610 Custom_Flower_House 25 28 Scratch_sitdown/1200 Custom_Baldur_Village 60 22 2 Scratch_sitdown/1600 Custom_Elfsong_Tavern 18 30 2 Scratch_sitdownside/2000 Custom_Elfsong_Tavern 18 30 2 Scratch_lie",
+
+  "Tue": "610 Custom_Flower_House 25 28 Scratch_sitdown/1200 Custom_Baldur_Village 62 26 2 Scratch_lie/1600 Custom_Elfsong_Tavern 43 31 2 Scratch_sitdownside/2000 Custom_Elfsong_Tavern 43 31 2 Scratch_lie",
+
+  "Wed": "610 Custom_Flower_House 25 28 Scratch_sitdown/1200 Custom_Baldur_Village 58 37 2 Scratch_sitdown/1600 Custom_Elfsong_Tavern 18 30 2 Scratch_sitdownside/2000 Custom_Elfsong_Tavern 18 30 2 Scratch_lie",
+
+  "Thu": "610 Custom_Flower_House 25 28 Scratch_sitdown/1200 Custom_Baldur_Village 62 26 2 Scratch_lie/1600 Custom_Elfsong_Tavern 43 31 2 Scratch_sitdownside/2000 Custom_Elfsong_Tavern 43 31 2 Scratch_lie",
+
+  "Fri": "610 Custom_Flower_House 25 28 Scratch_sitdown/1200 Custom_Baldur_Village 60 22 2 Scratch_sitdown/1600 Custom_Elfsong_Tavern 18 30 2 Scratch_sitdownside/2000 Custom_Elfsong_Tavern 18 30 2 Scratch_lie",
+
+  "Sat": "610 Custom_Flower_House 25 28 Scratch_sitdown/1200 Custom_Baldur_Village 62 26 2 Scratch_lie//1600 Custom_Elfsong_Tavern 43 31 2 Scratch_sitdownside/2000 Custom_Elfsong_Tavern 43 31 2 Scratch_lie",
+
+  "Sun": "610 Custom_Flower_House 25 28 Scratch_sitdown/1200 Custom_Baldur_Village 53 19 2 Scratch_sitdown/1600 Custom_Elfsong_Tavern 18 30 2 Scratch_sitdownside/2000 Custom_Elfsong_Tavern 18 30 2 Scratch_lie",
+
+  "rain": "610 Custom_Flower_House 25 28 Scratch_sitdown/1600 Custom_Flower_House 25 28 Scratch_lie"
+	  }
+    }
+  ]
+  }

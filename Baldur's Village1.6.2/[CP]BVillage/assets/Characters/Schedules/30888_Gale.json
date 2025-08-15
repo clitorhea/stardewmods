@@ -1,0 +1,30 @@
+
+{
+  "Changes": [
+		    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/30888_Gale",
+      "Entries": {
+  //---------------------------------盖尔行程表----------------------------（贺寻编排/贺寻测试完成）
+  //周五沙龙多画一个喝酒动作
+  //周一 床上——博德村喷泉旁看书——社区中心右边花园看书——博德村森林河边看风景——回家睡觉
+  "Mon": "610 Custom_Elfsong_Tavern 25 10 2/800 Custom_Baldur_Village 83 43 1 30888_Gale_sideread/1130 Town 63 16 2 30888_Gale_frontread/1600 Custom_Baldur_Village_Forest 33 26 1/2000 Custom_Elfsong_Tavern 25 10 2 30888_Gale_sleep",
+  //周二 床上——罗宾家科学实验室——卧室侧站着看书——睡觉
+  "Tue": "610 Custom_Elfsong_Tavern 25 10 2/800 ScienceHouse 22 21 1/1330 ScienceHouse 17 18 0/1600 ScienceHouse 19 18 0/1800 Custom_Elfsong_Tavern 33 14 3 30888_Gale_sideread/2300 Custom_Elfsong_Tavern 25 10 2 30888_Gale_sleep",
+  //周三 床上——卧室书架找书/看书——精灵之诗吧台——精灵之诗演奏厅桌前——睡觉
+  "Wed": "610 Custom_Elfsong_Tavern 25 10 2/730 Custom_Elfsong_Tavern 30 14 0/930 Custom_Elfsong_Tavern 30 14 2 30888_Gale_frontread/1100 Custom_Elfsong_Tavern 28 31 0/1500 Custom_Elfsong_Tavern 13 22 1/2230 Custom_Elfsong_Tavern 25 10 2 30888_Gale_sleep",
+  //周四  床上——影心家客厅坐着——影心家仓库看货———精灵之诗吧台内侧看酒——卧室桌前——睡觉
+  "Thu": "610 Custom_Elfsong_Tavern 25 10 2/630 Custom_Flower_House 30 26 2 30888_Gale_sitdownright/1200 Custom_Flower_House 15 30 2/1400 Custom_Elfsong_Tavern 24 28 0/1930 Custom_Elfsong_Tavern 35 15 1/2200 Custom_Elfsong_Tavern 25 10 2 30888_Gale_sleep",
+  //周五  床上——卧室书架找书——鹈鹕镇商店看货架——沙龙——睡觉
+  "Fri": "610 Custom_Elfsong_Tavern 25 10 2/630 Custom_Elfsong_Tavern 30 14 0/900 SeedShop 12 23 0/1600 Saloon 14 20 0/1800 Saloon 20 19 2/2330 Custom_Elfsong_Tavern 25 10 2 30888_Gale_sleep",
+  "winter_Fri": "610 Custom_Elfsong_Tavern 25 10 2/630 Custom_Elfsong_Tavern 30 14 0/900 SeedShop 12 23 0/1600 Saloon 14 20 0/1800 Saloon 20 20 1/2330 Custom_Elfsong_Tavern 25 10 2 30888_Gale_sleep",
+  //周六  床上——卧室书架找书——博德村森林看书——精灵之诗沙发(影心/阿斯代伦)——睡觉
+  "Sat": "610 Custom_Elfsong_Tavern 25 10 2/730 Custom_Elfsong_Tavern 30 14 0/900 Custom_Baldur_Village_Forest 16 22 2 30888_Gale_frontread/1500 Custom_Elfsong_Tavern 19 35 1 30888_Gale_sitdownleft/2330 Custom_Elfsong_Tavern 25 10 2 30888_Gale_sleep",
+  //周日 床上——鹈鹕镇博物馆看书——卧室桌前——睡觉
+  "Sun": "610 Custom_Elfsong_Tavern 25 10 2/700 ArchaeologyHouse 11 9 0/1400 ArchaeologyHouse 14 8 1 30888_Gale_sideread/1700 Custom_Elfsong_Tavern 35 15 1/2330 Custom_Elfsong_Tavern 25 10 2 30888_Gale_sleep",
+  //雨天  床上——卧室桌前——卧室书架找书/看书———精灵之诗吧台内侧冰箱——睡觉
+   "rain": "610 Custom_Elfsong_Tavern 25 10 2/800 Custom_Elfsong_Tavern 35 15 1/900 Custom_Elfsong_Tavern 30 14 0/1100 Custom_Elfsong_Tavern 30 14 2 30888_Gale_frontread/1400 Custom_Elfsong_Tavern 33 28 0/1700 Custom_Elfsong_Tavern 23 35 3 30888_Gale_sitdownright/2100 Custom_Elfsong_Tavern 25 10 2 30888_Gale_sleep"
+	  }
+    }
+  ]
+  }

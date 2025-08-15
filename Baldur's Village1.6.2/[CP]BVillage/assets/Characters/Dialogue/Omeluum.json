@@ -1,0 +1,41 @@
+
+{
+"Changes": [
+  { 
+  "LogName":"Omeluum", 
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Omeluum",
+  "Entries": {  
+				//Gifts
+				"AcceptBirthdayGift_Loved": "{{i18n:TouristC.Dialogue.AcceptBirthdayGift_Loved}}",
+				"AcceptBirthdayGift_Like": "{{i18n:TouristC.Dialogue.AcceptBirthdayGift_Like}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:TouristC.Dialogue.AcceptBirthdayGift_Negative}}",
+				"AcceptBirthdayGift_Disliked": "{{i18n:TouristC.Dialogue.AcceptBirthdayGift_Disliked}}",
+				"AcceptBirthdayGift_Hated": "{{i18n:TouristC.Dialogue.AcceptBirthdayGift_Hated}}",	
+				//Daily
+				"Introduction": "{{i18n:TouristC.Dialogue.Introduction}}",
+				//Spring
+				//Spring 0 hearts
+				"Fri": "{{i18n:TouristC.Dialogue.Fri_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"Sat": "{{i18n:TouristC.Dialogue.Sat_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"Sun": "{{i18n:TouristC.Dialogue.Sun_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+	
+                //Summer
+				//Summer 0 Heart
+				"summer_Fri": "{{i18n:TouristC.Dialogue.summer_Fri_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"summer_Sat": "{{i18n:TouristC.Dialogue.summer_Sat_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"summer_Sun": "{{i18n:TouristC.Dialogue.summer_Sun_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				//Fall
+				//Fall 0 Hearts
+				"fall_Fri": "{{i18n:TouristC.Dialogue.fall_Fri_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"fall_Sat": "{{i18n:TouristC.Dialogue.fall_Sat_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"fall_Sun": "{{i18n:TouristC.Dialogue.fall_Sun_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				//Winter
+				//winter 0 Hearts
+				"winter_Fri": "{{i18n:TouristC.Dialogue.winter_Fri_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"winter_Sat": "{{i18n:TouristC.Dialogue.winter_Sat_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"winter_Sun": "{{i18n:TouristC.Dialogue.winter_Sun_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}"
+			}
+		}
+	]
+}

@@ -1,0 +1,70 @@
+
+{
+"Changes": [
+  { 
+  "LogName":"Rolan1", 
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Rolan1",
+  "Entries": {  
+
+				//ConversationTopic
+				"62130039welcome":"{{i18n:event-62130039-Rolan1.2}}",
+
+				//Gifts
+				"AcceptBirthdayGift_Loved": "{{i18n:Rolan1.Dialogue.AcceptBirthdayGift_Loved}}",
+				"AcceptBirthdayGift_Like": "{{i18n:Rolan1.Dialogue.AcceptBirthdayGift_Like}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Rolan1.Dialogue.AcceptBirthdayGift_Negative}}",
+				"AcceptBirthdayGift_Disliked": "{{i18n:Rolan1.Dialogue.AcceptBirthdayGift_Disliked}}",
+				"AcceptBirthdayGift_Hated": "{{i18n:Rolan1.Dialogue.AcceptBirthdayGift_Hated}}",	
+				//Movie
+				"MovieInvitation": "{{i18n:Rolan1.Dialogue.MovieInvitation}}",
+				//Daily
+				"Introduction": "{{i18n:Rolan1.Dialogue.Introduction}}",
+				//Spring
+				//Spring 0 hearts
+				"Mon": "{{i18n:Rolan1.Dialogue.Mon}}",
+				"Tue": "{{i18n:Rolan1.Dialogue.Tue}}",
+				"Wed": "{{i18n:Rolan1.Dialogue.Wed}}",
+				"Thu": "{{i18n:Rolan1.Dialogue.Thu}}",
+				"Fri": "{{i18n:Rolan1.Dialogue.Fri}}",
+				"Sat": "{{i18n:Rolan1.Dialogue.Sat}}",
+				"Sun": "{{i18n:Rolan1.Dialogue.Sun}}",
+                //Summer
+				//Summer 0 Heart
+				"summer_Mon": "{{i18n:Rolan1.Dialogue.summer_Mon}}",
+				"summer_Tue": "{{i18n:Rolan1.Dialogue.summer_Tue}}",
+				"summer_Wed": "{{i18n:Rolan1.Dialogue.summer_Wed}}",
+				"summer_Thu": "{{i18n:Rolan1.Dialogue.summer_Thu}}",
+				"summer_Fri": "{{i18n:Rolan1.Dialogue.summer_Fri}}",
+				"summer_Sat": "{{i18n:Rolan1.Dialogue.summer_Sat}}",
+				"summer_Sun": "{{i18n:Rolan1.Dialogue.summer_Sun}}",
+				//Fall
+				//Fall 0 Hearts
+				"fall_Mon": "{{i18n:Rolan1.Dialogue.fall_Mon}}",
+				"fall_Tue": "{{i18n:Rolan1.Dialogue.fall_Tue}}",
+				"fall_Wed": "{{i18n:Rolan1.Dialogue.fall_Wed}}",
+				"fall_Thu": "{{i18n:Rolan1.Dialogue.fall_Thu}}",
+				"fall_Fri": "{{i18n:Rolan1.Dialogue.fall_Fri}}",
+				"fall_Sat": "{{i18n:Rolan1.Dialogue.fall_Sat}}",
+				"fall_Sun": "{{i18n:Rolan1.Dialogue.fall_Sun}}",
+				//Winter
+				//winter 0 Hearts
+				"winter_Mon": "{{i18n:Rolan1.Dialogue.winter_Mon}}",
+				"winter_Tue": "{{i18n:Rolan1.Dialogue.winter_Tue}}",
+				"winter_Wed": "{{i18n:Rolan1.Dialogue.winter_Wed}}",
+				"winter_Thu": "{{i18n:Rolan1.Dialogue.winter_Thu}}",
+				"winter_Fri": "{{i18n:Rolan1.Dialogue.winter_Fri}}",
+				"winter_Sat": "{{i18n:Rolan1.Dialogue.winter_Sat}}",
+				"winter_Sun": "{{i18n:Rolan1.Dialogue.winter_Sun}}",
+				
+				//Wedding comment 
+				"married_Astarion": "{{i18n:Rolan1.Dialogue.married_Astarion}}",
+
+				//Others
+				///Dumpster
+				"DumpsterDiveComment": "{{i18n:Rolan1.Dialogue.DumpsterDiveComment}}",	    
+				
+			}
+		}
+	]
+}

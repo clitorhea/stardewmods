@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="1">
+ <properties>
+  <property name="AmbientLight" value="95 95 95"/>
+ </properties>
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+  <tile id="1885">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="2078">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="2079">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="2106">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" source="townInterior.tsx"/>
+ <tileset firstgid="4353" source="walls_and_floors.tsx"/>
+ <tileset firstgid="4913" source="furniture.tsx"/>
+ <tileset firstgid="7889" source="BaldursVillageTown.tsx"/>
+ <tileset firstgid="10065" source="furniture_3.tsx"/>
+ <tileset firstgid="10416" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="10452" source="Flooring.tsx"/>
+ <tileset firstgid="10708" source="furniture_desert.tsx"/>
+ <layer id="3" name="Back" width="6" height="9" visible="0">
+  <data encoding="csv">
+4505,0,4505,0,0,0,
+4521,0,4521,0,0,0,
+4537,0,4537,0,0,0,
+4699,0,0,0,0,0,
+4715,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="Back1" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="Front" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="AlwaysFront" width="6" height="9">
+  <data encoding="csv">
+6530,0,6530,0,0,0,
+6562,3004,6562,3004,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,6283,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="8" name="Path" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,10424,0,10424,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,10423,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,10424,0,10424,
+0,0,0,0,0,0
+</data>
+ </layer>
+</map>

@@ -1,0 +1,135 @@
+
+{
+"Changes": [
+        {
+			"LogName":"Astarion Marriage",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/MarriageDialogueAstarion",
+			"Entries":{
+				//Patio/SpouseRoom
+				"patio_Astarion": "{{i18n:Astarion.MarriageDialogue.patio_Astarion.{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30}}}}",
+				"spouseRoom_Astarion": "{{i18n:Astarion.MarriageDialogue.spouseRoom_Astarion.{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30}}}}",
+				//NoBed
+                "NoBed_0": "{{i18n:Astarion.MarriageDialogue.NoBed_0}}",
+                "NoBed_1": "{{i18n:Astarion.MarriageDialogue.NoBed_1}}",
+                "NoBed_2": "{{i18n:Astarion.MarriageDialogue.NoBed_2}}",
+				//Rainy
+				"Rainy_Day_0": "{{i18n:Astarion.MarriageDialogue.Rainy_Day_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Rainy_Day_1": "{{i18n:Astarion.MarriageDialogue.Rainy_Day_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Rainy_Day_2": "{{i18n:Astarion.MarriageDialogue.Rainy_Day_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Rainy_Day_3": "{{i18n:Astarion.MarriageDialogue.Rainy_Day_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Rainy_Day_4": "{{i18n:Astarion.MarriageDialogue.Rainy_Day_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Rainy_Day_Astarion": "{{i18n:Astarion.MarriageDialogue.Rainy_Day_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+
+				"Rainy_Night_0": "{{i18n:Astarion.MarriageDialogue.Rainy_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8}}}}",
+				"Rainy_Night_1": "{{i18n:Astarion.MarriageDialogue.Rainy_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8}}}}",
+				"Rainy_Night_2": "{{i18n:Astarion.MarriageDialogue.Rainy_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8}}}}",
+				"Rainy_Night_3": "{{i18n:Astarion.MarriageDialogue.Rainy_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8}}}}",
+				"Rainy_Night_4": "{{i18n:Astarion.MarriageDialogue.Rainy_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8}}}}",
+				"Rainy_Night_5": "{{i18n:Astarion.MarriageDialogue.Rainy_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8}}}}",
+                "Rainy_Night_Astarion": "{{i18n:Astarion.MarriageDialogue.Rainy_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8}}}}",
+				//Daily
+				"Indoor_Day_0": "{{i18n:Astarion.MarriageDialogue.Indoor_Day_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35}}}}",
+				"Indoor_Day_1": "{{i18n:Astarion.MarriageDialogue.Indoor_Day_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35}}}}",
+				"Indoor_Day_2": "{{i18n:Astarion.MarriageDialogue.Indoor_Day_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35}}}}",
+				"Indoor_Day_3": "{{i18n:Astarion.MarriageDialogue.Indoor_Day_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35}}}}",
+				"Indoor_Day_4": "{{i18n:Astarion.MarriageDialogue.Indoor_Day_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35}}}}",
+				"Indoor_Day_Astarion": "{{i18n:Astarion.MarriageDialogue.Indoor_Day_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35}}}}",
+
+				"Indoor_Night_0": "{{i18n:Astarion.MarriageDialogue.Indoor_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ,13, 14, 15}}}}",
+				"Indoor_Night_1": "{{i18n:Astarion.MarriageDialogue.Indoor_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ,13, 14, 15}}}}",
+				"Indoor_Night_2": "{{i18n:Astarion.MarriageDialogue.Indoor_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ,13, 14, 15}}}}",
+				"Indoor_Night_3": "{{i18n:Astarion.MarriageDialogue.Indoor_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ,13, 14, 15}}}}",
+				"Indoor_Night_4": "{{i18n:Astarion.MarriageDialogue.Indoor_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ,13, 14, 15}}}}",
+				"Indoor_Night_Astarion": "{{i18n:Astarion.MarriageDialogue.Indoor_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ,13, 14, 15}}}}",
+
+				"Outdoor_0": "{{i18n:Astarion.MarriageDialogue.Outdoor_{{Random: 0, 1, 2, 3, 4, 5}}}}",
+				"Outdoor_1": "{{i18n:Astarion.MarriageDialogue.Outdoor_{{Random: 6, 7, 8, 9, 10}}}}",
+				"Outdoor_2": "{{i18n:Astarion.MarriageDialogue.Outdoor_{{Random: 11, 12, 13, 14, 15}}}}",
+				"Outdoor_3": "{{i18n:Astarion.MarriageDialogue.Outdoor_{{Random: 16, 17, 18, 19, 20}}}}",
+				"Outdoor_4": "{{i18n:Astarion.MarriageDialogue.Outdoor_{{Random: 21, 22, 23, 24, 25}}}}",
+				"Outdoor_Astarion": "{{i18n:Astarion.MarriageDialogue.Outdoor_{{Random: 26, 27, 28, 29, 30}}}}",
+				//Specials//Festivals/Events
+
+				///Others
+				"funLeave_Astarion": "{{i18n:Astarion.MarriageDialogue.funLeave_Astarion_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}}}}",
+				"funReturn_Astarion": "{{i18n:Astarion.MarriageDialogue.funReturn_Astarion_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				//Romance
+				"Good_0": "{{i18n:Astarion.MarriageDialogue.Good_{{Random: 0, 1, 2}}}}",
+				"Good_1": "{{i18n:Astarion.MarriageDialogue.Good_{{Random: 3, 4, 5}}}}",
+				"Good_2": "{{i18n:Astarion.MarriageDialogue.Good_{{Random: 6, 7, 8}}}}",
+				"Good_3": "{{i18n:Astarion.MarriageDialogue.Good_{{Random: 9, 19, 11}}}}",
+				"Good_4": "{{i18n:Astarion.MarriageDialogue.Good_{{Random: 12, 13, 14}}}}",
+				"Good_5": "{{i18n:Astarion.MarriageDialogue.Good_{{Random: 15, 16, 17}}}}",
+				"Good_6": "{{i18n:Astarion.MarriageDialogue.Good_{{Random: 18, 19, 20}}}}",
+				"Good_7": "{{i18n:Astarion.MarriageDialogue.Good_{{Random: 21, 22, 23}}}}",
+				"Good_8": "{{i18n:Astarion.MarriageDialogue.Good_{{Random: 24, 25, 26}}}}",
+				"Good_9": "{{i18n:Astarion.MarriageDialogue.Good_{{Random: 27, 28, 29, 30}}}}",
+				"Neutral_0": "{{i18n:Astarion.MarriageDialogue.Neutral_0}}",
+				"Neutral_1": "{{i18n:Astarion.MarriageDialogue.Neutral_1}}",
+				"Neutral_2": "{{i18n:Astarion.MarriageDialogue.Neutral_2}}",
+				"Neutral_3": "{{i18n:Astarion.MarriageDialogue.Neutral_3}}",
+				"Neutral_4": "{{i18n:Astarion.MarriageDialogue.Neutral_4}}",
+				"Neutral_5": "{{i18n:Astarion.MarriageDialogue.Neutral_5}}",
+				"Neutral_6": "{{i18n:Astarion.MarriageDialogue.Neutral_6}}",
+				"Neutral_7": "{{i18n:Astarion.MarriageDialogue.Neutral_7}}",
+				"Neutral_8": "{{i18n:Astarion.MarriageDialogue.Neutral_8}}",
+				"Neutral_9": "{{i18n:Astarion.MarriageDialogue.Neutral_9}}",
+				"Bad_0": "{{i18n:Astarion.MarriageDialogue.Bad_0}}",
+				"Bad_1": "{{i18n:Astarion.MarriageDialogue.Bad_1}}",
+				"Bad_3": "{{i18n:Astarion.MarriageDialogue.Bad_3}}",
+				"Bad_4": "{{i18n:Astarion.MarriageDialogue.Bad_4}}",
+				"Bad_5": "{{i18n:Astarion.MarriageDialogue.Bad_5}}",
+				"Bad_6": "{{i18n:Astarion.MarriageDialogue.Bad_6}}",
+				"Bad_7": "{{i18n:Astarion.MarriageDialogue.Bad_7}}",
+				"Bad_8": "{{i18n:Astarion.MarriageDialogue.Bad_8}}",
+				"Bad_9": "{{i18n:Astarion.MarriageDialogue.Bad_9}}",
+				//Kids
+				"OneKid_0": "{{i18n:Astarion.MarriageDialogue.OneKid_{{Random: 0, 1, 2}}}}",
+				"OneKid_1": "{{i18n:Astarion.MarriageDialogue.OneKid_{{Random: 3, 4}}}}",
+				"OneKid_2": "{{i18n:Astarion.MarriageDialogue.OneKid_{{Random: 5, 6}}}}",
+				"OneKid_3": "{{i18n:Astarion.MarriageDialogue.OneKid_{{Random: 7, 8}}}}",
+				"TwoKids_0": "{{i18n:Astarion.MarriageDialogue.TwoKids_{{Random: 0, 1, 2}}}}",
+				"TwoKids_1": "{{i18n:Astarion.MarriageDialogue.TwoKids_{{Random: 3, 4}}}}",
+				"TwoKids_2": "{{i18n:Astarion.MarriageDialogue.TwoKids_{{Random: 5, 6}}}}",
+				"TwoKids_3": "{{i18n:Astarion.MarriageDialogue.TwoKids_{{Random: 7, 8}}}}",
+
+				//S E A S O N S
+				//Spring
+				"spring_1": "{{i18n:Astarion.MarriageDialogue.spring_1_{{Random: 0, 1, 2, 3}}}}",
+				"spring_8": "{{i18n:Astarion.MarriageDialogue.spring_8_{{Random: 0, 1, 2, 3}}}}",
+				"spring_12": "{{i18n:Astarion.MarriageDialogue.spring_12_{{Random: 0, 1, 2, 3}}}}",
+				"spring_14": "{{i18n:Astarion.MarriageDialogue.spring_14_{{Random: 0, 1, 2, 3}}}}",
+				"spring_16": "{{i18n:Astarion.MarriageDialogue.spring_16_{{Random: 0, 1, 2, 3}}}}",
+				"spring_23": "{{i18n:Astarion.MarriageDialogue.spring_23_{{Random: 0, 1, 2, 3}}}}",
+				"spring_24": "{{i18n:Astarion.MarriageDialogue.spring_24_{{Random: 0, 1, 2, 3}}}}",
+				"spring_28": "{{i18n:Astarion.MarriageDialogue.spring_28_{{Random: 0, 1, 2, 3}}}}",
+				//Summer
+				"summer_1": "{{i18n:Astarion.MarriageDialogue.summer_8_{{Random: 0, 1, 2, 3}}}}",
+				"summer_8": "{{i18n:Astarion.MarriageDialogue.summer_8_{{Random: 0, 1, 2, 3}}}}",
+				"summer_10": "{{i18n:Astarion.MarriageDialogue.summer_10_{{Random: 0, 1, 2, 3}}}}",
+				"summer_11": "{{i18n:Astarion.MarriageDialogue.summer_11_{{Random: 0, 1, 2, 3}}}}",
+				"summer_15": "{{i18n:Astarion.MarriageDialogue.summer_15_{{Random: 0, 1, 2, 3}}}}",
+				"summer_20": "{{i18n:Astarion.MarriageDialogue.summer_20_{{Random: 0, 1, 2, 3}}}}",
+				"summer_28": "{{i18n:Astarion.MarriageDialogue.summer_28_{{Random: 0, 1, 2, 3}}}}",
+				//Fall
+				"fall_1": "{{i18n:Astarion.MarriageDialogue.fall_1_{{Random: 0, 1, 2, 3}}}}",
+				"fall_8": "{{i18n:Astarion.MarriageDialogue.fall_8_{{Random: 0, 1, 2, 3}}}}",
+				"fall_15": "{{i18n:Astarion.MarriageDialogue.fall_15_{{Random: 0, 1, 2, 3}}}}",
+				"fall_16": "{{i18n:Astarion.MarriageDialogue.fall_16_{{Random: 0, 1, 2, 3}}}}",
+				"fall_25": "{{i18n:Astarion.MarriageDialogue.fall_25_{{Random: 0, 1, 2, 3}}}}",
+				"fall_26": "{{i18n:Astarion.MarriageDialogue.fall_26_{{Random: 0, 1, 2, 3}}}}",
+				"fall_28": "{{i18n:Astarion.MarriageDialogue.fall_28_{{Random: 0, 1, 2, 3}}}}",
+				//Winter
+				"winter_1": "{{i18n:Astarion.MarriageDialogue.winter_1_{{Random: 0, 1, 2, 3}}}}",
+				"winter_8": "{{i18n:Astarion.MarriageDialogue.winter_8_{{Random: 0, 1, 2, 3}}}}",
+				"winter_12": "{{i18n:Astarion.MarriageDialogue.winter_12_{{Random: 0, 1, 2, 3}}}}",
+				"winter_15": "{{i18n:Astarion.MarriageDialogue.winter_15_{{Random: 0, 1, 2, 3}}}}",
+				"winter_17": "{{i18n:Astarion.MarriageDialogue.winter_17_{{Random: 0, 1, 2, 3}}}}",
+				"winter_24": "{{i18n:Astarion.MarriageDialogue.winter_24_{{Random: 0, 1, 2, 3}}}}",
+				"winter_25": "{{i18n:Astarion.MarriageDialogue.winter_25_{{Random: 0, 1, 2, 3}}}}",
+				"winter_28": "{{i18n:Astarion.MarriageDialogue.winter_28_{{Random: 0, 1, 2, 3}}}}"
+			}
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+    "Changes": [
+        //Loading blank jsons for events moved to the code component so SMAPI load resolution can be used.
+        //Load Loose sprites
+        //Special Characters
+    ]
+}

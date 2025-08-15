@@ -1,0 +1,3080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="50" height="45" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="19">
+ <properties>
+  <property name="Light" value="25 21 4 17 29 4 33 8 5"/>
+  <property name="Music" value="6213_StreetsandFaces_Synth75"/>
+  <property name="NPCWarp" value="25 38 Backwoods 34 0 26 38 Backwoods 34 0 27 38 Backwoods 34 0 28 38 Backwoods 34 0 30 8 Custom_Baldur_Village 78 99"/>
+  <property name="Outdoors" value="T"/>
+  <property name="Warp" value="25 38 Backwoods 33 0 26 38 Backwoods 33 0 27 38 Backwoods 33 0 28 38 Backwoods 33 0 29 7 Custom_Baldur_Village 77 99 30 7 Custom_Baldur_Village 78 99"/>
+ </properties>
+ <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="37" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
+  <tile id="150">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+   <animation>
+    <frame tileid="150" duration="300"/>
+    <frame tileid="420" duration="300"/>
+    <frame tileid="421" duration="300"/>
+    <frame tileid="422" duration="300"/>
+    <frame tileid="423" duration="300"/>
+    <frame tileid="422" duration="300"/>
+    <frame tileid="421" duration="300"/>
+    <frame tileid="420" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="151">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+   <animation>
+    <frame tileid="151" duration="950"/>
+    <frame tileid="152" duration="950"/>
+   </animation>
+  </tile>
+  <tile id="152">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+   <animation>
+    <frame tileid="152" duration="950"/>
+    <frame tileid="151" duration="950"/>
+   </animation>
+  </tile>
+  <tile id="153">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="175">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="176">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="177">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="178">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="179">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="180">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="181">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="182">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="183">
+   <animation>
+    <frame tileid="183" duration="1000"/>
+    <frame tileid="1182" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="184">
+   <animation>
+    <frame tileid="184" duration="1000"/>
+    <frame tileid="1183" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="185">
+   <animation>
+    <frame tileid="185" duration="1000"/>
+    <frame tileid="1184" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="200">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="201">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="202">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="203">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="204">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="205">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="206">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="207">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="208">
+   <animation>
+    <frame tileid="208" duration="1000"/>
+    <frame tileid="1207" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="209">
+   <animation>
+    <frame tileid="209" duration="1000"/>
+    <frame tileid="1208" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="210">
+   <animation>
+    <frame tileid="210" duration="1000"/>
+    <frame tileid="1209" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="225">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="227">
+   <properties>
+    <property name="Diggable" value="T"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="228">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="229">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="230">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="231">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="233">
+   <animation>
+    <frame tileid="233" duration="1000"/>
+    <frame tileid="1232" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="235">
+   <animation>
+    <frame tileid="235" duration="1000"/>
+    <frame tileid="1290" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="237">
+   <animation>
+    <frame tileid="237" duration="1000"/>
+    <frame tileid="1291" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="238">
+   <animation>
+    <frame tileid="238" duration="1000"/>
+    <frame tileid="1292" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="250">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="251">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="252">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="253">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="254">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="255">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="256">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="261">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="275">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="276">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="277">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="278">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="279">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="281">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="283">
+   <animation>
+    <frame tileid="283" duration="1000"/>
+    <frame tileid="1312" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="284">
+   <animation>
+    <frame tileid="284" duration="1000"/>
+    <frame tileid="1313" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="286">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="300">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="301">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="302">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="303">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="304">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="305">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="306">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="308">
+   <animation>
+    <frame tileid="308" duration="1000"/>
+    <frame tileid="1316" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="309">
+   <animation>
+    <frame tileid="309" duration="1000"/>
+    <frame tileid="1317" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="311">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="325">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="326">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="327">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="328">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="329">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="331">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="332">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="350">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="351">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="352">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="353">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="354">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="355">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="356">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="357">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="375">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="376">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="377">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="378">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="379">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="380">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="381">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="382">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="400">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="401">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="402">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="403">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="404">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="405">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="406">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="407">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="420">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="421">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="422">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="423">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="584">
+   <animation>
+    <frame tileid="584" duration="1000"/>
+    <frame tileid="1314" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="606">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="607">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="630">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="631">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="632">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="633">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="634">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="635">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="636">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="654">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="655">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="656">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="657">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="658">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="659">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="679">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="680">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="681">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="682">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="683">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="684">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="685">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="704">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="705">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="706">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="707">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="1186">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1187">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1188">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1211">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1212">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1213">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1227">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1228">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1229">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1230">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1231">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1237">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1238">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1239">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1240">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1241">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1242">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1243">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1244">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1245">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1246">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1247">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1248">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1249">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1252">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1253">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1254">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1255">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1256">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1263">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1264">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1265">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1266">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1267">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1268">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1269">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1270">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1271">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1272">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1273">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1274">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1277">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1278">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1279">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1280">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1281">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1293">
+   <animation>
+    <frame tileid="1293" duration="500"/>
+    <frame tileid="1294" duration="500"/>
+    <frame tileid="1295" duration="500"/>
+    <frame tileid="1296" duration="500"/>
+    <frame tileid="1295" duration="500"/>
+    <frame tileid="1294" duration="500"/>
+    <frame tileid="1293" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="1297">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1298">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1299">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1302">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1303">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1304">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1305">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1306">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1318">
+   <animation>
+    <frame tileid="1318" duration="500"/>
+    <frame tileid="1319" duration="500"/>
+    <frame tileid="1320" duration="500"/>
+    <frame tileid="1321" duration="500"/>
+    <frame tileid="1320" duration="500"/>
+    <frame tileid="1319" duration="500"/>
+    <frame tileid="1318" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="1322">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1323">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1324">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1716">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1717">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1718">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1719">
+   <animation>
+    <frame tileid="1720" duration="1000"/>
+    <frame tileid="1719" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="1818">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1819">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1843">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1844">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1868">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1869">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1964">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="1965">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="1966">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2012" name="z_spring_town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+  <image source="spring_town.png" width="512" height="1152"/>
+  <tile id="159">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="191">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="223">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="909">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="931">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="932">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="963">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="964">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="969">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="970">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="1007">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="1008">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="1037">
+   <animation>
+    <frame tileid="1037" duration="100"/>
+    <frame tileid="1038" duration="100"/>
+    <frame tileid="1039" duration="100"/>
+    <frame tileid="1039" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="1070">
+   <animation>
+    <frame tileid="1070" duration="100"/>
+    <frame tileid="1101" duration="100"/>
+    <frame tileid="1102" duration="100"/>
+    <frame tileid="1043" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="1201">
+   <animation>
+    <frame tileid="1201" duration="100"/>
+    <frame tileid="1202" duration="100"/>
+    <frame tileid="1203" duration="100"/>
+    <frame tileid="1204" duration="100"/>
+    <frame tileid="1205" duration="100"/>
+    <frame tileid="1206" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="1233">
+   <animation>
+    <frame tileid="1233" duration="100"/>
+    <frame tileid="1234" duration="100"/>
+    <frame tileid="1235" duration="100"/>
+    <frame tileid="1236" duration="100"/>
+    <frame tileid="1237" duration="100"/>
+    <frame tileid="1238" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="1265">
+   <animation>
+    <frame tileid="1265" duration="100"/>
+    <frame tileid="1266" duration="100"/>
+    <frame tileid="1267" duration="100"/>
+    <frame tileid="1268" duration="100"/>
+    <frame tileid="1269" duration="100"/>
+    <frame tileid="1270" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="4316" name="z_spring_Waterfalls" tilewidth="16" tileheight="16" tilecount="900" columns="36">
+  <image source="spring_Waterfalls.png" width="576" height="400"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="9" duration="100"/>
+    <frame tileid="13" duration="100"/>
+    <frame tileid="17" duration="100"/>
+    <frame tileid="21" duration="100"/>
+    <frame tileid="25" duration="100"/>
+    <frame tileid="29" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="2">
+   <animation>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="10" duration="100"/>
+    <frame tileid="14" duration="100"/>
+    <frame tileid="18" duration="100"/>
+    <frame tileid="22" duration="100"/>
+    <frame tileid="26" duration="100"/>
+    <frame tileid="30" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="17">
+   <animation>
+    <frame tileid="17" duration="100"/>
+    <frame tileid="21" duration="100"/>
+    <frame tileid="25" duration="100"/>
+    <frame tileid="29" duration="100"/>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="9" duration="100"/>
+    <frame tileid="13" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="18">
+   <animation>
+    <frame tileid="18" duration="100"/>
+    <frame tileid="22" duration="100"/>
+    <frame tileid="26" duration="100"/>
+    <frame tileid="30" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="10" duration="100"/>
+    <frame tileid="14" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="37">
+   <animation>
+    <frame tileid="37" duration="100"/>
+    <frame tileid="41" duration="100"/>
+    <frame tileid="45" duration="100"/>
+    <frame tileid="49" duration="100"/>
+    <frame tileid="53" duration="100"/>
+    <frame tileid="57" duration="100"/>
+    <frame tileid="61" duration="100"/>
+    <frame tileid="65" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="38">
+   <animation>
+    <frame tileid="38" duration="100"/>
+    <frame tileid="42" duration="100"/>
+    <frame tileid="46" duration="100"/>
+    <frame tileid="50" duration="100"/>
+    <frame tileid="54" duration="100"/>
+    <frame tileid="58" duration="100"/>
+    <frame tileid="62" duration="100"/>
+    <frame tileid="66" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="53">
+   <animation>
+    <frame tileid="53" duration="100"/>
+    <frame tileid="57" duration="100"/>
+    <frame tileid="61" duration="100"/>
+    <frame tileid="65" duration="100"/>
+    <frame tileid="37" duration="100"/>
+    <frame tileid="41" duration="100"/>
+    <frame tileid="45" duration="100"/>
+    <frame tileid="49" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="54">
+   <animation>
+    <frame tileid="54" duration="100"/>
+    <frame tileid="58" duration="100"/>
+    <frame tileid="62" duration="100"/>
+    <frame tileid="66" duration="100"/>
+    <frame tileid="38" duration="100"/>
+    <frame tileid="42" duration="100"/>
+    <frame tileid="46" duration="100"/>
+    <frame tileid="50" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="72">
+   <animation>
+    <frame tileid="72" duration="100"/>
+    <frame tileid="76" duration="100"/>
+    <frame tileid="80" duration="100"/>
+    <frame tileid="84" duration="100"/>
+    <frame tileid="88" duration="100"/>
+    <frame tileid="92" duration="100"/>
+    <frame tileid="96" duration="100"/>
+    <frame tileid="100" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="73">
+   <animation>
+    <frame tileid="73" duration="100"/>
+    <frame tileid="77" duration="100"/>
+    <frame tileid="81" duration="100"/>
+    <frame tileid="85" duration="100"/>
+    <frame tileid="89" duration="100"/>
+    <frame tileid="93" duration="100"/>
+    <frame tileid="97" duration="100"/>
+    <frame tileid="101" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="74">
+   <animation>
+    <frame tileid="74" duration="100"/>
+    <frame tileid="78" duration="100"/>
+    <frame tileid="82" duration="100"/>
+    <frame tileid="86" duration="100"/>
+    <frame tileid="90" duration="100"/>
+    <frame tileid="94" duration="100"/>
+    <frame tileid="98" duration="100"/>
+    <frame tileid="102" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="75">
+   <animation>
+    <frame tileid="75" duration="100"/>
+    <frame tileid="79" duration="100"/>
+    <frame tileid="83" duration="100"/>
+    <frame tileid="87" duration="100"/>
+    <frame tileid="91" duration="100"/>
+    <frame tileid="95" duration="100"/>
+    <frame tileid="99" duration="100"/>
+    <frame tileid="103" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="88">
+   <animation>
+    <frame tileid="88" duration="100"/>
+    <frame tileid="92" duration="100"/>
+    <frame tileid="96" duration="100"/>
+    <frame tileid="100" duration="100"/>
+    <frame tileid="72" duration="100"/>
+    <frame tileid="76" duration="100"/>
+    <frame tileid="80" duration="100"/>
+    <frame tileid="84" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="89">
+   <animation>
+    <frame tileid="89" duration="100"/>
+    <frame tileid="93" duration="100"/>
+    <frame tileid="97" duration="100"/>
+    <frame tileid="101" duration="100"/>
+    <frame tileid="73" duration="100"/>
+    <frame tileid="77" duration="100"/>
+    <frame tileid="81" duration="100"/>
+    <frame tileid="85" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="90">
+   <animation>
+    <frame tileid="90" duration="100"/>
+    <frame tileid="94" duration="100"/>
+    <frame tileid="98" duration="100"/>
+    <frame tileid="102" duration="100"/>
+    <frame tileid="74" duration="100"/>
+    <frame tileid="78" duration="100"/>
+    <frame tileid="82" duration="100"/>
+    <frame tileid="86" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="91">
+   <animation>
+    <frame tileid="91" duration="100"/>
+    <frame tileid="95" duration="100"/>
+    <frame tileid="99" duration="100"/>
+    <frame tileid="103" duration="100"/>
+    <frame tileid="75" duration="100"/>
+    <frame tileid="79" duration="100"/>
+    <frame tileid="83" duration="100"/>
+    <frame tileid="87" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="108">
+   <animation>
+    <frame tileid="108" duration="100"/>
+    <frame tileid="112" duration="100"/>
+    <frame tileid="116" duration="100"/>
+    <frame tileid="120" duration="100"/>
+    <frame tileid="124" duration="100"/>
+    <frame tileid="128" duration="100"/>
+    <frame tileid="132" duration="100"/>
+    <frame tileid="136" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="109">
+   <animation>
+    <frame tileid="109" duration="100"/>
+    <frame tileid="113" duration="100"/>
+    <frame tileid="117" duration="100"/>
+    <frame tileid="121" duration="100"/>
+    <frame tileid="125" duration="100"/>
+    <frame tileid="129" duration="100"/>
+    <frame tileid="133" duration="100"/>
+    <frame tileid="137" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="110">
+   <animation>
+    <frame tileid="110" duration="100"/>
+    <frame tileid="114" duration="100"/>
+    <frame tileid="118" duration="100"/>
+    <frame tileid="122" duration="100"/>
+    <frame tileid="126" duration="100"/>
+    <frame tileid="130" duration="100"/>
+    <frame tileid="134" duration="100"/>
+    <frame tileid="138" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="111">
+   <animation>
+    <frame tileid="111" duration="100"/>
+    <frame tileid="115" duration="100"/>
+    <frame tileid="119" duration="100"/>
+    <frame tileid="123" duration="100"/>
+    <frame tileid="127" duration="100"/>
+    <frame tileid="131" duration="100"/>
+    <frame tileid="135" duration="100"/>
+    <frame tileid="139" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="124">
+   <animation>
+    <frame tileid="124" duration="100"/>
+    <frame tileid="128" duration="100"/>
+    <frame tileid="132" duration="100"/>
+    <frame tileid="136" duration="100"/>
+    <frame tileid="108" duration="100"/>
+    <frame tileid="112" duration="100"/>
+    <frame tileid="116" duration="100"/>
+    <frame tileid="120" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="125">
+   <animation>
+    <frame tileid="125" duration="100"/>
+    <frame tileid="129" duration="100"/>
+    <frame tileid="133" duration="100"/>
+    <frame tileid="137" duration="100"/>
+    <frame tileid="109" duration="100"/>
+    <frame tileid="113" duration="100"/>
+    <frame tileid="117" duration="100"/>
+    <frame tileid="121" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="126">
+   <animation>
+    <frame tileid="126" duration="100"/>
+    <frame tileid="130" duration="100"/>
+    <frame tileid="134" duration="100"/>
+    <frame tileid="138" duration="100"/>
+    <frame tileid="110" duration="100"/>
+    <frame tileid="114" duration="100"/>
+    <frame tileid="118" duration="100"/>
+    <frame tileid="122" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="127">
+   <animation>
+    <frame tileid="127" duration="100"/>
+    <frame tileid="131" duration="100"/>
+    <frame tileid="135" duration="100"/>
+    <frame tileid="139" duration="100"/>
+    <frame tileid="111" duration="100"/>
+    <frame tileid="115" duration="100"/>
+    <frame tileid="119" duration="100"/>
+    <frame tileid="123" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="145">
+   <animation>
+    <frame tileid="145" duration="100"/>
+    <frame tileid="151" duration="100"/>
+    <frame tileid="157" duration="100"/>
+    <frame tileid="163" duration="100"/>
+    <frame tileid="169" duration="100"/>
+    <frame tileid="175" duration="100"/>
+    <frame tileid="397" duration="100"/>
+    <frame tileid="403" duration="100"/>
+    <frame tileid="409" duration="100"/>
+    <frame tileid="415" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="427" duration="100"/>
+    <frame tileid="649" duration="100"/>
+    <frame tileid="655" duration="100"/>
+    <frame tileid="661" duration="100"/>
+    <frame tileid="667" duration="100"/>
+    <frame tileid="673" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="146">
+   <animation>
+    <frame tileid="146" duration="100"/>
+    <frame tileid="152" duration="100"/>
+    <frame tileid="158" duration="100"/>
+    <frame tileid="164" duration="100"/>
+    <frame tileid="170" duration="100"/>
+    <frame tileid="176" duration="100"/>
+    <frame tileid="398" duration="100"/>
+    <frame tileid="404" duration="100"/>
+    <frame tileid="410" duration="100"/>
+    <frame tileid="416" duration="100"/>
+    <frame tileid="422" duration="100"/>
+    <frame tileid="428" duration="100"/>
+    <frame tileid="650" duration="100"/>
+    <frame tileid="656" duration="100"/>
+    <frame tileid="662" duration="100"/>
+    <frame tileid="668" duration="100"/>
+    <frame tileid="674" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="147">
+   <animation>
+    <frame tileid="147" duration="100"/>
+    <frame tileid="153" duration="100"/>
+    <frame tileid="159" duration="100"/>
+    <frame tileid="165" duration="100"/>
+    <frame tileid="171" duration="100"/>
+    <frame tileid="177" duration="100"/>
+    <frame tileid="399" duration="100"/>
+    <frame tileid="405" duration="100"/>
+    <frame tileid="411" duration="100"/>
+    <frame tileid="417" duration="100"/>
+    <frame tileid="423" duration="100"/>
+    <frame tileid="429" duration="100"/>
+    <frame tileid="651" duration="100"/>
+    <frame tileid="657" duration="100"/>
+    <frame tileid="663" duration="100"/>
+    <frame tileid="669" duration="100"/>
+    <frame tileid="675" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="148">
+   <animation>
+    <frame tileid="148" duration="100"/>
+    <frame tileid="154" duration="100"/>
+    <frame tileid="160" duration="100"/>
+    <frame tileid="166" duration="100"/>
+    <frame tileid="172" duration="100"/>
+    <frame tileid="178" duration="100"/>
+    <frame tileid="400" duration="100"/>
+    <frame tileid="406" duration="100"/>
+    <frame tileid="412" duration="100"/>
+    <frame tileid="418" duration="100"/>
+    <frame tileid="424" duration="100"/>
+    <frame tileid="430" duration="100"/>
+    <frame tileid="652" duration="100"/>
+    <frame tileid="658" duration="100"/>
+    <frame tileid="664" duration="100"/>
+    <frame tileid="670" duration="100"/>
+    <frame tileid="676" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="181">
+   <animation>
+    <frame tileid="181" duration="100"/>
+    <frame tileid="187" duration="100"/>
+    <frame tileid="193" duration="100"/>
+    <frame tileid="199" duration="100"/>
+    <frame tileid="205" duration="100"/>
+    <frame tileid="211" duration="100"/>
+    <frame tileid="433" duration="100"/>
+    <frame tileid="439" duration="100"/>
+    <frame tileid="445" duration="100"/>
+    <frame tileid="451" duration="100"/>
+    <frame tileid="457" duration="100"/>
+    <frame tileid="463" duration="100"/>
+    <frame tileid="685" duration="100"/>
+    <frame tileid="691" duration="100"/>
+    <frame tileid="697" duration="100"/>
+    <frame tileid="703" duration="100"/>
+    <frame tileid="709" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="182">
+   <animation>
+    <frame tileid="182" duration="100"/>
+    <frame tileid="188" duration="100"/>
+    <frame tileid="194" duration="100"/>
+    <frame tileid="200" duration="100"/>
+    <frame tileid="206" duration="100"/>
+    <frame tileid="212" duration="100"/>
+    <frame tileid="434" duration="100"/>
+    <frame tileid="440" duration="100"/>
+    <frame tileid="446" duration="100"/>
+    <frame tileid="452" duration="100"/>
+    <frame tileid="458" duration="100"/>
+    <frame tileid="464" duration="100"/>
+    <frame tileid="686" duration="100"/>
+    <frame tileid="692" duration="100"/>
+    <frame tileid="698" duration="100"/>
+    <frame tileid="704" duration="100"/>
+    <frame tileid="710" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="183">
+   <animation>
+    <frame tileid="183" duration="100"/>
+    <frame tileid="189" duration="100"/>
+    <frame tileid="195" duration="100"/>
+    <frame tileid="201" duration="100"/>
+    <frame tileid="207" duration="100"/>
+    <frame tileid="213" duration="100"/>
+    <frame tileid="435" duration="100"/>
+    <frame tileid="441" duration="100"/>
+    <frame tileid="447" duration="100"/>
+    <frame tileid="453" duration="100"/>
+    <frame tileid="459" duration="100"/>
+    <frame tileid="465" duration="100"/>
+    <frame tileid="687" duration="100"/>
+    <frame tileid="693" duration="100"/>
+    <frame tileid="699" duration="100"/>
+    <frame tileid="705" duration="100"/>
+    <frame tileid="711" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="184">
+   <animation>
+    <frame tileid="184" duration="100"/>
+    <frame tileid="190" duration="100"/>
+    <frame tileid="196" duration="100"/>
+    <frame tileid="202" duration="100"/>
+    <frame tileid="208" duration="100"/>
+    <frame tileid="214" duration="100"/>
+    <frame tileid="436" duration="100"/>
+    <frame tileid="442" duration="100"/>
+    <frame tileid="448" duration="100"/>
+    <frame tileid="454" duration="100"/>
+    <frame tileid="460" duration="100"/>
+    <frame tileid="466" duration="100"/>
+    <frame tileid="688" duration="100"/>
+    <frame tileid="694" duration="100"/>
+    <frame tileid="700" duration="100"/>
+    <frame tileid="706" duration="100"/>
+    <frame tileid="712" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="217">
+   <animation>
+    <frame tileid="217" duration="100"/>
+    <frame tileid="223" duration="100"/>
+    <frame tileid="229" duration="100"/>
+    <frame tileid="235" duration="100"/>
+    <frame tileid="241" duration="100"/>
+    <frame tileid="247" duration="100"/>
+    <frame tileid="469" duration="100"/>
+    <frame tileid="475" duration="100"/>
+    <frame tileid="481" duration="100"/>
+    <frame tileid="487" duration="100"/>
+    <frame tileid="493" duration="100"/>
+    <frame tileid="499" duration="100"/>
+    <frame tileid="721" duration="100"/>
+    <frame tileid="727" duration="100"/>
+    <frame tileid="733" duration="100"/>
+    <frame tileid="739" duration="100"/>
+    <frame tileid="745" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="218">
+   <animation>
+    <frame tileid="218" duration="100"/>
+    <frame tileid="224" duration="100"/>
+    <frame tileid="230" duration="100"/>
+    <frame tileid="236" duration="100"/>
+    <frame tileid="242" duration="100"/>
+    <frame tileid="248" duration="100"/>
+    <frame tileid="470" duration="100"/>
+    <frame tileid="476" duration="100"/>
+    <frame tileid="482" duration="100"/>
+    <frame tileid="488" duration="100"/>
+    <frame tileid="494" duration="100"/>
+    <frame tileid="500" duration="100"/>
+    <frame tileid="722" duration="100"/>
+    <frame tileid="728" duration="100"/>
+    <frame tileid="734" duration="100"/>
+    <frame tileid="740" duration="100"/>
+    <frame tileid="746" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="219">
+   <animation>
+    <frame tileid="219" duration="100"/>
+    <frame tileid="225" duration="100"/>
+    <frame tileid="231" duration="100"/>
+    <frame tileid="237" duration="100"/>
+    <frame tileid="243" duration="100"/>
+    <frame tileid="249" duration="100"/>
+    <frame tileid="471" duration="100"/>
+    <frame tileid="477" duration="100"/>
+    <frame tileid="483" duration="100"/>
+    <frame tileid="489" duration="100"/>
+    <frame tileid="495" duration="100"/>
+    <frame tileid="501" duration="100"/>
+    <frame tileid="723" duration="100"/>
+    <frame tileid="729" duration="100"/>
+    <frame tileid="735" duration="100"/>
+    <frame tileid="741" duration="100"/>
+    <frame tileid="747" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="220">
+   <animation>
+    <frame tileid="220" duration="100"/>
+    <frame tileid="226" duration="100"/>
+    <frame tileid="232" duration="100"/>
+    <frame tileid="238" duration="100"/>
+    <frame tileid="244" duration="100"/>
+    <frame tileid="250" duration="100"/>
+    <frame tileid="472" duration="100"/>
+    <frame tileid="478" duration="100"/>
+    <frame tileid="484" duration="100"/>
+    <frame tileid="490" duration="100"/>
+    <frame tileid="496" duration="100"/>
+    <frame tileid="502" duration="100"/>
+    <frame tileid="724" duration="100"/>
+    <frame tileid="730" duration="100"/>
+    <frame tileid="736" duration="100"/>
+    <frame tileid="742" duration="100"/>
+    <frame tileid="748" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="253">
+   <animation>
+    <frame tileid="253" duration="100"/>
+    <frame tileid="259" duration="100"/>
+    <frame tileid="265" duration="100"/>
+    <frame tileid="271" duration="100"/>
+    <frame tileid="277" duration="100"/>
+    <frame tileid="283" duration="100"/>
+    <frame tileid="505" duration="100"/>
+    <frame tileid="511" duration="100"/>
+    <frame tileid="517" duration="100"/>
+    <frame tileid="523" duration="100"/>
+    <frame tileid="529" duration="100"/>
+    <frame tileid="535" duration="100"/>
+    <frame tileid="757" duration="100"/>
+    <frame tileid="763" duration="100"/>
+    <frame tileid="769" duration="100"/>
+    <frame tileid="775" duration="100"/>
+    <frame tileid="781" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="254">
+   <animation>
+    <frame tileid="254" duration="100"/>
+    <frame tileid="260" duration="100"/>
+    <frame tileid="266" duration="100"/>
+    <frame tileid="272" duration="100"/>
+    <frame tileid="278" duration="100"/>
+    <frame tileid="284" duration="100"/>
+    <frame tileid="506" duration="100"/>
+    <frame tileid="512" duration="100"/>
+    <frame tileid="518" duration="100"/>
+    <frame tileid="524" duration="100"/>
+    <frame tileid="530" duration="100"/>
+    <frame tileid="536" duration="100"/>
+    <frame tileid="758" duration="100"/>
+    <frame tileid="764" duration="100"/>
+    <frame tileid="770" duration="100"/>
+    <frame tileid="776" duration="100"/>
+    <frame tileid="782" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="255">
+   <animation>
+    <frame tileid="255" duration="100"/>
+    <frame tileid="261" duration="100"/>
+    <frame tileid="267" duration="100"/>
+    <frame tileid="273" duration="100"/>
+    <frame tileid="279" duration="100"/>
+    <frame tileid="285" duration="100"/>
+    <frame tileid="507" duration="100"/>
+    <frame tileid="513" duration="100"/>
+    <frame tileid="519" duration="100"/>
+    <frame tileid="525" duration="100"/>
+    <frame tileid="531" duration="100"/>
+    <frame tileid="537" duration="100"/>
+    <frame tileid="759" duration="100"/>
+    <frame tileid="765" duration="100"/>
+    <frame tileid="771" duration="100"/>
+    <frame tileid="777" duration="100"/>
+    <frame tileid="783" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="256">
+   <animation>
+    <frame tileid="256" duration="100"/>
+    <frame tileid="262" duration="100"/>
+    <frame tileid="268" duration="100"/>
+    <frame tileid="274" duration="100"/>
+    <frame tileid="280" duration="100"/>
+    <frame tileid="286" duration="100"/>
+    <frame tileid="508" duration="100"/>
+    <frame tileid="514" duration="100"/>
+    <frame tileid="520" duration="100"/>
+    <frame tileid="526" duration="100"/>
+    <frame tileid="532" duration="100"/>
+    <frame tileid="538" duration="100"/>
+    <frame tileid="760" duration="100"/>
+    <frame tileid="766" duration="100"/>
+    <frame tileid="772" duration="100"/>
+    <frame tileid="778" duration="100"/>
+    <frame tileid="784" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="288">
+   <animation>
+    <frame tileid="288" duration="100"/>
+    <frame tileid="294" duration="100"/>
+    <frame tileid="300" duration="100"/>
+    <frame tileid="306" duration="100"/>
+    <frame tileid="312" duration="100"/>
+    <frame tileid="318" duration="100"/>
+    <frame tileid="540" duration="100"/>
+    <frame tileid="546" duration="100"/>
+    <frame tileid="552" duration="100"/>
+    <frame tileid="558" duration="100"/>
+    <frame tileid="564" duration="100"/>
+    <frame tileid="570" duration="100"/>
+    <frame tileid="792" duration="100"/>
+    <frame tileid="798" duration="100"/>
+    <frame tileid="804" duration="100"/>
+    <frame tileid="810" duration="100"/>
+    <frame tileid="816" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="289">
+   <animation>
+    <frame tileid="289" duration="100"/>
+    <frame tileid="295" duration="100"/>
+    <frame tileid="301" duration="100"/>
+    <frame tileid="307" duration="100"/>
+    <frame tileid="313" duration="100"/>
+    <frame tileid="319" duration="100"/>
+    <frame tileid="541" duration="100"/>
+    <frame tileid="547" duration="100"/>
+    <frame tileid="553" duration="100"/>
+    <frame tileid="559" duration="100"/>
+    <frame tileid="565" duration="100"/>
+    <frame tileid="571" duration="100"/>
+    <frame tileid="793" duration="100"/>
+    <frame tileid="799" duration="100"/>
+    <frame tileid="805" duration="100"/>
+    <frame tileid="811" duration="100"/>
+    <frame tileid="817" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="290">
+   <animation>
+    <frame tileid="290" duration="100"/>
+    <frame tileid="296" duration="100"/>
+    <frame tileid="302" duration="100"/>
+    <frame tileid="308" duration="100"/>
+    <frame tileid="314" duration="100"/>
+    <frame tileid="320" duration="100"/>
+    <frame tileid="542" duration="100"/>
+    <frame tileid="548" duration="100"/>
+    <frame tileid="554" duration="100"/>
+    <frame tileid="560" duration="100"/>
+    <frame tileid="566" duration="100"/>
+    <frame tileid="572" duration="100"/>
+    <frame tileid="794" duration="100"/>
+    <frame tileid="800" duration="100"/>
+    <frame tileid="806" duration="100"/>
+    <frame tileid="812" duration="100"/>
+    <frame tileid="818" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="291">
+   <animation>
+    <frame tileid="291" duration="100"/>
+    <frame tileid="297" duration="100"/>
+    <frame tileid="303" duration="100"/>
+    <frame tileid="309" duration="100"/>
+    <frame tileid="315" duration="100"/>
+    <frame tileid="321" duration="100"/>
+    <frame tileid="543" duration="100"/>
+    <frame tileid="549" duration="100"/>
+    <frame tileid="555" duration="100"/>
+    <frame tileid="561" duration="100"/>
+    <frame tileid="567" duration="100"/>
+    <frame tileid="573" duration="100"/>
+    <frame tileid="795" duration="100"/>
+    <frame tileid="801" duration="100"/>
+    <frame tileid="807" duration="100"/>
+    <frame tileid="813" duration="100"/>
+    <frame tileid="819" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="292">
+   <animation>
+    <frame tileid="292" duration="100"/>
+    <frame tileid="298" duration="100"/>
+    <frame tileid="304" duration="100"/>
+    <frame tileid="310" duration="100"/>
+    <frame tileid="316" duration="100"/>
+    <frame tileid="322" duration="100"/>
+    <frame tileid="544" duration="100"/>
+    <frame tileid="550" duration="100"/>
+    <frame tileid="556" duration="100"/>
+    <frame tileid="562" duration="100"/>
+    <frame tileid="568" duration="100"/>
+    <frame tileid="574" duration="100"/>
+    <frame tileid="796" duration="100"/>
+    <frame tileid="802" duration="100"/>
+    <frame tileid="808" duration="100"/>
+    <frame tileid="814" duration="100"/>
+    <frame tileid="820" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="293">
+   <animation>
+    <frame tileid="293" duration="100"/>
+    <frame tileid="299" duration="100"/>
+    <frame tileid="305" duration="100"/>
+    <frame tileid="311" duration="100"/>
+    <frame tileid="317" duration="100"/>
+    <frame tileid="323" duration="100"/>
+    <frame tileid="545" duration="100"/>
+    <frame tileid="551" duration="100"/>
+    <frame tileid="557" duration="100"/>
+    <frame tileid="563" duration="100"/>
+    <frame tileid="569" duration="100"/>
+    <frame tileid="575" duration="100"/>
+    <frame tileid="797" duration="100"/>
+    <frame tileid="803" duration="100"/>
+    <frame tileid="809" duration="100"/>
+    <frame tileid="815" duration="100"/>
+    <frame tileid="821" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="324">
+   <animation>
+    <frame tileid="324" duration="100"/>
+    <frame tileid="330" duration="100"/>
+    <frame tileid="336" duration="100"/>
+    <frame tileid="342" duration="100"/>
+    <frame tileid="348" duration="100"/>
+    <frame tileid="354" duration="100"/>
+    <frame tileid="576" duration="100"/>
+    <frame tileid="582" duration="100"/>
+    <frame tileid="588" duration="100"/>
+    <frame tileid="594" duration="100"/>
+    <frame tileid="600" duration="100"/>
+    <frame tileid="606" duration="100"/>
+    <frame tileid="828" duration="100"/>
+    <frame tileid="834" duration="100"/>
+    <frame tileid="840" duration="100"/>
+    <frame tileid="846" duration="100"/>
+    <frame tileid="852" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="325">
+   <animation>
+    <frame tileid="325" duration="100"/>
+    <frame tileid="331" duration="100"/>
+    <frame tileid="337" duration="100"/>
+    <frame tileid="343" duration="100"/>
+    <frame tileid="349" duration="100"/>
+    <frame tileid="355" duration="100"/>
+    <frame tileid="577" duration="100"/>
+    <frame tileid="583" duration="100"/>
+    <frame tileid="589" duration="100"/>
+    <frame tileid="595" duration="100"/>
+    <frame tileid="601" duration="100"/>
+    <frame tileid="607" duration="100"/>
+    <frame tileid="829" duration="100"/>
+    <frame tileid="835" duration="100"/>
+    <frame tileid="841" duration="100"/>
+    <frame tileid="847" duration="100"/>
+    <frame tileid="853" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="326">
+   <animation>
+    <frame tileid="326" duration="100"/>
+    <frame tileid="332" duration="100"/>
+    <frame tileid="338" duration="100"/>
+    <frame tileid="344" duration="100"/>
+    <frame tileid="350" duration="100"/>
+    <frame tileid="356" duration="100"/>
+    <frame tileid="578" duration="100"/>
+    <frame tileid="584" duration="100"/>
+    <frame tileid="590" duration="100"/>
+    <frame tileid="596" duration="100"/>
+    <frame tileid="602" duration="100"/>
+    <frame tileid="608" duration="100"/>
+    <frame tileid="830" duration="100"/>
+    <frame tileid="836" duration="100"/>
+    <frame tileid="842" duration="100"/>
+    <frame tileid="848" duration="100"/>
+    <frame tileid="854" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="327">
+   <animation>
+    <frame tileid="327" duration="100"/>
+    <frame tileid="333" duration="100"/>
+    <frame tileid="339" duration="100"/>
+    <frame tileid="345" duration="100"/>
+    <frame tileid="351" duration="100"/>
+    <frame tileid="357" duration="100"/>
+    <frame tileid="579" duration="100"/>
+    <frame tileid="585" duration="100"/>
+    <frame tileid="591" duration="100"/>
+    <frame tileid="597" duration="100"/>
+    <frame tileid="603" duration="100"/>
+    <frame tileid="609" duration="100"/>
+    <frame tileid="831" duration="100"/>
+    <frame tileid="837" duration="100"/>
+    <frame tileid="843" duration="100"/>
+    <frame tileid="849" duration="100"/>
+    <frame tileid="855" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="328">
+   <animation>
+    <frame tileid="328" duration="100"/>
+    <frame tileid="334" duration="100"/>
+    <frame tileid="340" duration="100"/>
+    <frame tileid="346" duration="100"/>
+    <frame tileid="352" duration="100"/>
+    <frame tileid="358" duration="100"/>
+    <frame tileid="580" duration="100"/>
+    <frame tileid="586" duration="100"/>
+    <frame tileid="592" duration="100"/>
+    <frame tileid="598" duration="100"/>
+    <frame tileid="604" duration="100"/>
+    <frame tileid="610" duration="100"/>
+    <frame tileid="832" duration="100"/>
+    <frame tileid="838" duration="100"/>
+    <frame tileid="844" duration="100"/>
+    <frame tileid="850" duration="100"/>
+    <frame tileid="856" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="329">
+   <animation>
+    <frame tileid="329" duration="100"/>
+    <frame tileid="335" duration="100"/>
+    <frame tileid="341" duration="100"/>
+    <frame tileid="347" duration="100"/>
+    <frame tileid="353" duration="100"/>
+    <frame tileid="359" duration="100"/>
+    <frame tileid="581" duration="100"/>
+    <frame tileid="587" duration="100"/>
+    <frame tileid="593" duration="100"/>
+    <frame tileid="599" duration="100"/>
+    <frame tileid="605" duration="100"/>
+    <frame tileid="611" duration="100"/>
+    <frame tileid="833" duration="100"/>
+    <frame tileid="839" duration="100"/>
+    <frame tileid="845" duration="100"/>
+    <frame tileid="851" duration="100"/>
+    <frame tileid="857" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="360">
+   <animation>
+    <frame tileid="360" duration="100"/>
+    <frame tileid="366" duration="100"/>
+    <frame tileid="372" duration="100"/>
+    <frame tileid="378" duration="100"/>
+    <frame tileid="384" duration="100"/>
+    <frame tileid="390" duration="100"/>
+    <frame tileid="612" duration="100"/>
+    <frame tileid="618" duration="100"/>
+    <frame tileid="624" duration="100"/>
+    <frame tileid="630" duration="100"/>
+    <frame tileid="636" duration="100"/>
+    <frame tileid="642" duration="100"/>
+    <frame tileid="864" duration="100"/>
+    <frame tileid="870" duration="100"/>
+    <frame tileid="876" duration="100"/>
+    <frame tileid="882" duration="100"/>
+    <frame tileid="888" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="361">
+   <animation>
+    <frame tileid="361" duration="100"/>
+    <frame tileid="367" duration="100"/>
+    <frame tileid="373" duration="100"/>
+    <frame tileid="379" duration="100"/>
+    <frame tileid="385" duration="100"/>
+    <frame tileid="391" duration="100"/>
+    <frame tileid="613" duration="100"/>
+    <frame tileid="619" duration="100"/>
+    <frame tileid="625" duration="100"/>
+    <frame tileid="631" duration="100"/>
+    <frame tileid="637" duration="100"/>
+    <frame tileid="643" duration="100"/>
+    <frame tileid="865" duration="100"/>
+    <frame tileid="871" duration="100"/>
+    <frame tileid="877" duration="100"/>
+    <frame tileid="883" duration="100"/>
+    <frame tileid="889" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="362">
+   <animation>
+    <frame tileid="362" duration="100"/>
+    <frame tileid="368" duration="100"/>
+    <frame tileid="374" duration="100"/>
+    <frame tileid="380" duration="100"/>
+    <frame tileid="386" duration="100"/>
+    <frame tileid="392" duration="100"/>
+    <frame tileid="614" duration="100"/>
+    <frame tileid="620" duration="100"/>
+    <frame tileid="626" duration="100"/>
+    <frame tileid="632" duration="100"/>
+    <frame tileid="638" duration="100"/>
+    <frame tileid="644" duration="100"/>
+    <frame tileid="866" duration="100"/>
+    <frame tileid="872" duration="100"/>
+    <frame tileid="878" duration="100"/>
+    <frame tileid="884" duration="100"/>
+    <frame tileid="890" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="363">
+   <animation>
+    <frame tileid="363" duration="100"/>
+    <frame tileid="369" duration="100"/>
+    <frame tileid="375" duration="100"/>
+    <frame tileid="381" duration="100"/>
+    <frame tileid="387" duration="100"/>
+    <frame tileid="393" duration="100"/>
+    <frame tileid="615" duration="100"/>
+    <frame tileid="621" duration="100"/>
+    <frame tileid="627" duration="100"/>
+    <frame tileid="633" duration="100"/>
+    <frame tileid="639" duration="100"/>
+    <frame tileid="645" duration="100"/>
+    <frame tileid="867" duration="100"/>
+    <frame tileid="873" duration="100"/>
+    <frame tileid="879" duration="100"/>
+    <frame tileid="885" duration="100"/>
+    <frame tileid="891" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="364">
+   <animation>
+    <frame tileid="364" duration="100"/>
+    <frame tileid="370" duration="100"/>
+    <frame tileid="376" duration="100"/>
+    <frame tileid="382" duration="100"/>
+    <frame tileid="388" duration="100"/>
+    <frame tileid="394" duration="100"/>
+    <frame tileid="616" duration="100"/>
+    <frame tileid="622" duration="100"/>
+    <frame tileid="628" duration="100"/>
+    <frame tileid="634" duration="100"/>
+    <frame tileid="640" duration="100"/>
+    <frame tileid="646" duration="100"/>
+    <frame tileid="868" duration="100"/>
+    <frame tileid="874" duration="100"/>
+    <frame tileid="880" duration="100"/>
+    <frame tileid="886" duration="100"/>
+    <frame tileid="892" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="365">
+   <animation>
+    <frame tileid="365" duration="100"/>
+    <frame tileid="371" duration="100"/>
+    <frame tileid="377" duration="100"/>
+    <frame tileid="383" duration="100"/>
+    <frame tileid="389" duration="100"/>
+    <frame tileid="395" duration="100"/>
+    <frame tileid="617" duration="100"/>
+    <frame tileid="623" duration="100"/>
+    <frame tileid="629" duration="100"/>
+    <frame tileid="635" duration="100"/>
+    <frame tileid="641" duration="100"/>
+    <frame tileid="647" duration="100"/>
+    <frame tileid="869" duration="100"/>
+    <frame tileid="875" duration="100"/>
+    <frame tileid="881" duration="100"/>
+    <frame tileid="887" duration="100"/>
+    <frame tileid="893" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="5216" name="v16_Outdoors2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
+  <image source="spring_outdoorsTileSheet2.png" width="256" height="1120"/>
+  <tile id="536">
+   <animation>
+    <frame tileid="536" duration="1000"/>
+    <frame tileid="540" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="537">
+   <animation>
+    <frame tileid="537" duration="1000"/>
+    <frame tileid="541" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="538">
+   <animation>
+    <frame tileid="538" duration="1000"/>
+    <frame tileid="542" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="544">
+   <animation>
+    <frame tileid="544" duration="1000"/>
+    <frame tileid="576" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="545">
+   <animation>
+    <frame tileid="545" duration="1000"/>
+    <frame tileid="577" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="546">
+   <animation>
+    <frame tileid="546" duration="1000"/>
+    <frame tileid="578" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="547">
+   <animation>
+    <frame tileid="547" duration="1000"/>
+    <frame tileid="579" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="550">
+   <animation>
+    <frame tileid="550" duration="1000"/>
+    <frame tileid="582" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="551">
+   <animation>
+    <frame tileid="551" duration="1000"/>
+    <frame tileid="583" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="552">
+   <animation>
+    <frame tileid="552" duration="1000"/>
+    <frame tileid="556" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="553">
+   <animation>
+    <frame tileid="553" duration="1000"/>
+    <frame tileid="557" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="554">
+   <animation>
+    <frame tileid="554" duration="1000"/>
+    <frame tileid="558" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="563">
+   <animation>
+    <frame tileid="563" duration="1000"/>
+    <frame tileid="595" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="564">
+   <animation>
+    <frame tileid="564" duration="1000"/>
+    <frame tileid="596" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="565">
+   <animation>
+    <frame tileid="565" duration="1000"/>
+    <frame tileid="597" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="566">
+   <animation>
+    <frame tileid="566" duration="1000"/>
+    <frame tileid="598" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="568">
+   <animation>
+    <frame tileid="568" duration="1000"/>
+    <frame tileid="572" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="570">
+   <animation>
+    <frame tileid="570" duration="1000"/>
+    <frame tileid="574" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="584">
+   <animation>
+    <frame tileid="584" duration="1000"/>
+    <frame tileid="588" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="585">
+   <animation>
+    <frame tileid="585" duration="1000"/>
+    <frame tileid="589" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="586">
+   <animation>
+    <frame tileid="586" duration="1000"/>
+    <frame tileid="590" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="600">
+   <animation>
+    <frame tileid="600" duration="1000"/>
+    <frame tileid="604" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="602">
+   <animation>
+    <frame tileid="602" duration="1000"/>
+    <frame tileid="606" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="608">
+   <animation>
+    <frame tileid="608" duration="1000"/>
+    <frame tileid="610" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="609">
+   <animation>
+    <frame tileid="609" duration="1000"/>
+    <frame tileid="611" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="612">
+   <animation>
+    <frame tileid="612" duration="1000"/>
+    <frame tileid="614" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="613">
+   <animation>
+    <frame tileid="613" duration="1000"/>
+    <frame tileid="615" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="616">
+   <animation>
+    <frame tileid="616" duration="1000"/>
+    <frame tileid="620" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="617">
+   <animation>
+    <frame tileid="617" duration="1000"/>
+    <frame tileid="621" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="618">
+   <animation>
+    <frame tileid="618" duration="1000"/>
+    <frame tileid="622" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="624">
+   <animation>
+    <frame tileid="624" duration="1000"/>
+    <frame tileid="626" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="625">
+   <animation>
+    <frame tileid="625" duration="1000"/>
+    <frame tileid="627" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="628">
+   <animation>
+    <frame tileid="628" duration="1000"/>
+    <frame tileid="630" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="629">
+   <animation>
+    <frame tileid="629" duration="1000"/>
+    <frame tileid="631" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="632">
+   <animation>
+    <frame tileid="632" duration="1000"/>
+    <frame tileid="636" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="633">
+   <animation>
+    <frame tileid="633" duration="1000"/>
+    <frame tileid="637" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="640">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="640" duration="1000"/>
+    <frame tileid="688" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="641">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="641" duration="1000"/>
+    <frame tileid="689" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="642">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="642" duration="1000"/>
+    <frame tileid="690" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="643">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="643" duration="1000"/>
+    <frame tileid="691" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="646">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="646" duration="1000"/>
+    <frame tileid="694" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="647">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="647" duration="1000"/>
+    <frame tileid="695" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="648">
+   <animation>
+    <frame tileid="648" duration="1000"/>
+    <frame tileid="652" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="649">
+   <animation>
+    <frame tileid="649" duration="1000"/>
+    <frame tileid="653" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="656">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="656" duration="1000"/>
+    <frame tileid="704" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="657">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="657" duration="1000"/>
+    <frame tileid="705" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="658">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="658" duration="1000"/>
+    <frame tileid="706" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="659">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="659" duration="1000"/>
+    <frame tileid="707" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="660">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="660" duration="1000"/>
+    <frame tileid="708" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="661">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="661" duration="1000"/>
+    <frame tileid="709" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="662">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="662" duration="1000"/>
+    <frame tileid="710" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="663">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="663" duration="1000"/>
+    <frame tileid="711" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="664">
+   <animation>
+    <frame tileid="664" duration="1000"/>
+    <frame tileid="668" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="665">
+   <animation>
+    <frame tileid="665" duration="1000"/>
+    <frame tileid="669" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="676">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="676" duration="1000"/>
+    <frame tileid="724" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="677">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+   <animation>
+    <frame tileid="677" duration="1000"/>
+    <frame tileid="725" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="688">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="689">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="690">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="691">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="694">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="695">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="704">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="705">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="706">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="707">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="708">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="709">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="710">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="711">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="724">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="725">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="728">
+   <animation>
+    <frame tileid="728" duration="1000"/>
+    <frame tileid="732" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="729">
+   <animation>
+    <frame tileid="729" duration="1000"/>
+    <frame tileid="733" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="730">
+   <animation>
+    <frame tileid="730" duration="1000"/>
+    <frame tileid="734" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="744">
+   <animation>
+    <frame tileid="744" duration="1000"/>
+    <frame tileid="748" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="745">
+   <animation>
+    <frame tileid="745" duration="1000"/>
+    <frame tileid="749" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="746">
+   <animation>
+    <frame tileid="746" duration="1000"/>
+    <frame tileid="750" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="760">
+   <animation>
+    <frame tileid="760" duration="1000"/>
+    <frame tileid="764" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="762">
+   <animation>
+    <frame tileid="762" duration="1000"/>
+    <frame tileid="766" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="776">
+   <animation>
+    <frame tileid="776" duration="1000"/>
+    <frame tileid="780" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="777">
+   <animation>
+    <frame tileid="777" duration="1000"/>
+    <frame tileid="781" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="778">
+   <animation>
+    <frame tileid="778" duration="1000"/>
+    <frame tileid="782" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="792">
+   <animation>
+    <frame tileid="792" duration="1000"/>
+    <frame tileid="796" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="794">
+   <animation>
+    <frame tileid="794" duration="1000"/>
+    <frame tileid="798" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="808">
+   <animation>
+    <frame tileid="808" duration="1000"/>
+    <frame tileid="812" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="809">
+   <animation>
+    <frame tileid="809" duration="1000"/>
+    <frame tileid="813" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="810">
+   <animation>
+    <frame tileid="810" duration="1000"/>
+    <frame tileid="814" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="816">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="817">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="820">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="821">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="822">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="824">
+   <animation>
+    <frame tileid="824" duration="1000"/>
+    <frame tileid="828" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="825">
+   <animation>
+    <frame tileid="825" duration="1000"/>
+    <frame tileid="829" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="832">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="833">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="834">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="835">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="836">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="837">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="838">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="848">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="849">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="850">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="851">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="852">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="853">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="854">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="864">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="865">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="866">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="867">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="868">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="869">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="870">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="880">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="881">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="882">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="883">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="898">
+   <animation>
+    <frame tileid="898" duration="1000"/>
+    <frame tileid="899" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="914">
+   <animation>
+    <frame tileid="914" duration="1000"/>
+    <frame tileid="915" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="926">
+   <animation>
+    <frame tileid="926" duration="1000"/>
+    <frame tileid="927" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="930">
+   <animation>
+    <frame tileid="930" duration="1000"/>
+    <frame tileid="931" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="942">
+   <animation>
+    <frame tileid="942" duration="1000"/>
+    <frame tileid="943" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="946">
+   <animation>
+    <frame tileid="946" duration="1000"/>
+    <frame tileid="947" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="962">
+   <animation>
+    <frame tileid="962" duration="1000"/>
+    <frame tileid="963" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="974">
+   <animation>
+    <frame tileid="974" duration="1000"/>
+    <frame tileid="975" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="978">
+   <animation>
+    <frame tileid="978" duration="1000"/>
+    <frame tileid="979" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="990">
+   <animation>
+    <frame tileid="990" duration="1000"/>
+    <frame tileid="991" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="1064">
+   <animation>
+    <frame tileid="1064" duration="1000"/>
+    <frame tileid="1065" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="1067">
+   <animation>
+    <frame tileid="1067" duration="1000"/>
+    <frame tileid="1066" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="1072">
+   <animation>
+    <frame tileid="1072" duration="1000"/>
+    <frame tileid="1073" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="1074">
+   <animation>
+    <frame tileid="1074" duration="1000"/>
+    <frame tileid="1075" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="1077">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1078">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1079">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1088">
+   <animation>
+    <frame tileid="1088" duration="1000"/>
+    <frame tileid="1089" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="1090">
+   <animation>
+    <frame tileid="1090" duration="1000"/>
+    <frame tileid="1091" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="1092">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1093">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1094">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1104">
+   <animation>
+    <frame tileid="1104" duration="1000"/>
+    <frame tileid="1105" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="1106">
+   <animation>
+    <frame tileid="1106" duration="1000"/>
+    <frame tileid="1107" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="6336" source="BaldursVillageTown.tsx"/>
+ <tileset firstgid="8512" source="spring_outdoorsTileSheet.tsx"/>
+ <tileset firstgid="10487" source="spring_house.tsx"/>
+ <tileset firstgid="11511" source="spring_Shadows.tsx"/>
+ <layer id="1" name="Back" width="50" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztWE1vG1UUnbH9iOKUBRLICVGziJsuyj41EBkkfkASSlOQuqIrmgS1/Qk4odDfkIYECf5AKASSDStAqgi0SzaAVMqyFRsEqHAvc4/m+M4bZ0LTboilo/l445l73rlf73XSJOlUxOYh4ENBVzAluFlLkg3BquBKK7tXD0kyI5g6IKpyOCwuyuOcYEtsvyG4LrgreMd4zIpNJ8y24UfI42G5KY9LpoVy+FVwx47QQ3lMmn33Go+PR4zLl8lgv4LtqsunxkER1CbzLeUwWVGPdABqB+C5aFhyXK7J8QvCDvnVJ+Zbe4LdJNdjLmTH7gFi5dkBGD8AzxXDB8Tlmtl9VfCe4H3B2+ZXFyQebpFvgZdqoxwmjMv9Rh4n0Cfma/UIOnYcrchT+awQl1XyIeVwma7fFawLeq2cw06S+dkvdq2xfpriXe1umz7QyOeAGA+G5z1HY6PEh7msmkZq94bTZpVyFfzpomnYFiTyngdi93HTAvFxUvCVXH8t+KZR9Lf9eOjz0HLY3oeYZD7jxgPzfXsos+tziguMXSAtlMOy8VMOY4KWacH+0xT8KNc/CX5u9Oe0QWB7oaVq+3cjm/uLFNfqhyHkWugcqx47djxrcbFq71Of2iMOC5bDwKFTEhdq0x9y/qfgr4gmHm3zH/CYMlt/eCKf+zW5d93mt2HP41pt/34oO96yI8Z2kzznnpLreeN4jnIV/Kkd+m1t2vjTgmdCnp/304Lzqn6jQf7GY7N273e6p1q07XyXzlEvdPwV87Vty2HIUYhn1HbOUU36PnxikWxEDtA5mAiDa4UHuD1V67+v9t8mXTi+9d5586c108r7KuYNcw77wGGZciS+eQLPRLSoilO1+H3ECce36tMzHXRcOfeM1xbVkbmIRp4D85gz/w/G47kSm/4r/rVTeKyZjZ2IDsvGC/Hjc+e0HXuOA/Poq4POBs2HVfuWhMY4T0yZfdrbvtnKeEGnNYsRzWvoB3QcdR35MOZPnkcZkNOr9i1job82Mg+17ab16Hg/4h9cuLfZSfL/smaeQxUeyOmaC4+FDMgZsb4F+X+0hOfHIxliuiKXc/5uG3/N0Zqf0asdlAfWA/eoLqEmaUz91sg4NiPnMZ5vjWTwunrtdP5fFbxm2mhu03qJPmczwsP7v/f7Wcp9nMeh0XDIeznU/ZmQ8wG/OvGo2/hsRDv9vmrzvOBF0wZ+V8Yj5v/joT8+HjTy3hN1lntP3Ashr4lzNgZfnAxFHsPGZcL5KPRpp/3z2RvAw/u/+ov2UBy3GIf9qDGKCbpXd77B/VnXxj8ayVCn+ZgmH+XYYg7IU2U80FuiXjbd3IADx0SHbPTnmEPkVK4fqOeadzkX8T4JfC2E/lhZTvvXMp4HfJfX9d6v0Q9Mh2IeYHu83cxLoTl30/Z4mD+AXupkyOsY5yrm4Hkco9hFfE6SXyN+J0KxRsLWLarRu0mRK/hqHfzW6gf3kMxDv8c80E9upMU9C+YBHdoUo10HvXfc8fDzvEbra3xf+a0Ltu0+6iD3JtAF+WTG9ODvnK/Ao022ep0D4oHGy+b5O8Fn1hfh+2rzmVq2nwCeN2z/cK/WH0PIJ8h1bIf6FdaVDL8noO9ZjAB9jo/b3chc8zP4D/op3ftcsb0RzxecNfa0T1XE5hT15IU0qynbJTwYfg8HtfVMmtfXmAYxaK++RPs7ZTFU2LMpeR/A/VgZDwX2m5QL92YLxM/HCZ9DG+3VexQTPh/vh5dk/fXyUHyM+3e2iYH9Jn1m3h3Bn/vY2By303xf6i6tA6tCY/914fDGUHyN4NchyoVjYtHxAHQtzT0P142dJO5/8KM7+/hfwcZWFvuXhcOVoWJ9j/HwnLCvCR5nSQPeM/B2w/8W3Pyw3vpfv9YsW6dpHsa69rSL/f14+H1N1mKdvo1eARznS96l413SjGsG6kbZOq1FPRd6PvT3VXhAE77nOcRydNn7Ljk9mEfZOg09kV4/Gfr3YMFjEIdYzHjE1pb++aW0OC+cCxLynfuNfE2AtRp6oknqHbHXUFWPwwBrupAW8/sY+Y7fB+R9XfBqWl/BPcXj4IE406P2qt20uC46TDzqXyxGjn5Hv6Pf0e///PsHvHaffA==
+  </data>
+ </layer>
+ <layer id="15" name="Back1" width="50" height="45">
+  <data encoding="base64" compression="zlib">
+   eJzt1bENwCAMBEDmYIBAkzUCczIp7jJBghLuJEsuv3jLKQEA8FfjvPee1+UAgJ35wbzhiJ6VmPrxvl2Rv2V3w970HwAAnjUBaFgD3A==
+  </data>
+ </layer>
+ <layer id="3" name="Buildings" width="50" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztWEmPDVEUvvXSPEPz0uhqQ2L2CEJ0S7ARYk6zt5VgYdwawk5CYyHmYUk3z7QhEas2v0jYv4gg+AFiSLDxHVUn79Tte28N79VC9Jd8qXq3blefr85w77klT6lSQj5KMdfGq+A1sNfwrA886qtM0N/VibEucLHhGWt5DD4R17Ra+izj/eCFJunoxthGcJNFh03bG/H7cotSV1rs8/st47Um+mMrxraB21PoKDn8wpqktpol3nob8Md+384DfnIdd8HN4CgvPo9GOZ5dz6jjmG9n1aFR11kFb+B9FbAc/jbZeTuBnx9m1NKoTtLzN/8x/0lo5ylLjFKOM2z57oqtziHN03bDD8g6q6GWu150XiW0q6NVqfHghFazjnu4v6+C+314z8sm+0Pay3iA3+dwPQ9O6qg/7/GDWOozaFkC+5eCy1qDWsWge4rBV7h/rfLRQPZyvJO9jKrIC/6OFM+XQn/0ewPfVRFjNe1erotpa253ghir+PV4L4e5t6cteEY2y+9I/5/9UTPo0LXYkKbmcqyYYobxIPzeB8Gz4EdwKsamgdPBGeBPjH0H34Z5Sdo+eMH47wQ2m3A9xi4C5fnEDnMN0Ws2+aIb42fAO2BbQakxhej1E8ZH4/oj1EjafnnB+DiMtxeyaTHFsgR/47iaTfMoxrdSrQdfgJ/BebBrbiG48u/ZYEnoGiueL8B1YQYtHMsE0zpCfj+j7DooNva2BfMoxilGnoPvwVWwZ3Vh4HUFOEfo4vG14DpwPbgho18Ier5QvFGsmNZSzoGpWuyTPe/C9XefYz1fKexfU6jPpWdci7gepYXMF8oJrvcmP9hygGJErktJ9y0v/eja2ChkPiuLhpLIAT325xfcewSu3bo2CV3ntpH1Z3Qv/ZoUNh22HFhTaGz/yZAadR3HMvjOpuOdNzD+6Z3T25Er4Mz25u0/dR0SVT+Zf2y1yhT/tDZ3wv6udvuex7Ze6eusnOPSQUjiH6o7mw06TDbKb2N6LmsH7xW5psgaxXWK5xwRttO9a1/RYxg7BB5WZn/YYMpb1kCYPFypKcOD++Ow6YTh+8aBe9k+b+D6fclQt111Nw1orf8yQqmvI6LjN6HhlkPH7Zj3kg6Ke5mH5I9yaONJ5e6F0+qgb9QGe8dm+PYu9IfrrazxFb/ey/eq+F5YIm4vTO9eBA1dTdZR86L1RN8LlmNiSurQc1TmJ+dwnpC+IL+b9uXkG9kDm84vHhliLC6umwnSQX0a7VV7fHPdo3rLvZsrxnaCuyya8oLcp8o+jXq3r0OV+gZ+B38MjfZucXnP1M8+8rLf1au1FmEvOBosFaO923qH7XxGzedoceBYbRmWToPsNV292izYXgZng3OK0d5ti0OHPKNO4g+O1Zkpdche09WrLS/W/2ZlMdq7HXDokDUiiT+yQvaapn0q8SLq427RS1IN49pLvdvphPmRV65TTHGvSTFp69N0yDNYsu9WQh02LU8xtiOsbZJJ6xzFFPWaHJNxfZoE78VpD/MshY6Swd6k8226DnlBr8mxRL5Ic/bM5wxPU+polHq9OOcFvWbcmZvtbJlqqUlD3tDrRd7rUl74V+3WkWf9HsQgBvF/4Q/625ju
+  </data>
+ </layer>
+ <layer id="12" name="Buildings1" width="50" height="45">
+  <data encoding="base64" compression="zlib">
+   eJzt2EkKwkAUBNB4nd4Zcwtx4XARh63eweEijmdwaxzuoV7ACnQINkaRNPk/pB58GkVINdItZRAQ6XVsSCegT7ZGOoEf5wrtY4qZSYcgVULpAJ60//z8Dud2jznY87vGusE0c85zC+9HCs/6BZmumJvNdsIaY7r2tbvPPtaBKXb/lnHn3fGMB2Zon+Xuc4x1YopleZb4fc5/PKvMLERERJpVqVt94+O3nd2N6io07/3L7TSJtL9p/l+pZ7L+lXA7TSLtb5rvvpHJ+leetL9p7jULZFtiVoozEkmIpAN40pEOQEREtfYCJJc4Cw==
+  </data>
+ </layer>
+ <layer id="7" name="Front" width="50" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztWcluE0EQnUEskSwOscSd9UTYQsRyJxt7zJn9AMRG4cQOCuuFRRgQHOAfuBDgyvITIT7yDyyCwKvYJTpF7zMeR8hPehpn3OOpN1P9qquTJGGYSfXn14N94AZwo+HaTeBmcEvgPYsCaduF4yA4BA4bxo2Ao+DuogKLwGHwCHgUPGYYcxw8AZ7UfHcPz+JB6133L8k/Pl+cBz8gjo+pOfcug1fAq4G/vSeDLle+bwO3gzvAna1zj8B66zNp6cdxKzigXPc0PqSk3ovre/3Hk35bvu8HD4AHwTGwAh7S/Q64F9wXHvIcZH5NQcO7AB0EW76fAk+DZ8BxsArWEnM+fS0lyTfweyksBolpaGgE6qB8vwBeBC+J7ybBG+BN8BZ4G7zT+u6hQcvE4rD7S/xE/L9IQzlJ0nLYtWq+6/ACfJlk8xfyqfuKVxF083olYl8FrgXXBepQkcUzsmJuviL2wfL8Wio9xAdnKTeXIj9wPBeYo3lCraUxHkKe9xh8IrxvedrUmJc2zmVTrtpqqQq6XjdXyfPegG813hfq61kQW0sZ5HmfwRmN98X4ervA+S/zg+uvTQf7et+i+efZi6QfhYI95hp43TG2LnL/h7ivj44i4Fr3Txlyn8A1aBb8ralFUofJo++W9J9D4Fr3TxueNYFr0GpwjahFWepsDFxeZdPBNWgIHAZHwNFWzL51Nq866vIqmw4bWKOqjVF0P8S5ocv9gRX/jqdnK72DY1Y9yuVTOp1Z3hvnhsx92/1me6C7p/m5ijlbi5i33Mua1sjSt3W9mwrODZn7eSFLD8hw9W6h77aC5z6WsR+Kgal3iwVpqLRZBz1b2dtPJubeTcK0juhE72Hq7bl3k7Dt1eSR17EI8T1GDWPep+79p3aC16m6taoOpjVjNW2SNRWtxdSn6UC92zMcnzt+k7S88tDBufplmV+sNtj6tFiE9u55wNYX6LBQ9+x9dKhzYqHs2Uv/tOmQtdpnn4FhmusNxdfk0dcbqNd8rfzt6tNUhO4zSC/m4ydwPP3rb9Ln1PG+umx9Wh6QsTJ9xrv8m9cdtD9o69NU8Lqi0YH6ZvJvXneY/tfGc1rOjU5o6KKLLrro4v/FH78y72M=
+  </data>
+ </layer>
+ <layer id="14" name="Front1" width="50" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztlktKA0EQhscrmNHcIAtfCw3GBxgXLnzEta9MxqjJ2rjwrWfQjZ7BbL2BHiFH8QJ+g90wBEWGNJadqQ++RTV08xcURQeBoiiKklcmcQqncUY4i6L8V14npBMoSv4YDYOggCGO4TgWQ+lU2ZkncwUXcBGXcNn0YXv0obd98h1gHSNsYGwy2x7TvfmI7THdmxR2Nnye/QQ7G/2z7xt2Nvpn3xX6z1B85g7vpUM44AmfpUM4IpIO4IhzvMBLvBLOMigP+CgdwgEv2JUO4YA3fJcO4ZifdvEszmHZ1CtYxdUMb//lP8Xu4nXcwE1zvoU13Db1Du7iHpZGvs7Wfnm7J/DfauIRHpv6BFvYNvUpdvAsdSfZ4Q2M8fCbNz8E+rjGG7zNcGeYdriiKIoy3HwCU6YqVQ==
+  </data>
+ </layer>
+ <layer id="5" name="Paths" width="50" height="45" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1jkOgCAQQFE6j2DUeP9rGmMsJIQggrPwX2ejA84WAgDAsjV63kSiGA/3/LR0fj/3PYZdOoCfzNIBNKD5DLl+FM/MU+4sFnqPhRhLpf6d5lwDvvBUuzmpvqtF7/1VK4ncq/lmai8cZVfsxfpM9dY3W/QgaqKNe1a9rRHrORnPaI09wvod46Ixt2p4OYc3k3QAAEw7AJ7RA3M=
+  </data>
+ </layer>
+ <layer id="10" name="AlwaysFront" width="50" height="45">
+  <data encoding="base64" compression="zlib">
+   eJzVmcdTVEEQh5/yQAu0SmHBi4pUiQkwCyyezAqSb6BgOBhv5nDA9AeS5Go+kFwxnP1N8bro7e2Z9x77dhe66qv1sW9mOkx3z6wzZZ43E5Bh/5Ys7c1+5u+OgwkwCabANPhomc+1husd1/ra93HXNMyCOTAPFsAi+BnYEjZX1DXi2E1+JX9GGWOey3zP8wFJhb9iS746xrU7w/wq/Rk2dif03gWewYbn4AXYhOfN/up9LsdofrXtJfIr+XPSEZ+MMo7LHj93b9nGh9lJ+2SqLDcHNZvIrx7zJ4+P5oNxMY7LIluXPl22cZt47ZgI9onJPS0HpR9OQZdW0A7S/spzOrBJ1iW+Rrlih5F5x/rS39q8NE7Or+Ug2dMT6N4PBpjeA8GznNu2hkv4nrXprM1bnfK8GlAHdqSy94xrL9rmj6OzyxZN5/P47gK4CC6JMa3QvQ10gNOBHSYHG3y9hspekITeUeU6GAGj4Ib4bgi6D4MRMOqIB8WB5+wRcBQcK5IdT73s2h0mFA9pw5zYO5fBFdBZKMVXKfWsFnX4yzWU7yW5h26CW+B2KZS1SH2gP9WeQZYfWh8z8hK8Aq+LraxDKCcGlTol+9g48mgCTIIpMJ0qnd7HwQlwMnjmOSHPBDwen6DzZ/AFfAXfwHfwo0S2dIGroNtbrjuunsHjkYG+v8AS+A3+gL/gXwljQmLqjqxRFAuT61n5Uet5G8BGUAZ8UA4qavW5ZytRI8A8WKgsrB2m7lA8ws5526DvdlANakAK1II6ix2VVZ5XBbaArVW53yfZg0zd4edonh/aOa/BorMmh6B7E2gGLYodUXqQy9YD4KBZJ3iW50OKi+usGkU6oXsXuAq6FTui9CCXrWfAWXAueKb+0SFypNDnpyg9yGXrEBgG17zsHij7h02KebZy2foIPAZPvOweKHuHTdbi2UqruWHxWItnK9kDee3dbcmPsH3dCtpAO0gXQmlFTDxsvzOY+7expQnvNYMWcDhkvh7QC/pAPxgAgwW1YFn4PVL+zkA90HWnlHIH3AX3wH3wADwsqAW5IvsI/SZiYmK7U0oZA2/AW/AOvAcfYuiQ1J7k+UK/kRhb2oJ7li1nkpCk9iTvh5lgbxlbekFfYJN2p0pK8t2T1Ndc9ylTx2y/DSYlY15+e5L6mquXuO64NmkE+8D+GLrkI6av2c5Y/I7I896Idj6pZ7mk5VScGh5XtDMW3aO4PVrey0+ap5/llKwTUWt4XHHlhYTnfb/yKX0h64Sr9tFvTzYfabWSx9+2nygePC4yRmHP/O9htY/8yX1jxtKztg94/MmHZq2qxpV14/z/YEborPmAv6PlmqwzNFbG1RV/zZ+kD2FslH/TiPKelmvpwA6X/1ZDHN3j2mXLNX4PytdXSegZ9j6PfY+v52M+OkcZUwhfrAeSzCvbu8VYoxg+WA9xynfe/5nlr+o=
+  </data>
+ </layer>
+ <layer id="13" name="AlwaysFront1" width="50" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztz0ENwCAQRNHVg0osUSfgBBR0bwjg0Ia8l8x9fgQAAABsT4nacl//ODWyoV/QsbJhXtABAAAAAH/wAoP9COY=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <objectgroup id="4" name="Buildings"/>
+ <objectgroup id="9" name="Front"/>
+ <objectgroup id="6" name="Paths"/>
+ <objectgroup id="11" name="AlwaysFront"/>
+</map>

@@ -1,0 +1,42 @@
+
+{
+"Changes": [
+  { 
+  "LogName":"TouristB", 
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/TouristB",
+  "Entries": {  
+				//Gifts
+				"AcceptBirthdayGift_Loved": "{{i18n:TouristB.Dialogue.AcceptBirthdayGift_Loved}}",
+				"AcceptBirthdayGift_Like": "{{i18n:TouristB.Dialogue.AcceptBirthdayGift_Like}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:TouristB.Dialogue.AcceptBirthdayGift_Negative}}",
+				"AcceptBirthdayGift_Disliked": "{{i18n:TouristB.Dialogue.AcceptBirthdayGift_Disliked}}",
+				"AcceptBirthdayGift_Hated": "{{i18n:TouristB.Dialogue.AcceptBirthdayGift_Hated}}",	
+				//Daily
+				"Introduction": "{{i18n:TouristB.Dialogue.Introduction}}",
+				//Spring
+				//Spring 0 hearts
+				"Wed": "{{i18n:TouristB.Dialogue.Wed_{{Random: 0, 1, 2, 3, 4, 5, 6}}}}",
+				"Fri": "{{i18n:TouristB.Dialogue.Fri_{{Random: 0, 1, 2, 3, 4, 5, 6}}}}",
+				"Sat": "{{i18n:TouristB.Dialogue.Sat_{{Random: 0, 1, 2, 3, 4, 5, 6}}}}",
+	
+                //Summer
+				//Summer 0 Heart
+				"summer_Wed": "{{i18n:TouristB.Dialogue.summer_Wed_{{Random: 0, 1, 2, 3, 4, 5, 6}}}}",
+				"summer_Fri": "{{i18n:TouristB.Dialogue.summer_Fri_{{Random: 0, 1, 2, 3, 4, 5, 6}}}}",
+				"summer_Sat": "{{i18n:TouristB.Dialogue.summer_Sat_{{Random: 0, 1, 2, 3, 4, 5, 6}}}}",
+				//Fall
+				//Fall 0 Hearts
+				"fall_Wed": "{{i18n:TouristB.Dialogue.fall_Wed_{{Random: 0, 1, 2, 3, 4, 5, 6}}}}",
+				"fall_Fri": "{{i18n:TouristB.Dialogue.fall_Fri_{{Random: 0, 1, 2, 3, 4, 5, 6}}}}",
+				"fall_Sat": "{{i18n:TouristB.Dialogue.fall_Sat_{{Random: 0, 1, 2, 3, 4, 5, 6}}}}",
+				//Winter
+				//winter 0 Hearts
+				"winter_Wed": "{{i18n:TouristB.Dialogue.winter_Wed_{{Random: 0, 1, 2, 3, 4, 5, 6}}}}",
+				"winter_Fri": "{{i18n:TouristB.Dialogue.winter_Fri_{{Random: 0, 1, 2, 3, 4, 5, 6}}}}",
+				"winter_Sat": "{{i18n:TouristB.Dialogue.winter_Sat_{{Random: 0, 1, 2, 3, 4, 5, 6}}}}"
+
+			}
+		}
+	]
+}

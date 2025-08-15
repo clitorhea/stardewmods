@@ -1,0 +1,27 @@
+
+{
+  "Changes": [
+		    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Ahla",
+      "Entries": {
+  //---------------------------------神秘的黑衣女子(Ahla)行程表----------------------------（贺寻编排）
+  "Mon": "700 Custom_Baldurs_Gate 5 5 2",
+
+  "Tue": "700 Custom_Baldurs_Gate 5 5 2",
+//周三测试 博德村森林湖边——山区莱纳斯帐篷下蹲着——马鲁望远镜——矿洞湖看风景
+  "Wed": "900 Custom_Baldur_Village_Forest 38 13 1/1400 Mountain 29 13 2 Ahla_squat/1900 Mountain 8 23 3/2200 Mountain 58 35 1",
+
+  "Thu": "700 Custom_Baldurs_Gate 5 5 2",
+//周五测试 博德村酒馆上方——酒馆游戏机前站着——演奏厅角落展示——回家
+  "Fri": "900 Custom_Baldur_Village 72 24 2 Ahla_squat/1600 Custom_Elfsong_Tavern 41 32 0/1800 Custom_Elfsong_Tavern 17 23 0/2200 Custom_Baldurs_Gate 5 5 2",
+//周六测试 博德村左边森林蹲着——酒馆吧台站着——酒馆上方书架——回家
+  "Sat": "1200 Custom_Baldur_Village 38 45 2 Ahla_squat/1600 Custom_Elfsong_Tavern 39 31 2/2000 Custom_Elfsong_Tavern 64 23 0/2200 Custom_Baldurs_Gate 5 5 2",
+
+  "Sun": "700 Custom_Baldurs_Gate 5 5 2",
+
+   "rain": "700 Custom_Baldurs_Gate 5 5 2"
+	  }
+    }
+  ]
+  }

@@ -1,0 +1,172 @@
+
+{
+	"Changes": [
+	  { 
+	  "LogName":"Halsin", 
+	  "Action": "EditData",
+	  "Target": "Characters/Dialogue/Halsin",
+	  "Entries": {
+					//ConversationTopic
+				  	"62130039welcome":"{{i18n:event-62130039-Halsin.2}}",
+
+					//Festivals
+					"FlowerDance_Accept": "{{i18n:Halsin.Dialogue.FlowerDance_Accept}}",
+					"FlowerDance_Decline": "{{i18n:Halsin.Dialogue.FlowerDance_Decline}}",
+					"SquidFest": "{{i18n:Halsin.Dialogue.SquidFest}}",
+					"wonIceFishing": "{{i18n:Halsin.Dialogue.wonIceFishing}}",
+					//Movie
+					"MovieInvitation": "{{i18n:Halsin.Dialogue.MovieInvitation}}",
+					"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:Halsin.Dialogue.RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
+					"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Halsin.Dialogue.RejectMovieTicket_AlreadyWatchedThisWeek}}",
+					"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:Halsin.Dialogue.RejectMovieTicket_DontWantToSeeThatMovie}}",
+					//Gifts
+					"AcceptBirthdayGift_Loved": "{{i18n:Halsin.Dialogue.AcceptBirthdayGift_Loved}}",
+					"AcceptBirthdayGift_Like": "{{i18n:Halsin.Dialogue.AcceptBirthdayGift_Like}}",
+					"AcceptBirthdayGift_Negative": "{{i18n:Halsin.Dialogue.AcceptBirthdayGift_Negative}}",
+					"AcceptBirthdayGift_Disliked": "{{i18n:Halsin.Dialogue.AcceptBirthdayGift_Disliked}}",
+					"AcceptBirthdayGift_Hated": "{{i18n:Halsin.Dialogue.AcceptBirthdayGift_Hated}}",
+					//Resort
+					"Resort_Entering": "{{i18n:Halsin.Dialogue.Resort_Entering}}",
+					"Resort_Leaving": "{{i18n:Halsin.Dialogue.Resort_Leaving}}",
+					"Resort_Leaving_2": "{{i18n:Halsin.Dialogue.Resort_Leaving_2}}",
+					"Resort_Shore": "{{i18n:Halsin.Dialogue.Resort_Shore}}",
+					"Resort_Shore_2": "{{i18n:Halsin.Dialogue.Resort_Shore_2}}",
+					"Resort_Shore_3": "{{i18n:Halsin.Dialogue.Resort_Shore_3}}",
+					"Resort_Umbrella": "{{i18n:Halsin.Dialogue.Resort_Umbrella}}",
+					"Resort_Umbrella_2": "{{i18n:Halsin.Dialogue.Resort_Umbrella_2}}",
+					"Resort_Umbrella_3": "{{i18n:Halsin.Dialogue.Resort_Umbrella_3}}",
+					"Resort_Chair": "{{i18n:Halsin.Dialogue.Resort_Chair}}",
+					"Resort_Bar": "{{i18n:Halsin.Dialogue.Resort_Bar}}",
+					"Resort_Wander": "{{i18n:Halsin.Dialogue.Resort_Wander}}",
+					"Resort_Wander_2": "{{i18n:Halsin.Dialogue.Resort_Wander_2}}",
+					"Resort": "{{i18n:Halsin.Dialogue.Resort}}",
+					"Resort_2": "{{i18n:Halsin.Dialogue.Resort_2}}",				
+					//Romance
+					  /// Bouquet
+					"AcceptBouquet": "{{i18n:Halsin.Dialogue.AcceptBouquet}}",
+					  ///Reject
+					"RejectBouquet": "{{i18n:Halsin.Dialogue.RejectBouquet}}",
+					  ///Pendant
+					"give_Pendant":"{{i18n:Halsin.Dialogue.give_Pendant}}",
+					  //Reject
+					"RejectMermaidPendant": "{{i18n:Halsin.Dialogue.RejectMermaidPendant}}",		
+					  ///Divorced
+					"divorced": "{{i18n:Halsin.Dialogue.divorced}}",
+					"dumped_Guys": "{{i18n:Halsin.Dialogue.dumped_Guys}}",
+					  ///2nd Chance
+					"secondChance_Guys": "{{i18n:Halsin.Dialogue.secondChance_Guys}}",
+					  ///breakup
+					"breakUp": "{{i18n:Halsin.Dialogue.breakUp}}",
+					//Daily			  
+					"Introduction": "{{i18n:Halsin.Dialogue.Introduction}}",
+					//Spring
+					//Spring 0 hearts
+					"Mon": "{{i18n:Halsin.Dialogue.Mon}}",
+					"Tue": "{{i18n:Halsin.Dialogue.Tue}}",
+					"Wed": "{{i18n:Halsin.Dialogue.Wed}}",
+					"Thu": "{{i18n:Halsin.Dialogue.Thu}}",
+					"Fri": "{{i18n:Halsin.Dialogue.Fri}}",
+					"Sat": "{{i18n:Halsin.Dialogue.Sat}}",
+					"Sun": "{{i18n:Halsin.Dialogue.Sun}}",
+					//Spring 4 hearts
+					"Mon4": "{{i18n:Halsin.Dialogue.Mon4}}",
+					"Tue4": "{{i18n:Halsin.Dialogue.Tue4}}",
+					"Wed4": "{{i18n:Halsin.Dialogue.Wed4}}",
+					"Thu4": "{{i18n:Halsin.Dialogue.Thu4}}",
+					"Fri4": "{{i18n:Halsin.Dialogue.Fri4}}",
+					"Sat4": "{{i18n:Halsin.Dialogue.Sat4}}",
+					"Sun4": "{{i18n:Halsin.Dialogue.Sun4}}",
+					//Spring 8 hearts
+					"Mon8": "{{i18n:Halsin.Dialogue.Mon8}}",
+					"Tue8": "{{i18n:Halsin.Dialogue.Tue8}}",
+					"Wed8": "{{i18n:Halsin.Dialogue.Wed8}}",
+					"Thu8": "{{i18n:Halsin.Dialogue.Thu8}}",
+					"Fri8": "{{i18n:Halsin.Dialogue.Fri8}}",
+					"Sat8": "{{i18n:Halsin.Dialogue.Sat8}}",
+					"Sun8": "{{i18n:Halsin.Dialogue.Sun8}}",
+					//Summer
+					//Summer 0 Heart
+					"summer_Mon": "{{i18n:Halsin.Dialogue.summer_Mon}}",
+					"summer_Tue": "{{i18n:Halsin.Dialogue.summer_Tue}}",
+					"summer_Wed": "{{i18n:Halsin.Dialogue.summer_Wed}}",
+					"summer_Thu": "{{i18n:Halsin.Dialogue.summer_Thu}}",
+					"summer_Fri": "{{i18n:Halsin.Dialogue.summer_Fri}}",
+					"summer_Sat": "{{i18n:Halsin.Dialogue.summer_Sat}}",
+					"summer_Sun": "{{i18n:Halsin.Dialogue.summer_Sun}}",
+					//Summer 4 Hearts
+					"summer_Mon4": "{{i18n:Halsin.Dialogue.summer_Mon4}}",
+					"summer_Tue4": "{{i18n:Halsin.Dialogue.summer_Tue4}}",
+					"summer_Wed4": "{{i18n:Halsin.Dialogue.summer_Wed4}}",
+					"summer_Thu4": "{{i18n:Halsin.Dialogue.summer_Thu4}}",
+					"summer_Fri4": "{{i18n:Halsin.Dialogue.summer_Fri4}}",
+					"summer_Sat4": "{{i18n:Halsin.Dialogue.summer_Sat4}}",
+					"summer_Sun4": "{{i18n:Halsin.Dialogue.summer_Sun4}}",
+					//Summer 8 Hearts
+					"summer_Mon8": "{{i18n:Halsin.Dialogue.summer_Mon8}}",
+					"summer_Tue8": "{{i18n:Halsin.Dialogue.summer_Tue8}}",
+					"summer_Wed8": "{{i18n:Halsin.Dialogue.summer_Wed8}}",
+					"summer_Thu8": "{{i18n:Halsin.Dialogue.summer_Thu8}}",
+					"summer_Fri8": "{{i18n:Halsin.Dialogue.summer_Fri8}}",
+					"summer_Sat8": "{{i18n:Halsin.Dialogue.summer_Sat8}}",
+					"summer_Sun8": "{{i18n:Halsin.Dialogue.summer_Sun8}}",
+					//Fall
+					//Fall 0 Hearts
+					"fall_Mon": "{{i18n:Halsin.Dialogue.fall_Mon}}",
+					"fall_Tue": "{{i18n:Halsin.Dialogue.fall_Tue}}",
+					"fall_Wed": "{{i18n:Halsin.Dialogue.fall_Wed}}",
+					"fall_Thu": "{{i18n:Halsin.Dialogue.fall_Thu}}",
+					"fall_Fri": "{{i18n:Halsin.Dialogue.fall_Fri}}",
+					"fall_Sat": "{{i18n:Halsin.Dialogue.fall_Sat}}",
+					"fall_Sun": "{{i18n:Halsin.Dialogue.fall_Sun}}",
+					//Fall 4 Hearts
+					"fall_Mon4": "{{i18n:Halsin.Dialogue.fall_Mon4}}",
+					"fall_Tue4": "{{i18n:Halsin.Dialogue.fall_Tue4}}",
+					"fall_Wed4": "{{i18n:Halsin.Dialogue.fall_Wed4}}",
+					"fall_Thu4": "{{i18n:Halsin.Dialogue.fall_Thu4}}",
+					"fall_Fri4": "{{i18n:Halsin.Dialogue.fall_Fri4}}",
+					"fall_Sat4": "{{i18n:Halsin.Dialogue.fall_Sat4}}",
+					"fall_Sun4": "{{i18n:Halsin.Dialogue.fall_Sun4}}",
+					//Fall 8 Hearts
+					"fall_Mon8": "{{i18n:Halsin.Dialogue.fall_Mon8}}",
+					"fall_Tue8": "{{i18n:Halsin.Dialogue.fall_Tue8}}",
+					"fall_Wed8": "{{i18n:Halsin.Dialogue.fall_Wed8}}",
+					"fall_Thu8": "{{i18n:Halsin.Dialogue.fall_Thu8}}",
+					"fall_Fri8": "{{i18n:Halsin.Dialogue.fall_Fri8}}",
+					"fall_Sat8": "{{i18n:Halsin.Dialogue.fall_Sat8}}",
+					"fall_Sun8": "{{i18n:Halsin.Dialogue.fall_Sun8}}",
+					//Winter
+					//winter 0 Hearts
+					"winter_Mon": "{{i18n:Halsin.Dialogue.winter_Mon}}",
+					"winter_Tue": "{{i18n:Halsin.Dialogue.winter_Tue}}",
+					"winter_Wed": "{{i18n:Halsin.Dialogue.winter_Wed}}",
+					"winter_Thu": "{{i18n:Halsin.Dialogue.winter_Thu}}",
+					"winter_Fri": "{{i18n:Halsin.Dialogue.winter_Fri}}",
+					"winter_Sat": "{{i18n:Halsin.Dialogue.winter_Sat}}",
+					"winter_Sun": "{{i18n:Halsin.Dialogue.winter_Sun}}",
+					//winter 4 Hearts
+					"winter_Mon4": "{{i18n:Halsin.Dialogue.winter_Mon4}}",
+					"winter_Tue4": "{{i18n:Halsin.Dialogue.winter_Tue4}}",
+					"winter_Wed4": "{{i18n:Halsin.Dialogue.winter_Wed4}}",
+					"winter_Thu4": "{{i18n:Halsin.Dialogue.winter_Thu4}}",
+					"winter_Fri4": "{{i18n:Halsin.Dialogue.winter_Fri4}}",
+					"winter_Sat4": "{{i18n:Halsin.Dialogue.winter_Sat4}}",
+					"winter_Sun4": "{{i18n:Halsin.Dialogue.winter_Sun4}}",
+					//winter 8 Hearts
+					"winter_Mon8": "{{i18n:Halsin.Dialogue.winter_Mon8}}",
+					"winter_Tue8": "{{i18n:Halsin.Dialogue.winter_Tue8}}",
+					"winter_Wed8": "{{i18n:Halsin.Dialogue.winter_Wed8}}",
+					"winter_Thu8": "{{i18n:Halsin.Dialogue.winter_Thu8}}",
+					"winter_Fri8": "{{i18n:Halsin.Dialogue.winter_Fri8}}",
+					"winter_Sat8": "{{i18n:Halsin.Dialogue.winter_Sat8}}",
+					"winter_Sun8": "{{i18n:Halsin.Dialogue.winter_Sun8}}",
+					
+					//Wedding comment 
+					"married_Astarion": "{{i18n:Halsin.Dialogue.married_Astarion}}",
+
+					//Others
+					///Dumpster
+					"DumpsterDiveComment": "{{i18n:Halsin.Dialogue.DumpsterDiveComment}}",	   
+				}
+			}
+		]
+	}

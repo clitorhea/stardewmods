@@ -1,0 +1,28 @@
+
+{
+  "Changes": [
+		    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Yenna",
+      "Entries": {
+  //---------------------------------耶娜行程表----------------------------（贺寻编排/贺寻测试完成）
+//周一 客厅厨房——客厅沙发——精灵之诗演奏厅清洁——客厅冰箱前——卧室书架前——睡觉
+  "Mon": "610 Custom_KarlachWyllHouse 26 10 1/630 Custom_KarlachWyllHouse 23 10 0/1000 Custom_KarlachWyllHouse 17 9 2 Yenna_sitdown/1200 Custom_Elfsong_Tavern 31 33 2 Yenna_sweep/1400 Custom_Elfsong_Tavern 34 35 2 Yenna_sweep/1600 Custom_Elfsong_Tavern 13 20 2 Yenna_sweep/1800 Custom_KarlachWyllHouse 26 10 2/2100 Custom_KarlachWyllHouse 36 13 0/2300 Custom_KarlachWyllHouse 33 16 1",
+//周二 客厅厨房——客厅沙发——精灵之诗演奏厅清洁——精灵之诗娱乐室清洁——客厅冰箱前——卧室书架前——睡觉
+  "Tue": "610 Custom_KarlachWyllHouse 33 16 1/630 Custom_KarlachWyllHouse 23 10 0/1000 Custom_KarlachWyllHouse 17 9 2 Yenna_sitdown/1200 Custom_Elfsong_Tavern 10 19 2 Yenna_clean/1400 Custom_Elfsong_Tavern 13 18 2 Yenna_clean/1600 Custom_Elfsong_Tavern 47 32 2 Yenna_sweep/1900 Custom_KarlachWyllHouse 26 10 2/2100 Custom_KarlachWyllHouse 36 13 0/2300 Custom_KarlachWyllHouse 33 16 1",
+//周三 客厅厨房——客厅清洁——精灵之诗清洁——精灵之诗娱乐室书架前——精灵之诗沙发看书——睡觉
+  "Wed": "610 Custom_KarlachWyllHouse 33 16 1/630 Custom_KarlachWyllHouse 24 10 2/1000 Custom_KarlachWyllHouse 19 12 2 Yenna_sweep/1200 Custom_Elfsong_Tavern 39 31 2 Yenna_sweep/1600 Custom_Elfsong_Tavern 53 30 0/1700 Custom_Elfsong_Tavern 13 34 2 Yenna_read/2100 Custom_KarlachWyllHouse 33 16 1",
+//周四 客厅餐桌前站着——博德村家门口悬崖看风景——精灵之诗走廊书房清洁——精灵之诗娱乐室清洁——客厅厨房——睡觉
+  "Thu": "610 Custom_KarlachWyllHouse 33 16 1/630 Custom_KarlachWyllHouse 23 13 2/1000 Custom_Baldur_Village 54 53 2/1200 Custom_Elfsong_Tavern 62 22 2 Yenna_sweep/1600 Custom_Elfsong_Tavern 52 31 2 Yenna_clean/1900 Custom_KarlachWyllHouse 24 10 0/2200 Custom_KarlachWyllHouse 33 16 1",
+//周五 博德村西侧河边——博德村东南树下座椅看书——博德村东南河边瀑布——客厅沙发——睡觉
+  "Fri": "610 Custom_KarlachWyllHouse 33 16 1/630 Custom_Baldur_Village 22 35 0/1200 Custom_Baldur_Village 103 63 2 Yenna_read/1700 Custom_Baldur_Village 108 66 1/2000 Custom_KarlachWyllHouse 17 9 2 Yenna_read/2200 Custom_KarlachWyllHouse 33 16 1",
+//周六 博德村精灵之诗左侧椅子(和阿尔菲拉)——精灵之诗娱乐室清洁——精灵之诗吧台内侧——精灵之诗吧台内侧——睡觉
+  "Sat": "610 Custom_KarlachWyllHouse 33 16 1/800 Custom_Baldur_Village 59 36 2 Yenna_sitdown/1400 Custom_Elfsong_Tavern 27 29 2/1700 Custom_Elfsong_Tavern 23 29 2/1900 Custom_Elfsong_Tavern 28 29 2/2200 Custom_KarlachWyllHouse 33 16 1",
+//周日 客厅厨房——博德村东边座椅上看书——精灵之诗清洁——精灵之诗吧台内侧——睡觉
+  "Sun": "610 Custom_KarlachWyllHouse 33 16 1/630 Custom_KarlachWyllHouse 23 10 0/900 Custom_Baldur_Village 91 54 2 Yenna_read/1200 Custom_Elfsong_Tavern 12 31 2 Yenna_clean/1500 Custom_Elfsong_Tavern 27 29 2/1700 Custom_Elfsong_Tavern 23 29 2/1900 Custom_Elfsong_Tavern 28 29 2/2200 Custom_KarlachWyllHouse 33 16 1",
+//雨天 客厅厨房——客厅沙发看书——客厅清洁——客厅冰箱前——卧室书架前——睡觉
+   "rain": "610 Custom_KarlachWyllHouse 33 16 1/630 Custom_KarlachWyllHouse 23 10 0/1000 Custom_KarlachWyllHouse 17 9 2 Yenna_read/1400 Custom_KarlachWyllHouse 19 12 2 Yenna_sweep Yenna_sweep/1600 Custom_KarlachWyllHouse 22 14 2 Yenna_clean/1900 Custom_KarlachWyllHouse 26 10 2/2100 Custom_KarlachWyllHouse 36 13 0/2300 Custom_KarlachWyllHouse 33 16 1"
+	  }
+    }
+  ]
+  }

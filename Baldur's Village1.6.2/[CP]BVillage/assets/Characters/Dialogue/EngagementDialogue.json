@@ -1,0 +1,22 @@
+{
+    "Changes": [
+       {
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": 
+            {
+                //fiancé
+                "Astarion0": "{{i18n:Astarion.Engagement.1}}",
+                //Roommate not yet moved in
+                "Astarion1": "{{i18n:Astarion.Engagement.1}}",
+            }
+        },
+        {//proposal response
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "Astarion_Engaged": "{{i18n:Astarion.Dialogue.give_pendant}}",
+            },
+        },
+    ]
+}

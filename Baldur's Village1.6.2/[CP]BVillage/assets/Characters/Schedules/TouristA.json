@@ -1,0 +1,26 @@
+
+{
+  "Changes": [
+		    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/TouristA",
+      "Entries": {
+//---------------------------------流浪的游侠行程表----------------------------（贺寻编排/贺寻测试完成）
+  "Mon": "700 Custom_Baldurs_Gate 5 5 2",
+  "Tue": "700 Custom_Baldurs_Gate 5 5 2",
+//周三 博德村湖边上方森林阅读/写字——酒馆书架前/阅读/写字——回家
+  "Wed": "700 Custom_Baldur_Village 30 44 2 TouristA_readgreen/1100 Custom_Baldur_Village 30 44 2 TouristA_kneelwrite/1400 Custom_Elfsong_Tavern 50 30 0/1600 Custom_Elfsong_Tavern 51 30 2 TouristA_readgreen/1900 Custom_Elfsong_Tavern 51 30 2 TouristA_kneelwrite/2200 Custom_Baldurs_Gate 5 5 2",
+
+  "Thu": "700 Custom_Baldurs_Gate 5 5 2",
+//周五 演奏厅角落——演奏厅桌子前——回家
+  "Fri": "1700 Custom_Elfsong_Tavern 11 25 0 /1900 Custom_Elfsong_Tavern 16 21 3/2300 Custom_Baldurs_Gate 5 5 2",
+//周五 酒吧书架前——酒吧书架看书——回家
+  "Sat": "1600 Custom_Elfsong_Tavern 50 30 0 /1900 Custom_Elfsong_Tavern 50 30 2 TouristA_readgreen/2300 Custom_Baldurs_Gate 5 5 2",
+
+  "Sun": "700 Custom_Baldurs_Gate 5 5 2",
+
+   "rain": "700 Custom_Baldurs_Gate 5 5 2"
+	  }
+    }
+  ]
+  }

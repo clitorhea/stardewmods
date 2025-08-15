@@ -1,0 +1,29 @@
+
+{
+  "Changes": [
+		    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Shadowheart",
+      "Entries": {
+  //---------------------------------影心行程表----------------------------（贺寻编排/贺寻测试完成）
+//周一  家里库存前——卧室一家三口站着——博德村广场一家三口坐——博德村左侧水井——客厅——睡觉
+  "Mon": "610 Custom_Flower_House 42 16 2/630 Custom_Flower_House 14 30 2/800 Custom_Flower_House 46 29 1/1000 Custom_Baldur_Village 82 39 3/1500 Custom_Baldur_Village 34 19 0/1800 Custom_Flower_House 28 26 1/2200 Custom_Flower_House 42 16 2 Shadowheart_sleep",
+//周二  家里冰箱前——博德村北部河边——博德村北部座椅——卧室沙发——睡觉
+  "Tue": "610 Custom_Flower_House 42 16 2/630 Custom_Flower_House 17 25 2/1000 Custom_Baldur_Village 83 23 0/1400 Custom_Baldur_Village 93 24 2 Shadowheart_sitdown/1700 Custom_Flower_House 47 19 3 Shadowheart_sitdownright/2300 Custom_Flower_House 42 16 2 Shadowheart_sleep",
+//周三  博德村家门口水槽——博德村北部河边——精灵之诗演奏厅桌前——睡觉
+  "Wed": "610 Custom_Flower_House 42 16 2/630 Custom_Baldur_Village 51 19 0/900 Custom_Baldur_Village 56 22 0/1100 Custom_Baldur_Village 83 23 0/1600 Custom_Elfsong_Tavern 15 23 0/2300 Custom_Flower_House 42 16 2 Shadowheart_sleep",
+//周四  家里客厅(和盖尔)——家里仓库前——博德村西南湖边——卧室坐着——睡觉
+  "Thu": "610 Custom_Flower_House 42 16 2/630 Custom_Flower_House 26 28 1/1200 Custom_Flower_House 14 30 2/1430 Custom_Baldur_Village 18 74 2/1930 Custom_Flower_House 47 19 3 Shadowheart_sitdownright/2200 Custom_Flower_House 42 16 2 Shadowheart_sleep",
+//周五  卧室坐着——鹈鹕镇樱花树下——鹈鹕镇商店告示牌
+  "Fri": "610 Custom_Flower_House 42 16 2/630 Custom_Flower_House 47 19 3 Shadowheart_sitdownright/730 Town 49 32 2 Shadowheart_kneel/1230 Town 42 57 0/1530 Town 43 77 2 Shadowheart_sitdown/2000 Saloon 18 20 0/2230 Custom_Flower_House 42 16 2 Shadowheart_sleep",
+  "winter_Fri": "610 Custom_Flower_House 42 16 2/630 Custom_Flower_House 47 19 3 Shadowheart_sitdownright/730 Town 49 32 2 Shadowheart_kneel/1230 Town 42 57 0/1530 Town 43 77 2 Shadowheart_sitdown/2000 Saloon 17 22 2/2230 Custom_Flower_House 42 16 2 Shadowheart_sleep",
+  //周六  卧室坐着——客厅沙发——博德村房屋门口座椅——精灵之诗吧台——精灵之诗沙发坐着——睡觉
+  "Sat": "610 Custom_Flower_House 42 16 2/630 Custom_Flower_House 47 19 3 Shadowheart_sitdownright/1000 Custom_Flower_House 30 26 2 Shadowheart_sitdownright/1230 Custom_Baldur_Village 50 20 1 Shadowheart_sitdownleft/1400 Custom_Elfsong_Tavern 26 31 0/1600 Custom_Elfsong_Tavern 23 35 3 Shadowheart_sitdownright/2300 Custom_Flower_House 42 16 2 Shadowheart_sleep",
+//周日  卧室坐着——父母房间——博德村房屋门口狗窝前——精灵之诗演奏厅桌前——博德村房前库存——睡觉
+  "Sun": "610 Custom_Flower_House 42 16 2/630 Custom_Flower_House 47 19 3 Shadowheart_sitdownright/1000 Custom_Flower_House 46 29 2/1230 Custom_Baldur_Village 56 22 0/1600 Custom_Elfsong_Tavern 14 21 2/2100 Custom_Baldur_Village 62 25 1/2230 Custom_Flower_House 42 16 2 Shadowheart_sleep",
+//雨天  看仓库——冰箱——客厅沙发——睡觉
+  "rain": "610 Custom_Flower_House 42 16 2/630 Custom_Flower_House 14 30 2/1200 Custom_Flower_House 17 25 2/1600 Custom_Flower_House 30 26 3 Shadowheart_sitdownright/2200 Custom_Flower_House 42 16 2 Shadowheart_sleep"
+	  }
+    }
+  ]
+  }

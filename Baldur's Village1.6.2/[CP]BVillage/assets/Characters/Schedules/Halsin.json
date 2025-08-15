@@ -1,0 +1,29 @@
+
+{
+  "Changes": [
+		    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Halsin",
+      "Entries": {
+  //---------------------------------哈尔辛行程表----------------------------（贺寻编排/贺寻测试完成）
+  //周五沙龙多画一个喝酒动作
+//周一  卧室桌前——温室——探望耶娜——睡觉
+  "Mon": "610 Custom_Elfsong_Tavern 51 12 2/800 Custom_Elfsong_Tavern 53 16 3/1000 Custom_Halsin_greenhouse 28 22 0/1500 Custom_Halsin_greenhouse 23 21 2/1700 Custom_Halsin_greenhouse 22 21 3/1800 Custom_Elfsong_Tavern 35 30 3/2100 Custom_Elfsong_Tavern 51 12 2 Halsin_sleep",
+//周二  博德村狗窝前——鹈鹕镇狗窝前——睡觉
+  "Tue": "610 Custom_Elfsong_Tavern 51 12 2/800 Custom_Baldur_Village 56 22 2/1100 Town 54 71 0/1900 Custom_Elfsong_Tavern 51 12 2 Halsin_sleep",
+//周三  温室——精灵之诗沙发
+  "Wed": "610 Custom_Elfsong_Tavern 51 12 2/800 Custom_Halsin_greenhouse 28 22 0/1400 Custom_Halsin_greenhouse 20 24 2/1600 Custom_Elfsong_Tavern 15 35 3 Halsin_sitdownright/2200 Custom_Elfsong_Tavern 51 12 2 Halsin_sleep",
+//周四  卧室桌前——南部森林玛尼农场——下方河流——鹈鹕镇下水道旁樱花树——睡觉
+  "Thu": "610 Custom_Elfsong_Tavern 51 12 2/630 Forest 92 20 1/1300 Forest 98 39 2/1600 Town 24 97 2 Halsin_kneel/1800 Custom_Elfsong_Tavern 51 12 2 Halsin_sleep",
+//周五  卧室桌前——山区湖中心岛——鹈鹕镇沙龙——睡觉
+  "Fri": "610 Custom_Elfsong_Tavern 51 12 2/800 Custom_Elfsong_Tavern 53 16 3 Halsin_sitdownright/900 Mountain 57 20 2 Halsin_kneel/1500 Saloon 21 20 3/2300 Custom_Elfsong_Tavern 51 12 2 Halsin_sleep",
+//周六  博德村影心家左侧樱花树下——博德村演奏厅——睡觉
+  "Sat": "610 Custom_Elfsong_Tavern 51 12 2/900 Custom_Baldur_Village 25 25 2 Halsin_kneel/1600 Custom_Elfsong_Tavern 13 22 1/2300 Custom_Elfsong_Tavern 51 12 2 Halsin_sleep",
+//周日 鹈鹕镇医院——种子店——酒馆沙发——睡觉
+  "Sun": "610 Custom_Elfsong_Tavern 51 12 2/630 Hospital 9 15 3/1300 SeedShop 6 19 0/1400 SeedShop 2 20 0/1500 Custom_Elfsong_Tavern 11 35 1 Halsin_sitdownleft/2200 Custom_Elfsong_Tavern 51 12 2 Halsin_sleep",
+//雨天  卧室桌前——卧室盆栽前——精灵之诗吧台前——温室——睡觉
+   "rain": "610 Custom_Elfsong_Tavern 51 12 2/800 Custom_Elfsong_Tavern 53 16 3/930 Custom_Elfsong_Tavern 42 13 3/1100 Custom_Elfsong_Tavern 26 31 0/1300 Custom_Halsin_greenhouse 28 22 0/1800 Custom_Halsin_greenhouse 20 24 2/2100 Custom_Elfsong_Tavern 51 12 2 Halsin_sleep"
+	  }
+    }
+  ]
+  }

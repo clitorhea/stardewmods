@@ -1,0 +1,83 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Empty",
+      "Action": "Load",
+      "Target": "Characters/Schedules/Astarion, Characters/Schedules/30888_Gale, Characters/Schedules/Halsin, Characters/Schedules/Shadowheart, Characters/Schedules/Wyll, Characters/Schedules/Karlach, Characters/Schedules/Arnell,Characters/Schedules/Emmeline, Characters/Schedules/Rolan2, Characters/Schedules/Rolan1, Characters/Schedules/Laezel, Characters/Schedules/Alfira, Characters/Schedules/Xun, Characters/Schedules/Ahla, Characters/Schedules/TouristA, Characters/Schedules/TouristB, Characters/Schedules/TouristD, Characters/Schedules/TouristC, Characters/Schedules/Yenna, Characters/Schedules/Scratch",
+      "FromFile": "assets/Data/Empty.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Characters/Schedules/Astarion.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Characters/Schedules/30888_Gale.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Characters/Schedules/Halsin.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Characters/Schedules/Shadowheart.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Characters/Schedules/Arnell.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Characters/Schedules/Emmeline.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Characters/Schedules/Rolan2.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Characters/Schedules/Rolan1.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Characters/Schedules/Laezel.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Characters/Schedules/Alfira.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Characters/Schedules/Xun.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Characters/Schedules/Ahla.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Characters/Schedules/TouristA.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Characters/Schedules/TouristB.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Characters/Schedules/TouristD.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Characters/Schedules/TouristC.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Characters/Schedules/Yenna.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/Characters/Schedules/Scratch.json"
+
+    }
+  ]
+}

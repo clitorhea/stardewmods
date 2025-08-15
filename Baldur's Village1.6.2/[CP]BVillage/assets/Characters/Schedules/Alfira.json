@@ -1,0 +1,27 @@
+
+{
+  "Changes": [
+		    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Alfira",
+      "Entries": {
+//---------------------------------阿尔菲拉行程表----------------------------（贺寻编排/贺寻测试完成）
+  "Mon": "700 Custom_Baldurs_Gate 6 5 2/2130 Custom_Baldurs_Gate 6 5 2",
+
+  "Tue": "700 Custom_Baldurs_Gate 6 5 2/2200 Custom_Baldurs_Gate 6 5 2",
+//周三 酒馆看传单——喷泉旁演奏——吧台——精灵之诗演奏厅演奏——回家
+  "Wed": "630 Custom_Elfsong_Tavern 16 31 0/900 Custom_Baldur_Village 83 44 1 Alfira_playmusicleft/1400 Custom_Elfsong_Tavern 26 31 0/1600 Custom_Elfsong_Tavern 11 16 2 Alfira_playmusic/1830 Custom_Elfsong_Tavern 11 16 2 Alfira_playmusickneel/2200 Custom_Baldurs_Gate 6 5 2",
+
+  "Thu": "700 Custom_Baldurs_Gate 6 5 2/2000 Custom_Baldurs_Gate 6 5 2",
+
+  "Fri": "700 Custom_Baldurs_Gate 6 5 2/2100 Custom_Baldurs_Gate 6 5 2",
+ //周六 博德村精灵之诗左侧椅子(和耶娜)——精灵之诗演奏厅演奏————回家
+  "Sat": "630 Custom_Baldur_Village 58 36 2 Alfira_sitdown/1430 Custom_Elfsong_Tavern 11 16 2 Alfira_playmusic/1830 Custom_Elfsong_Tavern 11 16 2 Alfira_kneelfront/2200 Custom_Elfsong_Tavern 11 16 2 Alfira_playmusickneel/2300 Custom_Baldurs_Gate 6 5 2",
+ //周日 博德村西侧桥上——精灵之诗演奏厅沙发——精灵之诗演奏厅演奏——回家
+  "Sun": "630 Custom_Baldur_Village 39 34 2/1200 Custom_Elfsong_Tavern 5 20 1 Alfira_sitdownleft/1600 Custom_Elfsong_Tavern 11 16 2 Alfira_playmusic/1830 Custom_Elfsong_Tavern 11 16 2 Alfira_playmusickneel/2300 Custom_Baldurs_Gate 6 5 2",
+//雨天  博德村精灵沙发——精灵之诗演奏娱乐室书架——精灵之诗娱乐室沙发——回家
+  "rain": "1300 Custom_Elfsong_Tavern 21 34 2 Alfira_sitdown/1700 Custom_Elfsong_Tavern 50 30 0/2000 Custom_Elfsong_Tavern 55 32 3 Alfira_sitdownright/2100 Custom_Baldurs_Gate 6 5 2"
+	  }
+    }
+  ]
+  }

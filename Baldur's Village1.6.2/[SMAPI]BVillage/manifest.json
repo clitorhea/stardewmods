@@ -1,0 +1,16 @@
+{
+  "Name": "[SMAPI] Baldur's Village",
+  "Author": "Xun&Yu&Haru&Kawener&Sirris",
+  "Version": "1.6.2",
+  "Description": "SMAPI proj for BVillage",
+  "UniqueID": "BaldursVillage.BVSMAPI",
+  "EntryDll": "BaldursGateVillage.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:30888" ],
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "2.4.4"
+    }
+  ]
+}

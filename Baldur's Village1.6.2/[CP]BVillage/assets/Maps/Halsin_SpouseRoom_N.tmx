@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
+ <tileset firstgid="1" source="townInterior.tsx"/>
+ <tileset firstgid="2177" source="furniture.tsx"/>
+ <tileset firstgid="5153" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <layer id="1" name="Back" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Back2" width="6" height="9">
+  <data encoding="csv">
+0,3860,0,0,3860,0,
+0,3892,0,0,3892,0,
+0,0,0,0,0,0,
+0,200,0,0,200,0,
+0,232,0,0,232,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,3685,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="Front" width="6" height="9">
+  <properties>
+   <property name="AmbientLight" value="95 95 95"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,3653,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="AlwaysFront" width="6" height="9">
+  <data encoding="csv">
+4914,0,0,0,0,0,
+4946,0,0,0,0,0,
+0,0,0,0,0,3621,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="8" name="Path" width="6" height="9" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,
+5161,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,5161,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,5161,0,0,0,
+0,0,0,0,0,0,
+0,0,5160,0,0,0
+</data>
+ </layer>
+</map>

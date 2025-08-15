@@ -1,0 +1,1315 @@
+
+{
+    "Changes": [
+
+        {
+            "LogName": "Load Shop_Item Tilesheet",
+            "Action": "Load",
+            "Target": "Mods/30888/Objects/Shop_Item",
+            "FromFile": "assets/Objects/Shop_Item.png"
+        },
+
+        {
+            "LogName": "Shop_Item Data",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "30888_BlackMarketBlood": {
+                "Name": "30888_BlackMarketBlood", //NPC喜好
+                "Displayname": "{{i18n:Shop_Item_Name_1}}",
+                "Description": "{{i18n:Shop_Item_Desc_1}}。",
+                "Type": "Basic",
+                "Edibility": 15,
+                "IsDrink": true,
+                "Category": -26,
+                "Price": 800,
+
+                "Texture": "Mods/30888/Objects/Shop_Item",
+                "SpriteIndex": 0,
+                "Buffs": [
+                    {
+                      "BuffId": null,
+                      "IconTexture": null,
+                      "IconSpriteIndex": 0,
+                      "Duration": 420,
+                      "IsDebuff": false,
+                      "GlowColor": null,
+                      "CustomAttributes": {
+                        "FarmingLevel": 0,
+                        "FishingLevel": 0,
+                        "MiningLevel": 0,
+                        "LuckLevel": -1,
+                        "ForagingLevel": 0,
+                        "MaxStamina": 0,
+                        "MagneticRadius": 0,
+                        "Speed": 0,
+                        "Defense": 0,
+                        "Attack": 0
+                      }
+                    }
+                ]
+                },
+                "30888_SeasonalFruitTea": {
+                    "Name": "30888_SeasonalFruitTea", 
+                    "Displayname": "{{i18n:Shop_Item_Name_2}}",
+                    "Description": "{{i18n:Shop_Item_Desc_2}}",
+                    "Type": "Basic",
+                    "Edibility": 15,
+                    "IsDrink": true,
+                    "Category": -26,
+                    "Price": 1200,
+    
+                    "Texture": "Mods/30888/Objects/Shop_Item",
+                    "SpriteIndex": 1,
+                    "Buffs": [
+                        {
+                          "BuffId": null,
+                          "IconTexture": null,
+                          "IconSpriteIndex": 0,
+                          "Duration": 430,
+                          "IsDebuff": false,
+                          "GlowColor": null,
+                          "CustomAttributes": {
+                            "FarmingLevel": 1,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 1,
+                            "ForagingLevel": 1,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                          }
+                        }
+                    ]
+                    },
+                    "30888_UnidentifiedEnergy": {
+                      "Name": "30888_UnidentifiedEnergy", 
+                      "Displayname": "{{i18n:Shop_Item_Name_3}}",
+                      "Description": "{{i18n:Shop_Item_Desc_3}}",
+                      "Type": "Basic",
+                      "Edibility": 15,
+                      "IsDrink": false,
+                      "Category": -26,
+                      "Price": 800,
+      
+                      "Texture": "Mods/30888/Objects/Shop_Item",
+                      "SpriteIndex": 2,
+                      "Buffs": [
+                          {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 430,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                              "FarmingLevel": 0,
+                              "FishingLevel": 0,
+                              "MiningLevel": 0,
+                              "LuckLevel": 3,
+                              "ForagingLevel": 0,
+                              "MaxStamina": 0,
+                              "MagneticRadius": 0,
+                              "Speed": 0,
+                              "Defense": 0,
+                              "Attack": 0
+                            }
+                          }
+                      ]
+                      },
+                      "30888_NightOrchid": {
+                        "Name": "30888_NightOrchid", 
+                        "Displayname": "{{i18n:Shop_Item_Name_4}}",
+                        "Description": "{{i18n:Shop_Item_Desc_4}}",
+                        "Type": "Basic",
+                        "Edibility": 15,
+                        "IsDrink": false,
+                        "Category": -16,
+                        "Price": 450,
+        
+                        "Texture": "Mods/30888/Objects/Shop_Item",
+                        "SpriteIndex": 3,
+                        "Buffs": [
+                            {
+                              "BuffId": null,
+                              "IconTexture": null,
+                              "IconSpriteIndex": 0,
+                              "Duration": 430,
+                              "IsDebuff": false,
+                              "GlowColor": null,
+                              "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 3,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                              }
+                            }
+                        ]
+                        },
+                        "30888_Whetstone": {
+                          "Name": "30888_Whetstone", 
+                          "Displayname": "{{i18n:Shop_Item_Name_5}}",
+                          "Description": "{{i18n:Shop_Desc_Name_5}}",
+                          "Type": "Basic",
+                          "Edibility": 15,
+                          "IsDrink": false,
+                          "Category": -25,
+                          "Price": 600,
+          
+                          "Texture": "Mods/30888/Objects/Shop_Item",
+                          "SpriteIndex": 4,
+                          "Buffs": [
+                              {
+                                "BuffId": null,
+                                "IconTexture": null,
+                                "IconSpriteIndex": 0,
+                                "Duration": 430,
+                                "IsDebuff": false,
+                                "GlowColor": null,
+                                "CustomAttributes": {
+                                  "FarmingLevel": 0,
+                                  "FishingLevel": 0,
+                                  "MiningLevel": 0,
+                                  "LuckLevel": 3,
+                                  "ForagingLevel": 0,
+                                  "MaxStamina": 0,
+                                  "MagneticRadius": 0,
+                                  "Speed": 0,
+                                  "Defense": 0,
+                                  "Attack": 0
+                                }
+                              }
+                          ]
+                          },
+                          "30888_StrongBleach": {
+                            "Name": "30888_StrongBleach", 
+                            "Displayname": "{{i18n:Shop_Item_Name_6}}",
+                            "Description": "{{i18n:Shop_Item_Desc_6}}",
+                            "Type": "Basic",
+                            "Edibility": -60,
+                            "IsDrink": false,
+                            "Category": -26,
+                            "Price": 300,
+            
+                            "Texture": "Mods/30888/Objects/Shop_Item",
+                            "SpriteIndex": 8,
+                            "Buffs": [
+                                {
+                                  "BuffId": null,
+                                  "IconTexture": null,
+                                  "IconSpriteIndex": 0,
+                                  "Duration": 430,
+                                  "IsDebuff": false,
+                                  "GlowColor": null,
+                                  "CustomAttributes": {
+                                    "FarmingLevel": 0,
+                                    "FishingLevel": 0,
+                                    "MiningLevel": 0,
+                                    "LuckLevel": 0,
+                                    "ForagingLevel": 0,
+                                    "MaxStamina": 0,
+                                    "MagneticRadius": 0,
+                                    "Speed": 0,
+                                    "Defense": 0,
+                                    "Attack": 0
+                                  }
+                                }
+                            ]
+                            },
+                            "30888_FirstAidBandage": {
+                              "Name": "30888_FirstAidBandage", 
+                              "Displayname": "{{i18n:Shop_Item_Name_7}}",
+                              "Description": "{{i18n:Shop_Item_Desc_7}}",
+                              "Type": "Basic",
+                              "Edibility": 50,
+                              "IsDrink": false,
+                              "Category": -26,
+                              "Price": 700,
+              
+                              "Texture": "Mods/30888/Objects/Shop_Item",
+                              "SpriteIndex": 9,
+                              "Buffs": [
+                                  {
+                                    "BuffId": null,
+                                    "IconTexture": null,
+                                    "IconSpriteIndex": 0,
+                                    "Duration": 430,
+                                    "IsDebuff": false,
+                                    "GlowColor": null,
+                                    "CustomAttributes": {
+                                      "FarmingLevel": 0,
+                                      "FishingLevel": 0,
+                                      "MiningLevel": 0,
+                                      "LuckLevel": 3,
+                                      "ForagingLevel": 0,
+                                      "MaxStamina": 0,
+                                      "MagneticRadius": 0,
+                                      "Speed": 0,
+                                      "Defense": 0,
+                                      "Attack": 0
+                                    }
+                                  }
+                              ]
+                              },
+                              "30888_MysteriousInk": {
+                                "Name": "30888_MysteriousInk", 
+                                "Displayname": "{{i18n:Shop_Item_Name_8}}",
+                                "Description": "{{i18n:Shop_Item_Desc_8}}",
+                                "Type": "Basic",
+                                "Edibility": -10,
+                                "IsDrink": true,
+                                "Category": -26,
+                                "Price": 1200,
+                
+                                "Texture": "Mods/30888/Objects/Shop_Item",
+                                "SpriteIndex": 10,
+                                "Buffs": [
+                                    {
+                                      "BuffId": null,
+                                      "IconTexture": null,
+                                      "IconSpriteIndex": 0,
+                                      "Duration": 430,
+                                      "IsDebuff": false,
+                                      "GlowColor": null,
+                                      "CustomAttributes": {
+                                        "FarmingLevel": 0,
+                                        "FishingLevel": 0,
+                                        "MiningLevel": 0,
+                                        "LuckLevel": 0,
+                                        "ForagingLevel": 0,
+                                        "MaxStamina": 0,
+                                        "MagneticRadius": 0,
+                                        "Speed": 0,
+                                        "Defense": 0,
+                                        "Attack": 0
+                                      }
+                                    }
+                                ]
+                                },
+                                "30888_PetFurConditioner": {
+                                  "Name": "30888_PetFurConditioner", 
+                                  "Displayname": "{{i18n:Shop_Item_Name_9}}",
+                                  "Description": "{{i18n:Shop_Item_Desc_9}}",
+                                  "Type": "Basic",
+                                  "Edibility": 15,
+                                  "IsDrink": true,
+                                  "Category": -26,
+                                  "Price": 400,
+                  
+                                  "Texture": "Mods/30888/Objects/Shop_Item",
+                                  "SpriteIndex": 11,
+                                  "Buffs": [
+                                      {
+                                        "BuffId": null,
+                                        "IconTexture": null,
+                                        "IconSpriteIndex": 0,
+                                        "Duration": 430,
+                                        "IsDebuff": false,
+                                        "GlowColor": null,
+                                        "CustomAttributes": {
+                                          "FarmingLevel": 0,
+                                          "FishingLevel": 0,
+                                          "MiningLevel": 0,
+                                          "LuckLevel": 3,
+                                          "ForagingLevel": 0,
+                                          "MaxStamina": 0,
+                                          "MagneticRadius": 0,
+                                          "Speed": 0,
+                                          "Defense": 0,
+                                          "Attack": 0
+                                        }
+                                      }
+                                  ]
+                                  },
+                                  "30888_BladeOil": {
+                                    "Name": "30888_BladeOil", 
+                                    "Displayname": "{{i18n:Shop_Item_Name_10}}",
+                                    "Description": "{{i18n:Shop_Item_Desc_10}}",
+                                    "Type": "Basic",
+                                    "Edibility": 0,
+                                    "IsDrink": true,
+                                    "Category": -26,
+                                    "Price": 600,
+                    
+                                    "Texture": "Mods/30888/Objects/Shop_Item",
+                                    "SpriteIndex": 12,
+                                    "Buffs": [
+                                        {
+                                          "BuffId": null,
+                                          "IconTexture": null,
+                                          "IconSpriteIndex": 0,
+                                          "Duration": 430,
+                                          "IsDebuff": false,
+                                          "GlowColor": null,
+                                          "CustomAttributes": {
+                                            "FarmingLevel": 0,
+                                            "FishingLevel": 0,
+                                            "MiningLevel": 0,
+                                            "LuckLevel": 3,
+                                            "ForagingLevel": 0,
+                                            "MaxStamina": 0,
+                                            "MagneticRadius": 0,
+                                            "Speed": 0,
+                                            "Defense": 0,
+                                            "Attack": 0
+                                          }
+                                        }
+                                    ]
+                                    },
+                                    "30888_MonasteryFirewine": {
+                                      "Name": "30888_MonasteryFirewine", //酒水菜肴
+                                      "Displayname": "{{i18n:Shop_Item_Name_11}}",
+                                      "Description": "{{i18n:Shop_Item_Desc_11}}",
+                                      "Type": "Basic",
+                                      "Edibility": 20,
+                                      "IsDrink": true,
+                                      "Category": -26,
+                                      "Price": 150,
+                      
+                                      "Texture": "Mods/30888/Objects/Shop_Item",
+                                      "SpriteIndex": 16,
+                                      "Buffs": [
+                                          {
+                                            "BuffId": null,
+                                            "IconTexture": null,
+                                            "IconSpriteIndex": 0,
+                                            "Duration": 430,
+                                            "IsDebuff": true,
+                                            "GlowColor": "255 165 0",
+                                            "CustomAttributes": {
+                                              "FarmingLevel": 0,
+                                              "FishingLevel": 0,
+                                              "MiningLevel": 0,
+                                              "LuckLevel": 1,
+                                              "ForagingLevel": 0,
+                                              "MaxStamina": 0,
+                                              "MagneticRadius": 0,
+                                              "Speed": -1,
+                                              "Defense": 0,
+                                              "Attack": 0
+                                            }
+                                          }
+                                      ]
+                                      },
+                                    "30888_HighsunLiqueur": {
+                                      "Name": "30888_HighsunLiqueur", 
+                                      "Displayname": "{{i18n:Shop_Item_Name_12}}",
+                                      "Description": "{{i18n:Shop_Item_Desc_12}}",
+                                      "Type": "Basic",
+                                      "Edibility": 20,
+                                      "IsDrink": true,
+                                      "Category": -26,
+                                      "Price": 250,
+                      
+                                      "Texture": "Mods/30888/Objects/Shop_Item",
+                                      "SpriteIndex": 17,
+                                      "Buffs": [
+                                          {
+                                            "BuffId": null,
+                                            "IconTexture": null,
+                                            "IconSpriteIndex": 0,
+                                            "Duration": 430,
+                                            "IsDebuff": false,
+                                            "GlowColor": null,
+                                            "CustomAttributes": {
+                                              "FarmingLevel": 0,
+                                              "FishingLevel": 0,
+                                              "MiningLevel": 0,
+                                              "LuckLevel": 0,
+                                              "ForagingLevel": 2,
+                                              "MaxStamina": 0,
+                                              "MagneticRadius": 0,
+                                              "Speed": -1,
+                                              "Defense": 0,
+                                              "Attack": 0
+                                            }
+                                          }
+                                      ]
+                                      },
+                                    "30888_AshabaDusk": {
+                                      "Name": "30888_AshabaDusk", 
+                                      "Displayname": "{{i18n:Shop_Item_Name_13}}",
+                                      "Description": "{{i18n:Shop_Item_Desc_13}}",
+                                      "Type": "Basic",
+                                      "Edibility": 35,
+                                      "IsDrink": true,
+                                      "Category": -26,
+                                      "Price": 230,
+                      
+                                      "Texture": "Mods/30888/Objects/Shop_Item",
+                                      "SpriteIndex": 18,
+                                      "Buffs": [
+                                          {
+                                            "BuffId": null,
+                                            "IconTexture": null,
+                                            "IconSpriteIndex": 0,
+                                            "Duration": 430,
+                                            "IsDebuff": false,
+                                            "GlowColor": null,
+                                            "CustomAttributes": {
+                                              "FarmingLevel": 0,
+                                              "FishingLevel": 0,
+                                              "MiningLevel": 0,
+                                              "LuckLevel": 0,
+                                              "ForagingLevel": 0,
+                                              "MaxStamina": 0,
+                                              "MagneticRadius": 0,
+                                              "Speed": -1,
+                                              "Defense": 0,
+                                              "Attack": 0
+                                            }
+                                          }
+                                      ]
+                                      },
+                                      "30888_ArkhensHoard": {
+                                        "Name": "30888_ArkhensHoard", 
+                                        "Displayname": "{{i18n:Shop_Item_Name_14}}",
+                                        "Description": "{{i18n:Shop_Item_Desc_14}}",
+                                        "Type": "Basic",
+                                        "Edibility": 15,
+                                        "IsDrink": true,
+                                        "Category": -26,
+                                        "Price": 200,
+                        
+                                        "Texture": "Mods/30888/Objects/Shop_Item",
+                                        "SpriteIndex": 19,
+                                        "Buffs": [
+                                            {
+                                              "BuffId": null,
+                                              "IconTexture": null,
+                                              "IconSpriteIndex": 0,
+                                              "Duration": 430,
+                                              "IsDebuff": false,
+                                              "GlowColor": null,
+                                              "CustomAttributes": {
+                                                "FarmingLevel": 0,
+                                                "FishingLevel": 0,
+                                                "MiningLevel": 0,
+                                                "LuckLevel": 0,
+                                                "ForagingLevel": 0,
+                                                "MaxStamina": 0,
+                                                "MagneticRadius": 0,
+                                                "Speed": -1,
+                                                "Defense": 0,
+                                                "Attack": 0
+                                              }
+                                            }
+                                        ]
+                                        },
+                                      "30888_PurpleDragonBlush": {
+                                        "Name": "30888_PurpleDragonBlush", 
+                                        "Displayname": "{{i18n:Shop_Item_Name_15}}",
+                                        "Description": "{{i18n:Shop_Item_Desc_15}}",
+                                        "Type": "Basic",
+                                        "Edibility": 30,
+                                        "IsDrink": true,
+                                        "Category": -26,
+                                        "Price": 320,
+                        
+                                        "Texture": "Mods/30888/Objects/Shop_Item",
+                                        "SpriteIndex": 20,
+                                        "Buffs": [
+                                            {
+                                              "BuffId": null,
+                                              "IconTexture": null,
+                                              "IconSpriteIndex": 0,
+                                              "Duration": 430,
+                                              "IsDebuff": false,
+                                              "GlowColor": null,
+                                              "CustomAttributes": {
+                                                "FarmingLevel": 0,
+                                                "FishingLevel": 0,
+                                                "MiningLevel": 0,
+                                                "LuckLevel": 0,
+                                                "ForagingLevel": 0,
+                                                "MaxStamina": 0,
+                                                "MagneticRadius": 0,
+                                                "Speed": -1,
+                                                "Defense": 0,
+                                                "Attack": 0
+                                              }
+                                            }
+                                        ]
+                                        },
+                                      "30888_BalorAle": {
+                                        "Name": "30888_BalorAle", 
+                                        "Displayname": "{{i18n:Shop_Item_Name_16}}",
+                                        "Description": "{{i18n:Shop_Item_Desc_16}}",
+                                        "Type": "Basic",
+                                        "Edibility": -15,
+                                        "IsDrink": true,
+                                        "Category": -26,
+                                        "Price": 320,
+                        
+                                        "Texture": "Mods/30888/Objects/Shop_Item",
+                                        "SpriteIndex": 21,
+                                        "Buffs": [
+                                            {
+                                              "BuffId": null,
+                                              "IconTexture": null,
+                                              "IconSpriteIndex": 0,
+                                              "Duration": 430,
+                                              "IsDebuff": false,
+                                              "GlowColor": null,
+                                              "CustomAttributes": {
+                                                "FarmingLevel": 0,
+                                                "FishingLevel": 0,
+                                                "MiningLevel": 0,
+                                                "LuckLevel": 0,
+                                                "ForagingLevel": 0,
+                                                "MaxStamina": 0,
+                                                "MagneticRadius": 0,
+                                                "Speed": -3,
+                                                "Defense": 0,
+                                                "Attack": 0
+                                              }
+                                            }
+                                        ]
+                                        },
+                                        "30888_MarsemberIceWine": {
+                                          "Name": "30888_MarsemberIceWine", 
+                                          "Displayname": "{{i18n:Shop_Item_Name_17}}",
+                                          "Description": "{{i18n:Shop_Item_Desc_17}}",
+                                          "Type": "Basic",
+                                          "Edibility": 20,
+                                          "IsDrink": true,
+                                          "Category": -26,
+                                          "Price": 280,
+                          
+                                          "Texture": "Mods/30888/Objects/Shop_Item",
+                                          "SpriteIndex": 22,
+                                          "Buffs": [
+                                              {
+                                                "BuffId": null,
+                                                "IconTexture": null,
+                                                "IconSpriteIndex": 0,
+                                                "Duration": 430,
+                                                "IsDebuff": false,
+                                                "GlowColor": null,
+                                                "CustomAttributes": {
+                                                  "FarmingLevel": 0,
+                                                  "FishingLevel": 2,
+                                                  "MiningLevel": 0,
+                                                  "LuckLevel": 3,
+                                                  "ForagingLevel": 0,
+                                                  "MaxStamina": 0,
+                                                  "MagneticRadius": 0,
+                                                  "Speed": -1,
+                                                  "Defense": 0,
+                                                  "Attack": 0
+                                                }
+                                              }
+                                          ]
+                                          },
+                                          "30888_ArabellanDry": {
+                                            "Name": "30888_ArabellanDry", 
+                                            "Displayname": "{{i18n:Shop_Item_Name_18}}",
+                                            "Description": "{{i18n:Shop_Item_Desc_18}}",
+                                            "Type": "Basic",
+                                            "Edibility": 20,
+                                            "IsDrink": true,
+                                            "Category": -26,
+                                            "Price": 150,
+                            
+                                            "Texture": "Mods/30888/Objects/Shop_Item",
+                                            "SpriteIndex": 23,
+                                            "Buffs": [
+                                                {
+                                                  "BuffId": null,
+                                                  "IconTexture": null,
+                                                  "IconSpriteIndex": 0,
+                                                  "Duration": 430,
+                                                  "IsDebuff": false,
+                                                  "GlowColor": null,
+                                                  "CustomAttributes": {
+                                                    "FarmingLevel": 0,
+                                                    "FishingLevel": 1,
+                                                    "MiningLevel": 0,
+                                                    "LuckLevel": 1,
+                                                    "ForagingLevel": 0,
+                                                    "MaxStamina": 0,
+                                                    "MagneticRadius": 0,
+                                                    "Speed": -1,
+                                                    "Defense": 0,
+                                                    "Attack": 0
+                                                  }
+                                                }
+                                            ]
+                                            },
+                                          "30888_MermaidWhiskey": {
+                                            "Name": "30888_MermaidWhiskey", 
+                                            "Displayname": "{{i18n:Shop_Item_Name_19}}",
+                                            "Description": "{{i18n:Shop_Item_Desc_19}}",
+                                            "Type": "Basic",
+                                            "Edibility": 15,
+                                            "IsDrink": true,
+                                            "Category": -26,
+                                            "Price": 340,
+                            
+                                            "Texture": "Mods/30888/Objects/Shop_Item",
+                                            "SpriteIndex": 24,
+                                            "Buffs": [
+                                                {
+                                                  "BuffId": null,
+                                                  "IconTexture": null,
+                                                  "IconSpriteIndex": 0,
+                                                  "Duration": 430,
+                                                  "IsDebuff": false,
+                                                  "GlowColor": null,
+                                                  "CustomAttributes": {
+                                                    "FarmingLevel": 0,
+                                                    "FishingLevel": 0,
+                                                    "MiningLevel": 0,
+                                                    "LuckLevel": 1,
+                                                    "ForagingLevel": 0,
+                                                    "MaxStamina": 0,
+                                                    "MagneticRadius": 0,
+                                                    "Speed": -1,
+                                                    "Defense": 0,
+                                                    "Attack": 0
+                                                  }
+                                                }
+                                            ]
+                                            },
+                                            "30888_FarseaMarshwine": {
+                                              "Name": "30888_FarseaMarshwine", 
+                                              "Displayname": "{{i18n:Shop_Item_Name_20}}",
+                                              "Description": "{{i18n:Shop_Item_Desc_20}}",
+                                              "Type": "Basic",
+                                              "Edibility": 10,
+                                              "IsDrink": true,
+                                              "Category": -26,
+                                              "Price": 120,
+                              
+                                              "Texture": "Mods/30888/Objects/Shop_Item",
+                                              "SpriteIndex": 25,
+                                              "Buffs": [
+                                                  {
+                                                    "BuffId": null,
+                                                    "IconTexture": null,
+                                                    "IconSpriteIndex": 0,
+                                                    "Duration": 430,
+                                                    "IsDebuff": false,
+                                                    "GlowColor": null,
+                                                    "CustomAttributes": {
+                                                      "FarmingLevel": 0,
+                                                      "FishingLevel": 0,
+                                                      "MiningLevel": 0,
+                                                      "LuckLevel": 0,
+                                                      "ForagingLevel": 0,
+                                                      "MaxStamina": 0,
+                                                      "MagneticRadius": 0,
+                                                      "Speed": -1,
+                                                      "Defense": 0,
+                                                      "Attack": 0
+                                                    }
+                                                  }
+                                              ]
+                                              },
+                                            "30888_LovelyMaltyBeer": {
+                                              "Name": "30888_LovelyMaltyBeer", 
+                                              "Displayname": "{{i18n:Shop_Item_Name_21}}",
+                                              "Description": "{{i18n:Shop_Item_Desc_21}}",
+                                              "Type": "Basic",
+                                              "Edibility": 15,
+                                              "IsDrink": true,
+                                              "Category": -26,
+                                              "Price": 320,
+                              
+                                              "Texture": "Mods/30888/Objects/Shop_Item",
+                                              "SpriteIndex": 26,
+                                              "Buffs": [
+                                                  {
+                                                    "BuffId": null,
+                                                    "IconTexture": null,
+                                                    "IconSpriteIndex": 0,
+                                                    "Duration": 430,
+                                                    "IsDebuff": false,
+                                                    "GlowColor": null,
+                                                    "CustomAttributes": {
+                                                      "FarmingLevel": 0,
+                                                      "FishingLevel": 0,
+                                                      "MiningLevel": 0,
+                                                      "LuckLevel": 2,
+                                                      "ForagingLevel": 0,
+                                                      "MaxStamina": 0,
+                                                      "MagneticRadius": 0,
+                                                      "Speed": -1,
+                                                      "Defense": 0,
+                                                      "Attack": 0
+                                                    }
+                                                  }
+                                              ]
+                                              },
+                                              "30888_MixedCoffee": {
+                                                "Name": "30888_MixedCoffee", 
+                                                "Displayname": "{{i18n:Shop_Item_Name_22}}",
+                                                "Description": "{{i18n:Shop_Item_Desc_22}}",
+                                                "Type": "Basic",
+                                                "Edibility": 5,
+                                                "IsDrink": true,
+                                                "Category": -21,
+                                                "Price": 750,
+                                
+                                                "Texture": "Mods/30888/Objects/Shop_Item",
+                                                "SpriteIndex": 27,
+                                                "Buffs": [
+                                                    {
+                                                      "BuffId": null,
+                                                      "IconTexture": null,
+                                                      "IconSpriteIndex": 0,
+                                                      "Duration": 1290,
+                                                      "IsDebuff": false,
+                                                      "GlowColor": null,
+                                                      "CustomAttributes": {
+                                                        "FarmingLevel": 0,
+                                                        "FishingLevel": 0,
+                                                        "MiningLevel": 0,
+                                                        "LuckLevel": 0,
+                                                        "ForagingLevel": 0,
+                                                        "MaxStamina": 0,
+                                                        "MagneticRadius": 1,
+                                                        "Speed": 1,
+                                                        "Defense": 0,
+                                                        "Attack": 1
+                                                      }
+                                                    }
+                                                ]
+                                                },
+                                        "30888_ElixirofHumanVersatility": {
+                                        "Name": "30888_ElixirofHumanVersatility", 
+                                        "Displayname": "{{i18n:Shop_Item_Name_23}}",
+                                        "Description": "{{i18n:Shop_Item_Desc_23}}",
+                                        "Type": "Basic",
+                                        "Edibility": 20,
+                                        "IsDrink": true,
+                                        "Category": -26,
+                                        "Price": 1500,
+                        
+                                        "Texture": "Mods/30888/Objects/Shop_Item",
+                                        "SpriteIndex": 28,
+                                        "Buffs": [
+                                            {
+                                              "BuffId": null,
+                                              "IconTexture": null,
+                                              "IconSpriteIndex": 0,
+                                              "Duration": 430,
+                                              "IsDebuff": false,
+                                              "GlowColor": null,
+                                              "CustomAttributes": {
+                                                "FarmingLevel": 1,
+                                                "FishingLevel": 1,
+                                                "MiningLevel": 1,
+                                                "LuckLevel": 0,
+                                                "ForagingLevel": 1,
+                                                "MaxStamina": 0,
+                                                "MagneticRadius": 0,
+                                                "Speed": 0,
+                                                "Defense": 0,
+                                                "Attack": 0
+                                              }
+                                            }
+                                        ]
+                                        },
+                                        "30888_ElixirofHillGiantStrength": {
+                                        "Name": "30888_ElixirofHillGiantStrength", 
+                                        "Displayname": "{{i18n:Shop_Item_Name_24}}",
+                                        "Description": "{{i18n:Shop_Item_Desc_24}}",
+                                        "Type": "Basic",
+                                        "Edibility": 10,
+                                        "IsDrink": true,
+                                        "Category": -26,
+                                        "Price": 900,
+                        
+                                        "Texture": "Mods/30888/Objects/Shop_Item",
+                                        "SpriteIndex": 29,
+                                        "Buffs": [
+                                            {
+                                              "BuffId": null,
+                                              "IconTexture": null,
+                                              "IconSpriteIndex": 0,
+                                              "Duration": 430,
+                                              "IsDebuff": false,
+                                              "GlowColor": null,
+                                              "CustomAttributes": {
+                                                "FarmingLevel": 0,
+                                                "FishingLevel": 0,
+                                                "MiningLevel": 0,
+                                                "LuckLevel": 0,
+                                                "ForagingLevel": 0,
+                                                "MaxStamina": 0,
+                                                "MagneticRadius": 0,
+                                                "Speed": 0,
+                                                "Defense": 0,
+                                                "Attack": 2
+                                              }
+                                            }
+                                        ]
+                                        },
+                                        "30888_ElixirofCloudGiantStrength": {
+                                        "Name": "30888_ElixirofCloudGiantStrength", 
+                                        "Displayname": "{{i18n:Shop_Item_Name_25}}",
+                                        "Description": "{{i18n:Shop_Item_Desc_25}}",
+                                        "Type": "Basic",
+                                        "Edibility": 20,
+                                        "IsDrink": true,
+                                        "Category": -26,
+                                        "Price": 1450,
+                        
+                                        "Texture": "Mods/30888/Objects/Shop_Item",
+                                        "SpriteIndex": 30,
+                                        "Buffs": [
+                                            {
+                                              "BuffId": null,
+                                              "IconTexture": null,
+                                              "IconSpriteIndex": 0,
+                                              "Duration": 860,
+                                              "IsDebuff": false,
+                                              "GlowColor": null,
+                                              "CustomAttributes": {
+                                                "FarmingLevel": 0,
+                                                "FishingLevel": 0,
+                                                "MiningLevel": 0,
+                                                "LuckLevel": 0,
+                                                "ForagingLevel": 0,
+                                                "MaxStamina": 0,
+                                                "MagneticRadius": 0,
+                                                "Speed": 0,
+                                                "Defense": 0,
+                                                "Attack": 3
+                                              }
+                                            }
+                                        ]
+                                        },
+                                        "30888_ElixirofBloodlust": {
+                                        "Name": "30888_ElixirofBloodlust", 
+                                        "Displayname": "{{i18n:Shop_Item_Name_26}}",
+                                        "Description": "{{i18n:Shop_Item_Desc_26}}",
+                                        "Type": "Basic",
+                                        "Edibility": -50,
+                                        "IsDrink": true,
+                                        "Category": -26,
+                                        "Price": 1600,
+                        
+                                        "Texture": "Mods/30888/Objects/Shop_Item",
+                                        "SpriteIndex": 31,
+                                        "Buffs": [
+                                            {
+                                              "BuffId": null,
+                                              "IconTexture": null,
+                                              "IconSpriteIndex": 0,
+                                              "Duration": 430,
+                                              "IsDebuff": false,
+                                              "GlowColor": null,
+                                              "CustomAttributes": {
+                                                "FarmingLevel": 0,
+                                                "FishingLevel": 0,
+                                                "MiningLevel": 0,
+                                                "LuckLevel": 3,
+                                                "ForagingLevel": 0,
+                                                "MaxStamina": 0,
+                                                "MagneticRadius": 0,
+                                                "Speed": 1,
+                                                "Defense": 1,
+                                                "Attack": 1
+                                              }
+                                            }
+                                        ]
+                                        },
+                                        "30888_PotionofSpeed": {
+                                        "Name": "30888_PotionofSpeed", 
+                                        "Displayname": "{{i18n:Shop_Item_Name_27}}",
+                                        "Description": "{{i18n:Shop_Item_Desc_27}}",
+                                        "Type": "Basic",
+                                        "Edibility": 15,
+                                        "IsDrink": true,
+                                        "Category": -26,
+                                        "Price": 920,
+                        
+                                        "Texture": "Mods/30888/Objects/Shop_Item",
+                                        "SpriteIndex": 32,
+                                        "Buffs": [
+                                            {
+                                              "BuffId": null,
+                                              "IconTexture": null,
+                                              "IconSpriteIndex": 0,
+                                              "Duration": 500,
+                                              "IsDebuff": false,
+                                              "GlowColor": null,
+                                              "CustomAttributes": {
+                                                "FarmingLevel": 0,
+                                                "FishingLevel": 0,
+                                                "MiningLevel": 0,
+                                                "LuckLevel": 0,
+                                                "ForagingLevel": 0,
+                                                "MaxStamina": 0,
+                                                "MagneticRadius": 0,
+                                                "Speed": 2,
+                                                "Defense": 0,
+                                                "Attack": 0
+                                              }
+                                            }
+                                        ]
+                                        },
+                                      "30888_Haggis": {
+                                        "Name": "30888_Haggis", 
+                                        "Displayname": "{{i18n:Shop_Item_Name_28}}",
+                                        "Description": "{{i18n:Shop_Item_Desc_28}}",
+                                        "Type": "Basic",
+                                        "Edibility": 50,
+                                        "IsDrink": false,
+                                        "Category": -26,
+                                        "Price": 370,
+                        
+                                        "Texture": "Mods/30888/Objects/Shop_Item",
+                                        "SpriteIndex": 33,
+                                        "Buffs": [
+                                            {
+                                              "BuffId": null,
+                                              "IconTexture": null,
+                                              "IconSpriteIndex": 0,
+                                              "Duration": 500,
+                                              "IsDebuff": false,
+                                              "GlowColor": null,
+                                              "CustomAttributes": {
+                                                "FarmingLevel": 0,
+                                                "FishingLevel": 0,
+                                                "MiningLevel": 0,
+                                                "LuckLevel": 2,
+                                                "ForagingLevel": 0,
+                                                "MaxStamina": 0,
+                                                "MagneticRadius": 0,
+                                                "Speed": 0,
+                                                "Defense": 0,
+                                                "Attack": 0
+                                              }
+                                            }
+                                        ]
+                                        },
+                                      "30888_NeogiRolls": {
+                                        "Name": "30888_NeogiRolls", 
+                                        "Displayname": "{{i18n:Shop_Item_Name_29}}",
+                                        "Description": "{{i18n:Shop_Item_Desc_29}}",
+                                        "Type": "Basic",
+                                        "Edibility": 80,
+                                        "IsDrink": false,
+                                        "Category": -26,
+                                        "Price": 880,
+                        
+                                        "Texture": "Mods/30888/Objects/Shop_Item",
+                                        "SpriteIndex": 34,
+                                        "Buffs": [
+                                            {
+                                              "BuffId": null,
+                                              "IconTexture": null,
+                                              "IconSpriteIndex": 0,
+                                              "Duration": 430,
+                                              "IsDebuff": false,
+                                              "GlowColor": null,
+                                              "CustomAttributes": {
+                                                "FarmingLevel": 0,
+                                                "FishingLevel": 0,
+                                                "MiningLevel": 0,
+                                                "LuckLevel": 0,
+                                                "ForagingLevel": 0,
+                                                "MaxStamina": 0,
+                                                "MagneticRadius": 0,
+                                                "Speed": 0,
+                                                "Defense": 0,
+                                                "Attack": 0
+                                              }
+                                            }
+                                        ]
+                                        },
+                                        "30888_NeverWinterStew": {
+                                          "Name": "30888_NeverWinterStew", 
+                                          "Displayname": "{{i18n:Shop_Item_Name_30}}",
+                                          "Description": "{{i18n:Shop_Item_Desc_30}}",
+                                          "Type": "Basic",
+                                          "Edibility": 50,
+                                          "IsDrink": false,
+                                          "Category": -26,
+                                          "Price": 360,
+                          
+                                          "Texture": "Mods/30888/Objects/Shop_Item",
+                                          "SpriteIndex": 35,
+                                          "Buffs": [
+                                              {
+                                                "BuffId": null,
+                                                "IconTexture": null,
+                                                "IconSpriteIndex": 0,
+                                                "Duration": 430,
+                                                "IsDebuff": false,
+                                                "GlowColor": null,
+                                                "CustomAttributes": {
+                                                  "FarmingLevel": 1,
+                                                  "FishingLevel": 0,
+                                                  "MiningLevel": 1,
+                                                  "LuckLevel": 1,
+                                                  "ForagingLevel": 0,
+                                                  "MaxStamina": 0,
+                                                  "MagneticRadius": 0,
+                                                  "Speed": 0,
+                                                  "Defense": 0,
+                                                  "Attack": 0
+                                                }
+                                              }
+                                          ]
+                                          },
+                                  "30888_MurkyStew": {
+                                    "Name": "30888_MurkyStew", 
+                                    "Displayname": "{{i18n:Shop_Item_Name_31}}",
+                                    "Description": "{{i18n:Shop_Item_Desc_31}}",
+                                    "Type": "Basic",
+                                    "Edibility": 60,
+                                    "IsDrink": false,
+                                    "Category": -26,
+                                    "Price": 270,
+                    
+                                    "Texture": "Mods/30888/Objects/Shop_Item",
+                                    "SpriteIndex": 36,
+                                    "Buffs": [
+                                        {
+                                          "BuffId": null,
+                                          "IconTexture": null,
+                                          "IconSpriteIndex": 0,
+                                          "Duration": 430,
+                                          "IsDebuff": false,
+                                          "GlowColor": null,
+                                          "CustomAttributes": {
+                                            "FarmingLevel": 0,
+                                            "FishingLevel": 0,
+                                            "MiningLevel": 0,
+                                            "LuckLevel": 0,
+                                            "ForagingLevel": 0,
+                                            "MaxStamina": 0,
+                                            "MagneticRadius": 0,
+                                            "Speed": 0,
+                                            "Defense": 0,
+                                            "Attack": 0
+                                          }
+                                        }
+                                    ]
+                                    },
+                                    "30888_WaterdhavianCheeseWheel": {
+                                      "Name": "30888_WaterdhavianCheeseWheel", 
+                                      "Displayname": "{{i18n:Shop_Item_Name_32}}",
+                                      "Description": "{{i18n:Shop_Item_Desc_32}}",
+                                      "Type": "Basic",
+                                      "Edibility": 30,
+                                      "IsDrink": false,
+                                      "Category": -26,
+                                      "Price": 470,
+                      
+                                      "Texture": "Mods/30888/Objects/Shop_Item",
+                                      "SpriteIndex": 37,
+                                      "Buffs": [
+                                          {
+                                            "BuffId": null,
+                                            "IconTexture": null,
+                                            "IconSpriteIndex": 0,
+                                            "Duration": 500,
+                                            "IsDebuff": false,
+                                            "GlowColor": null,
+                                            "CustomAttributes": {
+                                              "FarmingLevel": 0,
+                                              "FishingLevel": 0,
+                                              "MiningLevel": 0,
+                                              "LuckLevel": 0,
+                                              "ForagingLevel": 0,
+                                              "MaxStamina": 50,
+                                              "MagneticRadius": 0,
+                                              "Speed": 0,
+                                              "Defense": 0,
+                                              "Attack": 0
+                                            }
+                                          }
+                                      ]
+                                      },
+                                      "30888_SalmonPie": {
+                                        "Name": "30888_SalmonPie", 
+                                        "Displayname": "{{i18n:Shop_Item_Name_33}}",
+                                        "Description": "{{i18n:Shop_Item_Desc_33}}",
+                                        "Type": "Basic",
+                                        "Edibility": 40,
+                                        "IsDrink": false,
+                                        "Category": -26,
+                                        "Price": 670,
+                        
+                                        "Texture": "Mods/30888/Objects/Shop_Item",
+                                        "SpriteIndex": 38,
+                                        "Buffs": [
+                                            {
+                                              "BuffId": null,
+                                              "IconTexture": null,
+                                              "IconSpriteIndex": 0,
+                                              "Duration": 430,
+                                              "IsDebuff": false,
+                                              "GlowColor": null,
+                                              "CustomAttributes": {
+                                                "FarmingLevel": 0,
+                                                "FishingLevel": 3,
+                                                "MiningLevel": 0,
+                                                "LuckLevel": 0,
+                                                "ForagingLevel": 0,
+                                                "MaxStamina": 0,
+                                                "MagneticRadius": 0,
+                                                "Speed": 0,
+                                                "Defense": 0,
+                                                "Attack": 0
+                                              }
+                                            }
+                                        ]
+                                        },
+                                        "30888_BoiledBeholderEyestalks": {
+                                          "Name": "30888_BoiledBeholderEyestalks", 
+                                          "Displayname": "{{i18n:Shop_Item_Name_34}}",
+                                          "Description": "{{i18n:Shop_Item_Desc_34}}",
+                                          "Type": "Basic",
+                                          "Edibility": 15,
+                                          "IsDrink": false,
+                                          "Category": -26,
+                                          "Price": 1800,
+                          
+                                          "Texture": "Mods/30888/Objects/Shop_Item",
+                                          "SpriteIndex": 39,
+                                          "Buffs": [
+                                              {
+                                                "BuffId": null,
+                                                "IconTexture": null,
+                                                "IconSpriteIndex": 0,
+                                                "Duration": 1290,
+                                                "IsDebuff": false,
+                                                "GlowColor": "0,0,255",
+                                                "CustomAttributes": {
+                                                  "FarmingLevel": 0,
+                                                  "FishingLevel": 0,
+                                                  "MiningLevel": 0,
+                                                  "LuckLevel": -1,
+                                                  "ForagingLevel": 0,
+                                                  "MaxStamina": -30,
+                                                  "MagneticRadius": 0,
+                                                  "Speed": 2,
+                                                  "Defense": 2,
+                                                  "Attack": 2
+                                                }
+                                              }
+                                          ]
+                                          },
+                                          "30888_HoneyedHam": {
+                                            "Name": "30888_HoneyedHam", 
+                                            "Displayname": "{{i18n:Shop_Item_Name_35}}",
+                                            "Description": "{{i18n:Shop_Item_Desc_35}}",
+                                            "Type": "Basic",
+                                            "Edibility": 70,
+                                            "IsDrink": false,
+                                            "Category": -26,
+                                            "Price": 640,
+                            
+                                            "Texture": "Mods/30888/Objects/Shop_Item",
+                                            "SpriteIndex": 40,
+                                            "Buffs": [
+                                                {
+                                                  "BuffId": null,
+                                                  "IconTexture": null,
+                                                  "IconSpriteIndex": 0,
+                                                  "Duration": 430,
+                                                  "IsDebuff": false,
+                                                  "GlowColor": null,
+                                                  "CustomAttributes": {
+                                                    "FarmingLevel": 0,
+                                                    "FishingLevel": 0,
+                                                    "MiningLevel": 0,
+                                                    "LuckLevel": 0,
+                                                    "ForagingLevel": 0,
+                                                    "MaxStamina": 0,
+                                                    "MagneticRadius": 0,
+                                                    "Speed": 0,
+                                                    "Defense": 2,
+                                                    "Attack": 0
+                                                  }
+                                                }
+                                            ]
+                                            },
+                                            "30888_GrilledMiniatureGiantSpaceHamsterr": {
+                                              "Name": "30888_GrilledMiniatureGiantSpaceHamsterr", 
+                                              "Displayname": "{{i18n:Shop_Item_Name_36}}",
+                                              "Description": "{{i18n:Shop_Item_Desc_36}}",
+                                              "Type": "Basic",
+                                              "Edibility": 15,
+                                              "IsDrink": false,
+                                              "Category": -26,
+                                              "Price": 800,
+                              
+                                              "Texture": "Mods/30888/Objects/Shop_Item",
+                                              "SpriteIndex": 41,
+                                              "Buffs": [
+                                                  {
+                                                    "BuffId": null,
+                                                    "IconTexture": null,
+                                                    "IconSpriteIndex": 0,
+                                                    "Duration": 430,
+                                                    "IsDebuff": false,
+                                                    "GlowColor": null,
+                                                    "CustomAttributes": {
+                                                      "FarmingLevel": 0,
+                                                      "FishingLevel": 0,
+                                                      "MiningLevel": 0,
+                                                      "LuckLevel": 0,
+                                                      "ForagingLevel": 0,
+                                                      "MaxStamina": 0,
+                                                      "MagneticRadius": 50,
+                                                      "Speed": 0,
+                                                      "Defense": 0,
+                                                      "Attack": 0
+                                                  }
+                                                }
+                                            ]
+                                            },
+                                            "30888_Cabbage": {
+                                              "Name": "30888_Cabbage", 
+                                              "Displayname": "{{i18n:Shop_Item_Name_37}}",
+                                              "Description": "{{i18n:Shop_Item_Desc_37}}",
+                                              "Type": "Basic",
+                                              "Edibility": 15,
+                                              "IsDrink": false,
+                                              "Category": -26,
+                                              "Price": 1500,
+                              
+                                              "Texture": "Mods/30888/Objects/Shop_Item",
+                                              "SpriteIndex": 42,
+                                              "Buffs": [
+                                                  {
+                                                    "BuffId": null,
+                                                    "IconTexture": null,
+                                                    "IconSpriteIndex": 0,
+                                                    "Duration": 430,
+                                                    "IsDebuff": false,
+                                                    "GlowColor": null,
+                                                    "CustomAttributes": {
+                                                      "FarmingLevel": 0,
+                                                      "FishingLevel": 0,
+                                                      "MiningLevel": 0,
+                                                      "LuckLevel": 3,
+                                                      "ForagingLevel": 0,
+                                                      "MaxStamina": 0,
+                                                      "MagneticRadius": 0,
+                                                      "Speed": 0,
+                                                      "Defense": 0,
+                                                      "Attack": 0
+                            }
+                          }
+                      ]
+                      }
+            }
+        }
+    ]
+}

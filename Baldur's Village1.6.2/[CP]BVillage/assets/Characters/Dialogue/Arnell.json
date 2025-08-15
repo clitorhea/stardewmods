@@ -1,0 +1,132 @@
+
+{
+"Changes": [
+  { 
+  "LogName":"Arnell", 
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Arnell",
+  "Entries": {  
+				//ConversationTopic
+				"62130039welcome":"{{i18n:event-62130039-Arnell.2}}",
+				
+				//Gifts
+				"AcceptBirthdayGift_Loved": "{{i18n:Arnell.Dialogue.AcceptBirthdayGift_Loved}}",
+				"AcceptBirthdayGift_Like": "{{i18n:Arnell.Dialogue.AcceptBirthdayGift_Like}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Arnell.Dialogue.AcceptBirthdayGift_Negative}}",
+				"AcceptBirthdayGift_Disliked": "{{i18n:Arnell.Dialogue.AcceptBirthdayGift_Disliked}}",
+				"AcceptBirthdayGift_Hated": "{{i18n:Arnell.Dialogue.AcceptBirthdayGift_Hated}}",	
+				//Movie
+				"MovieInvitation": "{{i18n:Arnell.Dialogue.MovieInvitation}}",
+				//Daily
+				"Introduction": "{{i18n:Arnell.Dialogue.Introduction}}",
+				//Spring
+				//Spring 0 hearts
+				"Mon": "{{i18n:Arnell.Dialogue.Mon}}",
+				"Tue": "{{i18n:Arnell.Dialogue.Tue}}",
+				"Wed": "{{i18n:Arnell.Dialogue.Wed}}",
+				"Thu": "{{i18n:Arnell.Dialogue.Thu}}",
+				"Fri": "{{i18n:Arnell.Dialogue.Fri}}",
+				"Sat": "{{i18n:Arnell.Dialogue.Sat}}",
+				"Sun": "{{i18n:Arnell.Dialogue.Sun}}",
+				//Spring 4 hearts
+				"Mon4": "{{i18n:Arnell.Dialogue.Mon4}}",
+				"Tue4": "{{i18n:Arnell.Dialogue.Tue4}}",
+				"Wed4": "{{i18n:Arnell.Dialogue.Wed4}}",
+				"Thu4": "{{i18n:Arnell.Dialogue.Thu4}}",
+				"Fri4": "{{i18n:Arnell.Dialogue.Fri4}}",
+				"Sat4": "{{i18n:Arnell.Dialogue.Sat4}}",
+				"Sun4": "{{i18n:Arnell.Dialogue.Sun4}}",
+				//Spring 8 hearts
+				"Mon8": "{{i18n:Arnell.Dialogue.Mon8}}",
+				"Tue8": "{{i18n:Arnell.Dialogue.Tue8}}",
+				"Wed8": "{{i18n:Arnell.Dialogue.Wed8}}",
+				"Thu8": "{{i18n:Arnell.Dialogue.Thu8}}",
+				"Fri8": "{{i18n:Arnell.Dialogue.Fri8}}",
+				"Sat8": "{{i18n:Arnell.Dialogue.Sat8}}",
+				"Sun8": "{{i18n:Arnell.Dialogue.Sun8}}",
+                //Summer
+				//Summer 0 Heart
+				"summer_Mon": "{{i18n:Arnell.Dialogue.summer_Mon}}",
+				"summer_Tue": "{{i18n:Arnell.Dialogue.summer_Tue}}",
+				"summer_Wed": "{{i18n:Arnell.Dialogue.summer_Wed}}",
+				"summer_Thu": "{{i18n:Arnell.Dialogue.summer_Thu}}",
+				"summer_Fri": "{{i18n:Arnell.Dialogue.summer_Fri}}",
+				"summer_Sat": "{{i18n:Arnell.Dialogue.summer_Sat}}",
+				"summer_Sun": "{{i18n:Arnell.Dialogue.summer_Sun}}",
+				//Summer 4 Hearts
+				"summer_Mon4": "{{i18n:Arnell.Dialogue.summer_Mon4}}",
+				"summer_Tue4": "{{i18n:Arnell.Dialogue.summer_Tue4}}",
+				"summer_Wed4": "{{i18n:Arnell.Dialogue.summer_Wed4}}",
+				"summer_Thu4": "{{i18n:Arnell.Dialogue.summer_Thu4}}",
+				"summer_Fri4": "{{i18n:Arnell.Dialogue.summer_Fri4}}",
+				"summer_Sat4": "{{i18n:Arnell.Dialogue.summer_Sat4}}",
+				"summer_Sun4": "{{i18n:Arnell.Dialogue.summer_Sun4}}",
+				//Summer 8 Hearts
+				"summer_Mon8": "{{i18n:Arnell.Dialogue.summer_Mon8}}",
+				"summer_Tue8": "{{i18n:Arnell.Dialogue.summer_Tue8}}",
+				"summer_Wed8": "{{i18n:Arnell.Dialogue.summer_Wed8}}",
+				"summer_Thu8": "{{i18n:Arnell.Dialogue.summer_Thu8}}",
+				"summer_Fri8": "{{i18n:Arnell.Dialogue.summer_Fri8}}",
+				"summer_Sat8": "{{i18n:Arnell.Dialogue.summer_Sat8}}",
+				"summer_Sun8": "{{i18n:Arnell.Dialogue.summer_Sun8}}",
+				//Fall
+				//Fall 0 Hearts
+				"fall_Mon": "{{i18n:Arnell.Dialogue.fall_Mon}}",
+				"fall_Tue": "{{i18n:Arnell.Dialogue.fall_Tue}}",
+				"fall_Wed": "{{i18n:Arnell.Dialogue.fall_Wed}}",
+				"fall_Thu": "{{i18n:Arnell.Dialogue.fall_Thu}}",
+				"fall_Fri": "{{i18n:Arnell.Dialogue.fall_Fri}}",
+				"fall_Sat": "{{i18n:Arnell.Dialogue.fall_Sat}}",
+				"fall_Sun": "{{i18n:Arnell.Dialogue.fall_Sun}}",
+				//Fall 4 Hearts
+				"fall_Mon4": "{{i18n:Arnell.Dialogue.fall_Mon4}}",
+				"fall_Tue4": "{{i18n:Arnell.Dialogue.fall_Tue4}}",
+				"fall_Wed4": "{{i18n:Arnell.Dialogue.fall_Wed4}}",
+				"fall_Thu4": "{{i18n:Arnell.Dialogue.fall_Thu4}}",
+				"fall_Fri4": "{{i18n:Arnell.Dialogue.fall_Fri4}}",
+				"fall_Sat4": "{{i18n:Arnell.Dialogue.fall_Sat4}}",
+				"fall_Sun4": "{{i18n:Arnell.Dialogue.fall_Sun4}}",
+				//Fall 8 Hearts
+				"fall_Mon8": "{{i18n:Arnell.Dialogue.fall_Mon8}}",
+				"fall_Tue8": "{{i18n:Arnell.Dialogue.fall_Tue8}}",
+				"fall_Wed8": "{{i18n:Arnell.Dialogue.fall_Wed8}}",
+				"fall_Thu8": "{{i18n:Arnell.Dialogue.fall_Thu8}}",
+				"fall_Fri8": "{{i18n:Arnell.Dialogue.fall_Fri8}}",
+				"fall_Sat8": "{{i18n:Arnell.Dialogue.fall_Sat8}}",
+				"fall_Sun8": "{{i18n:Arnell.Dialogue.fall_Sun8}}",
+				//Winter
+				//winter 0 Hearts
+				"winter_Mon": "{{i18n:Arnell.Dialogue.winter_Mon}}",
+				"winter_Tue": "{{i18n:Arnell.Dialogue.winter_Tue}}",
+				"winter_Wed": "{{i18n:Arnell.Dialogue.winter_Wed}}",
+				"winter_Thu": "{{i18n:Arnell.Dialogue.winter_Thu}}",
+				"winter_Fri": "{{i18n:Arnell.Dialogue.winter_Fri}}",
+				"winter_Sat": "{{i18n:Arnell.Dialogue.winter_Sat}}",
+				"winter_Sun": "{{i18n:Arnell.Dialogue.winter_Sun}}",
+				//winter 4 Hearts
+				"winter_Mon4": "{{i18n:Arnell.Dialogue.winter_Mon4}}",
+				"winter_Tue4": "{{i18n:Arnell.Dialogue.winter_Tue4}}",
+				"winter_Wed4": "{{i18n:Arnell.Dialogue.winter_Wed4}}",
+				"winter_Thu4": "{{i18n:Arnell.Dialogue.winter_Thu4}}",
+				"winter_Fri4": "{{i18n:Arnell.Dialogue.winter_Fri4}}",
+				"winter_Sat4": "{{i18n:Arnell.Dialogue.winter_Sat4}}",
+				"winter_Sun4": "{{i18n:Arnell.Dialogue.winter_Sun4}}",
+				//winter 8 Hearts
+				"winter_Mon8": "{{i18n:Arnell.Dialogue.winter_Mon8}}",
+				"winter_Tue8": "{{i18n:Arnell.Dialogue.winter_Tue8}}",
+				"winter_Wed8": "{{i18n:Arnell.Dialogue.winter_Wed8}}",
+				"winter_Thu8": "{{i18n:Arnell.Dialogue.winter_Thu8}}",
+				"winter_Fri8": "{{i18n:Arnell.Dialogue.winter_Fri8}}",
+				"winter_Sat8": "{{i18n:Arnell.Dialogue.winter_Sat8}}",
+				"winter_Sun8": "{{i18n:Arnell.Dialogue.winter_Sun8}}",
+
+				//Wedding comment 
+				"married_Astarion": "{{i18n:Arnell.Dialogue.married_Astarion}}",
+
+				//Others
+				///Dumpster
+				"DumpsterDiveComment": "{{i18n:Arnell.Dialogue.DumpsterDiveComment}}",	   
+			}
+		}
+	]
+}

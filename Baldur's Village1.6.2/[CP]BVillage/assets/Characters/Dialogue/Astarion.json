@@ -1,0 +1,418 @@
+
+{
+"Changes": [
+  { 
+  "LogName":"Astarion", 
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Astarion",
+  "Entries": { 
+	
+				//ConversationTopic
+				"62130017Astarion5heart":"{{i18n:event-62130017-Astarion.1}}",	
+				"62130039welcome":"{{i18n:event-62130039-Astarion.2}}",
+  
+	            //Events
+				"3event_1": "{{i18n:Astarion.Dialogue.3event_1}}",
+				"3event_2": "{{i18n:Astarion.Dialogue.3event_2}}",
+				"3event_3": "{{i18n:Astarion.Dialogue.3event_3}}",
+				"3event_4": "{{i18n:Astarion.Dialogue.3event_4}}",
+				//Festivals
+				"FlowerDance_Accept": "{{i18n:Astarion.Dialogue.FlowerDance_Accept}}",
+				"FlowerDance_Decline": "{{i18n:Astarion.Dialogue.FlowerDance_Decline}}",
+				"SquidFest": "{{i18n:Astarion.Dialogue.SquidFest}}",
+				"wonIceFishing": "{{i18n:Astarion.Dialogue.wonIceFishing}}",
+				///QuestionOption
+				"biteonequestion_positive": "{{i18n:Astarion.MarriageDialogue.biteonequestion_positive}}",
+				"biteonequestion_mean": "{{i18n:Astarion.MarriageDialogue.biteonequestion_mean}}",
+				"bitetwoquestion_positive": "{{i18n:Astarion.MarriageDialogue.bitetwoquestion_positive}}",
+				"bitetwoquestion_mean": "{{i18n:Astarion.MarriageDialogue.bitetwoquestion_mean}}",
+				"jokequestion_positive": "{{i18n:Astarion.MarriageDialogue.jokequestion_positive}}",
+				"jokequestion_mean": "{{i18n:Astarion.MarriageDialogue.jokequestion_mean}}",
+				"jokequestion_neutral": "{{i18n:Astarion.MarriageDialogue.jokequestion_neutral}}",
+				"rainydaybitequestion_positive": "{{i18n:Astarion.MarriageDialogue.rainydaybitequestion_positive}}",
+				"rainydaybitequestion_mean": "{{i18n:Astarion.MarriageDialogue.rainydaybitequestion_mean}}",
+				"rainydaybitequestion_neutral": "{{i18n:Astarion.MarriageDialogue.rainydaybitequestion_neutral}}",
+				"nightbitequestion_positive": "{{i18n:Astarion.MarriageDialogue.nightbitequestion_positive}}",
+				"nightbitequestion_mean": "{{i18n:Astarion.MarriageDialogue.nightbitequestion_mean}}",
+				"nightbitequestion_neutral": "{{i18n:Astarion.MarriageDialogue.nightbitequestion_neutral}}",
+				"newyearbitequestion_positive": "{{i18n:Astarion.MarriageDialogue.newyearbitequestion_positive}}",
+				"newyearbitequestion_mean": "{{i18n:Astarion.MarriageDialogue.newyearbitequestion_mean}}",
+				"newyearbitequestion_neutral": "{{i18n:Astarion.MarriageDialogue.newyearbitequestion_neutral}}",
+
+				"needhelpquestion_positive": "{{i18n:Astarion.MarriageDialogue.needhelpquestion_positive}}",
+				"needhelpquestion_neutral": "{{i18n:Astarion.MarriageDialogue.needhelpquestion_neutral}}",
+				"needhelpquestion_mean": "{{i18n:Astarion.MarriageDialogue.needhelpquestion_mean}}",
+				"busytimequestion_positive": "{{i18n:Astarion.MarriageDialogue.busytimequestion_positive}}",
+				"busytimequestion_mean": "{{i18n:Astarion.MarriageDialogue.busytimequestion_mean}}",
+				"busytimequestion_neutral": "{{i18n:Astarion.MarriageDialogue.busytimequestion_neutral}}",
+				"springdairyquestion_positive": "{{i18n:Astarion.MarriageDialogue.springdairyquestion_positive}}",
+				"springdairyquestion_friend": "{{i18n:Astarion.MarriageDialogue.springdairyquestion_friend}}",
+				"springdairyquestion_mean": "{{i18n:Astarion.MarriageDialogue.springdairyquestion_mean}}",
+				"springdairyquestion_neutral": "{{i18n:Astarion.MarriageDialogue.springdairyquestion_neutral}}",
+				"flowerdancequestion_positive": "{{i18n:Astarion.MarriageDialogue.flowerdancequestion_positive}}",
+				"flowerdancequestion_friend": "{{i18n:Astarion.MarriageDialogue.flowerdancequestion_friend}}",
+				"flowerdancequestion_mean": "{{i18n:Astarion.MarriageDialogue.flowerdancequestion_mean}}",
+				"flowerdancequestion_neutral": "{{i18n:Astarion.MarriageDialogue.flowerdancequestion_neutral}}",
+				"Luauquestion_positive": "{{i18n:Astarion.MarriageDialogue.Luauquestion_positive}}",
+				"Luauquestion_friend": "{{i18n:Astarion.MarriageDialogue.Luauquestion_friend}}",
+				"Luauquestion_mean": "{{i18n:Astarion.MarriageDialogue.Luauquestion_mean}}",
+				"Luauquestion_neutral": "{{i18n:Astarion.MarriageDialogue.Luauquestion_neutral}}",
+				"villagerquestion_positive": "{{i18n:Astarion.MarriageDialogue.villagerquestion_positive}}",
+				"villagerquestion_neutral": "{{i18n:Astarion.MarriageDialogue.villagerquestion_neutral}}",
+				"villagerquestion_mean": "{{i18n:Astarion.MarriageDialogue.villagerquestion_mean}}",
+				"wintergiftquestion_positive": "{{i18n:Astarion.MarriageDialogue.wintergiftquestion_positive}}",
+				"wintergiftquestion_friend": "{{i18n:Astarion.MarriageDialogue.wintergiftquestion_friend}}",
+				"wintergiftquestion_mean": "{{i18n:Astarion.MarriageDialogue.wintergiftquestion_mean}}",
+				"wintergiftquestion_neutral": "{{i18n:Astarion.MarriageDialogue.wintergiftquestion_neutral}}",
+				//Movie
+				"MovieInvitation": "{{i18n:Astarion.Dialogue.MovieInvitation}}",
+				"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:Astarion.Dialogue.RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
+				"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Astarion.Dialogue.RejectMovieTicket_AlreadyWatchedThisWeek}}",
+				"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:Astarion.Dialogue.RejectMovieTicket_DontWantToSeeThatMovie}}",
+				//Gifts
+				"AcceptBirthdayGift_Loved": "{{i18n:Astarion.Dialogue.AcceptBirthdayGift_Loved}}",
+				"AcceptBirthdayGift_Like": "{{i18n:Astarion.Dialogue.AcceptBirthdayGift_Like}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Astarion.Dialogue.AcceptBirthdayGift_Negative}}",
+				"AcceptBirthdayGift_Disliked": "{{i18n:Astarion.Dialogue.AcceptBirthdayGift_Disliked}}",
+				"AcceptBirthdayGift_Hated": "{{i18n:Astarion.Dialogue.AcceptBirthdayGift_Hated}}",
+				"AcceptGift_forage_item": "{{i18n:Astarion.Dialogue.AcceptGift_forage_item}}",
+				"AcceptGift_forage_item_beach": "{{i18n:Astarion.Dialogue.AcceptGift_forage_item_beach}}",
+				"AcceptGift_(O)373": "{{i18n:Astarion.Dialogue.AcceptGift_(O)373}}",
+				"AcceptGift_(O)797": "{{i18n:Astarion.Dialogue.AcceptGift_(O)797}}",//珍珠
+				"AcceptGift_(O)348": "{{i18n:Astarion.Dialogue.AcceptGift_(O)348}}",//果酒
+				"AcceptGift_(O)430": "{{i18n:Astarion.Dialogue.AcceptGift_(O)430}}",//松露
+				"AcceptGift_(O)637": "{{i18n:Astarion.Dialogue.AcceptGift_(O)637}}",//石榴
+				"AcceptGift_(O)64": "{{i18n:Astarion.Dialogue.AcceptGift_(O)64}}",
+				"AcceptGift_(O)72": "{{i18n:Astarion.Dialogue.AcceptGift_(O)72}}",
+				"AcceptGift_(O)82": "{{i18n:Astarion.Dialogue.AcceptGift_(O)82}}",//火水晶
+				"AcceptGift_(O)74": "{{i18n:Astarion.Dialogue.AcceptGift_(O)74}}",
+				"AcceptGift_(O)103": "{{i18n:Astarion.Dialogue.AcceptGift_(O)103}}",//物品对话到此为止已测试好
+				"AcceptGift_(O)768": "{{i18n:Astarion.Dialogue.AcceptGift_(O)768}}",//太阳精华
+				"AcceptGift_(O)769": "{{i18n:Astarion.Dialogue.AcceptGift_(O)769}}",//虚空精华
+				"AcceptGift_(O)16": "{{i18n:Astarion.Dialogue.AcceptGift_(O)16}}",//觅食
+				"AcceptGift_(O)18": "{{i18n:Astarion.Dialogue.AcceptGift_(O)18}}",
+				"AcceptGift_(O)22": "{{i18n:Astarion.Dialogue.AcceptGift_(O)22}}",
+				"AcceptGift_(O)408": "{{i18n:Astarion.Dialogue.AcceptGift_(O)408}}",
+				"AcceptGift_(O)414": "{{i18n:Astarion.Dialogue.AcceptGift_(O)414}}",
+				"AcceptGift_(O)416": "{{i18n:Astarion.Dialogue.AcceptGift_(O)416}}",
+				"AcceptGift_(O)418": "{{i18n:Astarion.Dialogue.AcceptGift_(O)418}}",
+				"AcceptGift_(O)24": "{{i18n:Astarion.Dialogue.AcceptGift_(O)24}}",
+				"AcceptGift_(O)282": "{{i18n:Astarion.Dialogue.AcceptGift_(O)282}}",//蔓越莓
+				"AcceptGift_(O)283": "{{i18n:Astarion.Dialogue.AcceptGift_(O)283}}",//冬青树
+				"AcceptGift_(O)286": "{{i18n:Astarion.Dialogue.AcceptGift_(O)286}}",//樱桃炸弹
+				"AcceptGift_(O)287": "{{i18n:Astarion.Dialogue.AcceptGift_(O)287}}",//炸弹
+				"AcceptGift_(O)288": "{{i18n:Astarion.Dialogue.AcceptGift_(O)288}}",//超级炸弹
+				"AcceptGift_(O)402": "{{i18n:Astarion.Dialogue.AcceptGift_(O)402}}",
+				"AcceptGift_(O)403": "{{i18n:Astarion.Dialogue.AcceptGift_(O)403}}",
+				"AcceptGift_(O)613": "{{i18n:Astarion.Dialogue.AcceptGift_(O)613}}",//水果
+				"AcceptGift_(O)634": "{{i18n:Astarion.Dialogue.AcceptGift_(O)634}}",
+				"AcceptGift_(O)636": "{{i18n:Astarion.Dialogue.AcceptGift_(O)636}}",
+				"AcceptGift_(O)638": "{{i18n:Astarion.Dialogue.AcceptGift_(O)638}}",
+				"AcceptGift_(O)400": "{{i18n:Astarion.Dialogue.AcceptGift_(O)400}}",
+				"AcceptGift_(O)446": "{{i18n:Astarion.Dialogue.AcceptGift_(O)446}}",//兔角
+				"AcceptGift_(O)773": "{{i18n:Astarion.Dialogue.AcceptGift_(O)773}}",
+				"AcceptGift_(O)305": "{{i18n:Astarion.Dialogue.AcceptGift_(O)305}}",//蛋与农产品
+				"AcceptGift_(O)167": "{{i18n:Astarion.Dialogue.AcceptGift_(O)167}}",//可乐
+				"AcceptGift_(O)174": "{{i18n:Astarion.Dialogue.AcceptGift_(O)174}}",
+				"AcceptGift_(O)176": "{{i18n:Astarion.Dialogue.AcceptGift_(O)176}}",
+				"AcceptGift_(O)180": "{{i18n:Astarion.Dialogue.AcceptGift_(O)180}}",
+				"AcceptGift_(O)182": "{{i18n:Astarion.Dialogue.AcceptGift_(O)182}}",
+				"AcceptGift_(O)420": "{{i18n:Astarion.Dialogue.AcceptGift_(O)420}}",//红蘑菇
+				"AcceptGift_(O)422": "{{i18n:Astarion.Dialogue.AcceptGift_(O)422}}",//紫蘑菇
+				"AcceptGift_(O)440": "{{i18n:Astarion.Dialogue.AcceptGift_(O)440}}",//羊毛
+				"AcceptGift_(O)442": "{{i18n:Astarion.Dialogue.AcceptGift_(O)442}}",//鸭蛋
+				"AcceptGift_(O)444": "{{i18n:Astarion.Dialogue.AcceptGift_(O)444}}",//鸭毛
+				"AcceptGift_(O)253": "{{i18n:Astarion.Dialogue.AcceptGift_(O)253}}",//饮品
+				"AcceptGift_(O)303": "{{i18n:Astarion.Dialogue.AcceptGift_(O)303}}",
+				"AcceptGift_(O)395": "{{i18n:Astarion.Dialogue.AcceptGift_(O)395}}",//饮品
+				"AcceptGift_(O)346": "{{i18n:Astarion.Dialogue.AcceptGift_(O)346}}",
+				"AcceptGift_(O)196": "{{i18n:Astarion.Dialogue.AcceptGift_(O)196}}",
+				"AcceptGift_(O)20": "{{i18n:Astarion.Dialogue.AcceptGift_(O)20}}",
+				"AcceptGift_(O)227": "{{i18n:Astarion.Dialogue.AcceptGift_(O)227}}",
+				"AcceptGift_(O)0": "{{i18n:Astarion.Dialogue.AcceptGift_(O)0}}",
+				"AcceptGift_(O)75": "{{i18n:Astarion.Dialogue.AcceptGift_(O)75}}",
+				"AcceptGift_(O)330": "{{i18n:Astarion.Dialogue.AcceptGift_(O)330}}",
+				"AcceptGift_(O)149": "{{i18n:Astarion.Dialogue.AcceptGift_(O)149}}",
+				"AcceptGift_(O)151": "{{i18n:Astarion.Dialogue.AcceptGift_(O)151}}",
+				"AcceptGift_(O)154": "{{i18n:Astarion.Dialogue.AcceptGift_(O)154}}",
+				"AcceptGift_(O)397": "{{i18n:Astarion.Dialogue.AcceptGift_(O)397}}",
+				"AcceptGift_(O)717": "{{i18n:Astarion.Dialogue.AcceptGift_(O)717}}",
+				"AcceptGift_(O)767": "{{i18n:Astarion.Dialogue.AcceptGift_(O)767}}",
+
+                //Resort
+				"Resort_Entering": "{{i18n:Astarion.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Astarion.Dialogue.Resort_Leaving}}",
+				"Resort_Leaving_2": "{{i18n:Astarion.Dialogue.Resort_Leaving_2}}",
+				"Resort_Shore": "{{i18n:Astarion.Dialogue.Resort_Shore}}",
+				"Resort_Shore_2": "{{i18n:Astarion.Dialogue.Resort_Shore_2}}",
+				"Resort_Shore_3": "{{i18n:Astarion.Dialogue.Resort_Shore_3}}",
+				"Resort_Umbrella": "{{i18n:Astarion.Dialogue.Resort_Umbrella}}",
+				"Resort_Umbrella_2": "{{i18n:Astarion.Dialogue.Resort_Umbrella_2}}",
+				"Resort_Umbrella_3": "{{i18n:Astarion.Dialogue.Resort_Umbrella_3}}",
+				"Resort_Chair": "{{i18n:Astarion.Dialogue.Resort_Chair}}",
+				"Resort_Bar": "{{i18n:Astarion.Dialogue.Resort_Bar}}",
+				"Resort_Wander": "{{i18n:Astarion.Dialogue.Resort_Wander}}",
+				"Resort_Wander_2": "{{i18n:Astarion.Dialogue.Resort_Wander_2}}",
+				"Resort": "{{i18n:Astarion.Dialogue.Resort}}",
+				"Resort_2": "{{i18n:Astarion.Dialogue.Resort_2}}",				
+				//Romance
+				  /// Bouquet
+				"AcceptBouquet": "{{i18n:Astarion.Dialogue.AcceptBouquet}}",
+				"bouquetquestion_positive": "{{i18n:Astarion.Dialogue.bouquetquestion_positive}}",
+				"bouquetquestion_friend": "{{i18n:Astarion.Dialogue.bouquetquestion_friend}}",
+				"bouquetquestion_mean": "{{i18n:Astarion.Dialogue.bouquetquestion_mean}}",
+				"bouquetquestion_neutral": "{{i18n:Astarion.Dialogue.bouquetquestion_neutral}}",
+				"dating_Astarion": "{{i18n:Astarion.Dialogue.dating_Astarion}}",
+				"dating_Astarion_memory_oneday": "{{i18n:Astarion.Dialogue.dating_Astarion_memory_oneday}}",
+				  ///Reject
+                "RejectBouquet": "{{i18n:Astarion.Dialogue.RejectBouquet}}",
+				"RejectBouquet_LowHearts": "{{i18n:Astarion.Dialogue.RejectBouquet_LowHearts}}",
+				"RejectBouquet_VeryLowHearts": "{{i18n:Astarion.Dialogue.RejectBouquet_VeryLowHearts}}",
+                "RejectBouquet_NPCAlreadyMarried": "{{i18n:Astarion.Dialogue.RejectBouquet_NPCAlreadyMarried}}",
+                "RejectBouquet_Divorce": "{{i18n:Astarion.Dialogue.RejectBouquet_Divorce}}",
+				  ///Pendant EngagementDialogue.json
+				  
+				  //Reject
+				"RejectMermaidPendant": "{{i18n:Astarion.Dialogue.RejectMermaidPendant}}",
+				"RejectMermaidPendant_Under10Hearts": "{{i18n:Astarion.Dialogue.RejectMermaidPendant_Under10Hearts}}",
+				"RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:Astarion.Dialogue.RejectMermaidPendant_Under10Hearts_AskedAgain}}",
+				"RejectMermaidPendant_Under8Hearts": "{{i18n:Astarion.Dialogue.RejectMermaidPendant_Under8Hearts}}",
+				"RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:Astarion.Dialogue.RejectMermaidPendant_PlayerWithSomeoneElse}}",
+				"RejectMermaidPendant_NPCWithSomeoneElse": "{{i18n:Astarion.Dialogue.RejectMermaidPendant_NPCWithSomeoneElse}}",
+				"RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:Astarion.Dialogue.RejectMermaidPendant}}",
+				"RejectMermaidPendant_Divorced": "{{i18n:Astarion.Dialogue.RejectMermaidPendant_Divorced}}",
+				//Wedding comment 
+				"married_Astarion": "{{i18n:Astarion.Dialogue.married_Astarion}}",
+				//proposal question
+				"proposalquestion_positive": "{{i18n:Astarion.Dialogue.proposalquestion_positive}}",
+				"proposalquestion_friend": "{{i18n:Astarion.Dialogue.proposalquestion_friend}}",
+				"proposalquestion_mean": "{{i18n:Astarion.Dialogue.proposalquestion_mean}}",
+				"proposalquestion_neutral": "{{i18n:Astarion.Dialogue.proposalquestion_neutral}}",
+				"proposalquestion_walk": "{{i18n:Astarion.Dialogue.proposalquestion_walk}}",
+				"purchasedAnimal_Duck": "{{i18n:Astarion.Dialogue.purchasedAnimal_Duck}}",
+				  ///Divorced
+				"divorced": "{{i18n:Astarion.Dialogue.divorced}}",
+				"dumped_Guys": "{{i18n:Astarion.Dialogue.dumped_Guys}}",
+				  ///2nd Chance
+				"secondChance_Guys": "{{i18n:Astarion.Dialogue.secondChance_Guys}}",
+				  ///breakup
+				"breakUp": "{{i18n:Astarion.Dialogue.breakUp}}",
+				//Daily
+				"firstVisit_Custom_Astarion_House": "{{i18n:Astarion.Dialogue.firstVisit_Custom_Astarion_House}}",				  
+				"Introduction": "{{i18n:Astarion.Dialogue.Introduction}}",
+				//Spring
+				//Spring 0 hearts
+				"Mon": "{{i18n:Astarion.Dialogue.Mon}}",
+				"Tue": "{{i18n:Astarion.Dialogue.Tue}}",
+				"Wed": "{{i18n:Astarion.Dialogue.Wed}}",
+				"Thu": "{{i18n:Astarion.Dialogue.Thu}}",
+				"Fri": "{{i18n:Astarion.Dialogue.Fri}}",
+				"Sat": "{{i18n:Astarion.Dialogue.Sat}}",
+				"Sun": "{{i18n:Astarion.Dialogue.Sun}}",
+				//Spring 2 hearts
+				"Mon2": "{{i18n:Astarion.Dialogue.Mon2}}",
+				"Tue2": "{{i18n:Astarion.Dialogue.Tue2}}",
+				"Wed2": "{{i18n:Astarion.Dialogue.Wed2}}",
+				"Thu2": "{{i18n:Astarion.Dialogue.Thu2}}",
+				"Fri2": "{{i18n:Astarion.Dialogue.Fri2}}",
+				"Sat2": "{{i18n:Astarion.Dialogue.Sat2}}",
+				"springquestion_positive": "{{i18n:Astarion.Dialogue.springquestion_positive}}",
+				"springquestion_friend": "{{i18n:Astarion.Dialogue.springquestion_friend}}",
+				"springquestion_mean": "{{i18n:Astarion.Dialogue.springquestion_mean}}",
+				"springquestion_neutral": "{{i18n:Astarion.Dialogue.springquestion_neutral}}",
+				"Sun2": "{{i18n:Astarion.Dialogue.Sun2}}",				
+				//Spring 4 hearts
+				"Mon4": "{{i18n:Astarion.Dialogue.Mon4}}",
+				"Tue4": "{{i18n:Astarion.Dialogue.Tue4}}",
+				"Wed4": "{{i18n:Astarion.Dialogue.Wed4}}",
+				"Thu4": "{{i18n:Astarion.Dialogue.Thu4}}",
+				"Fri4": "{{i18n:Astarion.Dialogue.Fri4}}",
+				"Sat4": "{{i18n:Astarion.Dialogue.Sat4}}",
+				"Sun4": "{{i18n:Astarion.Dialogue.Sun4}}",
+				//Spring 6 hearts
+				"Mon6": "{{i18n:Astarion.Dialogue.Mon6}}",
+				"Tue6": "{{i18n:Astarion.Dialogue.Tue6}}",
+				"Wed6": "{{i18n:Astarion.Dialogue.Wed6}}",
+				"Thu6": "{{i18n:Astarion.Dialogue.Thu6}}",
+				"Fri6": "{{i18n:Astarion.Dialogue.Fri6}}",
+				"Sat6": "{{i18n:Astarion.Dialogue.Sat6}}",
+				"Sun6": "{{i18n:Astarion.Dialogue.Sun6}}",				
+				//Spring 8 hearts
+				"Mon8": "{{i18n:Astarion.Dialogue.Mon8}}",
+				"Tue8": "{{i18n:Astarion.Dialogue.Tue8}}",
+				"Wed8": "{{i18n:Astarion.Dialogue.Wed8}}",
+				"Thu8": "{{i18n:Astarion.Dialogue.Thu8}}",
+				"Fri8": "{{i18n:Astarion.Dialogue.Fri8}}",
+				"Sat8": "{{i18n:Astarion.Dialogue.Sat8}}",
+				"Sun8": "{{i18n:Astarion.Dialogue.Sun8}}",
+				//Spring 10 hearts
+				"Mon10": "{{i18n:Astarion.Dialogue.Mon10}}",
+				"Tue10": "{{i18n:Astarion.Dialogue.Tue10}}",
+				"Wed10": "{{i18n:Astarion.Dialogue.Wed10}}",
+				"Thu10": "{{i18n:Astarion.Dialogue.Thu10}}",
+				"Fri10": "{{i18n:Astarion.Dialogue.Fri10}}",
+				"Sat10": "{{i18n:Astarion.Dialogue.Sat10}}",
+				"Sun10": "{{i18n:Astarion.Dialogue.Sun10}}",				
+                //Summer
+				//Summer 0 hearts
+				"summer_Mon": "{{i18n:Astarion.Dialogue.summer_Mon}}",
+				"summer_Tue": "{{i18n:Astarion.Dialogue.summer_Tue}}",
+				"summer_Wed": "{{i18n:Astarion.Dialogue.summer_Wed}}",
+				"summer_Thu": "{{i18n:Astarion.Dialogue.summer_Thu}}",
+				"summer_Fri": "{{i18n:Astarion.Dialogue.summer_Fri}}",
+				"summer_Sat": "{{i18n:Astarion.Dialogue.summer_Sat}}",
+				"summer_Sun": "{{i18n:Astarion.Dialogue.summer_Sun}}",
+				//Summer 2 hearts
+				"summer_Mon2": "{{i18n:Astarion.Dialogue.summer_Mon2}}",
+				"summer_Tue2": "{{i18n:Astarion.Dialogue.summer_Tue2}}",
+				"summer_Wed2": "{{i18n:Astarion.Dialogue.summer_Wed2}}",
+				"summer_Thu2": "{{i18n:Astarion.Dialogue.summer_Thu2}}",
+				"summer_Fri2": "{{i18n:Astarion.Dialogue.summer_Fri2}}",
+				"summer_Sat2": "{{i18n:Astarion.Dialogue.summer_Sat2}}",
+				"summer_Sun2": "{{i18n:Astarion.Dialogue.summer_Sun2}}",				
+				//Summer 4 hearts
+				"summer_Mon4": "{{i18n:Astarion.Dialogue.summer_Mon4}}",
+				"summer_Tue4": "{{i18n:Astarion.Dialogue.summer_Tue4}}",
+				"summer_Wed4": "{{i18n:Astarion.Dialogue.summer_Wed4}}",
+				"summer_Thu4": "{{i18n:Astarion.Dialogue.summer_Thu4}}",
+				"summer_Fri4": "{{i18n:Astarion.Dialogue.summer_Fri4}}",
+				"summer_Sat4": "{{i18n:Astarion.Dialogue.summer_Sat4}}",
+				"summer_Sun4": "{{i18n:Astarion.Dialogue.summer_Sun4}}",
+				//Summer 6 hearts
+				"summer_Mon6": "{{i18n:Astarion.Dialogue.summer_Mon6}}",
+				"summer_Tue6": "{{i18n:Astarion.Dialogue.summer_Tue6}}",
+				"summer_Wed6": "{{i18n:Astarion.Dialogue.summer_Wed6}}",
+				"summer_Thu6": "{{i18n:Astarion.Dialogue.summer_Thu6}}",
+				"summer_Fri6": "{{i18n:Astarion.Dialogue.summer_Fri6}}",
+				"summer_Sat6": "{{i18n:Astarion.Dialogue.summer_Sat6}}",
+				"summer_Sun6": "{{i18n:Astarion.Dialogue.summer_Sun6}}",				
+				//Summer 8 hearts
+				"summer_Mon8": "{{i18n:Astarion.Dialogue.summer_Mon8}}",
+				"summer_Tue8": "{{i18n:Astarion.Dialogue.summer_Tue8}}",
+				"summer_Wed8": "{{i18n:Astarion.Dialogue.summer_Wed8}}",
+				"summer_Thu8": "{{i18n:Astarion.Dialogue.summer_Thu8}}",
+				"summer_Fri8": "{{i18n:Astarion.Dialogue.summer_Fri8}}",
+				"summer_Sat8": "{{i18n:Astarion.Dialogue.summer_Sat8}}",
+				"summer_Sun8": "{{i18n:Astarion.Dialogue.summer_Sun8}}",
+				//Summer 10 hearts
+				"summer_Mon10": "{{i18n:Astarion.Dialogue.summer_Mon10}}",
+				"summer_Tue10": "{{i18n:Astarion.Dialogue.summer_Tue10}}",
+				"summer_Wed10": "{{i18n:Astarion.Dialogue.summer_Wed10}}",
+				"summer_Thu10": "{{i18n:Astarion.Dialogue.summer_Thu10}}",
+				"summer_Fri10": "{{i18n:Astarion.Dialogue.summer_Fri10}}",
+				"summer_Sat10": "{{i18n:Astarion.Dialogue.summer_Sat10}}",
+				"summer_Sun10": "{{i18n:Astarion.Dialogue.summer_Sun10}}",					
+				//Fall
+				//fall 0 hearts
+				"fall_Mon": "{{i18n:Astarion.Dialogue.fall_Mon}}",
+				"fall_Tue": "{{i18n:Astarion.Dialogue.fall_Tue}}",
+				"fall_Wed": "{{i18n:Astarion.Dialogue.fall_Wed}}",
+				"fall_Thu": "{{i18n:Astarion.Dialogue.fall_Thu}}",
+				"fall_Fri": "{{i18n:Astarion.Dialogue.fall_Fri}}",
+				"fall_Sat": "{{i18n:Astarion.Dialogue.fall_Sat}}",
+				"fall_Sun": "{{i18n:Astarion.Dialogue.fall_Sun}}",
+				//fall 2 hearts
+				"fall_Mon2": "{{i18n:Astarion.Dialogue.fall_Mon2}}",
+				"fall_Tue2": "{{i18n:Astarion.Dialogue.fall_Tue2}}",
+				"fall_Wed2": "{{i18n:Astarion.Dialogue.fall_Wed2}}",
+				"fall_Thu2": "{{i18n:Astarion.Dialogue.fall_Thu2}}",
+				"fall_Fri2": "{{i18n:Astarion.Dialogue.fall_Fri2}}",
+				"fall_Sat2": "{{i18n:Astarion.Dialogue.fall_Sat2}}",
+				"fall_Sun2": "{{i18n:Astarion.Dialogue.fall_Sun2}}",				
+				//fall 4 hearts
+				"fall_Mon4": "{{i18n:Astarion.Dialogue.fall_Mon4}}",
+				"fall_Tue4": "{{i18n:Astarion.Dialogue.fall_Tue4}}",
+				"fall_Wed4": "{{i18n:Astarion.Dialogue.fall_Wed4}}",
+				"fall_Thu4": "{{i18n:Astarion.Dialogue.fall_Thu4}}",
+				"fall_Fri4": "{{i18n:Astarion.Dialogue.fall_Fri4}}",
+				"fall_Sat4": "{{i18n:Astarion.Dialogue.fall_Sat4}}",
+				"fall_Sun4": "{{i18n:Astarion.Dialogue.fall_Sun4}}",
+				//fall 6 hearts
+				"fall_Mon6": "{{i18n:Astarion.Dialogue.fall_Mon6}}",
+				"fall_Tue6": "{{i18n:Astarion.Dialogue.fall_Tue6}}",
+				"fall_Wed6": "{{i18n:Astarion.Dialogue.fall_Wed6}}",
+				"fall_Thu6": "{{i18n:Astarion.Dialogue.fall_Thu6}}",
+				"fall_Fri6": "{{i18n:Astarion.Dialogue.fall_Fri6}}",
+				"fall_Sat6": "{{i18n:Astarion.Dialogue.fall_Sat6}}",
+				"fall_Sun6": "{{i18n:Astarion.Dialogue.fall_Sun6}}",				
+				//fall 8 hearts
+				"fall_Mon8": "{{i18n:Astarion.Dialogue.fall_Mon8}}",
+				"fall_Tue8": "{{i18n:Astarion.Dialogue.fall_Tue8}}",
+				"fall_Wed8": "{{i18n:Astarion.Dialogue.fall_Wed8}}",
+				"fall_Thu8": "{{i18n:Astarion.Dialogue.fall_Thu8}}",
+				"fall_Fri8": "{{i18n:Astarion.Dialogue.fall_Fri8}}",
+				"fall_Sat8": "{{i18n:Astarion.Dialogue.fall_Sat8}}",
+				"fall_Sun8": "{{i18n:Astarion.Dialogue.fall_Sun8}}",
+				//fall 10 hearts
+				"fall_Mon10": "{{i18n:Astarion.Dialogue.fall_Mon10}}",
+				"fall_Tue10": "{{i18n:Astarion.Dialogue.fall_Tue10}}",
+				"fall_Wed10": "{{i18n:Astarion.Dialogue.fall_Wed10}}",
+				"fall_Thu10": "{{i18n:Astarion.Dialogue.fall_Thu10}}",
+				"fall_Fri10": "{{i18n:Astarion.Dialogue.fall_Fri10}}",
+				"fall_Sat10": "{{i18n:Astarion.Dialogue.fall_Sat10}}",
+				"fall_Sun10": "{{i18n:Astarion.Dialogue.fall_Sun10}}",		
+				//Winter
+				"AstarionHouse_winter_Wed": "{{i18n:Astarion.Dialogue.AstarionHouse_winter_Wed}}",				
+				//winter 0 hearts
+				"winter_Mon": "{{i18n:Astarion.Dialogue.winter_Mon}}",
+				"winter_Tue": "{{i18n:Astarion.Dialogue.winter_Tue}}",
+				"winter_Wed": "{{i18n:Astarion.Dialogue.winter_Wed}}",
+				"winter_Thu": "{{i18n:Astarion.Dialogue.winter_Thu}}",
+				"winter_Fri": "{{i18n:Astarion.Dialogue.winter_Fri}}",
+				"winter_Sat": "{{i18n:Astarion.Dialogue.winter_Sat}}",
+				"winter_Sun": "{{i18n:Astarion.Dialogue.winter_Sun}}",
+				//winter 2 hearts
+				"winter_Mon2": "{{i18n:Astarion.Dialogue.winter_Mon2}}",
+				"winter_Tue2": "{{i18n:Astarion.Dialogue.winter_Tue2}}",
+				"winter_Wed2": "{{i18n:Astarion.Dialogue.winter_Wed2}}",
+				"winter_Thu2": "{{i18n:Astarion.Dialogue.winter_Thu2}}",
+				"winter_Fri2": "{{i18n:Astarion.Dialogue.winter_Fri2}}",
+				"winter_Sat2": "{{i18n:Astarion.Dialogue.winter_Sat2}}",
+				"winter_Sun2": "{{i18n:Astarion.Dialogue.winter_Sun2}}",				
+				//winter 4 hearts
+				"winter_Mon4": "{{i18n:Astarion.Dialogue.winter_Mon4}}",
+				"winter_Tue4": "{{i18n:Astarion.Dialogue.winter_Tue4}}",
+				"winter_Wed4": "{{i18n:Astarion.Dialogue.winter_Wed4}}",
+				"winter_Thu4": "{{i18n:Astarion.Dialogue.winter_Thu4}}",
+				"winter_Fri4": "{{i18n:Astarion.Dialogue.winter_Fri4}}",
+				"winter_Sat4": "{{i18n:Astarion.Dialogue.winter_Sat4}}",
+				"winter_Sun4": "{{i18n:Astarion.Dialogue.winter_Sun4}}",
+				//winter 6 hearts
+				"winter_Mon6": "{{i18n:Astarion.Dialogue.winter_Mon6}}",
+				"winter_Tue6": "{{i18n:Astarion.Dialogue.winter_Tue6}}",
+				"winter_Wed6": "{{i18n:Astarion.Dialogue.winter_Wed6}}",
+				"winter_Thu6": "{{i18n:Astarion.Dialogue.winter_Thu6}}",
+				"winter_Fri6": "{{i18n:Astarion.Dialogue.winter_Fri6}}",
+				"winter_Sat6": "{{i18n:Astarion.Dialogue.winter_Sat6}}",
+				"winter_Sun6": "{{i18n:Astarion.Dialogue.winter_Sun6}}",				
+				//winter 8 hearts
+				"winter_Mon8": "{{i18n:Astarion.Dialogue.winter_Mon8}}",
+				"sunshinequestion_positive": "{{i18n:Astarion.Dialogue.sunshinequestion_positive}}",
+				"sunshinequestion_friend": "{{i18n:Astarion.Dialogue.sunshinequestion_friend}}",
+				"sunshinequestion_mean": "{{i18n:Astarion.Dialogue.sunshinequestion_mean}}",
+				"sunshinequestion_neutral": "{{i18n:Astarion.Dialogue.sunshinequestion_neutral}}",
+				"winter_Tue8": "{{i18n:Astarion.Dialogue.winter_Tue8}}",
+				"winter_Wed8": "{{i18n:Astarion.Dialogue.winter_Wed8}}",
+				"winter_Thu8": "{{i18n:Astarion.Dialogue.winter_Thu8}}",
+				"winter_Fri8": "{{i18n:Astarion.Dialogue.winter_Fri8}}",
+				"winter_Sat8": "{{i18n:Astarion.Dialogue.winter_Sat8}}",
+				"winter_Sun8": "{{i18n:Astarion.Dialogue.winter_Sun8}}",
+				//winter 10 hearts
+				"winter_Mon10": "{{i18n:Astarion.Dialogue.winter_Mon10}}",
+				"winter_Tue10": "{{i18n:Astarion.Dialogue.winter_Tue10}}",
+				"winter_Wed10": "{{i18n:Astarion.Dialogue.winter_Wed10}}",
+				"winter_Thu10": "{{i18n:Astarion.Dialogue.winter_Thu10}}",
+				"winter_Fri10": "{{i18n:Astarion.Dialogue.winter_Fri10}}",
+				"winter_Sat10": "{{i18n:Astarion.Dialogue.winter_Sat10}}",
+				"winter_Sun10": "{{i18n:Astarion.Dialogue.winter_Sun10}}",	
+				
+				//Others
+				///GreenRain
+				"GreenRain": "{{i18n:Astarion.Dialogue.GreenRain}}",
+				"GreenRain_2": "{{i18n:Astarion.Dialogue.GreenRain_2}}",
+				///Dumpster
+				"DumpsterDiveComment": "{{i18n:Astarion.Dialogue.DumpsterDiveComment}}",	    
+			}
+		}
+	]
+}

@@ -1,0 +1,397 @@
+{
+  "Changes": [
+  	//EggFestival
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Festivals/spring13",
+		   "TextOperations": [
+				{
+				 "Operation": "Append",
+				 "Target": ["Entries", "Set-Up_additionalCharacters"],
+				 "Value": "Halsin 7 65 left/Shadowheart 24 70 down/30888_Gale 15 72 right/Arnell 25 71 up/Emmeline 24 71 up/Laezel 17 73 down",
+				 "Delimiter": "/"
+				},
+				{
+				 "Operation": "Append",
+				 "Target": ["Entries", "MainEvent_additionalCharacters"],
+				 "Value": "Halsin 22 73 up/Shadowheart 25 73 up/30888_Gale 36 62 down/Arnell 24 72 right/Emmeline 26 73 up/Laezel 35 62 down",
+				 "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "Halsin 38 69 left/Shadowheart 24 70 down/30888_Gale 34 76 right/Arnell 25 71 up/Emmeline 24 71 up/Laezel 10 65 down",
+					"Delimiter": "/"
+				   },
+				   {
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+					"Value": "Halsin 24 62 down/Shadowheart 25 73 up/30888_Gale 36 62 down/Arnell 19 70 right/Emmeline 26 73 up/Laezel 35 62 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		//EggFestival after Atarion 8 hearts event
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+			   "HasSeenEvent: anyPlayer| contains=62130034": true
+			},
+			"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Set-Up_additionalCharacters"],
+				"Value": "Astarion 16 72 left",
+				"Delimiter": "/"
+			   },
+			   {
+				"Operation": "Append",
+				"Target": ["Entries", "MainEvent_additionalCharacters"],
+				"Value": "Astarion 21 72 right",
+				"Delimiter": "/"
+			   },
+			   {
+				   "Operation": "Append",
+				   "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+				   "Value": "Astarion 36 76 left",
+				   "Delimiter": "/"
+				  },
+				  {
+				   "Operation": "Append",
+				   "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+				   "Value": "Astarion 21 72 right",
+				   "Delimiter": "/"
+				   }		
+			]
+		},
+		//FlowerDance
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Festivals/spring24",
+		   "TextOperations": [
+				{
+				 "Operation": "Append",
+				 "Target": ["Entries", "Set-Up_additionalCharacters"],
+				 "Value": "Halsin 11 21 left/Shadowheart 17 21 right/30888_Gale 19 21 left/Arnell 21 22 right/Emmeline 18 20 down/Laezel 18 22 up/Alfira 10 20 down",
+				 "Delimiter": "/"
+				},
+				{
+                 "Operation": "Append",
+                 "Target": ["Entries", "MainEvent_additionalCharacters"],
+                 "Value": "Halsin 9 20 down/Shadowheart 19 20 down/30888_Gale 22 24 left/Arnell 11 32 up/Emmeline 12 32 up/Laezel 3 21 right/Alfira 6 20 down",
+                 "Delimiter": "/"
+ 				},
+				 {
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "Halsin 24 34 down/Shadowheart 14 33 right/30888_Gale 16 33 left/Arnell 13 33 left/Emmeline 12 33 down/Laezel 8 22 up/Alfira 8 30 down",
+					"Delimiter": "/"
+				   },
+				   {
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+					"Value": "Halsin 9 20 down/Shadowheart 19 20 down/30888_Gale 22 25 left/Arnell 8 32 up/Emmeline 7 32 up/Laezel 3 21 right/Alfira 6 20 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		//FlowerDance after Atarion 8 hearts event
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+			   "HasSeenEvent: anyPlayer| contains=62130034": true
+			},
+			"TextOperations": [
+			{
+			"Operation": "Append",
+			"Target": ["Entries", "Set-Up_additionalCharacters"],
+			"Value": "Astarion 9 21 right",
+			"Delimiter": "/"
+		   },
+		   {
+			"Operation": "Append",
+			"Target": ["Entries", "MainEvent_additionalCharacters"],
+			"Value": "Astarion 10 20 down",
+			"Delimiter": "/"
+			},
+			{
+			   "Operation": "Append",
+			   "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+			   "Value": "Astarion 7 20 down",
+			   "Delimiter": "/"
+			  },
+			  {
+			   "Operation": "Append",
+			   "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+			   "Value": "Astarion 7 20 down",
+			   "Delimiter": "/"
+			   }
+			]
+		 },
+		//Luau
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Festivals/summer11",
+		   "TextOperations": [
+				{
+				 "Operation": "Append",
+				 "Target": ["Entries", "Set-Up_additionalCharacters"],
+				 "Value": "Halsin 31 4 down/Shadowheart 19 24 down/30888_Gale 21 6 right/Laezel 23 6 left", 
+				 "Delimiter": "/"
+				},
+				{
+				"Operation": "Append",
+				"Target": ["Entries", "MainEvent_additionalCharacters"],
+				"Value": "Halsin 34 10 down/Shadowheart 26 19 up/30888_Gale 27 13 right/Laezel 40 12 left",
+				"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "Halsin 29 4 down/Shadowheart 21 14 down/30888_Gale 19 17 right/Laezel 44 21 left", 
+					"Delimiter": "/"
+				   },
+				   {
+				   "Operation": "Append",
+				   "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+				   "Value": "Halsin 26 9 down/Shadowheart 26 19 up/30888_Gale 20 11 right/Laezel 30 13 left",
+				   "Delimiter": "/"
+				}
+			]
+		},
+		//Luau after Atarion 8 hearts event
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+			   "HasSeenEvent: anyPlayer| contains=62130034": true
+			},
+			"TextOperations": [
+			{
+			"Operation": "Append",
+			"Target": ["Entries", "Set-Up_additionalCharacters"],
+			"Value": "Astarion 22 5 down",
+			"Delimiter": "/"
+		   },
+		   {
+			"Operation": "Append",
+			"Target": ["Entries", "MainEvent_additionalCharacters"],
+			"Value": "Astarion 43 8 down",
+			"Delimiter": "/"
+			},
+			{
+			   "Operation": "Append",
+			   "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+			   "Value": "Astarion 47 11 down",
+			   "Delimiter": "/"
+			  },
+			  {
+			   "Operation": "Append",
+			   "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+			   "Value": "Astarion 19 5 down",
+			   "Delimiter": "/"
+				   }
+			]
+		},
+		//MoonlightJellies
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Festivals/summer28",
+		   "TextOperations": [
+				{
+				 "Operation": "Append",
+				 "Target": ["Entries", "Set-Up_additionalCharacters"],
+				 "Value": "Astarion 30 21 down/Halsin 11 29 left/Shadowheart 19 24 down/30888_Gale 13 6 down/Laezel 21 24 down",
+				 "Delimiter": "/"
+				},
+				{
+				"Operation": "Append",
+				"Target": ["Entries", "MainEvent_additionalCharacters"],
+				"Value": "Astarion 29 36 down/Halsin 26 36 down/Shadowheart 31 36 down/30888_Gale 30 36 down/Laezel 27 36 down",
+				"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "Astarion 30 21 down/Halsin 11 29 left/Shadowheart 19 24 down/30888_Gale 13 6 down/Laezel 21 24 down",
+					"Delimiter": "/"
+				   },
+				   {
+				   "Operation": "Append",
+				   "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+				   "Value": "Astarion 24 36 down/Halsin 24 30 left/Shadowheart 26 36 down/30888_Gale 30 36 down/Laezel 27 36 down",
+				   "Delimiter": "/"
+				   }					
+			]
+		},
+		//SVFair
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Festivals/fall16",
+		   "TextOperations": [
+				{
+				 "Operation": "Append",
+				 "Target": ["Entries", "Set-Up_additionalCharacters"],
+				 "Value": "Halsin 20 62 down/Shadowheart 47 62 right/30888_Gale 45 88 down/Arnell 16 64 right/Emmeline 17 64 left/Laezel 31 81 up/Alfira 25 78 left/Rolan1 43 87 left/Yenna 35 66 down", 
+				 "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "Halsin 36 61 left/Shadowheart 35 61 right/30888_Gale 48 89 right/Arnell 30 80 right/Emmeline 31 80 left/Laezel 25 64 up/Alfira 38 77 left/Rolan1 49 89 left/Yenna 38 78 left", 
+					"Delimiter": "/"
+				}
+			]
+		},
+		//SVFair after Atarion 8 hearts event
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+			   "HasSeenEvent: anyPlayer| contains=62130034": true
+			},
+			"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Set-Up_additionalCharacters"],
+				"Value": "Astarion 16 72 down", 
+				"Delimiter": "/"
+			   },
+			   {
+				   "Operation": "Append",
+				   "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+				   "Value": "Astarion 16 72 down", 
+				   "Delimiter": "/"
+				   }
+			]
+		},
+		//Eve
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Festivals/fall27",
+		   "TextOperations": [
+				{
+				 "Operation": "Append",
+				 "Target": ["Entries", "Set-Up_additionalCharacters"],
+				 "Value": "Astarion 27 69 down/Halsin 29 16 down/Shadowheart 32 64 down/30888_Gale 33 73 up/Laezel 31 65 right/Alfira 28 59 right/Rolan1 30 24 down/Yenna 28 66 left", 
+				 "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "Astarion 13 61 left/Halsin 26 10 down/Shadowheart 32 68 down/30888_Gale 29 62 down/Laezel 31 69 right/Alfira 25 59 right/Rolan1 31 22 down/Yenna 33 68 down", 
+					"Delimiter": "/"
+				   }
+			]
+		},
+		//IceFestival
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Festivals/winter8",
+		   "TextOperations": [
+				{
+				 "Operation": "Append",
+				 "Target": ["Entries", "Set-Up_additionalCharacters"],
+				 "Value": "Halsin 67 27 left/Shadowheart 66 26 down/30888_Gale 65 27 right/Laezel 64 28 down", 
+				 "Delimiter": "/"
+				},
+				{
+				"Operation": "Append",
+				"Target": ["Entries", "MainEvent_additionalCharacters"],
+				"Value": "Halsin 77 26 down/Shadowheart 78 27 down/30888_Gale 80 29 left/Laezel 82 33 left",
+				"Delimiter": "/"
+				},	
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "Halsin 67 27 left/Shadowheart 66 26 down/30888_Gale 65 27 right/Laezel 64 28 down", 
+					"Delimiter": "/"
+				   },
+				   {
+				   "Operation": "Append",
+				   "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+				   "Value": "Halsin 77 26 down/Shadowheart 78 27 down/30888_Gale 80 29 left/Laezel 82 34 left",
+				   "Delimiter": "/"
+				}
+			]
+		},
+		//IceFestival after Atarion 8 hearts event
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+			   "HasSeenEvent: anyPlayer| contains=62130034": true
+			},
+			"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Set-Up_additionalCharacters"],
+				"Value": "Astarion 68 31 right", 
+				"Delimiter": "/"
+			   },
+			   {
+			   "Operation": "Append",
+			   "Target": ["Entries", "MainEvent_additionalCharacters"],
+			   "Value": "Astarion 75 26 down",
+			   "Delimiter": "/"
+			   },	
+			   {
+				   "Operation": "Append",
+				   "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+				   "Value": "Astarion 71 17 right", 
+				   "Delimiter": "/"
+				  },
+				  {
+				  "Operation": "Append",
+				  "Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+				  "Value": "Astarion 75 26 down",
+				  "Delimiter": "/"
+				   }	
+			]
+		},
+		//WinterStar
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Festivals/winter25",
+		   "TextOperations": [
+				{
+				 "Operation": "Append",
+				 "Target": ["Entries", "Set-Up_additionalCharacters"],
+				 "Value": "Halsin 33 65 right/Shadowheart 31 59 right/30888_Gale 40 59 left/Arnell 32 58 down/Emmeline 33 59 left/Laezel 29 56 down/Yenna 25 68 left",
+				 "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "Halsin 62 66 right/Shadowheart 31 59 right/30888_Gale 40 59 left/Arnell 32 58 down/Emmeline 33 59 left/Laezel 38 68 down/Yenna 25 70 left",
+					"Delimiter": "/"
+				}
+			]
+		},
+		//WinterStar after Atarion 8 hearts event
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+			   "HasSeenEvent: anyPlayer| contains=62130034": true
+			},
+			"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Set-Up_additionalCharacters"],
+				"Value": "Astarion 22 62 down",
+				"Delimiter": "/"
+			   },
+			   {
+				   "Operation": "Append",
+				   "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+				   "Value": "Astarion 22 62 down",
+				   "Delimiter": "/"
+				   }
+			]
+		}
+
+  ]
+}

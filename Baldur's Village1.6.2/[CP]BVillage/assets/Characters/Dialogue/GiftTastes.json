@@ -1,0 +1,27 @@
+{
+  "Changes": [
+     {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": 
+        {
+        //阿斯代伦 最爱/黑市血液 古代玩偶103 喜爱/红宝石64 钻石72 超级炸弹288 水果酒348 黄金南瓜373 珍珠797 不喜欢/鱼类-4 蛋-5 煮熟的眼魔眼 厌恶/韭葱20 章鱼149 鱿鱼151 海参154 大蒜248 太阳精华769 肥料-19 垃圾-20 鱼饵-21 烤迷你巨型太空仓鼠 一般/所有矿石-2 奶-6 所有菜肴-7 所有金属锭-15 工艺品-26 水果-79 庄稼-75 鲜花-80 五彩碎片74 幸运兔脚446 松露430
+        "Astarion": "{{i18n:gifts.astarion.love}}/30888_BlackMarketBlood 103/{{i18n:gifts.astarion.like}}/64 72 288 373 348 797/{{i18n:gifts.astarion.dislike}}/-4 -5 30888_BoiledBeholderEyestalks/{{i18n:gifts.astarion.hate}}/20 149 151 154 248 768 -19 -20 -21 30888_GrilledMiniatureGiantSpaceHamsterr/{{i18n:gifts.astarion.neutral}}/-2 -6 -7 -14 -15 -20 -26 -79 -75 74 446/",
+        //阿内尔 最爱/橙子 鸡油菌 鱼肉卷 太阳精华 喜爱/蛋-5 奶-6 种子-74 joja可乐167 不喜欢/雪山药 蘑菇 野山根 紫色蘑菇 红色蘑菇 厌恶/虚空能量769 粘土330 洞穴萝卜78 腌黄瓜342 披萨206 五彩碎片74 煮熟的眼魔眼 普通/所有水果 花-80
+        "Arnell": "{{i18n:gifts.Arnell.love}}/635 281 213 768/{{i18n:gifts.Arnell.like}}/-5 -6 -74 167/{{i18n:gifts.Arnell.dislike}}/416 404 412 420 422/{{i18n:gifts.Arnell.hate}}/769 330 78 342 206 74 30888_BoiledBeholderEyestalks/{{i18n:gifts.Arnell.neutral}}/-79 -18",
+        //埃米琳 最爱/玫瑰仙子 甜瓜 山羊奶酪 太阳精华 喜爱/水果-79 花-80 所有矿石 不喜欢/啤酒303 淡啤酒346 咖啡395 三倍咖啡253 博德村咖啡 姜829 厌恶/虚空能量769 粘土330 河豚128 海胆397 蘑菇-81 煮熟的眼魔眼 普通/蛋-5 奶-6
+        "Emmeline": "{{i18n:gifts.Emmeline.love}}/595 254 426 768/{{i18n:gifts.Emmeline.like}}/-79 -80 -2/{{i18n:gifts.Emmeline.dislike}}/303 346 395 253 829 30888_MixedCoffee/{{i18n:gifts.Emmeline.hate}}/769 330 128 397 -81 30888_BoiledBeholderEyestalks/{{i18n:gifts.Emmeline.neutral}}/-5 -6/",
+        //莱埃泽尔 最爱/护刀油 磨刀石 云巨人力量灵药 嗜血灵药 喜爱/山丘巨人力量药水 不喜欢/黄水仙18 厌恶/章鱼149 鱿鱼151 海参 紫海参 粘土 松果 枫树种子 橡果 煮熟的眼魔眼 普通/蛋-5 花-80 菜肴-7 所有庄稼 矿石-2
+        "Laezel": "{{i18n:gifts.Laezel.love}}/30888_BladeOil 30888_Whetstone 30888_ElixirofCloudGiantStrengt 30888_ElixirofBloodlust/{{i18n:gifts.Laezel.like}}/30888_ElixirofHillGiantStrength -5 -6/{{i18n:gifts.Laezel.dislike}}/18 /{{i18n:gifts.Laezel.hate}}/149 151 154 155 330 309 310 311 30888_BoiledBeholderEyestalks/{{i18n:gifts.Laezel.neutral}}/-5 80 -7 -75 -2/",
+        //影心 最爱/夜兰花 宠物护毛膏 草莓400 喜爱/蛋-5 奶-6 庄稼-75 水果-79 鹦鹉螺392 美丽贝壳394 不喜欢/辣椒260 蛤372 厌恶/煮熟的眼魔眼 普通/花-80
+        "Shadowheart": "{{i18n:gifts.Shadowheart.love}}/30888_NightOrchid PetFurConditioner 400/{{i18n:gifts.Shadowheart.like}}/-5 -6 -75 -79 392 394/{{i18n:gifts.Shadowheart.dislike}}/260 372/{{i18n:gifts.Shadowheart.hate}}/30888_BoiledBeholderEyestalks/{{i18n:gifts.Shadowheart.neutral}}/-80/",
+        //盖尔 最爱/未鉴定能量 魔法墨水 三倍咖啡253 蜜汁火腿 星露谷咖啡 喜爱/所有古物 松露 乳酪花椰菜 蓝莓千层酥 南瓜汤 不喜欢/joja可乐167 披萨306 汉堡241 厌恶/煮熟的眼魔眼 普通/花-80 庄稼-75 
+        "30888_Gale": "{{i18n:gifts.30888_Gale.love}}/30888_UnidentifiedEnergy 30888_MysteriousInk 30888_HoneyedHam 253 30888_MixedCoffee/{{i18n:gifts.30888_Gale.like}}/-300 430 197 234 236/{{i18n:gifts.30888_Gale.dislike}}/167 306 241/{{i18n:gifts.30888_Gale.hate}}/30888_BoiledBeholderEyestalks/{{i18n:gifts.30888_Gale.neutral}}/-75 -80/",
+        //哈尔辛 最爱/四季果茶 急救绷带 山羊奶 蜂蜜酒 喜爱/庄稼-75 水果-79 花-80 不喜欢/章鱼149 鱿鱼151 厌恶/煮熟的眼魔眼 普通/金属锭-15
+        "Halsin": "{{i18n:gifts.Halsin.love}}/30888_SeasonalFruitTea 30888_FirstAidBandage 436 438 459/{{i18n:gifts.Halsin.like}}/-75 -79 -80/{{i18n:gifts.Halsin.dislike}}/149 161 /{{i18n:gifts.Halsin.hate}}/30888_BoiledBeholderEyestalks/{{i18n:gifts.Halsin.neutral}}/-15/",
+        //耶娜 最爱/甜豌豆402 喜爱/水果-79 菜肴-7 不喜欢/矿石-2 厌恶/咖啡395 三倍咖啡253 古代玩偶103 普通/黄水仙18 金属锭-15
+        "Yenna": "{{i18n:gifts.Yenna.love}}/402/{{i18n:gifts.Yenna.like}}/-79 -7/{{i18n:gifts.Yenna.dislike}}/-2 /{{i18n:gifts.Yenna.hate}}/253 395 103 30888_BoiledBeholderEyestalks/{{i18n:gifts.Yenna.neutral}}/-15 18/"
+        }
+      }
+  ]
+}

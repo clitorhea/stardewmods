@@ -1,0 +1,86 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [ "GarbageCans" ],
+            "Entries": {
+                "30888_Tarven": {
+                    "Items": [
+                        // 25% chance of pufferfish
+                        {
+                            "ID": "308880001_Pufferfish",
+                            "Condition": "RANDOM 0.25",
+                            "ItemId": "(O)128"
+                        },
+                        // else guaranteed random House Plant item
+                        {
+                            "ID": "308880002_RandomHousePlant",
+                            "ItemID": "RANDOM_ITEMS (F) 1376 1390"
+                        }
+                    ]
+                },
+                "30888_Astarion": {
+                    "Items": [
+                        // 25% chance of pufferfish
+                        {
+                            "ID": "308880001_Pufferfish",
+                            "Condition": "RANDOM 0.25",
+                            "ItemId": "(O)128"
+                        },
+                        // else guaranteed random House Plant item
+                        {
+                            "ID": "308880002_RandomHousePlant",
+                            "ItemID": "RANDOM_ITEMS (F) 1376 1390"
+                        }
+                    ]
+                },
+                "30888_Astarion_Home": {
+                    "Items": [
+                        // 25% chance of pufferfish
+                        {
+                            "ID": "308880001_Pufferfish",
+                            "Condition": "RANDOM 0.25",
+                            "ItemId": "(O)128"
+                        },
+                        // else guaranteed random House Plant item
+                        {
+                            "ID": "308880002_RandomHousePlant",
+                            "ItemID": "RANDOM_ITEMS (F) 1376 1390"
+                        }
+                    ]
+                },
+                "30888_Yenna": {
+                    "Items": [
+                        // 25% chance of pufferfish
+                        {
+                            "ID": "308880001_Pufferfish",
+                            "Condition": "RANDOM 0.25",
+                            "ItemId": "(O)128"
+                        },
+                        // else guaranteed random House Plant item
+                        {
+                            "ID": "308880002_RandomHousePlant",
+                            "ItemID": "RANDOM_ITEMS (F) 1376 1390"
+                        }
+                    ]
+                },
+                "30888_Cabin": {
+                    "Items": [
+                        // 25% chance of pufferfish
+                        {
+                            "ID": "308880001_Pufferfish",
+                            "Condition": "RANDOM 0.25",
+                            "ItemId": "(O)128"
+                        },
+                        // else guaranteed random House Plant item
+                        {
+                            "ID": "308880002_RandomHousePlant",
+                            "ItemID": "RANDOM_ITEMS (F) 1376 1390"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

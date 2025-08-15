@@ -1,0 +1,28 @@
+
+{
+  "Changes": [
+		    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Xun",
+      "Entries": {
+//---------------------------------健谈的战士行程表----------------------------（贺寻编排/贺寻测试完成）
+//周一 森林看风景-莱纳斯家旁边树下-酒吧吧台-酒吧吧台喝酒-回家
+  "Mon": "610 Custom_Baldur_Village_Forest 16 22 0/1100 Mountain 32 5 2/1600 Custom_Elfsong_Tavern 31 31 0/1900 Custom_Elfsong_Tavern 31 31 2 Xun_dinrk/2200 Custom_Baldurs_Gate 5 5 2",
+
+  "Tue": "700 Custom_Baldurs_Gate 5 5 2",
+
+  "Wed": "700 Custom_Baldurs_Gate 5 5 ",
+
+  "Thu": "700 Custom_Baldurs_Gate 5 5 2",
+//周五 酒馆走廊看画——面对吧台站着——酒馆右上方书柜站着——面对舞台坐着——回家
+  "Fri": "900 Custom_Elfsong_Tavern 46 22 0/1200 Custom_Elfsong_Tavern 28 31 0/1400 Custom_Elfsong_Tavern 64 23 0/1600 Custom_Elfsong_Tavern 15 20 1/1700 Custom_Elfsong_Tavern 15 20 3 Xun_dinrkright/1910 Custom_Elfsong_Tavern 13 19 0 Xun_backsit/2300 Custom_Baldurs_Gate 5 5 2",
+//周六 书柜旁蓝色沙发坐着——吧台喝酒——演出厅喝酒(喝酒)-面对舞台坐着——回家
+  "Sat": "800 Custom_Elfsong_Tavern 55 32 3 Xun_sitdownright/1200 Custom_Elfsong_Tavern 23 31 1 Xun_dinrk/1500 Custom_Elfsong_Tavern 15 20 1/1550 Custom_Elfsong_Tavern 15 20 3 Xun_dinrkright/1910 Custom_Elfsong_Tavern 13 19 0 Xun_backsit/0000 Custom_Baldurs_Gate 5 5 2",
+
+  "Sun": "700 Custom_Baldurs_Gate 5 5 2",
+//雨天 博德村桥上看风景——酒馆沙发坐着——吧台喝酒——回家
+   "rain": "1100 Custom_Baldur_Village 39 34 2/1600 Custom_Elfsong_Tavern 13 34 3 Xun_sitdown/1830 Custom_Elfsong_Tavern 26 31 2 Xun_dinrk/2200 Custom_Baldurs_Gate 5 5 2"
+	  }
+    }
+  ]
+  }

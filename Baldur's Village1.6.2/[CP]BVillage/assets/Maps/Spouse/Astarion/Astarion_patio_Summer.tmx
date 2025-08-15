@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="4" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="1">
+ <properties>
+  <property name="Fall_Objects" value="T"/>
+  <property name="Outdoors" value="T"/>
+  <property name="Spring_Objects" value="T"/>
+  <property name="Summer_Objects" value="T"/>
+  <property name="Winter_Objects" value="T"/>
+ </properties>
+ <tileset firstgid="1" source="Astarion_patio_Spring.tsx"/>
+ <tileset firstgid="17" source="Astarion_patio_Summer.tsx"/>
+ <layer id="2" name="Back" width="4" height="4">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Back1" width="4" height="4">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,14,15,0
+</data>
+ </layer>
+ <layer id="1" name="Buildings" width="4" height="4">
+  <data encoding="csv">
+0,0,0,0,
+5,6,7,8,
+9,10,11,28,
+13,0,0,32
+</data>
+ </layer>
+ <layer id="3" name="Front" width="4" height="4">
+  <data encoding="csv">
+1,2,3,4,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+</map>

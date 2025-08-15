@@ -1,0 +1,27 @@
+
+{
+  "Changes": [
+		    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Rolan1",
+      "Entries": {
+//---------------------------------罗兰行程表----------------------------（贺寻编排/贺寻测试完成）
+  "Mon": "700 Custom_Baldurs_Gate 5 5 2",
+
+  "Tue": "700 Custom_Baldurs_Gate 5 5 2",
+//周三 精灵之诗柜台——精灵之诗看板/魔法——精灵之诗演奏厅桌前——精灵之诗沙发
+  "Wed": "610 Custom_Elfsong_Tavern 23 31 0/1000 Custom_Elfsong_Tavern 17 31 2/1200 Custom_Elfsong_Tavern 17 31 2 Rolan1_magic/1500 Custom_Elfsong_Tavern 10 23 0/1600 Custom_Elfsong_Tavern 14 21 2/2200 Custom_Elfsong_Tavern 19 35 1 Rolan1_sitdownleftdrink",
+
+  "Thu": "700 Custom_Baldurs_Gate 5 5 2",
+//周五 精灵之诗柜台——博德村西侧看书(和耶娜站着)——精灵之诗柜台站着——精灵之诗演奏厅沙发——回家
+  "Fri": "610 Custom_Elfsong_Tavern 23 31 0/830 Custom_Baldur_Village 43 37 2/1230 Custom_Elfsong_Tavern 23 31 2/1600 Custom_Elfsong_Tavern 5 21 1 Rolan1_sitdownleft/2100 Custom_Baldurs_Gate 5 5 2",
+//周六 精灵之诗柜台——精灵之诗柜台内侧——精灵之诗演奏厅——精灵之诗沙发前站着
+  "Sat": "610 Custom_Elfsong_Tavern 23 31 0/1000 Custom_Elfsong_Tavern 28 29 1/1400 Custom_Elfsong_Tavern 10 23 0/1700 Custom_Elfsong_Tavern 21 36 0/2100 Custom_Elfsong_Tavern 26 31 2",
+//周日 精灵之诗柜台——精灵之诗看板/魔法——精灵之诗演奏厅——精灵之诗演奏厅沙发/喝酒——回家
+  "Sun": "610 Custom_Elfsong_Tavern 23 31 0/1000 Custom_Elfsong_Tavern 17 31 2/1200 Custom_Elfsong_Tavern 17 31 2 Rolan1_magic/1500 Custom_Elfsong_Tavern 10 23 0/1600 Custom_Elfsong_Tavern 5 21 1 Rolan1_sitdownleft/1900 Custom_Elfsong_Tavern 5 21 1 Rolan1_sitdownleftdrink/2200 Custom_Baldurs_Gate 5 5 2",
+
+   "rain": "700 Custom_Baldurs_Gate 5 5 2"
+	  }
+    }
+  ]
+  }

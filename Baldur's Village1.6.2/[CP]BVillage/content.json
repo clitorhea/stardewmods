@@ -1,0 +1,781 @@
+﻿{
+  "Format": "2.0.0",
+  "CustomLocations": [
+    {
+      "LogName": "load_Custom_Baldur_Village",
+      "Name": "Custom_Baldur_Village",
+      "FromMapFile": "assets/Maps/Baldur_Village.tmx"
+    },
+{
+      "LogName": "load_Custom_Astarion_House",
+      "Name": "Custom_Astarion_House",
+      "FromMapFile": "assets/Maps/Astarion.tmx"
+    },
+    {
+      "LogName": "load_Custom_Elfsong_Tavern",
+      "Name": "Custom_Elfsong_Tavern",
+      "FromMapFile": "assets/Maps/Bigesthouse.tmx"
+    },
+    {
+      "LogName": "load_Custom_Flower_House",
+      "Name": "Custom_Flower_House",
+      "FromMapFile": "assets/Maps/Flowerhouse.tmx"
+    },
+    {
+      "LogName": "load_Custom_Baldur_Village_Forest",
+      "Name": "Custom_Baldur_Village_Forest",
+      "FromMapFile": "assets/Maps/Baldur_Village_Forest.tmx"
+    },
+    {
+      "LogName": "load_Custom_Halsin_greenhouse",
+      "Name": "Custom_Halsin_greenhouse",
+      "FromMapFile": "assets/Maps/Halsin_greenhouse.tmx"
+    },
+    {
+      "LogName": "load_Custom_Baldursvillage_BaldursGate",
+      "Name": "Custom_Baldurs_Gate",
+      "FromMapFile": "assets/Maps/Custom_Baldursvillage_BVHiddenWarp.tmx"
+    },
+    {
+      "LogName": "load_Custom_KarlachWyllHouse",
+      "Name": "Custom_KarlachWyllHouse",
+      "FromMapFile": "assets/Maps/KarlachWyllHouse.tmx"
+    },
+    {
+      "LogName": "load_Custom_Baldursvillage_Avernus",
+      "Name": "Custom_Avernus",
+      "FromMapFile": "assets/Maps/Custom_Baldursvillage_BVHiddenWarp_Avernus.tmx"
+    },
+    //Event CGs
+    {
+      "LogName": "load_Event_CG_Astarion_2_Heart",
+      "Name": "Custom_Event_CG_Astarion_2_Heart",
+      "FromMapFile": "assets/Maps/EventCG/Astarion2heart.tmx"
+    },
+    {
+      "LogName": "load_Event_CG_Astarion_3_Heart_1",
+      "Name": "Custom_Event_CG_Astarion_3_Heart_1",
+      "FromMapFile": "assets/Maps/EventCG/Astarion3heart_01.tmx"
+    },
+    {
+      "LogName": "load_Event_CG_Astarion_3_Heart_2",
+      "Name": "Custom_Event_CG_Astarion_3_Heart_2",
+      "FromMapFile": "assets/Maps/EventCG/Astarion3heart_02.tmx"
+    },
+    {
+      "LogName": "load_Event_CG_Astarion_4_Heart",
+      "Name": "Custom_Event_CG_Astarion_4_Heart",
+      "FromMapFile": "assets/Maps/EventCG/Astarion4heart.tmx"
+    },
+    {
+      "LogName": "load_Event_CG_Astarion_8_Heart",
+      "Name": "Custom_Event_CG_Astarion_8_Heart_Ring",
+      "FromMapFile": "assets/Maps/EventCG/Astarion_Event_CG_Ring.tmx"
+    },    
+    //Event Map
+    {
+      "LogName": "load_Event_Map_Baldursvillage",
+      "Name": "Custom_Baldursvillage_Event",
+      "FromMapFile": "assets/Maps/Baldur_Village_temporary.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Baldursvillage_Welcome",
+      "Name": "Custom_Baldursvillage_Event_Welcome",
+      "FromMapFile": "assets/Maps/General_Event_Festival.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Baldursvillage_Festival",
+      "Name": "Custom_Baldursvillage_Event_Festival",
+      "FromMapFile": "assets/Maps/Baldurs_Village_Festival_Astarion3HeartEvent.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Baldursvillage_Town",
+      "Name": "Custom_Baldursvillage_Event_Town",
+      "FromMapFile": "assets/Maps/Town_baldursvillage_event.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Baldursvillage_Beach",
+      "Name": "Custom_Baldursvillage_Event_Beach",
+      "FromMapFile": "assets/Maps/Beach_baldursvillage_event.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Baldursvillage_Desert",
+      "Name": "Custom_Baldursvillage_Event_Desert",
+      "FromMapFile": "assets/Maps/Desert_baldursvillage_event.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Baldursvillage_Forest",
+      "Name": "Custom_Baldursvillage_Event_Forest",
+      "FromMapFile": "assets/Maps/Forest_baldursvillage_event.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Baldursvillage_Mountain",
+      "Name": "Custom_Baldursvillage_Event_Mountain",
+      "FromMapFile": "assets/Maps/Mountain_baldursvillage_event.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Baldursvillage_Woods",
+      "Name": "Custom_Baldursvillage_Event_Woods",
+      "FromMapFile": "assets/Maps/Woods_baldursvillage_event.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Underdark",
+      "Name": "Custom_Baldursvillage_Event_Underdark",
+      "FromMapFile": "assets/Maps/Astarion7heart.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Shelter_Lobby",
+      "Name": "Custom_Baldursvillage_Event_ShelterLobby",
+      "FromMapFile": "assets/Maps/Astarion7heartroom.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Shelter_Astarion_Office",
+      "Name": "Custom_Baldursvillage_Event_ShelterAstarionOffice",
+      "FromMapFile": "assets/Maps/Astarion7heartoffice.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Dream_Maze",
+      "Name": "Custom_Baldursvillage_Event_DreamMaze",
+      "FromMapFile": "assets/Maps/Astarion8heart_Maze.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Dream_Cazadors_Palace",
+      "Name": "Custom_Baldursvillage_Event_CazadorsPalace",
+      "FromMapFile": "assets/Maps/Astarion8heart_CazadorsPalace.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Dream_Cemetery",
+      "Name": "Custom_Baldursvillage_Event_Cemetery",
+      "FromMapFile": "assets/Maps/Astarion8heart_Cemetery.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Dream_Corridor",
+      "Name": "Custom_Baldursvillage_Event_Corridor",
+      "FromMapFile": "assets/Maps/Astarion8heart_Corridor.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Dream_Bedroom",
+      "Name": "Custom_Baldursvillage_Event_Bedroom",
+      "FromMapFile": "assets/Maps/Astarion8heart_Bedroom.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Baldursvillage_Festival_10Heart",
+      "Name": "Custom_Baldursvillage_Event_Festival_10Heart",
+      "FromMapFile": "assets/Maps/Astarion10heart_Festival.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Baldursvillage_Island_10Heart",
+      "Name": "Custom_Baldursvillage_Event_Island_10Heart",
+      "FromMapFile": "assets/Maps/Astarion10heart_Island.tmx"
+    },
+    {
+      "LogName": "load_Event_Map_Baldursvillage_Cabin_10Heart",
+      "Name": "Custom_Baldursvillage_Event_Cabin_10Heart",
+      "FromMapFile": "assets/Maps/Astarion10heart_Cabin.tmx"
+    },
+  ],
+  "Changes": [
+    // Images
+    {
+      "Action": "Load",
+      "Target": "Maps/Well",
+      "FromFile": "assets/Maps/Well.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Deluxe Barn",
+      "FromFile": "assets/Maps/Deluxe Barn.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Maps/spring_house",
+        "FromFile": "assets/Maps/spring_house.png"
+      },
+      {
+        "Action": "Load",
+        "Target": "Maps/summer_house",
+        "FromFile": "assets/Maps/summer_house.png"
+      },
+      {
+          "Action": "EditImage",
+          "Target": "Maps/house",
+          "FromFile": "assets/Maps/summer_house.png",
+          "When": {
+              "Season":"Summer"        
+    }
+          },
+      {
+        "Action": "Load",
+        "Target": "Maps/fall_house",
+        "FromFile": "assets/Maps/fall_house.png"
+      },
+      {
+          "Action": "EditImage",
+          "Target": "Maps/house",
+          "FromFile": "assets/Maps/fall_house.png",
+          "When": {
+              "Season":"Fall"        
+    }
+      },
+      {
+        "Action": "Load",
+        "Target": "Maps/winter_house",
+        "FromFile": "assets/Maps/winter_house.png"
+      },
+      {
+          "Action": "EditImage",
+          "Target": "Maps/house",
+          "FromFile": "assets/Maps/winter_house.png",
+          "When": {
+              "Season":"winter"
+    }
+		},
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Astarion",
+      "FromFile": "assets/Characters/Sprites/AstarionSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Astarion",
+      "FromFile": "assets/Characters/Portraits/Astarion.png"
+    },
+    {
+      "LogName": "NPC Temp Sprite",
+      "Action": "Load",
+      "Target": "Characters/Astarion_DrowArmor",
+      "FromFile": "assets/Characters/Sprites/AstarionSpritesheet_DrowArmor.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/AstarionDrowArmor",
+      "FromFile": "assets/Characters/Sprites/AstarionSpritesheet_DrowArmor.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/AstarionDrowArmor",
+      "FromFile": "assets/Characters/Portraits/AstarionDrowArmor.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/AstarionNude",
+      "FromFile": "assets/Characters/Sprites/AstarionSpritesheet_nude.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/AstarionNude",
+      "FromFile": "assets/Characters/Portraits/AstarionNude.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/AstarionCemetery",
+      "FromFile": "assets/Characters/Sprites/AstarionSpritesheet_Cemetery.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/AstarionCemetery",
+      "FromFile": "assets/Characters/Portraits/AstarionCemetery.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/AstarionKid",
+      "FromFile": "assets/Characters/Sprites/AstarionSpritesheet_Kid.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/AstarionKid",
+      "FromFile": "assets/Characters/Portraits/AstarionKid.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Halsin",
+      "FromFile": "assets/Characters/Sprites/HalsinSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Halsin",
+      "FromFile": "assets/Characters/Portraits/Halsin.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Wyll",
+      "FromFile": "assets/Characters/Sprites/WyllSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Wyll",
+      "FromFile": "assets/Characters/Portraits/Wyll.png"
+    },    
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Karlach",
+      "FromFile": "assets/Characters/Sprites/KarlachSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Karlach",
+      "FromFile": "assets/Characters/Portraits/Karlach.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/30888_Gale",
+      "FromFile": "assets/Characters/Sprites/30888_GaleSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/30888_Gale",
+      "FromFile": "assets/Characters/Portraits/30888_Gale.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Shadowheart",
+      "FromFile": "assets/Characters/Sprites/ShadowheartSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Shadowheart",
+      "FromFile": "assets/Characters/Portraits/Shadowheart.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Arnell",
+      "FromFile": "assets/Characters/Sprites/ArnellSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Arnell",
+      "FromFile": "assets/Characters/Portraits/Arnell.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Emmeline",
+      "FromFile": "assets/Characters/Sprites/EmmelineSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Emmeline",
+      "FromFile": "assets/Characters/Portraits/Emmeline.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Rolan2",
+      "FromFile": "assets/Characters/Sprites/Rolan2Spritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Rolan2",
+      "FromFile": "assets/Characters/Portraits/Rolan2.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Rolan1",
+      "FromFile": "assets/Characters/Sprites/Rolan1Spritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Rolan1",
+      "FromFile": "assets/Characters/Portraits/Rolan1.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Laezel",
+      "FromFile": "assets/Characters/Sprites/LaezelSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Laezel",
+      "FromFile": "assets/Characters/Portraits/Laezel.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Alfira",
+      "FromFile": "assets/Characters/Sprites/AlfiraSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Alfira",
+      "FromFile": "assets/Characters/Portraits/Alfira.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/30888_Petras",
+      "FromFile": "assets/Characters/Sprites/30888_PetrasSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Temp Sprite",
+      "Action": "Load",
+      "Target": "Characters/30888_Petras_HoldBlood",
+      "FromFile": "assets/Characters/Sprites/30888_PetrasHoldBloodSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/30888_Petras",
+      "FromFile": "assets/Characters/Portraits/30888_Petras.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/30888_Dalyria",
+      "FromFile": "assets/Characters/Sprites/30888_DalyriaSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/30888_Dalyria",
+      "FromFile": "assets/Characters/Portraits/30888_Dalyria.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/AstarionCloak",
+      "FromFile": "assets/Characters/Sprites/AstarionSpritesheet_Cloak.png"
+    },
+    {
+      "LogName": "NPC Temp Sprite",
+      "Action": "Load",
+      "Target": "Characters/AstarionCloak_NoCloak",
+      "FromFile": "assets/Characters/Sprites/AstarionSpritesheet_NoCloak.png"
+    },
+    {
+      "LogName": "NPC Temp Sprite",
+      "Action": "Load",
+      "Target": "Characters/AstarionCloak_WithCloak",
+      "FromFile": "assets/Characters/Sprites/AstarionSpritesheet_Cloak.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/AstarionCloak",
+      "FromFile": "assets/Characters/Portraits/AstarionCloak.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/AstarionBlackShirt",
+      "FromFile": "assets/Characters/Sprites/AstarionSpritesheet_Blackshirt.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/AstarionBlackShirt",
+      "FromFile": "assets/Characters/Portraits/AstarionBlackShirt.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Omeluum",
+      "FromFile": "assets/Characters/Sprites/OmeluumSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Omeluum",
+      "FromFile": "assets/Characters/Portraits/Omeluum.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Xun",
+      "FromFile": "assets/Characters/Sprites/XunSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Xun",
+      "FromFile": "assets/Characters/Portraits/Xun.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Ahla",
+      "FromFile": "assets/Characters/Sprites/AhlaSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Ahla",
+      "FromFile": "assets/Characters/Portraits/Ahla.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/TouristA",
+      "FromFile": "assets/Characters/Sprites/TouristASpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/TouristA",
+      "FromFile": "assets/Characters/Portraits/TouristA.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/TouristB",
+      "FromFile": "assets/Characters/Sprites/TouristBSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/TouristB",
+      "FromFile": "assets/Characters/Portraits/TouristB.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/TouristC",
+      "FromFile": "assets/Characters/Sprites/TouristCSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/TouristC",
+      "FromFile": "assets/Characters/Portraits/TouristC.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/TouristD",
+      "FromFile": "assets/Characters/Sprites/TouristDSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/TouristD",
+      "FromFile": "assets/Characters/Portraits/TouristD.png"
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Yenna",
+      "FromFile": "assets/Characters/Sprites/YennaSpritesheet.png"
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Yenna",
+      "FromFile": "assets/Characters/Portraits/Yenna.png"
+    },
+    {
+      "LogName": "Item Sprite",
+      "Action": "Load",
+      "Target": "Characters/Portal",
+      "FromFile": "assets/Characters/Sprites/PortalSpritesheet.png"
+    },
+    {
+      "LogName": "Item Sprite",
+      "Action": "Load",
+      "Target": "Characters/PortalPink",
+      "FromFile": "assets/Characters/Sprites/PortalSpritesheet_pink.png"
+    },
+    {
+      "LogName": "Item Sprite",
+      "Action": "Load",
+      "Target": "Characters/StoneDoor",
+      "FromFile": "assets/Characters/Sprites/StoneDoor.png"
+    },
+    {
+      "LogName": "Item Sprite",
+      "Action": "Load",
+      "Target": "Characters/RingStatue",
+      "FromFile": "assets/Characters/Sprites/RingStatue.png"
+    },
+    { 
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/30888_Leon,Characters/30888_Aurelia,Characters/30888_Violet,Characters/30888_Yousen,Characters/Cazador",
+      "FromFile": "assets/Characters/Sprites/{{TargetWithoutPath}}Spritesheet.png"
+    },
+    { 
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/30888_Leon,Portraits/30888_Aurelia,Portraits/30888_Violet,Portraits/30888_Yousen,Portraits/Cazador",
+      "FromFile": "assets/Characters/Portraits/{{TargetWithoutPath}}.png"
+    },
+    { 
+      "LogName": "NPC Sprite -- Spawn Rebal",
+      "Action": "Load",
+      "Target": "Characters/SpawnRebal01,Characters/SpawnRebal02,Characters/SpawnRebal03,Characters/SpawnRebal04,Characters/SpawnRebal05,Characters/SpawnRebal06",
+      "FromFile": "assets/Characters/Sprites/{{TargetWithoutPath}}Spritesheet.png"
+    },
+    { 
+      "LogName": "NPC Portrait -- Spawn Rebal",
+      "Action": "Load",
+      "Target": "Portraits/SpawnRebal01,Portraits/SpawnRebal02,Portraits/SpawnRebal03,Portraits/SpawnRebal04,Portraits/SpawnRebal05,Portraits/SpawnRebal06",
+      "FromFile": "assets/Characters/Portraits/{{TargetWithoutPath}}.png"
+    },
+    { 
+      "LogName": "NPC Sprite -- Animals",
+      "Action": "Load",
+      "Target": "Characters/Scratch",
+      "FromFile": "assets/Characters/Sprites/{{TargetWithoutPath}}Spritesheet.png"
+    },
+    { 
+      "LogName": "NPC Portrait -- Animals",
+      "Action": "Load",
+      "Target": "Portraits/Scratch",
+      "FromFile": "assets/Characters/Portraits/{{TargetWithoutPath}}.png"
+    },
+   //Events
+    {//Need to load it from a source file for new event locations
+      "LogName": "Load Empty Custom Event Targets",
+      "Action": "Load",
+      "Target": "Data/Events/Custom_Baldur_Village, Data/Events/Custom_Astarion_House, Data/Events/Custom_Elfsong_Tavern, Data/Events/Custom_Flower_House, Data/Events/Custom_Baldur_Village_Forest,  Data/Events/Custom_Halsin_greenhouse,  Data/Events/Custom_KarlachWyllHouse",
+      "FromFile": "assets/Data/Empty.json"
+    },   
+    {
+			"LogName": "Include all the Events",
+			"Action": "Include",
+			"FromFile": "assets/Data/Events/Events.json"
+		},
+    // Chair Tiles
+    {
+      "Action": "EditData",
+      "Target": "Data/ChairTiles",
+      "Entries": {
+        "townInterior2/21/18": "1/1/right/default/1/1/false",
+        "townInterior2/18/23": "1/1/left/default/1/1/false",
+        "furniturer2/27/17": "1/1/left/default/1/1/false",
+        "furniturer2/11/17": "1/1/left/default/1/1/false",
+        "furniturer2/19/14": "1/1/left/default/1/1/false",
+        "furniturer2/3/14": "1/1/left/default/1/1/false",
+        "furniturer2/17/19": "1/1/left/default/1/1/false",
+        "furniturer/12/17": "1/1/left/default/1/1/false",
+        "furniture_desert3/6/5": "1/1/left/default/1/1/false"
+      }
+    },
+    // Data
+    {  
+      "LogName": "Music",  
+      "Action": "Include",
+      "FromFile": "assets/Data/Music.json"
+    },
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "Include",
+      "FromFile": "assets/Data/Disposition.json"
+    },
+    { //edits in spouse rooms and patios
+    "LogName": "Spouse stuff",
+    "Action": "Include",
+    "FromFile": "assets/Data/Spouses.json"
+    },
+    {
+      "LogName": "MapWarps",
+      "Action": "Include",
+      "FromFile": "assets/Data/MapWarps.json"
+    },
+    {
+      "LogName": "NPC Schedules",
+      "Action": "Include",
+      "FromFile": "assets/Data/Schedules.json"
+    },
+    {
+      "LogName": "Load Empty",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Astarion, Characters/Dialogue/MarriageDialogueAstarion, Characters/Dialogue/Halsin, Characters/Dialogue/MarriageDialogueHalsin, Characters/Dialogue/30888_Gale, Characters/Dialogue/Shadowheart, Characters/Dialogue/Arnell, Characters/Dialogue/Emmeline, Characters/Dialogue/Laezel, Characters/Dialogue/Alfira, Characters/Dialogue/Omeluum,Characters/Dialogue/Xun, Characters/Dialogue/Ahla, Characters/Dialogue/TouristA, Characters/Dialogue/TouristB, Characters/Dialogue/TouristD, Characters/Dialogue/TouristC, Characters/Dialogue/Rolan1, Characters/Dialogue/Rolan2, Characters/Dialogue/Yenna, Characters/Dialogue/Scratch",
+      "FromFile": "assets/Data/Empty.json"
+    },
+    {
+      "LogName": "Include NPC Dialogue",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Dialogue/Astarion.json, assets/Characters/Dialogue/MarriageDialogueAstarion.json, assets/Characters/Dialogue/Halsin.json, assets/Characters/Dialogue/MarriageDialogueHalsin.json, assets/Characters/Dialogue/30888_Gale.json, assets/Characters/Dialogue/Rolan1.json, assets/Characters/Dialogue/Rolan2.json, assets/Characters/Dialogue/Shadowheart.json, assets/Characters/Dialogue/Arnell.json, assets/Characters/Dialogue/Emmeline.json, assets/Characters/Dialogue/Alfira.json, assets/Characters/Dialogue/Laezel.json, assets/Characters/Dialogue/Omeluum.json, assets/Characters/Dialogue/Xun.json, assets/Characters/Dialogue/Ahla.json, assets/Characters/Dialogue/TouristA.json, assets/Characters/Dialogue/TouristB.json, assets/Characters/Dialogue/TouristD.json, assets/Characters/Dialogue/TouristC.json, assets/Characters/Dialogue/Yenna.json, assets/Characters/Dialogue/Scratch.json, assets/Characters/Dialogue/Rainy.json, assets/Characters/Dialogue/Festivals.json, assets/Characters/Dialogue/GiftTastes.json, assets/Characters/Dialogue/EngagementDialogue.json"
+    }, 
+    {
+      "LogName": "Update Vanilla NPC Dialogue",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Dialogue/VanillaNPC.json"
+    }, 
+    {
+			"LogName": "Include Mail",
+			"Action": "Include",
+			"FromFile": "assets/Data/Mail.json"
+		},
+    {
+			"LogName": "Include Trigger",
+			"Action": "Include",
+			"FromFile": "assets/Data/TriggerActions.json"
+    },
+    {
+			"LogName": "Include GarbageCans",
+			"Action": "Include",
+			"FromFile": "assets/Data/GarbageCans.json"
+		},
+    {
+      "LogName": "Adds Npcs to festivals",
+      "Action": "Include",
+      "FromFile": "assets/Data/Festivals_Location.json"
+    },
+    {
+      "LogName": "Animation Frames",
+      "Action": "Include",
+      "FromFile": "assets/Data/Animations.json"
+    },
+    {
+      "LogName": "Entry Code",
+      "Action": "Include",
+      "FromFile": "assets/Data/EntryCode.json"
+    },
+    //Include Shops
+    {
+			"LogName": "Include Shops",
+			"Action": "Include",
+			"FromFile": "assets/Data/Shops.json"
+		},
+    //Objects
+    {
+			"LogName": "Objects",
+			"Action": "Include",
+			"FromFile": "assets/Data/Objects/ObjectContent.json"
+		},
+    // T I L E S H E E T S
+    {
+      "Action": "Load",
+      "Target": "Maps/Elfsong",
+      "FromFile": "assets/Maps/TileSheets/townInterior.png"
+    },
+    //"MapStrings
+		{
+			"LogName": "Map Strings",
+			"Action": "Include",
+			"FromFile": "assets/Data/MapStrings.json"
+  }
+  ]
+}
+
+//"Action": "Include","FromFile": "assets/Data/MovieReaction.json"
+// { "Action": "Include", "FromFile": "assets/Dialogue/Strings.json"}

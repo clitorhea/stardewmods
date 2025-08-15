@@ -1,0 +1,50 @@
+
+{
+"Changes": [
+  { 
+  "LogName":"Rolan2", 
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Rolan2",
+  "Entries": {  
+				//Daily
+				"Introduction": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				//Spring
+				//Spring 0 hearts
+				"Mon": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"Tue": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"Wed": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"Thu": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"Fri": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"Sat": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"Sun": "{{i18n:Rolan2.Dialogue.Introduction}}",
+                //Summer
+				//Summer 0 Heart
+				"summer_Mon": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"summer_Tue": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"summer_Wed": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"summer_Thu": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"summer_Fri": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"summer_Sat": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"summer_Sun": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				//Fall
+				//Fall 0 Hearts
+				"fall_Mon": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"fall_Tue": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"fall_Wed": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"fall_Thu": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"fall_Fri": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"fall_Sat": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"fall_Sun": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				//Winter
+				//winter 0 Hearts
+				"winter_Mon": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"winter_Tue": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"winter_Wed": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"winter_Thu": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"winter_Fri": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"winter_Sat": "{{i18n:Rolan2.Dialogue.Introduction}}",
+				"winter_Sun": "{{i18n:Rolan2.Dialogue.Introduction}}"
+			}
+		}
+	]
+}

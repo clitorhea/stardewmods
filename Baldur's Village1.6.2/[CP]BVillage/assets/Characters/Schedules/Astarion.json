@@ -1,0 +1,65 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Astarion",
+      "Entries": {
+        // 第一段代码（默认行程）
+  //---------------------------------阿斯代伦行程表----------------------------（贺寻编排/贺寻测试完成）
+  //周一 床上——卧室镜子前——卧室沙发——厨房喝血——书房看书——博德村湖边站立——湖边座椅坐着——回家睡觉
+    "Mon": "610 Custom_Astarion_House 34 11 2 /830 Custom_Astarion_House 38 13 0/1000 Custom_Astarion_House 37 15 3 astarion_sitdownright/1230 Custom_Astarion_House 12 13 2 astarion_drink/1500 Custom_Astarion_House 32 24 2 astarion_read/1830 Custom_Baldur_Village 20 73 2/2100 Custom_Baldur_Village 17 72 2 astarion_sitdown/2300 Custom_Astarion_House 34 11 2 astarion_sleep",
+  //周二 床上——卧室沙发——厨房看报纸——书房看书——酒馆盖尔房间找书/看书——酒馆吧台喝酒——回家睡觉
+    "Tue": "610 Custom_Astarion_House 34 11 2 /830 Custom_Astarion_House 37 15 3 astarion_sitdownright/1100 Custom_Astarion_House 12 13 2 astarion_readnewspaper/1500 Custom_Astarion_House 29 25 0 astarion_read/1830 Custom_Elfsong_Tavern 30 14 0/2130 Custom_Elfsong_Tavern 30 14 2 astarion_read/2200 Custom_Elfsong_Tavern 29 31 2 astarion_drink/2400 Custom_Astarion_House 34 11 2 astarion_sleep",
+  //周三 床上——厨房看报纸——客厅坐着——书房看书——酒馆右侧房间书架前——吧台喝血——回家睡觉
+    "Wed": "610 Custom_Astarion_House 34 11 2 /830 Custom_Astarion_House 12 13 2 astarion_readnewspaper/1100 Custom_Astarion_House 22 13 2 astarion_sitdownright/1300 Custom_Astarion_House 29 25 0/1500 Custom_Astarion_House 27 24 2 astarion_read/1830 Custom_Elfsong_Tavern 54 30 0/2200 Custom_Elfsong_Tavern 29 31 2 astarion_drink/2400 Custom_Astarion_House 34 11 2 astarion_sleep",
+  //周四 床上——卧室沙发——卧室桌子边看信——厨房/厨房喝血——书房找书/地板坐着——博德村上方长凳坐着——家上方瀑布看风景——回家睡觉
+    "Thu": "610 Custom_Astarion_House 34 11 1 /830 Custom_Astarion_House 37 15 3 astarion_sitdownright/1000 Custom_Astarion_House 33 15 2 astarion_readletter/1100 Custom_Astarion_House 11 13 0/1200 Custom_Astarion_House 12 13 2 astarion_drink/1300 Custom_Astarion_House 29 25 0/1500 Custom_Astarion_House 29 25 2 astarion_sitonthefloorright/1830 Custom_Baldur_Village 93 24 2 astarion_sitdown/2030 Custom_Baldur_Village 102 32 1/2230 Custom_Astarion_House 37 15 3 astarion_sleep",
+  //周五 床上——卧室沙发喝酒——厨房看报纸——客厅坐着——书房看信——鹈鹕镇沙龙
+    "Fri": "610 Custom_Astarion_House 34 11 2 /830 Custom_Astarion_House 37 15 3 astarion_drinkwine/1100 Custom_Astarion_House 12 13 2 astarion_readnewspaper/1200 Custom_Astarion_House 22 13 2 astarion_sitdownright/1500 Custom_Astarion_House 32 24 2 astarion_readletter/1800 Saloon 25 18 2 astarion_drink/100 Custom_Astarion_House 34 11 2 astarion_sleep",
+    //周六 床上——卧室沙发——卧室服装假人旁——厨房喝血——书房倚靠着书架——酒馆沙发(盖尔/影心)——酒馆吧台喝酒
+    "Sat": "610 Custom_Astarion_House 34 11 2 /830 Custom_Astarion_House 37 15 3 astarion_sitdownright/1000 Custom_Astarion_House 30 11 3/1100 Custom_Astarion_House 11 13 0/1200 Custom_Astarion_House 12 13 2 astarion_drink/1300 Custom_Astarion_House 29 25 0/1500 Custom_Astarion_House 29 25 2 astarion_enjoy/1830 Custom_Elfsong_Tavern 21 34 2 astarion_sitdown/2300 Custom_Elfsong_Tavern 26 31 2 astarion_drink/2400 Custom_Astarion_House 34 11 2 astarion_sleep",
+  //周日 床上——卧室沙发——卧室服装假人旁——厨房看贮备——客厅坐着——书房看书——海边码头
+    "Sun": "610 Custom_Astarion_House 34 11 1 /830 Custom_Astarion_House 37 15 3 astarion_sitdownright/1000 Custom_Astarion_House 30 11 3/1100 Custom_Astarion_House 11 16 2/1200 Custom_Astarion_House 22 13 2 astarion_sitdownright/1300 Custom_Astarion_House 29 25 0/1500 Custom_Astarion_House 32 24 2 astarion_read/1800 Beach 47 25 2",
+  //雨天 床上——鹈鹕镇低地看风景——右边桥上看风景——博物馆左侧桥上看风景——鹈鹕镇墓地——鹈鹕镇沙龙——回家睡觉
+    "Rain": "610 Custom_Astarion_House 34 11 2 /620 Town 75 38 2/1200 Town 74 53 0/1300 Town 73 54 2/1500 Town 78 95 2/1700 Town 47 87 0/1900 Saloon 10 21 2/2200 Saloon 12 20 0/2330 Custom_Astarion_House 34 11 2 astarion_sleep",
+   
+    "marriage_Fri": "630 Town 39 57 2 astarion_enjoy/900 SeedShop 2 22 1/1000 SeedShop 10 23 0/1030 Town 45 86 0 astarion_playknife/1330 ArchaeologyHouse 11 9 0/1500 ArchaeologyHouse 12 9 2 astarion_read/1630 Town 84 86 3 astarion_sitonthefloorright/1800 Saloon 25 18 2 astarion_enjoy/2030 Saloon 18 20 2 astarion_drink/2300 bed",
+
+    "marriage_Mon": "630 BusStop 19 17 2 astarion_playknife/930 Town 59 93 2 astarion_readnewspaper/1300 beach 44 35 1 astarion_sitonthefloorleft/1700 Town 30 55 2 astarion_enjoy/2100 bed"
+    
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Astarion",
+      "When": {
+        "HasSeenEvent: anyPlayer| contains=62130034": true
+      },
+      "Entries": {
+//---------------------------------阿斯代伦拿到戒指后行程表(8心事件)----------------------------（贺寻编排）
+//周一 卧室沙发——房屋外看风景——博德村上方靠着树——博德村上方长凳坐着——厨房喝血——睡觉
+  "Mon": "610 Custom_Astarion_House 34 11 1 /800 Custom_Astarion_House 37 15 3 astarion_sitdownright/900 Custom_Baldur_Village 116 49 2/1200 Custom_Baldur_Village 86 24 2 astarion_enjoy/1600 Custom_Baldur_Village 93 24 2 astarion_sitdown/1800 Custom_Astarion_House 12 13 2 astarion_drink/2230 Custom_Astarion_House 34 11 2 astarion_sleep",
+//周二 回博德之门
+  "Tue": "610 Custom_Baldurs_Gate 6 9 2",
+//周三 厨房喝血——房屋外假人旁边——家院子里着树——房屋下方看风景——酒馆右侧房间书架前——吧台喝血——回家睡觉
+  "Wed": "610 Custom_Astarion_House 34 11 2 /700 Custom_Astarion_House 12 13 2 astarion_drink/900 Custom_Baldur_Village 119 45 1/1200 Custom_Baldur_Village 96 34 2 astarion_enjoy/1600 Custom_Baldur_Village 109 60 2/1800 Custom_Elfsong_Tavern 54 30 0/2200 Custom_Elfsong_Tavern 29 31 2 astarion_drink/2400 Custom_Astarion_House 34 11 2 astarion_sleep",
+//周四 回博德之门
+  "Thu": "610 Custom_Baldurs_Gate 6 9 2",
+//周五 卧室沙发喝酒——家门口信箱看报纸——矿洞湖玩刀——鹈鹕镇沙龙——睡觉
+  "Fri": "610 Custom_Astarion_House 34 11 2 /700 Custom_Baldur_Village 109 45 2 astarion_readnewspaper/1000 Mountain 67 21 astarion_playknife/1600 Saloon 24 17 2 astarion_drink/2330 Custom_Astarion_House 34 11 2 astarion_sleep",
+//周六 家门口信箱看信件——房屋下方看风景——精灵之诗倚靠着枭熊雕像——酒馆沙发(盖尔/影心)——酒馆吧台喝酒
+  "Sat": "610 Custom_Astarion_House 34 11 2 /800 Custom_Baldur_Village 109 45 2 astarion_readletter/1200 Custom_Baldur_Village 109 60 2/1500 Custom_Elfsong_Tavern 32 32 2 astarion_enjoy/1800 Custom_Elfsong_Tavern 21 34 2 astarion_sitdown/2300 Custom_Elfsong_Tavern 26 31 2 astarion_drink/2400 Custom_Astarion_House 34 11 2 astarion_sleep",
+//周日 鹈鹕镇低地看风景下——右边桥上看风景——博物馆左侧桥上看风景——鹈鹕镇墓地——鹈鹕镇沙龙——回家睡觉
+  "Sun": "610 Custom_Astarion_House 34 11 2 /620 Town 75 38 2/1200 Town 74 53 0/1300 Town 73 54 2/1500 Town 78 95 2/1700 Town 47 87 0/1900 Saloon 10 21 2/2200 Saloon 12 20 0/2330 Custom_Astarion_House 34 11 2 astarion_sleep",
+//雨天 卧室沙发——卧室服装假人旁——厨房看贮备——客厅坐着——书房看书——厨房喝血——睡觉
+"Rain": "610 Custom_Astarion_House 34 11 1 /800 Custom_Astarion_House 37 15 3 astarion_sitdownright/1000 Custom_Astarion_House 30 11 3/1100 Custom_Astarion_House 11 16 2/1200 Custom_Astarion_House 22 13 2 astarion_sitdownright/1300 Custom_Astarion_House 29 25 0/1500 Custom_Astarion_House 32 24 2 astarion_read/2000 Custom_Astarion_House 12 13 2 astarion_drink/2300 Custom_Astarion_House 34 11 2 astarion_sleep",
+
+"marriage_Fri": "630 Town 39 57 2 astarion_enjoy/900 SeedShop 2 22 1/1000 SeedShop 10 23 0/1030 Town 45 86 0 astarion_playknife/1330 ArchaeologyHouse 11 9 0/1500 ArchaeologyHouse 12 9 2 astarion_read/1630 Town 84 86 3 astarion_sitonthefloorright/1800 Saloon 24 17 2 astarion_enjoy/2030 Saloon 18 20 2 astarion_drink/2300 bed",
+
+"marriage_Mon": "630 BusStop 19 17 2 astarion_playknife/930 Town 59 93 2 astarion_readnewspaper/1300 beach 44 35 1 astarion_sitonthefloorleft/1700 Town 30 55 2 astarion_enjoy/2100 bed"
+
+        
+      }
+    }
+  ]
+}

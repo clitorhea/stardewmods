@@ -1,0 +1,28 @@
+
+{
+  "Changes": [
+		    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Emmeline",
+      "Entries": {
+  //---------------------------------埃米琳行程表----------------------------（贺寻编排/贺寻测试完成）
+//周一   床上——卧室一家三口站着——博德村广场一家三口坐——客厅沙发坐着——睡觉
+  "Mon": "610 Custom_Flower_House 51 28 3/730 Custom_Flower_House 45 31 1 Emmeline_sitdownleft/1000 Custom_Baldur_Village 81 38 2 Emmeline_sitdown/1500 Custom_Flower_House 30 26 3 Emmeline_sitdownright/2200 Custom_Flower_House 51 28 2",
+//周二   卧室——一家三口皮埃尔商店——客厅沙发——睡觉
+  "Tue": "610 Custom_Flower_House 51 28 3/630 Custom_Flower_House 45 31 1 Emmeline_sitdownleft/810 SeedShop 11 23 0/1700 Custom_Flower_House 30 26 3 Emmeline_sitdownright/2100 Custom_Flower_House 51 28 2",
+//周三  博德村家门口椅子——客厅沙发——睡觉
+  "Wed": "610 Custom_Flower_House 51 28 3/800 Custom_Baldur_Village 50 20 1 Emmeline_sitdownleft/1600 Custom_Flower_House 30 26 3 Emmeline_sitdownright/2100 Custom_Flower_House 51 28 2",
+//周四  卧室沙发——博德村家门口椅子——睡觉
+  "Thu": "610 Custom_Flower_House 51 28 3/900 Custom_Flower_House 45 31 1 Emmeline_sitdownleft/1300 Custom_Baldur_Village 50 20 1 Emmeline_sitdownleft/1600 Custom_Baldur_Village 50 20 1 Emmeline_sitdownleft/2000 Custom_Flower_House 51 28 2",
+//周五  客厅沙发——精灵之诗娱乐室沙发(和阿内尔)——博德村家门口椅子——睡觉
+  "Fri": "610 Custom_Flower_House 51 28 3/800 Custom_Flower_House 30 26 3 Emmeline_sitdownright/1030 Custom_Elfsong_Tavern 55 31 3 Emmeline_sitdownright/1700 Custom_Baldur_Village 50 20 1/2100 Custom_Flower_House 51 28 2",
+//周六  客厅——博德村西南湖坐着(和阿内尔)——精灵之诗演奏厅沙发(和阿内尔)———回家睡觉
+  "Sat": "610 Custom_Flower_House 51 28 3/930 Custom_Flower_House 16 26 2/1120 Custom_Baldur_Village 16 72 2 Emmeline_sitdown/1600 Custom_Elfsong_Tavern 5 20 3 Emmeline_sitdownleft/2130 Custom_Flower_House 51 28 2",
+//周日  卧室沙发——鹈鹕镇社区中心下方座椅——鹈鹕镇上方儿童娱乐区——客厅沙发——睡觉
+  "Sun": "610 Custom_Flower_House 51 28 3/1000 Custom_Flower_House 45 31 1 Emmeline_sitdownleft/1230 Town 33 26 3 Emmeline_sitdownright/1700 Town 20 15 0/1900 Custom_Flower_House 30 26 3 Emmeline_sitdownright/2200 Custom_Flower_House 51 28 2",
+//雨天  卧室沙发——客厅沙发——卧室沙发——睡觉
+  "rain": "610 Custom_Flower_House 51 28 3/800 Custom_Flower_House 45 31 1 Emmeline_sitdownleft/1230 Custom_Flower_House 28 27 0/1700 Custom_Flower_House 45 31 1 Emmeline_sitdownleft/2000 Custom_Flower_House 51 28 2"
+	  }
+    }
+  ]
+  }

@@ -1,0 +1,156 @@
+{
+    "Changes": [
+        //原地圖更改
+        // {
+        //     "Action": "EditMap",
+        //     "Target": "Maps/Backwoods",
+        //     "FromFile": "assets/Maps/Portal.tmx",
+        //     "ToArea": {
+        //         "X": 28,
+        //         "Y": 0,
+        //         "Width": 12,
+        //         "Height": 15
+        //     }
+        // },
+        //傳送點
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Mountain",
+            "AddWarps": [
+                "19 -1 Custom_Baldur_Village_Forest 26 37",
+                "20 -1 Custom_Baldur_Village_Forest 26 37"
+            ],
+            "MapProperties": {
+                "NPCWarp":
+                "20 0 Custom_Baldur_Village_Forest 27 37"
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Baldur_Village_Forest",
+            "AddWarps": [
+                "25 38 Mountain 19 0",
+                "26 38 Mountain 19 0",
+                "27 38 Mountain 19 0",
+                "29 6 Custom_Baldur_Village 77 98",
+                "30 6 Custom_Baldur_Village 78 98"
+            ],
+         "MapProperties": {
+            "NPCWarp":
+            "26 37 Mountain 19 0 30 8 Custom_Baldur_Village 78 99"
+        }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Baldur_Village",
+            "AddWarps": [
+                "76 100 Custom_Baldur_Village_Forest 29 8",
+                "77 100 Custom_Baldur_Village_Forest 29 8",
+                "78 100 Custom_Baldur_Village_Forest 29 8",
+                "79 100 Custom_Baldur_Village_Forest 29 8"
+            ]
+        },
+
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Elfsong_Tavern",
+         "MapProperties": {
+            "NPCWarp":
+            "62 14 Custom_Baldurs_Gate 6 9"
+        }
+     },
+
+     {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_Baldurs_Gate",
+        "MapProperties": {
+            "NPCWarp":
+            "4 9 Custom_Elfsong_Tavern 62 15"
+        }
+ },
+
+        
+        //夜晚
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Astarion_House",
+            "FromFile": "assets/Maps/Astarion_N.tmx",
+            "PatchMode": "Overlay",
+            "When": {
+                "Time": "{{Range: 1800, 2500}}"
+            },
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Elfsong_Tavern",
+            "FromFile": "assets/Maps/Bigesthouse_N.tmx",
+            "PatchMode": "Overlay",
+            "When": {
+                "Time": "{{Range: 1800, 2500}}"
+            },
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Flower_House",
+            "FromFile": "assets/Maps/Flowerhouse_N.tmx",
+            "PatchMode": "Overlay",
+            "When": {
+                "Time": "{{Range: 1800, 2500}}"
+            },
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Flower_House",
+            "FromFile": "assets/Maps/Flowerhouse_N.tmx",
+            "PatchMode": "Overlay",
+            "When": {
+                "Time": "{{Range: 1800, 2500}}"
+            },
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Halsin_greenhouse",
+            "FromFile": "assets/Maps/Halsin_greenhouse_N.tmx",
+            "PatchMode": "Overlay",
+            "When": {
+                "Time": "{{Range: 1800, 2500}}"
+            },
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_KarlachWyllHouse",
+            "FromFile": "assets/Maps/KarlachWyllHouse_N.tmx",
+            "PatchMode": "Overlay",
+            "When": {
+                "Time": "{{Range: 1800, 2500}}"
+            },
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Astarion_BaldurVillage_SpouseRoom",
+            "FromFile": "assets/Maps/Astarion_SpouseRoom_N.tmx",
+            "PatchMode": "Overlay",
+            "When": {
+                "Time": "{{Range: 1800, 2500}}"
+            },
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Halsin_BaldurVillage_SpouseRoom",
+            "FromFile": "assets/Maps/Halsin_SpouseRoom_N.tmx",
+            "PatchMode": "Overlay",
+            "When": {
+                "Time": "{{Range: 1800, 2500}}"
+            },
+            "Update": "OnTimeChange"
+        }
+        
+    ]
+}

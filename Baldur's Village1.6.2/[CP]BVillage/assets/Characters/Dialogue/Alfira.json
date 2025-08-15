@@ -1,0 +1,68 @@
+
+{
+"Changes": [
+  { 
+  "LogName":"Alfira", 
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Alfira",
+  "Entries": {  
+				//ConversationTopic
+				"62130039welcome":"{{i18n:event-62130039-Alfira.2}}",
+
+				//Gifts
+				"AcceptBirthdayGift_Loved": "{{i18n:Alfira.Dialogue.AcceptBirthdayGift_Loved}}",
+				"AcceptBirthdayGift_Like": "{{i18n:Alfira.Dialogue.AcceptBirthdayGift_Like}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Alfira.Dialogue.AcceptBirthdayGift_Negative}}",
+				"AcceptBirthdayGift_Disliked": "{{i18n:Alfira.Dialogue.AcceptBirthdayGift_Disliked}}",
+				"AcceptBirthdayGift_Hated": "{{i18n:Alfira.Dialogue.AcceptBirthdayGift_Hated}}",	
+				//Movie
+				"MovieInvitation": "{{i18n:Alfira.Dialogue.MovieInvitation}}",
+				//Daily
+				"Introduction": "{{i18n:Alfira.Dialogue.Introduction}}",
+				//Spring
+				//Spring 0 hearts
+				"Mon": "{{i18n:Alfira.Dialogue.Mon}}",
+				"Tue": "{{i18n:Alfira.Dialogue.Tue}}",
+				"Wed": "{{i18n:Alfira.Dialogue.Wed}}",
+				"Thu": "{{i18n:Alfira.Dialogue.Thu}}",
+				"Fri": "{{i18n:Alfira.Dialogue.Fri}}",
+				"Sat": "{{i18n:Alfira.Dialogue.Sat}}",
+				"Sun": "{{i18n:Alfira.Dialogue.Sun}}",
+                //Summer
+				//Summer 0 Heart
+				"summer_Mon": "{{i18n:Alfira.Dialogue.summer_Mon}}",
+				"summer_Tue": "{{i18n:Alfira.Dialogue.summer_Tue}}",
+				"summer_Wed": "{{i18n:Alfira.Dialogue.summer_Wed}}",
+				"summer_Thu": "{{i18n:Alfira.Dialogue.summer_Thu}}",
+				"summer_Fri": "{{i18n:Alfira.Dialogue.summer_Fri}}",
+				"summer_Sat": "{{i18n:Alfira.Dialogue.summer_Sat}}",
+				"summer_Sun": "{{i18n:Alfira.Dialogue.summer_Sun}}",
+				//Fall
+				//Fall 0 Hearts
+				"fall_Mon": "{{i18n:Alfira.Dialogue.fall_Mon}}",
+				"fall_Tue": "{{i18n:Alfira.Dialogue.fall_Tue}}",
+				"fall_Wed": "{{i18n:Alfira.Dialogue.fall_Wed}}",
+				"fall_Thu": "{{i18n:Alfira.Dialogue.fall_Thu}}",
+				"fall_Fri": "{{i18n:Alfira.Dialogue.fall_Fri}}",
+				"fall_Sat": "{{i18n:Alfira.Dialogue.fall_Sat}}",
+				"fall_Sun": "{{i18n:Alfira.Dialogue.fall_Sun}}",
+				//Winter
+				//winter 0 Hearts
+				"winter_Mon": "{{i18n:Alfira.Dialogue.winter_Mon}}",
+				"winter_Tue": "{{i18n:Alfira.Dialogue.winter_Tue}}",
+				"winter_Wed": "{{i18n:Alfira.Dialogue.winter_Wed}}",
+				"winter_Thu": "{{i18n:Alfira.Dialogue.winter_Thu}}",
+				"winter_Fri": "{{i18n:Alfira.Dialogue.winter_Fri}}",
+				"winter_Sat": "{{i18n:Alfira.Dialogue.winter_Sat}}",
+				"winter_Sun": "{{i18n:Alfira.Dialogue.winter_Sun}}",
+
+				//Wedding comment 
+				"married_Astarion": "{{i18n:Alfira.Dialogue.married_Astarion}}",
+
+				//Others
+				///Dumpster
+				"DumpsterDiveComment": "{{i18n:Alfira.Dialogue.DumpsterDiveComment}}",	   
+			}
+		}
+	]
+}

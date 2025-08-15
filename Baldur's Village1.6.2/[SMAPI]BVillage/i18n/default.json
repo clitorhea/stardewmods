@@ -1,0 +1,29 @@
+﻿{
+  //通用剧情3 村口迎新对话
+  "event-62130039-30888_Gale.1": "I am glad to see you here. $h",
+  "event-62130039-Lewis.1": "When you’re ready to leave, just exit through the southern entrance. $h",
+  "event-62130039-Arnell.1": "Meeting so many different people is surely a special experience. #$b#I hope our daughter can make new friends here as well. $1",
+  "event-62130039-Emmeline.1": "What a lively day, child. #$b#My darling girl Jen... I mean, Shadowheart, is adapting well. I never dared to dream of the happiness of settling here as a family. $1",
+  "event-62130039-Shadowheart.1": "It musn't be easy to organize such an event. #$b#This is definitely a memorable beginning, for my familiy's new life. $3",
+  "event-62130039-Laezel.1": "If you’re eyeing the drink in my hand, then you should fetch your own from the counter. #$b#Find someone else for conversations. I am not interested. $2",
+  "event-62130039-Halsin.1": "Oak father preserves you. $3#$b#Gathering in a place like this is a charming thing in its own way. Go on, enjoy yourself.",
+  "event-62130039-Yenna.1": "Hey, are you new newcomer too? $1#$b#Do you want to try our special malt beer? It tastes very unusual... I mean, unusually good!",
+  "event-62130039-Xun.1": "I think I’ve already exceeded my weekly alchohol consumption limit in a day... $2",
+  "event-62130039-Maru.1": "These technologies are confusing me. Mr. Halsin, I have many questions to ask. #$b#Ah, @. I didn’t notice you arrived, sorry! $1",
+  "event-62130039-Shane.1": "I hope they're not always gonna be this loud... *hic*",
+  "event-62130039-Elliott.1": "I always welcome new friends, especially those with a unique aura. @, have you talked to them yet?",
+  "event-62130039-Demetrius.1": "Hey, @! This area has a very unique environment. #$b#I’ve collected some soil samples. Maybe there are undiscovered plants thriving here. $3",
+  "event-62130039-Sam.1": "Whoa, @. Have you met the new neighbors? They look like they’re from another world!",
+  "event-62130039-Sebastian.1": "This party is livelier than I expected... I thought it was just be small and casual.",
+  "event-62130039-Jas.1": "That white-haired lady's hair is so pretty! Do you think she’d teach me how to braid mine? $3",
+  "event-62130039-Vincent.1": "This place is super cool! Maybe I can move here someday?",
+  "event-62130039-Gus.1": "I brought some homemade snacks. I always bring too much food to these parties. $1#$b#Next time, these new neighbors should come to my saloon for another one.",
+  "event-62130039-Linus.1": "I'm not used to social events... don't worry about me, go enjoy yourself. #$b#I hope these new people know to preserve our birds and rivers, and can do without cutting the trees near my tent...$2",
+  "event-62130039-Robin.1": "What do you think of this town, @? $4#$b#I helped build most of the houses here. This village has great potential. If managed well, it could become a model of living in harmony with nature. $1",
+  "event-62130039-Pam.1": "This new village is actually pretty decent. Whose idea was it? $4#$b#Well, the greatest part is the unlimited drinks.",
+  "event-62130039-Marnie.1": "I heard one of the new neighbors is great at farming. Maybe I could talk to them about planting wheat and grass? #$b#I can invite them to visit my ranch.",
+  "event-62130039-Scratch.1": "%Woof! Woof woof!",
+
+  //其他
+  "event-62130039-Beer.1": "Congratulations, you found free beer!"
+}

@@ -1,0 +1,48 @@
+
+{
+"Changes": [
+  { 
+  "LogName":"Xun", 
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Xun",
+  "Entries": {  					
+				//ConversationTopic
+				"62130039welcome":"{{i18n:event-62130039-Xun.2}}",
+				
+				//Gifts
+				"AcceptBirthdayGift_Loved": "{{i18n:Xun.Dialogue.AcceptBirthdayGift_Loved}}",
+				"AcceptBirthdayGift_Like": "{{i18n:Xun.Dialogue.AcceptBirthdayGift_Like}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Xun.Dialogue.AcceptBirthdayGift_Negative}}",
+				"AcceptBirthdayGift_Disliked": "{{i18n:Xun.Dialogue.AcceptBirthdayGift_Disliked}}",
+				"AcceptBirthdayGift_Hated": "{{i18n:Xun.Dialogue.AcceptBirthdayGift_Hated}}",	
+				//Daily
+				//"Introduction": "{{i18n:Xun.Dialogue.Introduction}}", 路人intro不显示，注释掉以防止未来的bug
+				//Spring
+				//Spring 0 hearts
+				"Mon": "{{i18n:Xun.Dialogue.Mon_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"Fri": "{{i18n:Xun.Dialogue.Fri_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"Sat": "{{i18n:Xun.Dialogue.Sat_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+	
+                //Summer
+				//Summer 0 Heart
+				"summer_Mon": "{{i18n:Xun.Dialogue.summer_Mon_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"summer_Fri": "{{i18n:Xun.Dialogue.summer_Fri_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"summer_Sat": "{{i18n:Xun.Dialogue.summer_Sat_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				//Fall
+				//Fall 0 Hearts
+				"fall_Mon": "{{i18n:Xun.Dialogue.fall_Mon_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"fall_Fri": "{{i18n:Xun.Dialogue.fall_Fri_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"fall_Sat": "{{i18n:Xun.Dialogue.fall_Sat_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				//Winter
+				//winter 0 Hearts
+				"winter_Mon": "{{i18n:Xun.Dialogue.winter_Mon_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"winter_Fri": "{{i18n:Xun.Dialogue.winter_Fri_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				"winter_Sat": "{{i18n:Xun.Dialogue.winter_Sat_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}}}",
+				
+				//Others
+				///Dumpster
+				"DumpsterDiveComment": "{{i18n:Xun.Dialogue.DumpsterDiveComment}}",	   
+			}
+		}
+	]
+}

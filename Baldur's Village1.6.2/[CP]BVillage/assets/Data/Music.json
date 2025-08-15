@@ -1,0 +1,215 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+//Music
+                "6213_TheWeepingDawn": {
+                    "ID": "6213_TheWeepingDawn",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Music/TheWeepingDawn.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "6213_StreetsandFaces_Synth75": {
+                    "ID": "6213_StreetsandFaces_Synth75",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Music/StreetsandFaces_Synth75.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true,
+                },
+                "6213_DreamWalk_Synth92Clear": {
+                    "ID": "6213_DreamWalk_Synth92Clear",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Music/DreamWalk_Synth92Clear.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "6213_BardDance_LuteSolo": {
+                    "ID": "6213_BardDance_LuteSolo",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Music/BardDance_LuteSolo.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "6213_ThePower": {
+                    "ID": "6213_ThePower",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Music/ThePower.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },               
+                "6213_SongOfBalduran": {
+                    "ID": "6213_SongOfBalduran",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Music/SongOfBalduran.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "6213_WashMyPainAway": {
+                    "ID": "6213_WashMyPainAway",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Music/WashMyPainAway.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "6213_MainTheme": {
+                    "ID": "6213_MainTheme",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Music/MainTheme.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "6213_IWantToLive": {
+                    "ID": "6213_IWantToLive",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Music/IWantToLive.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+ //SFX               
+                "6213_KnockKnock": {
+                    "ID": "6213_KnockKnock",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Sound/TwoDoorKnock.wav}}"
+                    ],
+                },
+                "6213_Portal": {
+                    "ID": "6213_Portal",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Sound/Portal.wav}}"
+                    ],
+                },
+                "6213_HiddenDoorOpen": {
+                    "ID": "6213_HiddenDoorOpen",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Sound/HiddenDoorOpen.wav}}"
+                    ],
+                },
+                "6213_LiquidSpill": {
+                    "ID": "6213_LiquidSpill",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Sound/LiquidSpill.wav}}"
+                    ],
+                },
+                "6213_ConcreteBlocksMoving": {
+                    "ID": "6213_ConcreteBlocksMoving",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Sound/Concrete_blocks_moving.wav}}"
+                    ],
+                },
+                "6213_DressUp": {
+                    "ID": "6213_DressUp",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Sound/DressUp.wav}}"
+                    ],
+                },
+                "6213_TimeTravel": {
+                    "ID": "6213_TimeTravel",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Sound/TimeTravel.wav}}"
+                    ],
+                },
+                "6213_KnifeStab": {
+                    "ID": "6213_KnifeStab",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Sound/KnifeStab.wav}}"
+                    ],
+                },
+                "6213_KnifeStabFast": {
+                    "ID": "6213_KnifeStabFast",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Sound/KnifeStabFast.wav}}"
+                    ],
+                },
+                "6213_BloodSpurt": {
+                    "ID": "6213_BloodSpurt",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Sound/BloodSpurt.wav}}"
+                    ],
+                },
+                "6213_MagicSparkle": {
+                    "ID": "6213_MagicSparkle",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Sound/MagicSparkle.wav}}"
+                    ],
+                },
+                "6213_Whoosh": {
+                    "ID": "6213_Whoosh",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Sound/Whoosh.wav}}"
+                    ],
+                },     
+                "6213_AlienAppear": {
+                    "ID": "6213_AlienAppear",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/Music/Sound/AlienAppear.wav}}"
+                    ],
+                },    
+            }
+        },
+
+ /*       {
+            "Action":"EditData",
+            "Target":"Data/Locations",
+            "Entries":{
+            "Custom_Baldur_Village_Forest":{
+                "Music": [
+                    {
+                        "ID": "6213_StreetsandFaces_Synth75_springmusic",
+                        "Track": "6213_StreetsandFaces_Synth75",
+                        "When":{
+                        "Season": "Spring",
+                        "Season |contains=Summer, Fall, Winter": false
+                        }
+                    }, 
+                    {
+                        "ID": "6213_DreamWalk_Synth92Clear_summermusic",
+                        "Track": "6213_DreamWalk_Synth92Clear",
+                        "When": {
+                        "Season": "Summer",
+                        "Season |contains=Spring, Fall, Winter": false
+                        }
+                    }
+                ],
+                "CreateOnLoad": {
+                    "AlwaysActive": false,
+                    "MapPath": "Maps\\Custom_Baldur_Village_Forest"
+                }
+            }
+        }
+    }*/
+    ]
+}

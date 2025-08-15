@@ -1,0 +1,120 @@
+
+{
+"Changes": [
+        {
+			"LogName":"Halsin Marriage",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/MarriageDialogueHalsin",
+			"Entries":{
+				//Patio/SpouseRoom
+				"patio_Halsin": "{{i18n:Halsin.MarriageDialogue.patio_Halsin.{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"spouseRoom_Halsin": "{{i18n:Halsin.MarriageDialogue.spouseRoom_Halsin.{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				//NoBed
+                                 "NoBed_0": "{{i18n:Halsin.MarriageDialogue.NoBed_0}}",
+                                 "NoBed_1": "{{i18n:Halsin.MarriageDialogue.NoBed_1}}",
+                                 "NoBed_2": "{{i18n:Halsin.MarriageDialogue.NoBed_2}}",
+				//Rainy
+				"Rainy_Day_0": "{{i18n:Halsin.MarriageDialogue.Rainy_Day_{{Random: 0, 1, 2, 3, 4}}}}",
+				"Rainy_Day_1": "{{i18n:Halsin.MarriageDialogue.Rainy_Day_{{Random: 0, 1, 2, 3, 4}}}}",
+				"Rainy_Day_2": "{{i18n:Halsin.MarriageDialogue.Rainy_Day_{{Random: 0, 1, 2, 3, 4}}}}",
+				"Rainy_Day_3": "{{i18n:Halsin.MarriageDialogue.Rainy_Day_{{Random: 0, 1, 2, 3, 4}}}}",
+				"Rainy_Day_4": "{{i18n:Halsin.MarriageDialogue.Rainy_Day_{{Random: 0, 1, 2, 3, 4}}}}",
+				"Rainy_Day_Halsin": "{{i18n:Halsin.MarriageDialogue.Rainy_Day_{{Random: 0, 1, 2, 3, 4}}}}",
+				"Rainy_Night_0": "{{i18n:Halsin.MarriageDialogue.Rainy_Night_{{Random: 0, 1, 2, 3, 4}}}}",
+				"Rainy_Night_1": "{{i18n:Halsin.MarriageDialogue.Rainy_Night_{{Random: 0, 1, 2, 3, 4}}}}",
+				"Rainy_Night_2": "{{i18n:Halsin.MarriageDialogue.Rainy_Night_{{Random: 0, 1, 2, 3, 4}}}}",
+				"Rainy_Night_3": "{{i18n:Halsin.MarriageDialogue.Rainy_Night_{{Random: 0, 1, 2, 3, 4}}}}",
+				"Rainy_Night_4": "{{i18n:Halsin.MarriageDialogue.Rainy_Night_{{Random: 0, 1, 2, 3, 4}}}}",
+				"Rainy_Night_5": "{{i18n:Halsin.MarriageDialogue.Rainy_Night_{{Random: 0, 1, 2, 3, 4}}}}",
+                                "Rainy_Night_Halsin": "{{i18n:Halsin.MarriageDialogue.Rainy_Night_{{Random: 0, 1, 2, 3, 4}}}}",				
+				//Daily
+				"Indoor_Day_0": "{{i18n:Halsin.MarriageDialogue.Indoor_Day_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Indoor_Day_1": "{{i18n:Halsin.MarriageDialogue.Indoor_Day_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Indoor_Day_2": "{{i18n:Halsin.MarriageDialogue.Indoor_Day_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Indoor_Day_3": "{{i18n:Halsin.MarriageDialogue.Indoor_Day_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Indoor_Day_4": "{{i18n:Halsin.MarriageDialogue.Indoor_Day_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Indoor_Day_Halsin": "{{i18n:Halsin.MarriageDialogue.Indoor_Day_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Indoor_Night_0": "{{i18n:Halsin.MarriageDialogue.Indoor_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Indoor_Night_1": "{{i18n:Halsin.MarriageDialogue.Indoor_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Indoor_Night_2": "{{i18n:Halsin.MarriageDialogue.Indoor_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Indoor_Night_3": "{{i18n:Halsin.MarriageDialogue.Indoor_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Indoor_Night_4": "{{i18n:Halsin.MarriageDialogue.Indoor_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Indoor_Night_Halsin": "{{i18n:Halsin.MarriageDialogue.Indoor_Night_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Outdoor_0": "{{i18n:Halsin.MarriageDialogue.Outdoor_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Outdoor_1": "{{i18n:Halsin.MarriageDialogue.Outdoor_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Outdoor_2": "{{i18n:Halsin.MarriageDialogue.Outdoor_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Outdoor_3": "{{i18n:Halsin.MarriageDialogue.Outdoor_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Outdoor_4": "{{i18n:Halsin.MarriageDialogue.Outdoor_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				
+				//Specials//Festivals/Events
+				///Others
+				"funLeave_Halsin": "{{i18n:Halsin.MarriageDialogue.funLeave_Halsin_{{Random: 0, 1, 2, 3, 4}}}}",
+				"funReturn_Halsin": "{{i18n:Halsin.MarriageDialogue.funReturn_Halsin_{{Random: 0, 1, 2, 3, 4}}}}",
+				//Romance
+				"Good_0": "{{i18n:Halsin.MarriageDialogue.Good_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Good_1": "{{i18n:Halsin.MarriageDialogue.Good_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Good_2": "{{i18n:Halsin.MarriageDialogue.Good_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Good_3": "{{i18n:Halsin.MarriageDialogue.Good_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Good_4": "{{i18n:Halsin.MarriageDialogue.Good_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Good_5": "{{i18n:Halsin.MarriageDialogue.Good_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Good_6": "{{i18n:Halsin.MarriageDialogue.Good_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Good_7": "{{i18n:Halsin.MarriageDialogue.Good_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Good_8": "{{i18n:Halsin.MarriageDialogue.Good_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Good_9": "{{i18n:Halsin.MarriageDialogue.Good_{{Random: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}}}}",
+				"Neutral_0": "{{i18n:Halsin.MarriageDialogue.Neutral_0}}",
+				"Neutral_1": "{{i18n:Halsin.MarriageDialogue.Neutral_1}}",
+				"Neutral_2": "{{i18n:Halsin.MarriageDialogue.Neutral_2}}",
+				"Neutral_3": "{{i18n:Halsin.MarriageDialogue.Neutral_3}}",
+				"Neutral_4": "{{i18n:Halsin.MarriageDialogue.Neutral_4}}",
+				"Neutral_5": "{{i18n:Halsin.MarriageDialogue.Neutral_5}}",
+				"Neutral_6": "{{i18n:Halsin.MarriageDialogue.Neutral_6}}",
+				"Neutral_7": "{{i18n:Halsin.MarriageDialogue.Neutral_7}}",
+				"Neutral_8": "{{i18n:Halsin.MarriageDialogue.Neutral_8}}",
+				"Neutral_9": "{{i18n:Halsin.MarriageDialogue.Neutral_9}}",
+				"Bad_0": "{{i18n:Halsin.MarriageDialogue.Bad_0}}",
+				"Bad_1": "{{i18n:Halsin.MarriageDialogue.Bad_1}}",
+				"Bad_3": "{{i18n:Halsin.MarriageDialogue.Bad_3}}",
+				"Bad_4": "{{i18n:Halsin.MarriageDialogue.Bad_4}}",
+				"Bad_5": "{{i18n:Halsin.MarriageDialogue.Bad_5}}",
+				"Bad_6": "{{i18n:Halsin.MarriageDialogue.Bad_6}}",
+				"Bad_7": "{{i18n:Halsin.MarriageDialogue.Bad_7}}",
+				"Bad_8": "{{i18n:Halsin.MarriageDialogue.Bad_8}}",
+				"Bad_9": "{{i18n:Halsin.MarriageDialogue.Bad_9}}",
+				//Kids
+				"OneKid_0": "{{i18n:Halsin.MarriageDialogue.OneKid_{{Random: 0, 1, 2}}}}",
+				"OneKid_1": "{{i18n:Halsin.MarriageDialogue.OneKid_{{Random: 3, 4}}}}",
+				"OneKid_2": "{{i18n:Halsin.MarriageDialogue.OneKid_{{Random: 0, 1, 2}}}}",
+				"OneKid_3": "{{i18n:Halsin.MarriageDialogue.OneKid_{{Random: 3, 4}}}}",
+				"TwoKids_0": "{{i18n:Halsin.MarriageDialogue.TwoKids_{{Random: 0, 1, 2}}}}",
+				"TwoKids_1": "{{i18n:Halsin.MarriageDialogue.TwoKids_{{Random: 3, 4}}}}",
+				"TwoKids_2": "{{i18n:Halsin.MarriageDialogue.TwoKids_{{Random: 0, 1, 2}}}}",
+				"TwoKids_3": "{{i18n:Halsin.MarriageDialogue.TwoKids_{{Random: 3, 4}}}}",
+
+				//S E A S O N S
+				//Spring
+				"spring_1": "{{i18n:Halsin.MarriageDialogue.spring_1}}",
+				"spring_8": "{{i18n:Halsin.MarriageDialogue.spring_8}}",
+				"spring_12": "{{i18n:Halsin.MarriageDialogue.spring_12}}",
+				"spring_14": "{{i18n:Halsin.MarriageDialogue.spring_14}}",
+				"spring_23": "{{i18n:Halsin.MarriageDialogue.spring_23}}",
+				"spring_28": "{{i18n:Halsin.MarriageDialogue.spring_28}}",
+				//Summer
+				"summer_1": "{{i18n:Halsin.MarriageDialogue.summer_8}}",
+				"summer_10": "{{i18n:Halsin.MarriageDialogue.summer_10}}",
+				"summer_19": "{{i18n:Halsin.MarriageDialogue.summer_19}}",
+				"summer_27": "{{i18n:Halsin.MarriageDialogue.summer_27}}",
+				"summer_28": "{{i18n:Halsin.MarriageDialogue.summer_28}}",
+				//Fall
+				"fall_1": "{{i18n:Halsin.MarriageDialogue.fall_1}}",
+				"fall_15": "{{i18n:Halsin.MarriageDialogue.fall_15}}",
+				"fall_26": "{{i18n:Halsin.MarriageDialogue.fall_26}}",
+				"fall_28": "{{i18n:Halsin.MarriageDialogue.fall_28}}",
+				//Winter
+				"winter_1": "{{i18n:Halsin.MarriageDialogue.winter_1}}",
+				"winter_14": "{{i18n:Halsin.MarriageDialogue.winter_14}}",
+				"winter_24": "{{i18n:Halsin.MarriageDialogue.winter_24}}",
+				"winter_28": "{{i18n:Halsin.MarriageDialogue.winter_28}}"
+			}
+		}
+	]
+}

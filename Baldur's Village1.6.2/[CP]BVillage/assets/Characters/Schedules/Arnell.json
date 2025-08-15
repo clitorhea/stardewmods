@@ -1,0 +1,28 @@
+
+{
+  "Changes": [
+		    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Arnell",
+      "Entries": {
+//---------------------------------阿内尔行程表----------------------------（贺寻编排/贺寻测试完成）
+//周一  卧室一家三口站着——博德村广场一家三口坐——客厅扫地——回家沙发坐着——洗手池——睡觉
+  "Mon": "610 Custom_Flower_House 49 28 1/730 Custom_Flower_House 47 31 3/1000 Custom_Baldur_Village 80 38 2 Arnell_sitdown/1300 Custom_Flower_House 23 29 0 Arnell_sweep/1600 Custom_Flower_House 18 27 0 Arnell_sweep/1800 Custom_Flower_House 16 25 0/2230 Custom_Flower_House 49 28 2",
+//周二 卧室——一家三口皮埃尔商店——家里餐厅扫地——睡觉
+  "Tue": "610 Custom_Flower_House 49 28 1/630 Custom_Flower_House 47 31 3/800 SeedShop 14 20 2 /1700 Custom_Flower_House 16 29 2 Arnell_sweep/2200 Custom_Flower_House 49 28 2",
+//周三  博德村家门口水井——博德村南边桥上——客厅厨房
+  "Wed": "610 Custom_Flower_House 49 28 1/800 Custom_Baldur_Village 35 19 2/1200 Custom_Baldur_Village 39 34 2/1600 Custom_Flower_House 17 25 2/1800 Custom_Flower_House 15 25 0/2000 Custom_Flower_House 15 25 0/2300 Custom_Flower_House 49 28 2",
+//周四  卧室书柜前——厨房扫地——博德村家门口水井——博德村家门口(和埃米林)——睡觉
+  "Thu": "610 Custom_Flower_House 49 28 1/800 Custom_Flower_House 44 27 0/1100 Custom_Flower_House 17 25 2 Arnell_sweep/1400 Custom_Baldur_Village 34 19 0/1600 Custom_Baldur_Village 51 19 2/2000 Custom_Flower_House 49 28 2",
+//周  博德村家门口看库存——精灵之诗娱乐室(和埃米林)——精灵之诗吧台——睡觉
+  "Fri": "610 Custom_Flower_House 49 28 1/800 Custom_Baldur_Village 64 24 2/1100 Custom_Elfsong_Tavern 50 30 2/1600 Custom_Elfsong_Tavern 54 31 1/1700 Custom_Elfsong_Tavern 28 31 0/2100 Custom_Flower_House 49 28 2",
+//周六   冰箱前——博德村西南湖坐着(和埃米林)——精灵之诗演奏厅沙发(和埃米林)——回家睡觉
+  "Sat": "610 Custom_Flower_House 49 28 1/800 Custom_Flower_House 17 25 0/930 Custom_Flower_House 15 25 0/1100 Custom_Baldur_Village 17 72 2 Arnell_sitdown/1610 Custom_Elfsong_Tavern 6 20 3 /2130 Custom_Flower_House 16 25 0/2300 Custom_Flower_House 49 28 2",
+//周日   扫地——卧室沙发前(和埃米琳和影心)——鹈鹕镇社区中心下方座椅——鹈鹕镇上方儿童娱乐区——客厅冰箱前——睡觉
+  "Sun": "610 Custom_Flower_House 49 28 1/700  Custom_Flower_House 36 29 2 Arnell_sweep/1000 Custom_Flower_House 47 31 3/1230 Town 29 25 2/1700 Town 19 15 0/1900 Custom_Flower_House 17 25 2/2200 Custom_Flower_House 49 28 2",
+//雨天   卧室站着——看仓库——扫地——扫地——扫地——床上
+  "rain": "610 Custom_Flower_House 49 28 1/800 Custom_Flower_House 17 34 3/1400 Custom_Flower_House 37 27 2 Arnell_sweep/1600 Custom_Flower_House 28 29 2 Arnell_sweep/1800 Custom_Flower_House 17 18 2 Arnell_sweep/2100 Custom_Flower_House 49 28 2"
+	  }
+    }
+  ]
+  }

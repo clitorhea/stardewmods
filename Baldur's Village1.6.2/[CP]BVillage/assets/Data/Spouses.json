@@ -1,0 +1,69 @@
+{
+    "Changes": [
+                    //Spouse Room
+                     {
+                    "Action": "EditData",
+                      "Target": "Data/SpouseRooms",
+                      "Entries": {
+                        "Astarion": "Astarion_BaldurVillage_SpouseRoom",
+                        "Halsin": "Halsin_BaldurVillage_SpouseRoom"
+
+                 }
+                  },
+                 {
+                    "LogName": "Load SpouseRooms",
+                       "Action": "Load",
+                    "Target": "Maps/Astarion_BaldurVillage_SpouseRoom",
+                     "FromFile": "assets/Maps/Astarion_SpouseRoom.tmx"
+                 },
+                 {
+                    "LogName": "Load SpouseRooms",
+                       "Action": "Load",
+                    "Target": "Maps/Halsin_BaldurVillage_SpouseRoom",
+                     "FromFile": "assets/Maps/Halsin_SpouseRoom.tmx"
+                 },
+
+                    //Spouse Patio
+                    // register outside area
+                    {
+                        "Action": "EditData",
+                        "Target": "Data/SpousePatios",
+                        "Entries": {
+                            "Astarion": "Astarion_BaldurVillage_SpousePatio/0/2"
+                        }
+                    },
+                    // load spouse map
+                    {
+                        "Action": "Load",
+                        "Target": "Maps/Astarion_BaldurVillage_SpousePatio",
+                        "FromFile": "assets/Maps/Spouse/Astarion/Astarion_patio.tmx",
+                        "priority": "Low"
+
+                    },
+                    {
+                        "Action": "Load",
+                        "Target": "Maps/Astarion_BaldurVillage_SpousePatio",
+                        "FromFile": "assets/Maps/Spouse/Astarion/Astarion_patio_Summer.tmx",
+                        "When": {
+                           "Season": "Summer"
+                       },
+                        "priority": "High"
+                    },
+                    {
+                        "Action": "Load",
+                        "Target": "Maps/Astarion_BaldurVillage_SpousePatio",
+                        "FromFile": "assets/Maps/Spouse/Astarion/Astarion_patio_Fall.tmx",
+                        "When": {
+                            "Season": "Fall"
+                        }
+                    },
+                    {
+                       "Action": "Load",
+                        "Target": "Maps/Astarion_BaldurVillage_SpousePatio",
+                       "FromFile": "assets/Maps/Spouse/Astarion/Astarion_patio_Winter.tmx",
+                       "When": {
+                           "Season": "Winter"
+                        }
+                    }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Halsin",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/Halsin/Disposition_H.json"
+    },
+    {
+      "LogName": "Load Astarion",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/Astarion/Disposition_Astarion.json",
+      "When": {
+        "HasSeenEvent: anyPlayer| contains=62130034": false
+        }
+    },
+    {
+      "LogName": "Load Astarion Sun",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/Astarion/Disposition_Astarion_Sun.json",
+      "When": {
+        "HasSeenEvent: anyPlayer| contains=62130034": true
+        }
+    },
+    {
+      "LogName": "Load 30888_Gale",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/30888_Gale/Disposition_G.json"
+    },
+    {
+      "LogName": "Load Shadowheart",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/Shadowheart/Disposition_S.json"
+    },
+    {
+      "LogName": "Load Wyll",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/Wyll/Disposition_Wyll.json"
+    },
+    {
+      "LogName": "Load Karlach",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/Karlach/Disposition_Karlach.json"
+    },
+    {
+      "LogName": "Load Arnell",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/Arnell/Disposition_AH.json"
+    },
+    {
+      "LogName": "Load Emmeline",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/Emmeline/Disposition_EH.json"
+    },
+    {
+      "LogName": "Load Rolan2",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/Rolan2/Disposition_RL2.json"
+    },
+    {
+      "LogName": "Load Rolan1",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/Rolan1/Disposition_RL1.json"
+    },
+    {
+      "LogName": "Load Alfira",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/Alfira/Disposition_AF.json"
+    },
+    {
+      "LogName": "Load Laezel",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/Laezel/Disposition_L.json"
+    },
+    {
+      "LogName": "Load Xun",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/Xun/Disposition_XUN.json"
+    },
+    {
+      "LogName": "Load Ahla",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/Ahla/Disposition_Ahla.json"
+    },
+    {
+      "LogName": "Load Dalyria",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/30888_Dalyria/Disposition_DAL.json"
+    },
+    {
+      "LogName": "Load Petras",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/30888_Petras/Disposition_PT.json"
+    },
+    {
+      "LogName": "Load TouristA",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/TouristA/Disposition_TouristA.json"
+    },
+    {
+      "LogName": "Load TouristB",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/TouristB/Disposition_TouristB.json"
+    },
+    {
+      "LogName": "Load TouristD",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/TouristD/Disposition_TouristD.json"
+    },
+    {
+      "LogName": "Load TouristC",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/TouristC/Disposition_TouristC.json"
+    },
+    {
+      "LogName": "Load Yenna",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/Yenna/Disposition_Yenna.json"
+    },
+    {
+      "LogName": "Load Scratch",
+      "Action": "Include",
+      "FromFile": "assets/Characters/Disposition/Scratch/Disposition_Scratch.json"
+    },
+    // {
+    //   "LogName": "Load Omeluum",
+    //   "Action": "Include",
+    //   "FromFile": "assets/Characters/Disposition/Omeluum/Disposition_OME.json"
+    // }
+  ]
+}

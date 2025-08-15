@@ -1,0 +1,9 @@
+{
+    "Changes": [
+        {
+            "LogName": "Shop_Item",
+            "Action": "Include",
+            "FromFile": "assets/Data/Objects/Shop_Item.json"
+        }
+    ]
+}

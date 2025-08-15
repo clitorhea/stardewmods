@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="1">
+ <properties>
+  <property name="AmbientLight" value="95 95 95"/>
+ </properties>
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+  <tile id="1885">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="2078">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="2079">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="2106">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" source="townInterior.tsx"/>
+ <tileset firstgid="4353" source="walls_and_floors.tsx"/>
+ <tileset firstgid="4913" source="furniture.tsx"/>
+ <tileset firstgid="7889" source="BaldursVillageTown.tsx"/>
+ <tileset firstgid="10065" source="furniture_3.tsx"/>
+ <tileset firstgid="10416" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="10452" source="Flooring.tsx"/>
+ <tileset firstgid="10708" source="furniture_desert.tsx"/>
+ <tileset firstgid="10916" source="Thing.tsx"/>
+ <tileset firstgid="11076" source="spring_house.tsx"/>
+ <layer id="3" name="Back" width="6" height="9">
+  <data encoding="csv">
+4504,4367,4504,4367,4367,4367,
+4520,4383,4520,4383,4383,4383,
+4536,4399,4536,4399,4399,4399,
+4699,4700,3221233217,4700,4699,4700,
+4715,4716,4715,4716,4715,4716,
+4699,4700,4699,4700,4699,4700,
+4715,4716,4715,4716,4715,4716,
+4699,4700,4699,4700,4699,4700,
+4715,4716,4715,4716,4715,4716
+</data>
+ </layer>
+ <layer id="1" name="Back1" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,3221233250,3221233249,3221233248,3221233247,0,
+0,3221233218,2888,3221233216,3221233215,0,
+0,3221233186,3221233185,3221233184,3221233183,0,
+0,0,0,0,0,0,
+0,0,0,0,0,6322,
+0,0,0,0,0,2684360925,
+10457,10458,10458,10458,10458,10458
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="6" height="9">
+  <data encoding="csv">
+0,7548,0,7548,0,0,
+2257,7580,81,7580,2257,2257,
+2289,7612,7580,7612,2289,2289,
+8176,8061,4933,2889,2820,2821,
+0,0,4965,0,7992,8174,
+0,0,0,0,0,0,
+0,0,0,0,0,6322,
+0,0,0,0,0,3249,
+0,2147493818,8401,8402,8403,3281
+</data>
+ </layer>
+ <layer id="5" name="Front" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,2756,2757,
+8144,8029,2856,2857,2788,2789,
+0,0,0,0,7960,8142,
+0,0,0,0,0,0,
+0,0,0,0,0,6290,
+0,0,8337,8338,8339,3249,
+0,0,8369,8370,8371,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="15" name="Front1" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,675,2147491604,0,3383,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="AlwaysFront" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,3003,0,3003,3011,2690,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,3217,
+0,2147493792,0,0,0,7891,
+0,2147493805,0,0,0,6283,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="8" name="Path" width="6" height="9" visible="0">
+  <data encoding="csv">
+10424,0,10424,0,0,0,
+10424,0,10424,0,0,0,
+10424,0,10424,0,0,0,
+0,0,0,0,0,0,
+0,0,0,10423,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,10424,
+0,0,0,0,0,0
+</data>
+ </layer>
+</map>

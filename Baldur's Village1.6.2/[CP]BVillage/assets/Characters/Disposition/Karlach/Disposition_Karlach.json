@@ -1,0 +1,70 @@
+{
+  "Changes": [
+    
+{
+  "LogName": "NPC Dispositions", 
+  "Action": "EditData",
+   "Target": "Data/Characters",
+   "Entries": {
+    "Karlach": {
+     "DisplayName": "{{i18n:Name.Karlach}}",
+     "HomeRegion": "Town",
+     "Language": 0,
+     "Gender": "Female",
+     "Age": 0,
+     "BirthSeason": "Winter",
+     "BirthDay": 5,
+     "Manner": "Neutral",
+     "SocialAnxiety": "Outgoing",
+     "Optimism": "Positive",
+     "IsDarkSkinned": false,
+     "CanBeRomanced": false,
+     "CanCommentOnPurchasedShopItems": true,
+     "IntroductionsQuest": false,
+     "ItemDeliveryQuests": false,
+     "WinterStarParticipant": false,
+     "LoveInterest": "",
+     "Calendar": "HiddenUntilMet",
+     "SocialTab": 0,
+     "SocializeConditions": null,
+     "CanSocialize": false,
+     "CanVisitIsland": "FALSE",
+     "ExcludeFromIntroductionsQuest": true,
+     "ExcludeFromPerfectionScore": true,
+     "EndSlideShow": 1,
+     "FriendsAndFamily": {},
+     "DumpsterDiveEmote": 16,
+     "DumpsterDiveFriendshipEffect": 0,
+     "FlowerDanceCanDance": false,
+     "UnlockConditions": true,
+     "SpawnIfMissing": true,
+     "Home": [
+      {
+       "Id": "Default",
+       "Location": "Custom_Avernus",
+       "Tile": {
+        "X": 5,
+        "Y": 5
+       },
+      "Direction": "down"
+      }
+
+     ],
+     "TextureName": null,
+     "Size": {
+      "X": 16,
+      "Y": 32
+     },
+     "Breather": true,
+     "HiddenProfileEmoteSound": null,
+     "HiddenProfileEmoteDuration": -1,
+     "HiddenProfileEmoteStartFrame": 16,
+     "HiddenProfileEmoteFrameCount": 4,
+     "HiddenProfileEmoteFrameDuration": 200.0,
+    // "FestivalVanillaActorIndex": 0,
+     "CustomFields": {}
+    }
+   }
+  }
+  ]
+}

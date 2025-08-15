@@ -1,0 +1,13 @@
+{
+  "Changes": [
+
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries":
+      {
+        "Astarion": "{{i18n:Astarion.Dialogue.Rainy}}",
+      }
+    },
+  ]
+}

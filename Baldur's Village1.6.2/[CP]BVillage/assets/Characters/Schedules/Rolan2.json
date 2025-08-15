@@ -1,0 +1,26 @@
+
+{
+  "Changes": [
+		    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/Rolan2",
+      "Entries": {
+  "Mon": "700 Custom_Elfsong_Tavern 29 29 2",
+
+  "Tue": "700 Custom_Elfsong_Tavern 29 29 2",
+
+  "Wed": "700 Custom_Elfsong_Tavern 29 29 2",
+
+  "Thu": "700 Custom_Elfsong_Tavern 29 29 2",
+
+  "Fri": "700 Custom_Elfsong_Tavern 29 29 2",
+
+  "Sat": "700 Custom_Elfsong_Tavern 29 29 2",
+
+  "Sun": "700 Custom_Elfsong_Tavern 29 29 2",
+
+   "rain": "700 Custom_Elfsong_Tavern 29 29 2"
+	  }
+    }
+  ]
+  }

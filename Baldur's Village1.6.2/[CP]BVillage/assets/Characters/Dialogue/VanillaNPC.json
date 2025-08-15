@@ -1,0 +1,145 @@
+
+{
+	"Changes": [
+	    { 
+	        "LogName":"Lewis", 
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Lewis",
+	        "Entries": {  
+
+				//ConversationTopic
+				"62130039welcome":"{{i18n:event-62130039-Lewis.2}}",
+		    }
+	    },
+        { 
+	        "LogName":"Maru", 
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Maru",
+	        "Entries": {  
+
+				//ConversationTopic
+				"62130039welcome":"{{i18n:event-62130039-Maru.2}}",
+		    }
+	    },
+        { 
+	        "LogName":"Shane", 
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Shane",
+	        "Entries": {  
+
+				//ConversationTopic
+				"62130039welcome":"{{i18n:event-62130039-Shane.2}}",
+		    }
+	    },
+        { 
+	        "LogName":"Elliott", 
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Elliott",
+	        "Entries": {  
+
+				//ConversationTopic
+				"62130039welcome":"{{i18n:event-62130039-Elliott.2}}",
+		    }
+	    },
+        { 
+	        "LogName":"Demetrius", 
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Demetrius",
+	        "Entries": {  
+
+				//ConversationTopic
+				"62130039welcome":"{{i18n:event-62130039-Demetrius.2}}",
+		    }
+	    },
+        { 
+	        "LogName":"Sam", 
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Sam",
+	        "Entries": {  
+
+				//ConversationTopic
+				"62130039welcome":"{{i18n:event-62130039-Sam.2}}",
+		    }
+	    },
+        { 
+	        "LogName":"Sebastian", 
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Sebastian",
+	        "Entries": {  
+
+				//ConversationTopic
+				"62130039welcome":"{{i18n:event-62130039-Sebastian.2}}",
+		    }
+	    },
+        { 
+	        "LogName":"Jas", 
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Jas",
+	        "Entries": {  
+
+				//ConversationTopic
+				"62130039welcome":"{{i18n:event-62130039-Jas.2}}",
+		    }
+	    },
+        { 
+	        "LogName":"Vincent", 
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Vincent",
+	        "Entries": {  
+
+				//ConversationTopic
+				"62130039welcome":"{{i18n:event-62130039-Vincent.2}}",
+		    }
+	    },
+        { 
+	        "LogName":"Gus", 
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Gus",
+	        "Entries": {  
+
+				//ConversationTopic
+				"62130039welcome":"{{i18n:event-62130039-Gus.2}}",
+		    }
+	    },
+        { 
+	        "LogName":"Linus", 
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Linus",
+	        "Entries": {  
+
+				//ConversationTopic
+				"62130039welcome":"{{i18n:event-62130039-Linus.2}}",
+		    }
+	    },
+        { 
+	        "LogName":"Robin", 
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Robin",
+	        "Entries": {  
+
+				//ConversationTopic
+				"62130039welcome":"{{i18n:event-62130039-Robin.2}}",
+		    }
+	    },
+        { 
+	        "LogName":"Pam", 
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Pam",
+	        "Entries": {  
+
+				//ConversationTopic
+				"62130039welcome":"{{i18n:event-62130039-Pam.2}}",
+		    }
+	    },
+        { 
+	        "LogName":"Marnie", 
+	        "Action": "EditData",
+	        "Target": "Characters/Dialogue/Marnie",
+	        "Entries": {  
+
+				//ConversationTopic
+				"62130039welcome":"{{i18n:event-62130039-Marnie.2}}",
+		    }
+	    },
+	]
+}

@@ -1,0 +1,59 @@
+// {
+//   "Changes": [
+    
+//     //Custom Fixed Dialogue (recommanded)   
+//     {
+
+//       "Action": "EditData",
+//       "Target": "Characters/Dialogue/Astarion",
+//       "Entries": {
+//         "ExtraDialogue_Town_DumpsterDiveComment_Adult":
+//       }
+//     },
+//     {
+
+//       "Action": "EditData",
+//       "Target": "Characters/Dialogue/Astarion",
+//       "Entries": {
+//         "ExtraDialogue_Town_DumpsterDiveComment_Adult": 
+//       }
+//     },
+//     {
+//       "Action": "EditData",
+//       "Target": "Characters/Dialogue/Astarion",
+//       "Entries": {
+//         "ExtraDialogue_Town_DumpsterDiveComment_Adult": 
+//       }
+//     },
+//     {
+//       "Action": "EditData",
+//       "Target": "Data/ExtraDialogue",
+//       "Entries": {
+//         "SummitEvent_Intro_Spouse": 
+//         "SummitEvent_Intro2_Spouse": 
+//         "SummitEvent_Intro2_Spouse_Gruff": 
+//         "SummitEvent_Dialogue1_Spouse": 
+//         "SummitEvent_Dialogue2_Spouse": 
+//         "SummitEvent_Dialogue3_Astarion1": 
+//         "SummitEvent_Dialogue3_Astarion2": 
+//         "SummitEvent_Dialogue3_Astarion3": 
+//       },
+//       "When": {"Spouse": "Astarion"}
+//     },
+      
+//     {
+//       "Action": "EditData",
+//       "Target": "Data/ExtraDialogue",
+//       "Entries": {
+//             "Mines_PlayerKilled_Spouse_PlayerFemale": 
+//             "Mines_PlayerKilled_Spouse_PlayerMale":
+//             "NewChild_SecondChild": 
+//             "NewChild_FirstChild": 
+//             "NewChild_Adoption": 
+//             "Spouse_KitchenBlocked": 
+//             "Spouse_MonstersInHouse": 
+//       }
+//     },
+
+//   ]
+// }

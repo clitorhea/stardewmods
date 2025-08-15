@@ -1,0 +1,98 @@
+{
+  "Changes": [
+    
+{
+  "LogName": "NPC Dispositions", 
+  "Action": "EditData",
+   "Target": "Data/Characters",
+   "Entries": {
+    "Astarion": {
+     "DisplayName": "{{i18n:Name.Astarion}}",
+     "BirthSeason": "Summer",
+     "BirthDay": 22,
+     "HomeRegion": "Town",
+     "Language": 0,
+     "Gender": "Male",
+     "Age": "Adult",
+     "Manner": "Neutral",
+     "SocialAnxiety": "Neutral",
+     "Optimism": "Neutral",
+     "IsDarkSkinned": false,
+     "CanBeRomanced": true,
+     "CanCommentOnPurchasedShopItems": true,
+     "CanGreetNearbyCharacters": false,
+     "IntroductionsQuest": true,
+     "ItemDeliveryQuests": true,
+     "WinterStarParticipant": true,
+     "LoveInterest": "",
+     "Calendar": 0,
+     "SocialTab": 0,
+     "SocializeConditions": null,
+     "CanVisitIslandCondition": true,
+     "ExcludeFromIntroductionsQuest": false,
+     "ExcludeFromPerfectionScore": true,
+     "EndSlideShow": 1,
+     "FriendsAndFamily": {},
+     "DumpsterDiveEmote": 16,
+     "DumpsterDiveFriendshipEffect": 0,
+     "FlowerDanceCanDance": true,
+     "UnlockConditions": true,
+     "SpawnIfMissing": true,
+     "SpouseGiftJealousy": true,
+     "SpouseAdopts": true,
+     "Home": [
+      {
+       "Id": "Default",
+       "Location": "Custom_Astarion_House",
+       "Tile": {
+        "X": 34,
+        "Y": 11
+       },
+      "Direction": "down"
+      }
+     ],
+     "SpouseRoom": {
+      "MapAsset": "Astarion_BaldurVillage_SpouseRoom",
+      "MapSourceRect": {
+          "X": 0,
+          "Y": 0,
+          "Width": 6,
+          "Height": 9
+      }
+  },
+     "SpousePatio": {
+      "MapAsset": "Astarion_BaldurVillage_SpousePatio",
+      "MapSourceRect": {
+          "X": 0,
+          "Y": 0,
+          "Width": 4,
+          "Height": 4
+      },
+      "SpriteAnimationFrames": [
+          [52, 500],
+          [53, 500],
+          [54, 500]
+      ],
+      "SpriteAnimationPixelOffset": {
+          "X": 3,
+          "Y": 3
+      }
+     },
+     "TextureName": null,
+     "Size": {
+      "X": 16,
+      "Y": 32
+     },
+     "Breather": true,
+     "HiddenProfileEmoteSound": null,
+     "HiddenProfileEmoteDuration": -1,
+     "HiddenProfileEmoteStartFrame": 16,
+     "HiddenProfileEmoteFrameCount": 4,
+     "HiddenProfileEmoteFrameDuration": 200.0,
+    // "FestivalVanillaActorIndex": 0,
+     "CustomFields": {}
+    }
+   }
+  }
+  ]
+}

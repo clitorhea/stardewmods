@@ -1,0 +1,27 @@
+
+{
+  "Changes": [
+		    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/TouristB",
+      "Entries": {
+  //---------------------------------内向的金发男子行程表----------------------------（贺寻编排完成）
+  "Mon": "700 Custom_Baldurs_Gate 5 5 2",
+
+  "Tue": "700 Custom_Baldurs_Gate 5 5 2",
+//周三 城镇凹地河边——沙龙自动贩卖机——原地喝酒——回家
+  "Wed": "900 town 73 38 2/1500 Saloon 38 18 0/1900 Saloon 38 18 2 TouristB_drink/2100 town 69 101 2 ",
+
+  "Thu": "700 Custom_Baldurs_Gate 5 5 2",
+//周五 酒馆沙发坐着——吧台站着——回家
+  "Fri": "1600 Custom_Elfsong_Tavern 19 35 1 TouristB_sitdownleft/2100 Custom_Elfsong_Tavern 28 31 0/2300 Custom_Baldurs_Gate 5 5 2",
+//周六 博得村东南方河边看风景——树下站着——酒馆里站着看演出——回家
+  "Sat": "1000 Custom_Baldur_Village 64 72 2/1300 Custom_Baldur_Village 101 68 2/1600 Custom_Elfsong_Tavern 10 23 0/2200 Custom_Baldurs_Gate 5 5 2",
+
+  "Sun": "700 Custom_Baldurs_Gate 5 5 2",
+
+   "rain": "700 Custom_Baldurs_Gate 5 5 2"
+	  }
+    }
+  ]
+  }

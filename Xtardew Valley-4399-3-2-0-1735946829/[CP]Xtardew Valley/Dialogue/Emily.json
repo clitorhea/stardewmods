@@ -1,0 +1,31 @@
+﻿{
+	"Changes":[
+		{
+			"LogName":"Emily",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/Emily",
+			"Entries":{
+				"emily_event1": "Oh! This is our signature cocktail. Good choice, @.$1",
+				"emily_event2": "You must really love your gin, @. The Lunar Horizon is strong!$1",
+				"emily_event3": "This is one of my favorites! I'm happy you chose this one.$1",
+				"emily_event4": "The Big Bang is pretty strong. But I'm sure you can handle it.$1",
+				"emily_event5": "*Smile* Good choice, that one suits you.",
+				"event_dance1": "Thank you!$1",
+				"event_dance2": "Um... Okay. Sorry you didn't like it. I guess those three years of practice were a complete waste...$s",
+				"event_dance3": "Did you really think so? That's exactly the effect I was shooting for!$h#$b#I'm so glad you liked it.",
+			}
+		},
+		{
+			"LogName":"Emily Marriage",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/MarriageDialogueEmily",
+			"Entries":{
+				         "Rainy_Day_4": "It's raining a lot.#$b#There is something calming about making love when it's raining.$4#$e#Don't come back too late tonight.$4",
+						"Outdoor_4": "Good morning! I was wondering when you'd finally roll out of bed!$h#$e#It's okay though... You deserve a good night of rest after last night.$4",
+						"summer_7": "I'll never forget that bear that showed up on our camping trip.#$b#Surprised by a bear during my first time... I don't think many people can say the same.$1",
+						"Indoor_Night_4": "#$c .5#I swept the whole house, washed the windows, dusted, and cleaned the fridge. It was a very productive day!#Maybe someday when we retire, you and I can travel the world, like my parents. At least just for a little bit.$u",	
+	
+			}
+		}
+	]
+}

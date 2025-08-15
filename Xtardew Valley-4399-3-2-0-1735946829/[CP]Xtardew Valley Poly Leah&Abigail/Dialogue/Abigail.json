@@ -1,0 +1,41 @@
+﻿{
+	"Changes":[
+		{
+			"LogName":"Abigail",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/Abigail",
+			"Entries":{
+				"Introduction": "Oh, that's right... I heard someone new was moving onto that old farm.#$e#It's kind of a shame, really. I enjoyed exploring those overgrown fields with Leah.$9",
+				"Mon4":"I'm getting an urge to visit the lake...#$b#...but it's only at its best when it's raining.",
+				"Wed4":"My favorite class? media arts is fun...#$b#Don't know what I'd do with that for a career, though.#$b#Maybe Leah can give me some pointers.",
+				"Thu2":"Sebastian, Sam and I used to be good friends. But we kind of grew apart when we grew up.$6",
+				"Fri2":"I'll be going to the saloon with Leah this evening. It's kind of like a Friday tradition, I guess.",
+				"Fri4":"It's saloon night. Wanna join us this evening?#$e#I think would like for you to be there too.",		
+				"summer_Mon8":"I used to think Pelican Town was kinda drab, but with Leah and you, I'm starting to love being here.$h",	
+				"summer_Fri2":"Leah's a few years older than I am, but I feel like I can truly be me around her.#$e#I wonder if that's what having a sister feels like.",	
+				"summer_Sat10":"This might be the best summer of my life.$l#$e#But getting to spend time with you and Leah in the fall sounds even better.$l",		
+				"fall_Wed8":"I wonder if they'll let me design some of the features in the Spirit's Eve maze someday.#$e#I've got some ideas, I'll ask Leah to sketch them for me.",
+				"fall_Thu4":"Leah's one of the few people who actually gets me.#$e#Well, you sort of do, too.$h",
+				"fall_Thu10":"I had an interesting dream last night, with Leah and you in it.#$e#It was a good dream.$h",	
+				"fall_Fri10":"I used to feel lonely this time of year, but not anymore.$l#$e#@, what are your plans for the future?",
+				"winter_Sat6":"My favorite class? media arts is fun...#$b#Don't know what I'd do with that for a career, though.#$b#Maybe Leah can give me some pointers.",
+				"winter_Sat10":"Thanks for not getting weirded out after the bit with the spirit board.$l#$e#I was seriously worried that you'd never talk to me again.$l",
+				"fall_Tue2":"Leah's basically my best friend.#$e#We have been so close since she moved to the valley.",	
+				"Thu6":"I picked up how to play the drums pretty easily as a kid. My own set is in storage, though.",
+				"Event_Cave_2": "I see... I guess it's normal to be afraid... Specially when you have something to lose.$l",
+  
+			}
+		},
+		{
+			"LogName":"Abigail Marriage",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/MarriageDialogueAbigail",
+			"Entries":{
+					"Rainy_Day_0":"#$c .5#I think I'll bust out my good ol' sketchbook today and paint something with Leah. I've got some ideas for mythical beasts that could be fun.#The dark... the rain... it gets me excited.$l",
+					"Rainy_Day_1":"Hey, remember when we played that duet by the lake? This weather reminds me of that day.#$e#$c .5#Do you still carry around that mini harp? That one kind of surprised me. Where'd you learn to play, anyway?#You really surprised me with that mini-harp... I never expected that. I guess that's why I like you so much.$l",
+				
+				
+			}
+		}
+	]
+}

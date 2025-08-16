@@ -12,17 +12,17 @@
     "Forest West forage area 5": 1,
     "Forest West forage area 7": 1,
     "Forest West forage area 8": 1,
-    "Forest West forage area 9": 1,
+    "Forest West forage area 9": 2,
     "Forest West forage area 10": 1,
     "Aurora Vineyard Doll": 1,
     "Aurora Vineyard Newspaper": 1,
     "Treasure Chest in Suburbs": 1,
-    "Treasure Chest Spawns": 1,
-    "Highlands Log Spawns": 1,
-    "Highlands Stump Spawns": 1,
+    "Treasure Chest Spawns": 2,
+    "Highlands Log Spawns": 2,
+    "Highlands Stump Spawns": 2,
     "Forest West Log": 1,
-    "Highlands Boulder Spawns": 1,
-    "Highlands Cavern Prison Monster Guard Spawns": 1
+    "Highlands Boulder Spawns": 2,
+    "Highlands Cavern Prison Monster Guard Spawns": 2
   },
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -32,7 +32,7 @@
       "Tile": "16, 34",
       "Type": "Ore",
       "ID": 2,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -43,7 +43,7 @@
       "Tile": "4, 18",
       "Type": "Ore",
       "ID": 2,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -54,7 +54,7 @@
       "Tile": "18, 29",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -65,7 +65,7 @@
       "Tile": "10, 27",
       "Type": "Ore",
       "ID": 668,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -76,7 +76,7 @@
       "Tile": "26, 24",
       "Type": "Ore",
       "ID": 2,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -87,7 +87,7 @@
       "Tile": "11, 27",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -98,7 +98,7 @@
       "Tile": "22, 30",
       "Type": "Ore",
       "ID": 668,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -686,7 +686,7 @@
       "Tile": "7, 7",
       "Type": "Forage",
       "ID": "454",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": {
         "Category": "object"
@@ -699,7 +699,7 @@
       "Tile": "9, 7",
       "Type": "Forage",
       "ID": "281",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": {
         "Category": "object"
@@ -712,7 +712,7 @@
       "Tile": "7, 5",
       "Type": "Forage",
       "ID": "420",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": {
         "Category": "object"
@@ -725,7 +725,7 @@
       "Tile": "56, 22",
       "Type": "Forage",
       "ID": "591",
-      "DaysUntilExpire": 6,
+      "DaysUntilExpire": 5,
       "SpawnTime": 600,
       "ConfigItem": {
         "Category": "object"
@@ -816,7 +816,7 @@
       "Tile": "35, 25",
       "Type": "Container",
       "ID": null,
-      "DaysUntilExpire": 9000,
+      "DaysUntilExpire": 8999,
       "SpawnTime": 600,
       "ConfigItem": {
         "Category": "Chest",
@@ -826,6 +826,181 @@
             "Name": "FlashShifter.StardewValleyExpandedCP_Castle_Village_Outpost_Vendor_Schedule"
           }
         ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "25, 26",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "12, 18",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "12, 33",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "3, 19",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "6, 28",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "12, 20",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "13, 34",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_DiamondCavern",
+      "Name": "Diamond",
+      "Tile": "11, 33",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Highlands",
+      "Name": null,
+      "Tile": "141, 36",
+      "Type": "ResourceClump",
+      "ID": "600",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Highlands",
+      "Name": null,
+      "Tile": "143, 53",
+      "Type": "ResourceClump",
+      "ID": "600",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpringCave",
+      "Name": "454",
+      "Tile": "5, 6",
+      "Type": "Forage",
+      "ID": "454",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpringCave",
+      "Name": "420",
+      "Tile": "11, 8",
+      "Type": "Forage",
+      "ID": "420",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "597",
+      "Tile": "49, 24",
+      "Type": "Forage",
+      "ID": "597",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "597",
+      "Tile": "48, 25",
+      "Type": "Forage",
+      "ID": "597",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "591",
+      "Tile": "53, 26",
+      "Type": "Forage",
+      "ID": "591",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
       },
       "MonType": null
     }

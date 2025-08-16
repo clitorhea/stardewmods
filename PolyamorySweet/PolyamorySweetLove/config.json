@@ -13,7 +13,7 @@
   "ImpregnatingFemmeNPC": false,
   "MaxChildren": 2,
   "ShowParentNames": true,
-  "SpouseSleepOrder": "",
+  "SpouseSleepOrder": "Abigail",
   "PercentChanceForSpouseInBed": 0.25,
   "PercentChanceForSpouseInKitchen": 25,
   "PercentChanceForSpouseAtPatio": 25,

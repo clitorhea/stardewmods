@@ -1,0 +1,65 @@
+{
+    "Changes":[
+//PORTRAITS
+{
+    "Action": "Load",
+    "Target": "Portraits/Abigail_Nude",
+    "FromFile": "assets/Portraits/Abigail_Nude.png",
+  },
+  {
+    "Action": "Load",
+    "Target": "Portraits/Abigail_BJ",
+    "FromFile": "assets/Portraits/Abigail_BJ.png",
+  },
+//SPRITES
+  {
+    "Action": "Load",
+    "Target": "Characters/Abigail_XDVNude",
+    "FromFile": "assets/Sprites/Abigail_XDVNude.png",
+  },
+  {
+    "Action": "Load",
+    "Target": "Characters/Abigail_XDVClothed",
+    "FromFile": "assets/Sprites/Abigail_XDVClothed.png",
+  },
+
+//EVENTS
+//10 hearts - Playing Prairie King again
+{
+"Action": "EditData",
+"Target": "Data/Events/Saloon",
+"When": {"PlayerGender": "Male"},
+"Entries": {
+"19932/f Abigail 2500/e 901756/O Abigail/t 1700 1900/w sunny/d Mon Tue Wed Thu Sat Sun": "50s/-1000 -1000/farmer 27 20 1 Clint 18 22 2 Marnie 9 22 3 Pam 7 18 1 Lewis 8 22 1 Pierre 4 22 2 Demetrius 3 23 1 Gus 14 18 2 Emily 16 18 3 Abigail 33 18 0/skippable/viewport 33 18 true/viewport move 1 0 2000 true/move farmer 6 0 0/move farmer 0 -1 0/pause 100/faceDirection Abigail 2/pause 50/speak Abigail \"{{i18n:Abigail.XDVpm.1}}\"/pause 150/emote farmer 32/pause 150/speak Abigail \"{{i18n:Abigail.XDVpm.2}}\"/pause 50/faceDirection Abigail 0/move farmer 1 0 0/move farmer 0 -1 3/pause 500/globalFade/cutscene AbigailGame/pause 200/faceDirection Abigail 1/fork beatGame/speak Abigail \"{{i18n:Abigail.XDVpm.jpklose.1}}\"/faceDirection Abigail 1/emote Abigail 12/pause 200/speak Abigail \"{{i18n:Abigail.XDVpm.jpklose.2}}\"/switchEvent 19932_AbiBJ",
+"beatGame": "speak Abigail \"{{i18n:Abigail.XDVpm.jpkwin.1}}\"/faceDirection Abigail 1/animate Abigail true true 500 33/pause 250/animate farmer true true 500 101/pause 50/positionOffset farmer -4 0/pause 50/positionOffset farmer -4 0/pause 50/pause 50/positionOffset farmer -4 0/pause 50/positionOffset farmer -4 0/playSound dwop/pause 50/specificTemporarySprite heart 34 17/pause 1000/stopAnimation farmer/stopAnimation Abigail/pause 500/speak Abigail \"{{i18n:Abigail.XDVpm.jpkwin.2}}\"/switchEvent 19932_AbiBJ",
+  "19932_AbiBJ": "pause 10/globalFade/viewport -1000 -1000/changeLocation Town/pause 2500/speak Abigail \"{{i18n:Abigail.XDVpm.3}}\"/pause 500/playSound swordswipe/message \"{{i18n:Abigail.XDVpm.4}}\"/
+  ${
+  changePortrait Abigail BJ/message \"{{i18n:Abigail.XDVpm.5}}\"/message \"{{i18n:Abigail.XDVpm.6}}\"/pause 100/warp farmer 67 39/faceDirection farmer 2/warp Abigail 67 39/changeSprite Abigail XDVClothed/positionOffset farmer 8 -24/positionOffset Abigail 8 0/faceDirection farmer 2/animate farmer true true 500 16/animate Abigail true true 400 0 1 2 1/loopSound gulp 80/pause 1000/viewport 67 37 true/pause 12500/loopSoundStop gulp/animate Abigail true true 400 12/speak Abigail \"{{i18n:Abigail.XDVpm.7}}\"/message \"{{i18n:Abigail.XDVpm.8}}\"/animate Abigail true true 350 0 1 2 1/loopSound gulp 60/pause 9600/loopSoundStop gulp/animate Abigail true true 400 12/speak Abigail \"{{i18n:Abigail.XDVpm.9}}\"/animate Abigail true true 300 0 1 2 1/loopSound gulp 50/pause 8400/loopSoundStop gulp/animate Abigail true true 400 0/speak Abigail \"{{i18n:Abigail.XDVpm.10}}\"/animate Abigail true true 250 0 1 2 1/loopSound gulp 40/pause 4500/loopSoundStop gulp/animate Abigail true true 400 2/screenFlash 1/playSound fishSlap/speak Abigail \"{{i18n:Abigail.XDVpm.11}}\"/pause 500/loopSound fishSlap 80/pause 1500/loopSoundStop fishSlap/pause 500/playSound slimedead/pause 1500/loopSound gulp 40/pause 900/loopSoundStop gulp/globalFade/viewport -1000 -1000/speak Abigail \"{{i18n:Abigail.XDVpm.12}}\"/end newDay
+  ^
+  message \"{{i18n:Generic.XDV.nofemale}}\"/end newDay
+  }$",
+}
+},
+//10 hearts - First time with Abigail (Vanilla)
+{
+"Action": "EditData",
+"Target": "Data/Events/Mine",
+"Entries": {
+"901756/f Abigail 2500/t 1700 2400/o Abigail": "Upper_Ambient/18 7/farmer -1000 -1000 0 Abigail 18 11 0/move Abigail 0 -3 1/move Abigail 5 0 2/pause 500/animate Abigail false false 150 26 24 25 25 25 25/pause 450/playSound sandyStep/stopAnimation Abigail/showFrame Abigail 25/pause 2000/playSound batFlap/pause 500/playSound batFlap/pause 500/playSound batFlap/pause 500/emote Abigail 8/pause 1000/specificTemporarySprite abbyOneBat/playSound batScreech/showFrame Abigail 32/shake Abigail 2000/pause 2000/showFrame Abigail 0/pause 600/animate Abigail false true 100 28 29/pause 1200/stopAnimation Abigail/pause 1000/specificTemporarySprite abbyManyBats/showFrame Abigail 32/shake Abigail 2000/pause 2000/speed Abigail 8/move Abigail 0 -4 0/speed Abigail 8/move Abigail 2 0 0/animate Abigail false false 100 21 20 20/pause 200/showFrame Abigail 20/shake Abigail 10000/pause 2000/warp farmer 18 13/move farmer 0 -5 0/pause 1000/faceDirection farmer 1/pause 300/emote farmer 16/speed farmer 8/move farmer 6 0 0/speed farmer 8/playMusic desolate/move farmer 0 -4 1/speak Abigail \"$q 776589 null#{{i18n:Abigail.XDV10h.1}}#$r 776589 20 Event_Cave2_1#{{i18n:Abigail.XDV10h.2a}}#$r 776589 40 Event_Cave2_2#{{i18n:Abigail.XDV10h.2b}}\"/pause 500/animate Abigail false false 100 21 0 0/pause 200/stopAnimation Abigail/faceDirection Abigail 3/pause 500/speak Abigail \"{{i18n:Abigail.XDV10h.3}}\"/pause 500/faceDirection Abigail 1/pause 1000/speak Abigail \"{{i18n:Abigail.XDV10h.4}}\"/pause 500/faceDirection Abigail 3/speak Abigail \"$q 34 null#{{i18n:Abigail.XDV10h.5}}#$r 34 20 Event_Cave_1#{{i18n:Abigail.XDV10h.5a}}#$r 34 40 Event_Cave_2#{{i18n:Abigail.XDV10h.5b}}#$r 34 -50 Event_Cave_3#{{i18n:Abigail.XDV10h.5c}}\"/faceDirection Abigail 3/stopMusic/pause 1500/playMusic sadpiano/pause 1800/speak Abigail \"{{i18n:Abigail.XDV10h.6}}\"/quickQuestion {{i18n:Abigail.XDV10h.7}} (break)switchEvent 901756_Training(break)switchEvent 901756_NoTraining",
+"901756_Training":"pause 200/speak Abigail \"{{i18n:Abigail.XDV10h.8}}\"/globalFade/viewport -1000 -1000/pause 1000/message \"{{i18n:Abigail.XDV10h.9}}\"/pause 500/speak Abigail \"{{i18n:Abigail.XDV10h.10}}\"/pause 500/playSound swordswipe/pause 1000/playSound swordswipe/pause 1000/playSound swordswipe/pause 200/playSound clubSmash/pause 1500/message \"{{i18n:Abigail.XDV10h.11}}\"/warp Abigail 17 8/faceDirection Abigail 1/warp farmer 19 8/faceDirection farmer 3/positionOffset farmer 0 20/viewport 18 7 true/pause 1500/speak Abigail \"{{i18n:Abigail.XDV10h.12}}\"/emote farmer 32/pause 1000/switchEvent 901756_AbigailConfession",
+"901756_NoTraining":"pause 200/speak Abigail \"{{i18n:Abigail.XDV10h.8a}}\"/pause 500/speed farmer 2/move farmer -7 0 3/textAboveHead Abigail \"{{i18n:Abigail.XDV10h.9a}}\"/pause 800/faceDirection farmer 1/pause 200/move Abigail -6 0 3/pause 1000/emote farmer 8/switchEvent 901756_AbigailConfession",
+"901756_AbigailConfession": "pause 200/speak Abigail \"{{i18n:Abigail.XDV10h.13}}\"/stopMusic/pause 1500/playMusic 50s/pause 1800/speak Abigail \"{{i18n:Abigail.XDV10h.14}}\"/pause 1000/speak Abigail \"{{i18n:Abigail.XDV10h.15}}\"/quickQuestion {{i18n:Abigail.XDV10h.16}} (break)switchEvent 901756_AbigailFirstTime (break)switchEvent 901756_AbigailHeartbroken",
+"901756_AbigailHeartbroken":"pause 500/stopMusic/friendship Abigail -1000/pause 1000/speak Abigail \"{{i18n:Abigail.XDV10hfail.1}}\"/pause 200/speed Abigail 2/move Abigail -1 0 3/move Abigail 0 4 2/faceDirection farmer 2/pause 500/faceDirection Abigail 3/pause 50/faceDirection Abigail 2/pause 200/emote Abigail 28/speed Abigail 6/move Abigail 0 6 0/end",
+"901756_AbigailFirstTime": "pause 200/speak Abigail \"{{i18n:Abigail.XDV10h.17}}\"/pause 100/globalFade/viewport -1000 -1000/changeLocation Custom_XDV_Mine/changePortrait Abigail Nude/changeSprite Abigail XDVNude/warp Abigail 13 9/positionOffset Abigail 0 16/animate Abigail false true 300 16/warp farmer 14 9/positionOffset farmer -5 28/faceDirection farmer 3/pause 1500/playSound grassyStep/pause 1500/playSound grassyStep/pause 1500/speak Abigail \"{{i18n:Abigail.XDV10h.18}}\"/
+${
+viewport 14 11 true/pause 300/emote farmer 16/pause 700/message \"{{i18n:Abigail.XDV10h.19}}\"/speak Abigail \"{{i18n:Abigail.XDV10h.20}}\"/pause 150/emote farmer 20/pause 300/speak Abigail \"{{i18n:Abigail.XDV10h.21}}\"/pause 1000/speak Abigail \"{{i18n:Abigail.XDV10h.22}}\"/pause 250/animate Abigail false true 300 17/pause 50/positionOffset farmer -4 0/pause 50/positionOffset farmer -4 0/pause 50/positionOffset farmer -4 0/pause 50/animate farmer true true 300 101/pause 50/positionOffset farmer -4 0/pause 50/positionOffset farmer -4 0/pause 50/globalFade/viewport -1000 -1000/pause 3000/playSound dwop/pause 150/playSound dwop/pause 150/playSound dwop/speak Abigail \"{{i18n:Abigail.XDV10h.23}}\"/pause 1000/playSound swordswipe/message \"{{i18n:Abigail.XDV10h.24}}\"/saveClothes default/removeClothes all/pause 300/message \"{{i18n:Abigail.XDV10h.25}}\"/speak Abigail \"{{i18n:Abigail.XDV10h.26}}\"/pause 1000/message \"{{i18n:Abigail.XDV10h.27}}\"/speak Abigail \"{{i18n:Abigail.XDV10h.28}}\"/warp farmer 13 10/warp Abigail 12 10/positionOffset farmer -16 0/positionOffset Abigail 12 -4/animate Abigail false true 300 20/animate farmer true true 300 128/pause 1000/message \"{{i18n:Abigail.XDV10h.29}}\"/pause 1000/loopSound slimeHit 100/pause 100/speak Abigail \"{{i18n:Abigail.XDV10h.30}}\"/pause 11200/loopSoundStop slimeHit/speak Abigail \"{{i18n:Abigail.XDV10h.31}}\"/pause 1000/viewport 13 11 true/pause 3000/animate farmer true true 300 128 127 126 126 126/pause 600/animate farmer true true 300 126/animate Abigail false true 300 23/playSound fishSlap/textAboveHead Abigail \"{{i18n:Abigail.XDV10h.ouch}}\"/shake Abigail 1000/pause 1000/speak Abigail \"{{i18n:Abigail.XDV10h.32}}\"/pause 200/animate farmer true true 300 126 127 128/pause 600/animate farmer true true 300 128/animate Abigail false true 300 20/pause 1000/speak Abigail \"{{i18n:Abigail.XDV10h.33}}\"/pause 2000/animate farmer true true 300 127/animate Abigail false true 300 20 21 21 21 20 21 21 21 21 21 20 20 21 22/pause 4200/animate Abigail false true 300 23/playSound fishSlap/shake Abigail 400/pause 2000/speak Abigail \"{{i18n:Abigail.XDV10h.34}}\"/pause 1000/animate Abigail false true 300 21/pause 2000/speak Abigail \"{{i18n:Abigail.XDV10h.35}}\"/animate Abigail false true 300 20 21 22 21/animate farmer true true 300 126 127 128 127/pause 200/
+loopSound slimeHit 80/pause 14000/speak Abigail \"{{i18n:Abigail.XDV10h.36}}\"/pause 14400/message \"{{i18n:Abigail.XDV10h.37}}\"/speak Abigail \"{{i18n:Abigail.XDV10h.38}}\"/
+loopSound slimeHit 70/animate Abigail false true 250 20 21 22 21/animate farmer true true 250 126 127 128 127/pause 15000/message \"{{i18n:Abigail.XDV10h.39}}\"/speak Abigail \"{{i18n:Abigail.XDV10h.40}}\"/
+loopSound slimeHit 60/animate Abigail false true 200 20 21 22 21/animate farmer true true 250 126 127 128 127/pause 13500/speak Abigail \"{{i18n:Abigail.XDV10h.41}}\"/
+loopSound slimeHit 50/animate Abigail false true 150 20 21 22 21/animate farmer true true 250 126 127 128 127/pause 4200/speak Abigail \"{{i18n:Abigail.XDV10h.42}}\"/loopSoundStop slimeHit/screenFlash 1/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/animate Abigail false true 500 23/animate farmer true true 250 126/pause 3000/animate Abigail false true 500 21/emote Abigail 20/message \"{{i18n:Abigail.XDV10h.43}}\"/speak Abigail \"{{i18n:Abigail.XDV10h.44}}\"/globalFade/viewport -1000 -1000/pause 1000/restoreClothes default/speak Abigail \"{{i18n:Abigail.XDV10h.45}}\"/end
+^
+message \"{{i18n:Generic.XDV.nofemale}}\"/end}$",
+  }
+},
+    ]
+}

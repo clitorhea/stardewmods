@@ -1,0 +1,18 @@
+﻿{
+	"Changes":[
+		{
+			"LogName":"Leah Marriage",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/MarriageDialogueLeah",
+			"Entries":{
+				"Rainy_Night_5": "Finally you're home... I've been craving you all day.$4#$b#Don't take too long to come to bed.$4",
+				"Good_4": "Mmm... You smell nice today.$4#$e#I still don't understand why I like your smell so much...#$b#Maybe it's a pheromone thing?.$7",
+				"Indoor_Night_5": "Today I was thinking about making a painting of us making love.$4#$b#Not to sell it of course, but sex between people who love each other is something beautiful.#$b#I want to try to capture it in a painting.#$b#I need to get a camera so we can make some reference material.$4",	
+				"Rainy_Night_4": "I'm glad you're home... It's a good night to get under the covers and stay warm.#$b#Besides, I've have been extra horny all day... You better be prepared.$4",
+				"fall_10": "Do you think Emily likes her work at the Saloon? Hm, I wonder if she'll stop working there soon...#$e#I always got the sense that she is meant for more than waiting tables.",	
+				
+				
+			}
+		}
+	]
+}

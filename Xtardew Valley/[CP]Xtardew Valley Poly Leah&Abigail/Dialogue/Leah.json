@@ -1,0 +1,30 @@
+﻿{
+	"Changes":[
+		{
+			"LogName":"Leah",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/Leah",
+			"Entries":{
+				"Tue2":"I was wondering for a while whether someone would move into that farm. Abigail and I went there from time to time.#$b#But it's nice that you moved in!",
+				"Tue6":"I made a little painting for Abby to hang in her bedroom. #$b#She likes unusual things, but I like that about her too.",
+				"Wed2":"You got along with Abigail, right?#$b#Maybe we could all hang out at the next festival.",
+				"summer_Sun4":"Life around the valley blooms in summer, is nice to see it.#$e#Of course, it's always nice to see you, too.",
+				"fall_Sat4":"Heyyy! So what do you think of my fall decorations?$h#$e#You should have some Spirit's Eve decorations for your farm. Abby and I can help you with it!",
+				"winter_Thu4":"I hope Abby is doing ok. Yesterday, she had a pretty serious discussion with her parents...$2",
+  
+			}
+		},
+		{
+			"LogName":"Leah Marriage",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/MarriageDialogueLeah",
+			"Entries":{
+				"spring_25":"Some people say that beauty is experienced in the mind. They think that words most resemble our thoughts and are best for creating beauty.#$e#But... don't we also think in images? And aren't image-based thoughts usually more potent?#$b#...I dunno. What do you think?$u",
+				"summer_12":"Yesterday festival was so nice. I love the sense of community in the valley.",
+				"winter_4":"Hmm... I wonder how Linus is doing with all this cold in that little tent? Do you think maybe he'd appreciate a hot meal from us?",	
+				
+				
+			}
+		}
+	]
+}

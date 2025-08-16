@@ -1,0 +1,68 @@
+{
+    "Changes":[
+//PORTRAITS
+{
+    "Action": "Load",
+    "Target": "Portraits/Maru_Nude",
+    "FromFile": "assets/Portraits/Maru_Nude.png",
+  },
+  {
+    "Action": "Load",
+    "Target": "Portraits/Maru_BJ",
+    "FromFile": "assets/Portraits/Maru_BJ.png",
+  },
+//SPRITES
+  {
+    "Action": "Load",
+    "Target": "Characters/Maru_XDVNude",
+    "FromFile": "assets/Sprites/Maru_XDVNude.png",
+},
+{
+  "Action": "Load",
+  "Target": "Characters/Maru_XDVClothed",
+  "FromFile": "assets/Sprites/Maru_XDVClothed.png",
+},
+  {
+    "Action": "Load",
+    "Target": "Characters/Maruxdv2",
+    "FromFile": "assets/Sprites/Maruxdv2.png",
+  },
+//EVENTS
+
+//10 hearts
+{
+  "Action": "EditData",
+  "Target": "Data/Events/ScienceHouse",
+  "Entries": {	
+    "8372076/e 10/f Maru 2500/t 1000 1600": "continue/-10000 -1000/farmer -500 -500 0 Robin 7 18 2 Caroline 7 20 0 Demetrius 19 18 0 Maru 7 6 3/skippable/changeSprite Maru XDVNude/changePortrait Maru Nude/positionOffset Maru -16 -15/animate Maru false true 150 16 17 18 17/viewport 7 20 true/pause 500/textAboveHead Robin \"{{i18n:Maru.XDV10h.0}}\"/pause 3000/playSound doorOpen/warp farmer 6 24/emote Robin 16/emote Caroline 16/pause 80/faceDirection Caroline 2/speak Robin \"{{i18n:Maru.XDV10h.1}}\"/speak Caroline \"{{i18n:Maru.XDV10h.2}}\"/pause 150/faceDirection Caroline 0/pause 50/speak Caroline \"{{i18n:Maru.XDV10h.3}}\"/speak Robin \"{{i18n:Maru.XDV10h.4}}\"/move Caroline 0 0 3/move Caroline -1 0 2/move farmer 0 -2 1/move farmer 1 0 3/move Caroline 0 4 2/playSound doorOpen/warp Caroline -500 -500/pause 250/faceDirection farmer 0/speak Robin \"{{i18n:Maru.XDV10h.5}}\"/faceDirection farmer 0/move farmer 0 -2 0/pause 200/emote farmer 8/pause 200/speak Robin \"{{i18n:Maru.XDV10h.6}}\"/pause 100/move farmer 0 0 1/move farmer 4 0 1 true/globalFade/viewport -1000 -1000/pause 1000/warp farmer 12 12/move farmer 0 0 3/move farmer -5 0 0 true/viewport 6 7 true/pause 500/move farmer 0 -1 0/pause 250/message \"{{i18n:Maru.XDV10h.7}}\"/question fork1 \"{{i18n:Maru.XDV10h.8}}\"/playSound stoneStep/pause 200/playSound stoneStep/pause 200/playSound stoneStep/emote Maru 16/animate Maru false true 150 19/pause 450/speak Maru \"{{i18n:Maru.XDV10h.9}}\"/question fork1 \"{{i18n:Maru.XDV10h.10}}\"/pause 500/playSound slimeHit/stopAnimation Maru/showFrame Maru 12/warp Maru 7 6/faceDirection Maru 3/pause 200/faceDirection Maru 2/pause 500/speak Maru \"{{i18n:Maru.XDV10h.11}}\"/move Maru 2 0 1 true/globalFade/viewport -1000 -1000/pause 2000/changeSprite Maru/changePortrait Maru/warp Maru 7 6/faceDirection Maru 1/warp farmer 8 6/faceDirection farmer 3/positionOffset farmer -4 20/playSound doorOpen/pause 1000/viewport 7 6 true/pause 1000/speak Maru \"{{i18n:Maru.XDV10h.12}}\"/question fork1 \"{{i18n:Maru.XDV10h.13}}\"/speak Maru \"{{i18n:Maru.XDV10h.14}}\"/animate Maru true true 250 28/pause 150/animate farmer true true 250 101/pause 350/playSound dwop/specificTemporarySprite heart 8 5/pause 1500/stopAnimation Maru/stopAnimation farmer/speak Maru \"{{i18n:Maru.XDV10h.15}}\"/pause 150/emote farmer 32/speak Maru \"{{i18n:Maru.XDV10h.16}}\"/globalFade/changeToTemporaryMap MaruBasement/viewport -6000 -6000 true/warp Demetrius -300 -300/warp Robin -300 -300/pause 1000/playSound doorClose/pause 1000/speak Maru \"{{i18n:Maru.XDV10h.17}}\"/pause 300/playSound clank/pause 800/message \"{{i18n:Maru.XDV10h.18}}\"/playMusic 50s/message \"{{i18n:Maru.XDV10h.19}}\"/message \"{{i18n:Maru.XDV10h.20}}\"/changePortrait Maru Nude/message \"{{i18n:Maru.XDV10h.21}}\"/speak Maru \"{{i18n:Maru.XDV10h.22}}\"/message \"{{i18n:Maru.XDV10h.23}}\"/pause 250/speak Maru \"{{i18n:Maru.XDV10h.24}}\"/message \"{{i18n:Maru.XDV10h.25}}\"/message \"{{i18n:Maru.XDV10h.26}}\"/message \"{{i18n:Maru.XDV10h.27}}\"/pause 1500/speak Maru \"{{i18n:Maru.XDV10h.28}}\"/pause 1500/
+    ${
+    playSound fishSlap/pause 250/speak Maru \"{{i18n:Maru.XDV10h.29}}\"/changeSprite Maru XDVNude/warp Maru 3 6/warp farmer 3 5/animate Maru false true 150 20 21 22 21/faceDirection farmer 2/animate farmer false true 250 135/saveClothes default/removeClothes all/positionOffset farmer 4 53/positionOffset Maru 0 -20/pause 1000/loopSound slimeHit 70/pause 1600/viewport 3 6 true/pause 15200/speak Maru \"{{i18n:Maru.XDV10h.30}}\"/animate Maru false true 120 20 21 22 21/loopSound slimeHit 60/pause 9750/message \"{{i18n:Maru.XDV10h.31}}\"/speak Maru \"{{i18n:Maru.XDV10h.32}}\"/pause 7500/textAboveHead Maru \"{{i18n:Maru.XDV10h.33}}\"/animate Maru false true 90 20 21 22 21/loopSound slimeHit 45/pause 9500/message \"{{i18n:Maru.XDV10h.34}}\"/speak Maru \"{{i18n:Maru.XDV10h.35}}\"/pause 3000/textAboveHead Maru \"{{i18n:Maru.XDV10h.36}}\"/pause 4000/loopSoundStop slimeHit/textAboveHead Maru \"{{i18n:Maru.XDV10h.37}}\"/screenFlash 1/loopSound fishSlap 50/pause 2000/loopSoundStop fishSlap/pause 500/playSound slimedead/animate Maru false true 120 22/shake Maru 1000/pause 2000/textAboveHead Maru \"{{i18n:Maru.XDV10h.38}}\"/pause 500/globalFade/viewport -1000 -1000/pause 1500/speak Maru \"{{i18n:Maru.XDV10h.39}}\"/restoreClothes default/end
+    ^
+    message \"{{i18n:Generic.XDV.nofemale}}\"/end
+    }$",        
+            
+                                 }
+  },	
+//Post-Marriage
+{
+  "Action": "EditData",
+  "Target": "Data/Events/Mountain",
+  "Entries": {
+    "5183338/e 3917666/O Maru/w sunny/t 2200 2500": "nightTime/-1000 -1000/farmer 23 29 3 Maru 14 29 3/skippable/changeToTemporaryMap NightSceneMaruMap2 false/bgColor 0 0 0/ambientLight 0 0 0/saveClothes default/viewport 14 25 true clamp/pause 1000/move farmer -8 0 3/faceDirection Maru 1/pause 800/showFrame Maru 32/pause 700/showFrame Maru 4/speak Maru \"{{i18n:Maru.XDVpm.0}}\"/pause 500/faceDirection Maru 2/pause 1000/faceDirection farmer 2/pause 1000/speak Maru \"{{i18n:Maru.XDVpm.1}}\"/pause 2000/faceDirection Maru 1/faceDirection farmer 3/pause 1000/speak Maru \"{{i18n:Maru.XDVpm.2}}\"/faceDirection Maru 2/speak Maru \"{{i18n:Maru.XDVpm.3}}\"/faceDirection Maru 1/speak Maru \"{{i18n:Maru.XDVpm.4}}\"/pause 500/emote farmer 20/pause 500/jump Maru/pause 400/speak Maru \"{{i18n:Maru.XDVpm.5}}\"/faceDirection Maru 3/faceDirection farmer 3 true/showFrame Maru 28/emote Maru 40/pause 1000/textAboveHead Maru \"{{i18n:Maru.XDVpm.6}}\"/pause 3000/showFrame Maru 12/move Maru 0 1 0/speak Maru \"{{i18n:Maru.XDVpm.7}}\"/pause 500/move farmer -1 0 3/pause 1000/animate farmer true true 100 35/pause 1000/fade/viewport -1000 -1000/pause 1000/playMusic spaceMusic/warp Maru 15 29/faceDirection Maru 3/pause 1000/viewport 14 25 true clamp/pause 3000/stopAnimation farmer/pause 1000/faceDirection farmer 1/pause 500/speak Maru \"{{i18n:Maru.XDVpm.8}}\"/pause 500/quickQuestion {{i18n:Maru.XDVpm.9}}(break) ${switchEvent 5183338_Sex^jump Maru\\pause 500\\speak Maru \"{{i18n:Maru.XDVpm.10}}\"\\emote Maru 20}$(break)emote Maru 20\\speak Maru \"{{i18n:Maru.XDVpm.11}}\"(break)speak Maru \"{{i18n:Maru.XDVpm.12}}\"\\emote Maru 28\\speak Maru \"{{i18n:Maru.XDVpm.13}}\"/pause 2000/animate Maru false true 100 28/animate farmer false true 100 101/positionOffset farmer 16 0/specificTemporarySprite heart 15 29/pause 2000/specificTemporarySprite maruTelescope/stopAnimation Maru/stopAnimation farmer/pause 500/speak Maru \"{{i18n:Maru.XDVpm.14}}\"/pause 300/animate Maru false true 100 28/animate farmer false true 100 101/globalFade/viewport -1000 -1000/warp Maru 15 29/pause 2500/
+    ${message \"{{i18n:Maru.XDVpm.15}}\"/removeClothes bottom/animate farmer false true 100 144/positionOffset farmer 16 0/pause 300/changePortrait Maru BJ/changeSprite Maru XDVClothed/speak Maru \"{{i18n:Maru.XDVpm.16}}\"/playSound gulp/positionOffset Maru 0 10/animate Maru false true 600 0 1 2 1/positionOffset Maru -5 10/viewport 14 25 true clamp/loopSound gulp 70/pause 12500/loopSoundStop gulp/animate Maru false true 180 3/speak Maru \"{{i18n:Maru.XDVpm.17}}\"/animate Maru false true 500 0 1 2 1/loopSound gulp 60/pause 13200/loopSoundStop gulp/animate Maru false true 180 3/speak Maru \"{{i18n:Maru.XDVpm.18}}\"/animate Maru false true 500 0 1 2 1/loopSound gulp 60/pause 13200/loopSoundStop gulp/animate Maru false true 180 3/speak Maru \"{{i18n:Maru.XDVpm.19}}\"/animate Maru false true 400 0 1 2 1/loopSound gulp 60/pause 4000/loopSoundStop gulp/animate Maru false true 180 8/speak Maru \"{{i18n:Maru.XDVpm.20}}\"/animate Maru false true 300 0 1 2 1/loopSound gulp 50/pause 5700/loopSoundStop gulp/animate Maru false true 250 3/screenFlash 2/playSound slimedead/speak Maru \"{{i18n:Maru.XDVpm.21}}\"/pause 500/loopSound fishSlap 40/pause 1000/loopSoundStop fishSlap/pause 500/playSound slimedead/pause 3000/loopSound gulp 50/pause 2400/loopSoundStop gulp/pause 1000/animate Maru false true 250 2 1 0 3 3/pause 1000/animate Maru false true 250 3/pause 1500/speak Maru \"{{i18n:Maru.XDVpm.22}}\"/pause 1000/changePortrait Maru/speak Maru \"{{i18n:Maru.XDVpm.23}}\"/pause 300/emote farmer 8/speak Maru \"{{i18n:Maru.XDVpm.24}}\"/pause 2000/viewport move 0 -1 13000/pause 16000/fade/viewport -1000 -1000/pause 3000/restoreClothes default/end newDay
+    ^
+    message \"{{i18n:Generic.XDV.nofemale}}\"/end newDay
+    }$",
+                                 }
+            },
+    //"I want a new baby" (male)
+      {
+      "Action": "EditData",
+      "Target": "Data/Events/Temp",
+      "Entries": {
+      "5183338_Sex": "jump Maru/pause 500/speak Maru \"{{i18n:Maru.XDVpm.10}}\"/emote Maru 20/pause 2000/animate Maru false true 100 28/animate farmer false true 100 101/positionOffset farmer 16 0/specificTemporarySprite heart 15 29/pause 2000/specificTemporarySprite maruTelescope/stopAnimation Maru/stopAnimation farmer/pause 500/speak Maru \"{{i18n:Maru.XDVpm.14}}\"/pause 300/animate Maru false true 100 28/animate farmer false true 100 101/globalFade/viewport -1000 -1000/warp Maru 15 29/pause 2500/message \"{{i18n:Maru.XDVpm.15}}\"/removeClothes bottom/animate farmer false true 100 144/positionOffset farmer 16 0/pause 300/changePortrait Maru BJ/changeSprite Maru XDVClothed/speak Maru \"{{i18n:Maru.XDVpm.16}}\"/playSound gulp/positionOffset Maru 0 10/animate Maru false true 600 0 1 2 1/positionOffset Maru -5 10/viewport 14 25 true clamp/loopSound gulp 70/pause 12500/loopSoundStop gulp/animate Maru false true 180 8/speak Maru \"{{i18n:Maru.XDVpm.17}}\"/animate Maru false true 500 0 1 2 1/loopSound gulp 60/pause 13200/loopSoundStop gulp/speak Maru \"{{i18n:Maru.XDVpm.18}}\"/loopSound gulp 60/pause 13200/loopSoundStop gulp/animate Maru false true 180 11/speak Maru \"{{i18n:Maru.XDVpm.19}}\"/animate Maru false true 400 0 1 2 1/loopSound gulp 60/pause 4000/loopSoundStop gulp/animate Maru false true 180 8/pause 1000/message \"{{i18n:Maru.XDVpm.alt.0}}\"/speak Maru \"{{i18n:Maru.XDVpm.alt.1}}\"/pause 100/emote farmer 8/changePortrait Maru/speak Maru \"{{i18n:Maru.XDVpm.alt.2}}\"/pause 100/emote farmer 20/globalFade/viewport -1000 -1000/pause 2000/playSound shwip/pause 2000/playSound daggerswipe/pause 2000/message \"{{i18n:Maru.XDVpm.alt.3}}\"/changePortrait Maru Nude/speak Maru \"{{i18n:Maru.XDVpm.alt.4}}\"/warp Maru -100 -100/addTemporaryActor Maruxdv2 32 32 14 29 0 false character/animate Maruxdv2 false true 200 0 1 2 1/removeClothes all/warp farmer 14 29/animate farmer false true 200 132 133 134 133/pause 1000/viewport 14 25 true clamp/loopSound slimeHit 60/pause 18400/message \"{{i18n:Maru.XDVpm.alt.5}}\"/speak Maru \"{{i18n:Maru.XDVpm.alt.6}}\"/animate Maruxdv2 false true 150 0 1 2 1/animate farmer false true 150 132 133 134 133/loopSound slimeHit 50/pause 11200/textAboveHead Maruxdv2 \"{{i18n:Maru.XDVpm.alt.7}}\"/animate Maruxdv2 false true 110 0 1 2 1/animate farmer false true 110 132 133 134 133/loopSound slimeHit 40/pause 10500/message \"{{i18n:Maru.XDVpm.alt.8}}\"/speak Maru \"{{i18n:Maru.XDVpm.alt.9}}\"/animate Maruxdv2 false true 90 0 1 2 1/animate farmer false true 90 132 133 134 133/loopSound slimeHit 30/pause 8050/loopSoundStop slimeHit/screenFlash 1/playSound slimedead/speak Maru \"{{i18n:Maru.XDVpm.alt.10}}\"/pause 500/loopSound fishSlap 40/pause 1500/loopSoundStop fishSlap/pause 500/playSound slimedead/animate farmer false true 650 132/animate Maruxdv2 false true 650 3/shake Maru 700/pause 1500/animate farmer false true 200 133 134 134 134 134 134 134/animate Maruxdv2 false true 200 1 2 4 4/pause 800/animate farmer false true 200 134/animate Maruxdv2 false true 200 4/emote Maruxdv2 20/pause 1500/speak Maru \"{{i18n:Maru.XDVpm.alt.11}}\"/pause 300/emote farmer 8/speak Maru \"{{i18n:Maru.XDVpm.alt.12}}\"/pause 2000/viewport move 0 -1 13000/pause 16000/fade/viewport -1000 -1000/pause 3000/restoreClothes default/end newDay",
+              }
+            },        
+                
+    ]
+}

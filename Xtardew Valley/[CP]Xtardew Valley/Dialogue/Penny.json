@@ -1,0 +1,14 @@
+﻿{
+	"Changes":[
+
+		{
+			"LogName":"Penny Marriage",
+			"Action":"EditData",
+			"Target":"Characters/Dialogue/MarriageDialoguePenny",
+			"Entries":{
+				"Indoor_Day_0": "It's so peaceful here. I used to have the most horrific nightmares, but now I sleep like a baby.#$b#Especially the days we make love.$4",	
+	
+			}
+		}
+	]
+}

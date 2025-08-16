@@ -1,0 +1,13 @@
+﻿{
+"Changes":[
+{
+"LogName":"Wizard",
+"Action":"EditData",
+"Target":"Characters/Dialogue/Wizard",
+"Entries":{
+	"wizard_event1": "Ha, I'll keep that in mind.$1",
+	"wizard_event2": "Yes, there do seem to be more green thumbs in the valley than not. It comes with living so closely alongside nature, I think.",
+},
+},
+]
+}

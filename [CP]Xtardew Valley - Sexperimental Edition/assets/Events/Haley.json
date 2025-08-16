@@ -1,0 +1,115 @@
+{
+    "Changes":[
+//PORTRAITS
+{
+  "Action": "Load",
+  "Target": "Portraits/Haley_Nude",
+  "FromFile": "assets/Portraits/Haley_Nude.png",
+},
+{
+  "Action": "Load",
+  "Target": "Portraits/Haley_BeachBJ",
+  "FromFile": "assets/Portraits/Haley_BeachBJ.png",
+},
+{
+  "Action": "Load",
+  "Target": "Portraits/Haley_ClothedSex",
+  "FromFile": "assets/Portraits/Haley_ClothedSex.png",
+},
+{
+  "Action": "Load",
+  "Target": "Portraits/Haley_ClothedSexF",
+  "FromFile": "assets/Portraits/Haley_ClothedSexF.png",
+},
+//SPRITES
+
+{
+  "Action": "Load",
+  "Target": "Characters/Haley_XDVNude",
+  "FromFile": "assets/Sprites/Haley_XDVNude.png",
+},
+{
+  "Action": "Load",
+  "Target": "Characters/Haley_XDVBeach",
+  "FromFile": "assets/Sprites/Haley_XDVBeach.png",
+},
+{
+  "Action": "Load",
+  "Target": "Characters/Haley_XDVClothed",
+  "FromFile": "assets/Sprites/Haley_XDVClothed.png",
+},
+//EVENTS
+//10 hearts - Haley's 1st time
+{
+  "Action": "EditData",
+  "Target": "Data/Events/HaleyHouse",
+  "TextOperations": [
+    {
+      "Operation": "ReplaceDelimited", "Target": ["Entries", "15/f Haley 2500/p Haley"], "ReplaceMode": "Last", "Search": "pause 2000", "Value": "switchEvent HaleyXDV10h", "Delimiter": "/"
+      },
+  ]
+},
+{
+  "Action": "EditData",
+  "Target": "Data/Events/Temp",
+  "Entries": {
+  "HaleyXDV10h": "pause 10/emote Haley 32/pause 1500/speak Haley \"{{i18n:Haley.XDV10h.7}}\"/pause 200/emote farmer 20 true/globalFade/viewport -1000 -1000/pause 2000/speak Haley \"{{i18n:Haley.XDV10h.8}}\"/pause 1500/playSound swordswipe/message \"{{i18n:Haley.XDV10h.9}}\"/pause 300/
+  ${
+  pause 10/saveClothes yourclothes/changePortrait Haley ClothedSex/speak Haley \"{{i18n:Haley.XDV10h.10}}\"/pause 500/message \"{{i18n:Haley.XDV10h.11}}\"/warp Haley 2 5/changeSprite Haley XDVClothed/animate Haley false true 220 4 5 6 5/positionOffset farmer 6 6/positionOffset Haley -28 16/removeClothes bottom/animate farmer true true 500 144/pause 500/loopSound gulp 40/pause 500/viewport 3 6 true/pause 12500/loopSoundStop gulp/animate Haley false true 180 4/speak Haley \"{{i18n:Haley.XDV10h.12}}\"/animate Haley false true 180 4 5 6 5/loopSound gulp 30/pause 18800/animate Haley false true 180 4/message \"{{i18n:Haley.XDV10h.13}}\"/speak Haley \"{{i18n:Haley.XDV10h.14}}\"/animate Haley false true 180 4 5 6 5/pause 400/loopSound gulp 35/pause 10800/loopSoundStop gulp/globalFade/viewport -1000 -1000/message \"{{i18n:Haley.XDV10h.15}}\"/speak Haley \"{{i18n:Haley.XDV10h.16}}\"/message \"{{i18n:Haley.XDV10h.17}}\"/changeLocation Custom_XDV_Darkroom/warp farmer 2 5/faceDirection farmer 1/removeClothes all/warp Haley 3 5/positionOffset Haley -12 12/positionOffset farmer 24 0/pause 500/playSound shwip/pause 1000/playSound daggerswipe/pause 1000/playSound shwip/pause 2000/playSound shwip/pause 1000/playSound daggerswipe/pause 1000/playSound shwip/pause 500/changePortrait Haley Nude/changeSprite Haley XDVNude/message \"{{i18n:Haley.XDV10h.18}}\"/speak Haley \"{{i18n:Haley.XDV10h.19}}\"/pause 200/animate Haley false true 160 18/animate farmer false true 160 128/viewport 3 6 true/pause 2000/animate farmer false true 300 128 127 126 126 126/pause 600/animate farmer false true 300 126/animate Haley false true 300 19/playSound slimeHit/shake Haley 1000/pause 1500/animate Haley false true 300 17/pause 500/speak Haley \"{{i18n:Haley.XDV10h.20}}\"/message \"{{i18n:Haley.XDV10h.21}}\"/pause 800/animate farmer false true 200 126 127 128 127/animate Haley false true 200 16 17 18 17/loopSound slimeHit 60/pause 14400/speak Haley \"{{i18n:Haley.XDV10h.22}}\"/animate farmer false true 140 126 127 128 127/animate Haley false true 140 16 17 18 17/loopSound slimeHit 50/pause 18000/message \"{{i18n:Haley.XDV10h.23}}\"/speak Haley \"{{i18n:Haley.XDV10h.24}}\"/animate farmer false true 100 126 127 128 127/animate Haley false true 100 16 17 18 17/loopSound slimeHit 30/pause 10000/textAboveHead Haley \"{{i18n:Haley.XDV10h.25}}\"/pause 11200/message \"{{i18n:Haley.XDV10h.26}}\"/speak Haley \"{{i18n:Haley.XDV10h.27}}\"/animate farmer false true 80 126 127 128 127/animate Haley false true 80 16 17 18 17/loopSound slimeHit 20/pause 3600/loopSoundStop slimeHit/pause 400/playSound slimedead/playSound wateringCan/screenFlash 1/animate Haley false true 100 19/shake Haley 1000/animate farmer false true 300 126/speak Haley \"{{i18n:Haley.XDV10h.28}}\"/shake Haley 1000/screenFlash 1/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/animate farmer false true 80 127/animate Haley false true 100 17/pause 2000/emote Haley 20 true/globalFade/viewport -1000 -1000/pause 2000/speak Haley \"{{i18n:Haley.XDV10h.29}}\"/pause 2000/playSound cameraNoise/screenFlash .5/pause 200/playsound dwop/pause 1000/speak Haley \"{{i18n:Haley.XDV10h.30}}\"/viewport -200 -200 true/playSound coin/addTemporaryActor HaleyPolaroid 179 216 -205 -195 0 false character/animate HaleyPolaroid false true 250 0/pause 3000/speak Haley \"{{i18n:Haley.XDV10h.31}}\"/
+  ^
+  message \"{{i18n:Generic.XDV.nofemale}}\"/
+  }$
+  pause 1000/restoreClothes yourclothes/end dialogue Haley \"{{i18n:Haley.XDV10h.32}}\"",
+                }
+            },	
+//Post-Marriage - home
+{
+"Action": "EditData",
+"Target": "Data/Events/farmhouse",
+"Entries": {  
+"8675611/e 6184643/O Haley/A haleyCakewalk1/t 620 1700/p Haley": "50s/-1000 -1000/farmer 22 26 0 Haley 22 24 2/warp farmer 22 26/makeInvisible 8 14/addQuest 127/addConversationTopic haleyCakewalk2 0/skippable/viewport 22 24 true/pause 1300/speak Haley \"{{i18n:Haley.XDVpm.0}}\"/pause 500/emote farmer 8/pause 1000/speak Haley \"{{i18n:Haley.XDVpm.1}}\"/question fork1 \"{{i18n:Haley.XDVpm.2}}\"/speak Haley \"{{i18n:Haley.XDVpm.3}}\"/pause 100/emote farmer 32/speak Haley \"{{i18n:Haley.XDVpm.4}}\"/pause 1000/changeSprite Haley XDVClothed/animate Haley false false 200 9 10 11 11 11 11 11 11 11/pause 1200/playSound shwip/animate Haley false false 200 12 13 14 14 15 16 16 17 18 18 19 20 21 21 8 8 8 8 8/pause 3200/animate Haley false true 200 8/pause 1000/message \"{{i18n:Haley.XDVpm.5}}\"/speak Haley \"{{i18n:Haley.XDVpm.6}}\"/message \"{{i18n:Haley.XDVpm.7}}\"/pause 500/playSound dwop/animate farmer false true 200 62/pause 1000/message \"{{i18n:Haley.XDVpm.8}}\"/speak Haley \"{{i18n:Haley.XDVpm.9}}\"/question fork1 \"{{i18n:Haley.XDVpm.10}}\"/pause 500/playSound ow/animate farmer false true 200 63/pause 400/animate farmer false true 200 62/pause 1000/speak Haley \"{{i18n:Haley.XDVpm.11}}\"/question fork1 \"{{i18n:Haley.XDVpm.12}}\"/pause 500/playSound dog_bark/animate farmer false true 200 63/pause 100/animate farmer false true 200 62/pause 200/playSound dog_bark/animate farmer false true 200 63/pause 100/animate farmer false true 200 62/pause 1000/speak Haley \"{{i18n:Haley.XDVpm.13}}\"/message \"{{i18n:Haley.XDVpm.14}}\"/pause 500/playSound shwip/animate Haley false false 200 9 10 11 11 22 23 23 23/pause 1200/animate Haley false false 200 23/pause 1000/animate Haley false false 200 24 25 25 25 25 25 25/pause 1000/playSound slimeHit/animate Haley false true 200 26/pause 1000/changePortrait Haley ${ClothedSex^ClothedSexF}$ /speak Haley \"{{i18n:Haley.XDVpm.15}}\"/message \"{{i18n:Haley.XDVpm.16}}\"/pause 500/animate farmer false true 200 63/playSound dwop/positionOffset farmer 0 -12/pause 500/animate farmer false true 200 62/pause 500/animate farmer false true 200 63/playSound dwop/positionOffset farmer 0 -12/pause 500/animate farmer false true 200 62/pause 500/animate farmer false true 200 63/playSound dwop/positionOffset farmer 0 -12/pause 500/animate farmer false true 200 62/pause 500/animate farmer false true 200 63/playSound dwop/positionOffset farmer 0 -12/pause 500/animate farmer false true 200 62/pause 1000/message \"{{i18n:Haley.XDVpm.17}}\"/speak Haley \"{{i18n:Haley.XDVpm.18}}\"/message \"{{i18n:Haley.XDVpm.19}}\"/speak Haley \"{{i18n:Haley.XDVpm.20}}\"/animate Haley false true 300 26 27 28 27/animate farmer false true 600 62 63/pause 1200/loopSound wateringCan 150/pause 2400/pause 8400/message \"{{i18n:Haley.XDVpm.21}}\"/message  \"{{i18n:Haley.XDVpm.22}}\"/speak Haley \"{{i18n:Haley.XDVpm.23}}\"/animate Haley false true 250 26 27 28 27/animate farmer false true 500 62 63/loopSound wateringCan 100/pause 8000/message \"{{i18n:Haley.XDVpm.24}}\"/message \"{{i18n:Haley.XDVpm.25}}\"/speak Haley \"{{i18n:Haley.XDVpm.26}}\"/animate Haley false true 250 26 27 28 27/animate farmer false true 500 62 63/loopSound wateringCan 80/pause 8100/message \"{{i18n:Haley.XDVpm.27}}\"/pause 8100/speak Haley \"{{i18n:Haley.XDVpm.28}}\"/animate Haley false true 250 29/pause 500/loopSoundStop wateringCan/animate farmer false true 500 62/shake Haley 2000/screenFlash .5/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 500/playSound fishSlap/pause 1000/animate Haley false true 250 26/pause 2000/changePortrait Haley/speak Haley \"{{i18n:Haley.XDVpm.29}}\"/pause 1000/animate Haley false true 200 24 23 22 22 11 10 9 8 8 8 8/pause 2000/animate Haley false true 200 8/changeSprite Haley/stopAnimation farmer/move Haley -1 0 3/faceDirection farmer 3 true/move Haley 0 2 2/faceDirection farmer 2 true/move Haley 1 0 1/faceDirection Haley 0 true/pause 500/move farmer 0 -1 2/pause 500/saveClothes yourclothes/animate farmer false false 200 70 68 54 54 54/pause 200/removeClothes bottom/playSound swordswipe/pause 600/positionOffset farmer 0 -2/animate farmer false true 200 146/${pause 1000^pause 1000/playSound shwip/animate farmer false true 200 147/pause 1000}$/emote Haley 20/pause 2000/move Haley 0 -1 0/pause 500/changeSprite Haley XDVClothed/positionOffset Haley ${4 -32^4 0}$/animate Haley false true 200 0/pause 500/message \"{{i18n:Haley.XDVpm.30}}\"/changePortrait Haley ${ClothedSex^ClothedSexF}$/${--void^animate farmer false true 200 147 148 149 148}$/animate Haley false true 200 0 1 2 1/loopSound gulp 40/pause 13500/loopSoundStop gulp/${--void^animate farmer false true 200 147}$/animate Haley false true 200 0/speak Haley \"{{i18n:Haley.XDVpm.31}}\"/animate Haley false true 170 0 1 2 1/${--void^animate farmer false true 170 147 148 149 148}$/loopSound gulp 30/pause 9600/loopSoundStop gulp/animate Haley false true 200 0/${--void^animate farmer false true 170 147 148 149 148}$/speak Haley \"{{i18n:Haley.XDVpm.32}}\"/pause 50/animate Haley false true 150 0 1 2 1/${--void^animate farmer false true 150 147 148 149 148}$/loopSound gulp 25/pause 8400/loopSoundStop gulp/animate Haley false true 200 0/${--void^animate farmer false true 170 147}$/message \"{{i18n:Haley.XDVpm.33}}\"/speak Haley \"{{i18n:Haley.XDVpm.34}}\"/animate Haley false true 130 0 1 2 1/${--void^animate farmer false true 120 147 148 149 148}$/loopSound gulp 20/pause 4200/loopSoundStop gulp/emote Haley 16/animate Haley false true 200 1/${--void^animate farmer false true 150 149}$/screenFlash .5/playSound slimedead/playSound wateringCan/speak Haley \"{{i18n:Haley.XDVpm.35}}\"/loopSound fishSlap 40/pause 1500/loopSoundStop fishSlap/pause 1500/loopSound gulp 25/pause 1500/loopSoundStop fishSlap/loopSoundStop gulp/${--void^animate farmer false true 150 149}$/pause 1500/emote Haley 20/speak Haley \"{{i18n:Haley.XDVpm.36}}\"/changePortrait Haley/message \"{{i18n:Haley.XDVpm.37}}\"/pause 500/restoreClothes yourclothes/end dialogue Haley \"{{i18n:Haley.XDVpm.38}}\"",
+}
+},
+
+{
+  "Action": "EditData",
+  "Target": "Data/Events/Farmhouse",
+  "When": { "FarmhouseUpgrade": 1 },
+  "TextOperations": [
+    
+    {
+      "Operation": "ReplaceDelimited",
+      "Target": ["Entries", "8675611/e 6184643/O Haley/A haleyCakewalk1/t 620 1700/p Haley"],
+      "Search": "viewport 22 24 true",
+      "Value": "viewport 4 5 true",
+      "Delimiter": "/"
+      },
+    {
+      "Operation": "ReplaceDelimited",
+      "Target": ["Entries", "8675611/e 6184643/O Haley/A haleyCakewalk1/t 620 1700/p Haley"],
+      "Search": "warp farmer 22 26",
+      "Value": "warp farmer 4 7",
+      "Delimiter": "/"
+      },
+  ]
+},
+
+  //12 Hearts - Beach
+{
+"Action": "EditData",
+"Target": "Data/Events/farmhouse",
+"Entries": {
+"23817391/L/f Haley 3000/w sunny/t 600 700/z spring/z fall/z winter" : "none/-500 -500/farmer 29 24 3 Haley 22 24 0/skippable/pause 850/playMusic 50s/pause 1000/viewport 22 24 true/speed farmer 1/move farmer -6 0 3/pause 200/faceDirection Haley 1/pause 50/speak Haley \"{{i18n:Haley.XDV12h.0}}\"/pause 100/animate Haley false true 500 23/animate farmer true true 100 101/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 50/positionOffset Haley 2 0/pause 500/playSound dwop/specificTemporarySprite heart 23 24/pause 1400/stopAnimation farmer/stopAnimation Haley/pause 200/speak Haley \"{{i18n:Haley.XDV12h.1}}\"/pause 100/emote farmer 32/globalFade/viewport -1000 -1000/stopMusic/changeLocation Beach/changeSprite Haley Beach/changePortrait Haley Beach/warp Haley 50 24/warp farmer 49 24/pause 1000/faceDirection farmer 2/faceDirection Haley 2/positionOffset farmer 0 18/speak Haley \"{{i18n:Haley.XDV12h.2}}\"/playMusic ocean/viewport 50 24 true/pause 1300/speak Haley \"{{i18n:Haley.XDV12h.3}}\"/pause 150/faceDirection Haley 3/pause 50/speak Haley \"{{i18n:Haley.XDV12h.4}}\"/faceDirection farmer 1/pause 100/emote farmer 8/pause 100/speak Haley \"{{i18n:Haley.XDV12h.6}}\"/globalFade/viewport -1000 -1000/pause 100/message \"{{i18n:Haley.XDV12h.7}}\"/speak Haley \"{{i18n:Haley.XDV12h.8}}\"/message \"{{i18n:Haley.XDV12h.9}}\"/message \"{{i18n:Haley.XDV12h.10}}\"/playMusic 50s/pause 500/playSound swordswipe/pause 500/message \"{{i18n:Haley.XDV12h.11}}\"/changePortrait Haley BeachBJ/speak Haley \"{{i18n:Haley.XDV12h.12}}\"/pause 500/message \"{{i18n:Haley.XDV12h.13}}\"/
+${
+changeSprite Haley XDVBeach/warp Haley 55 6/warp farmer 55 6/faceDirection farmer 2/animate farmer true true 500 16/positionOffset Haley 0 15/animate Haley false true 200 0 1 2 1/loopSound gulp 100/pause 1000/viewport 55 6 true/pause 12500/loopSoundStop gulp/animate Haley false true 200 0/speak Haley \"{{i18n:Haley.XDV12h.14}}\"/pause 500/message \"{{i18n:Haley.XDV12h.15}}\"/pause 500/loopSound gulp 80/animate Haley false true 170 0 1 2 1/pause 1000/message \"{{i18n:Haley.XDV12h.16}}\"/pause 9600/loopSoundStop gulp/animate Haley false true 200 0/speak Haley \"{{i18n:Haley.XDV12h.17}}\"/emote farmer 20/pause 50/speak Haley \"{{i18n:Haley.XDV12h.18}}\"/pause 50/animate Haley false true 150 0 1 2 1/loopSound gulp 60/pause 8400/loopSoundStop gulp/animate Haley false true 200 0/speak Haley \"{{i18n:Haley.XDV12h.19}}\"/quickQuestion {{i18n:Haley.XDV12h.20}} (break)
+--cum on face\\animate Haley false true 130 0 1 2 1\\loopSound gulp 50\\pause 4200\\loopSoundStop gulp\\emote Haley 16\\animate Haley false true 200 0\\screenFlash 1\\loopSound fishSlap 80\\pause 2000\\loopSoundStop fishSlap\\pause 2000\\speak Haley \"{{i18n:Haley.XDV12h.out.0}}\"\\pause 600\\globalFade\\viewport -1000 -1000
+  (break)
+--cum in mouth\\animate Haley false true 130 0 1 2 1\\loopSound gulp 50\\pause 4200\\loopSoundStop gulp\\emote Haley 16\\animate Haley false true 200 2\\screenFlash 1\\loopSound fishSlap 80\\pause 2000\\loopSoundStop fishSlap\\pause 1500\\loopSound gulp 50\\pause 1500\\loopSoundStop fishSlap\\pause 1500\\pause 1000\\speak Haley \"{{i18n:Haley.XDV12h.in.0}}\"\\pause 600\\globalFade\\viewport -1000 -1000/
+changePortrait Haley Beach/speak Haley \"{{i18n:Haley.XDV12h.end.0}}\"/end dialogue Haley \"{{i18n:Haley.XDV12h.end.1}}\"/pause 1000/end
+^
+pause 1000/message \"{{i18n:Generic.XDV.nofemale}}\"/end}$",
+  }
+},
+
+    ]
+}

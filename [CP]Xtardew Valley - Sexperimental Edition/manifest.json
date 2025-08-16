@@ -1,0 +1,25 @@
+{
+   "Name": "Xtardew Valley - Sexperimental Edition",
+   "Author": "metakage",
+   "Version": "1.3.2",
+   "Description": "Add Sexual Content to Stardew Valley",
+   "UniqueID": "metakage.XtardewValley",
+   "UpdateKeys": [ "Nexus:27635" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+      "Dependencies": [
+   {
+      "UniqueID": "AlexGoD.BetterEventsCore",
+      "IsRequired": true
+   },
+   {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "mooseybrutale.spriteextender",
+      "IsRequired": false
+    }
+]
+}

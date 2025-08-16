@@ -1,0 +1,105 @@
+{
+    "Changes":[
+//PORTRAITS
+{
+    "Action": "Load",
+    "Target": "Portraits/Leah_Nude",
+    "FromFile": "assets/Portraits/Leah_Nude.png",
+  },        
+//SPRITES
+  {
+    "Action": "Load",
+    "Target": "Characters/Leah_XDVNude",
+    "FromFile": "assets/Sprites/Leah_XDVNude.png",
+},
+{
+    "Action": "Load",
+    "Target": "Characters/Leah_XDVClothed",
+    "FromFile": "assets/Sprites/Leah_XDVClothed.png",
+},
+  {
+    "Action": "Load",
+    "Target": "Characters/LeahExMale",
+    "FromFile": "assets/Sprites/LeahExFemale.png",
+  },
+//EVENTS
+{
+    "Action": "EditData",
+    "Target": "Data/Events/FarmHouse",
+    "Entries": {
+    //intro
+    "1237/O Leah/f Leah 2500/t 2100 2400": "sweet/-1000 -1000/farmer 27 30 0 Leah 22 24 0/skippable/viewport 22 24 true/move farmer 0 -2 3/move farmer -4 0 0/move farmer 0 -4 3/pause 150/emote Leah 16/faceDirection Leah 1/pause 300/emote Leah 32/speak Leah \"{{i18n:Leah.XDV14h.0}}\"/showFrame Leah 25/pause 100/positionOffset Leah 2 0/pause 50/positionOffset Leah 2 0/pause 50/positionOffset Leah 2 0/pause 50/positionOffset Leah 2 0/pause 50/positionOffset Leah 2 0/pause 50/positionOffset Leah 2 0/pause 50/positionOffset Leah 2 0/pause 50/positionOffset Leah 2 0/pause 50/animate farmer true true 100 101/positionOffset farmer 16 2/positionOffset farmer -4 0/pause 50/positionOffset farmer -3 0/pause 50/positionOffset farmer -3 0/pause 50/positionOffset farmer -3 0/pause 50/positionOffset farmer -3 0/pause 50/positionOffset farmer -3 0/pause 50/positionOffset farmer -3 0/pause 50/positionOffset farmer -3 0/pause 50/positionOffset farmer -3 0/pause 4500/speak Leah \"{{i18n:Leah.XDV14h.1}}\"/pause 1000/speak Leah \"{{i18n:Leah.XDV14h.2}}\"/pause 1500/speak Leah \"{{i18n:Leah.XDV14h.3}}\"/pause 1000/changeSprite Leah XDVClothed/positionOffset Leah 0 8/animate Leah false true 180 0/playSound shwip/shake Leah 20/pause 1000/animate Leah false true 300 1 2/pause 1000/speak Leah \"{{i18n:Leah.XDV14h.4}}\"/pause 500/animate Leah false true 300 0/pause 500/message \"{{i18n:Leah.XDV14h.5}}\"/pause 100/
+    ${
+    pause 500/playSound swordswipe/saveClothes default/removeClothes bottom/animate farmer true true 100 144/positionOffset farmer -16 0/animate Leah false true 300 9/pause 1000/animate Leah false true 300 5/emote Leah 20/pause 1500/speak Leah \"{{i18n:Leah.XDV14h.6}}\"/pause 500/animate Leah false true 250 3 4 5/pause 5000/animate Leah false true 250 3/pause 500/animate Leah false true 250 6/pause 500/animate Leah false true 250 6 7 8 8 8 8 8 8 8 7 6 6 6 6/pause 3500/animate Leah false true 200 6 7 8 7/loopSound gulp 70/pause 12500/loopSoundStop gulp/animate Leah false true 180 3 4 5/speak Leah \"{{i18n:Leah.XDV14h.7}}\"/animate Leah false true 150 6 7 8 7/loopSound gulp 60/pause 31600/loopSoundStop gulp/animate Leah false true 180 3 4 5/speak Leah \"{{i18n:Leah.XDV14h.8}}\"/animate Leah false true 150 6 7 8 7/loopSound gulp 50/pause 4000/loopSoundStop gulp/animate Leah false true 180 3 4 5/speak Leah \"{{i18n:Leah.XDV14h.9}}\"/animate Leah false true 120 6 7 8 7/loopSound gulp 40/pause 6000/loopSoundStop gulp/textAboveHead Leah \"{{i18n:Leah.XDV14h.10}}\"/animate Leah false true 250 8/screenFlash .5/loopSound fishSlap 70/pause 2000/loopSoundStop fishSlap/pause 500/playSound slimedead/pause 3000/loopSound gulp 40/pause 900/loopSoundStop gulp/pause 500/emote Leah 20/pause 1000/animate Leah false true 250 8 7 6 6 6 6 6/pause 1000/animate Leah false true 250 3/pause 1000/speak Leah \"{{i18n:Leah.XDV14h.11}}\"/animate Leah false true 300 6 7 8 7/pause 700/loopSound gulp 90/pause 5600/globalFade/viewport -1000 -1000/pause 700/loopSoundStop gulp/speak Leah \"{{i18n:Leah.XDV14h.12}}\"/pause 500/playSound clank/pause 100/playSound clank/pause 300/speak Leah \"{{i18n:Leah.XDV14h.13}}\"/restoreClothes default/end bed
+    ^
+    globalFade/viewport -1000 -1000/pause 1000/message \"{{i18n:Generic.XDV.nofemale}}\"/end bed
+    }$",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farmhouse",
+            "When": { "FarmhouseUpgrade": 1 },
+            "TextOperations": [
+              
+              {
+                "Operation": "ReplaceDelimited",
+                "Target": ["Entries", "1237/O Leah/f Leah 2500/t 2100 2400"],
+                "Search": "farmer 27 30 0 Leah 22 24 0",
+                "Value": "farmer 9 11 0 Leah 4 5 0",
+                "Delimiter": "/"
+                },
+              {
+                "Operation": "ReplaceDelimited",
+                "Target": ["Entries", "1237/O Leah/f Leah 2500/t 2100 2400"],
+                "Search": "viewport 22 24 true",
+                "Value": "viewport 5 7 true",
+                "Delimiter": "/"
+                },
+            ]
+          },
+
+{
+    "Action": "EditData",
+	"Target": "Data/Events/Forest",
+    "Entries": {
+	"54/f Leah 2500/t 1100 1600/z winter/w sunny": "50s/-1000 -1000/farmer 87 40 3 Leah 76 40 1/skippable/specificTemporarySprite leahPicnic/viewport 77 40 true/move farmer -10 0 3/speak Leah \"{{i18n:Leah.XDV10h.p1.0}}\"/faceDirection Leah 0/pause 800/speak Leah \"{{i18n:Leah.XDV10h.p1.1}}\"/pause 500/faceDirection Leah 1/pause 500/faceDirection Leah 0/speak Leah \"{{i18n:Leah.XDV10h.p1.2}}\"/pause 600/move Leah -1 0 0/speak Leah \"{{i18n:Leah.XDV10h.p1.3}}\"/pause 600/faceDirection Leah 1/move farmer -1 0 3/faceDirection Leah 0/pause 1200/speak Leah \"{{i18n:Leah.XDV10h.p1.4}}\"/faceDirection Leah 2/pause 300/faceDirection Leah 1/speak Leah \"{{i18n:Leah.XDV10h.p1.5}}\"/pause 400/showFrame Leah 25/pause 100/positionOffset Leah 2 -1/pause 50/positionOffset Leah 3 -3/pause 50/positionOffset Leah 3 -3/pause 50/positionOffset Leah 3 -3/pause 50/positionOffset Leah 2 0/pause 50/positionOffset Leah 2 0/pause 50/positionOffset Leah 2 0/pause 50/positionOffset Leah 2 0/pause 50/animate farmer true true 100 101/positionOffset farmer 16 0/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 500/specificTemporarySprite heart 76 39/pause 1000/stopMusic/message \"{{i18n:Leah.XDV10h.p1.6}}\"/warp LeahEx 74 29/move LeahEx 0 9 2 true/stopAnimation farmer/positionOffset farmer -16 0/faceDirection farmer 0 true/showFrame Leah 4/pause 50/positionOffset Leah -4 0/positionOffset farmer 4 0/pause 50/positionOffset Leah -4 0/positionOffset farmer 4 0/pause 50/positionOffset Leah -4 0/positionOffset farmer 4 0/pause 50/positionOffset Leah -4 0/positionOffset farmer 4 0/faceDirection Leah 0/pause 4000/showFrame LeahEx 4/move Leah -1 0 0/speak Leah \"{{i18n:Leah.XDV10h.p1.7}}\"/fork LeahInternet choseInternet/message \"{{i18n:Leah.XDV10h.p1.8}}\"/move LeahEx 0 1 2/message \"{{i18n:Leah.XDV10h.p1.9}}\"/message \"{{i18n:Leah.XDV10h.p1.10}}\"/emote Leah 12/faceDirection Leah 0/speak Leah \"{{i18n:Leah.XDV10h.p1.11}}\"/move Leah 0 2 2/showFrame LeahEx 4/message \"{{i18n:Leah.XDV10h.p1.12}}\"/speed farmer 4/move farmer -2 0 0/question fork1 \"{{i18n:Leah.XDV10h.p1.13}}\"/fork noPunch/pause 300/screenFlash .25/animate farmer false false 650 15/positionOffset farmer 0 -8/faceDirection Leah 0 true/playSound clubhit/showFrame LeahEx 6/jump LeahEx/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/positionOffset farmer 0 8/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/pause 200/playSound clubSmash/showFrame LeahEx 7/shake LeahEx 1000/speak Leah \"{{i18n:Leah.XDV10h.p1.14}}\"/speed Leah 4/move Leah -1 0 0/speed Leah 4/move Leah 0 -4 1/emote Leah 40/pause 1700/speak Leah \"{{i18n:Leah.XDV10h.p1.15}}\"/faceDirection Leah 2/speak Leah \"{{i18n:Leah.XDV10h.p1.16}}\"/speed farmer 2/positionOffset farmer 2 0/move farmer -1 0 0/move Leah 0 -8 0 true/move farmer 0 -5 0/globalFade/viewport -1000 -1000/changeLocation Woods/pause 200/speak Leah \"{{i18n:Leah.XDV10h.p1.17}}\"/pause 2000/switchEvent 54_LeahSexIntro",
+		"choseInternet": "pause 10/message \"{{i18n:Leah.XDV10h.internet.0}}\"/pause 90/speak Leah \"{{i18n:Leah.XDV10h.internet.1}}\"/move LeahEx 0 1 2/message \"{{i18n:Leah.XDV10h.internet.2}}\"/pause 1000/message \"{{i18n:Leah.XDV10h.internet.3}}\"/emote Leah 12/faceDirection Leah 0/speak Leah \"{{i18n:Leah.XDV10h.p1.11}}\"/move Leah 0 2 2/showFrame LeahEx 4/message \"{{i18n:Leah.XDV10h.p1.12}}\"/speed farmer 4/move farmer -2 0 0 false/question fork1 \"{{i18n:Leah.XDV10h.p1.13}}\"/fork noPunch/pause 300/screenFlash .25/animate farmer false false 650 15/positionOffset farmer 0 -8/faceDirection Leah 0 true/playSound clubhit/showFrame LeahEx 6/jump LeahEx/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/positionOffset farmer 0 8/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/pause 200/playSound clubSmash/showFrame LeahEx 7/shake LeahEx 1000/speak Leah \"{{i18n:Leah.XDV10h.p1.14}}\"/speed Leah 4/move Leah -1 0 0/speed Leah 4/move Leah 0 -4 1/emote Leah 40/pause 1700/speak Leah \"{{i18n:Leah.XDV10h.p1.15}}\"/faceDirection Leah 2/speak Leah \"{{i18n:Leah.XDV10h.p1.16}}\"/speed farmer 2/positionOffset farmer 2 0/move farmer -1 0 0/move Leah 0 -8 0 true/move farmer 0 -5 0/globalFade/viewport -1000 -1000/changeLocation Woods/pause 200/speak Leah \"{{i18n:Leah.XDV10h.p1.17}}\"/pause 2000/switchEvent 54_LeahSexIntro",
+		"noPunch": "pause 10/message \"{{i18n:Leah.XDV10h.noPunch.0}}\"/speed farmer 2/move farmer 1 0 3/move LeahEx 0 2 2/message \"{{i18n:Leah.XDV10h.noPunch.1}}\"/faceDirection farmer 2/showFrame Leah 26/pause 1000/showFrame Leah 27/showFrame 94/playSound clubhit/screenFlash .25/showFrame LeahEx 6/jump LeahEx/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/positionOffset farmer 0 8/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/positionOffset LeahEx 0 -4/pause 25/pause 200/playSound clubSmash/showFrame LeahEx 7/shake LeahEx 1000/stopAnimation farmer/speak Leah \"{{i18n:Leah.XDV10h.noPunch.2}}\"/move Leah -1 0 0/move Leah 0 -4 1/speak Leah \"{{i18n:Leah.XDV10h.p1.16}}\"/move farmer 0 1 2/faceDirection Leah 2 true/move farmer -2 0 0/move Leah 0 -11 0 true/move farmer 0 -5 0/globalFade/viewport -1000 -1000/changeLocation Woods/pause 200/speak Leah \"{{i18n:Leah.XDV10h.p1.17}}\"/pause 2000/switchEvent 54_LeahSexIntro",
+                    	
+           }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Woods",
+            "When": 
+            {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
+            },
+            "Entries": {
+                "54_LeahSexIntro": "pause 10/warp farmer 13 64/warp Leah 13 64/positionOffset Leah -4 -12/speak Leah \"{{i18n:Leah.XDV10h.p2.0}}\"/pause 10/message \"{{i18n:Leah.XDV10h.p2.1}}\"/pause 2000/playSound shwip/pause 2000/playSound daggerswipe/pause 2000/changePortrait Leah Nude/changeSprite Leah XDVNude/speak Leah \"{{i18n:Leah.XDV10h.p2.2}}\"/pause 10/message \"{{i18n:Leah.XDV10h.p2.3}}\"/playSound shwip/pause 1500/message \"{{i18n:Leah.XDV10h.p2.4}}\"/playMusic 50s/saveClothes default/removeClothes all/animate farmer false true 500 135/animate Leah false true 200 16/pause 500/viewport 13 63 true/switchEvent 54_LeahSex",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Woods",
+            "When": 
+            {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+            },
+            "Entries": {
+                "54_LeahSexIntro": "pause 10/warp farmer 49 26/warp Leah 49 26/positionOffset Leah -4 -12/speak Leah \"{{i18n:Leah.XDV10h.p2.0}}\"/pause 10/message \"{{i18n:Leah.XDV10h.p2.1}}\"/pause 2000/playSound shwip/pause 2000/playSound daggerswipe/pause 2000/changePortrait Leah Nude/changeSprite Leah XDVNude/speak Leah \"{{i18n:Leah.XDV10h.p2.2}}\"/pause 10/message \"{{i18n:Leah.XDV10h.p2.3}}\"/playSound shwip/pause 1500/message \"{{i18n:Leah.XDV10h.p2.4}}\"/playMusic 50s/saveClothes default/removeClothes all/animate farmer false true 500 135/animate Leah false true 200 16/pause 500/viewport 49 25 true/switchEvent 54_LeahSex",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Woods",
+            "Entries": {
+                "54_LeahSex": "${
+                pause 2000/animate Leah false true 300 16 17 17 17 18 17 17 17 17 17 16 16 17 18/pause 4200/playSound fishSlap/animate Leah false true 300 19/shake Leah 400/pause 2000/speak Leah \"{{i18n:Leah.XDV10h.p3.0}}\"/animate Leah false true 300 17/pause 2000/animate Leah false true 200 16 17 18 18 18 17/loopSound slimeHit 80/pause 14400/message \"{{i18n:Leah.XDV10h.p3.1}}\"/speak Leah \"{{i18n:Leah.XDV10h.p3.2}}\"/animate Leah false true 150 16 17 18 17/loopSound slimeHit 60/pause 13300/message \"{{i18n:Leah.XDV10h.p3.3}}\"/speak Leah \"{{i18n:Leah.XDV10h.p3.4}}\"/animate Leah false true 110 16 17 18 17/loopSound slimeHit 50/pause 8500/speak Leah \"{{i18n:Leah.XDV10h.p3.5}}\"/message \"{{i18n:Leah.XDV10h.p3.6}}\"/animate Leah false true 90 16 17 18 17/loopSound slimeHit 30/pause 7700/speak Leah \"{{i18n:Leah.XDV10h.p3.7}}\"/loopSoundStop slimeHit/screenFlash .5/loopSound fishSlap 50/pause 2000/loopSoundStop fishSlap/pause 500/playSound slimedead/animate Leah false true 90 19/shake Leah 1000/pause 3000/animate Leah false true 90 18/emote Leah 20/pause 1000/speak Leah \"{{i18n:Leah.XDV10h.p3.8}}\"/emote Leah 32/speak Leah \"{{i18n:Leah.XDV10h.p3.9}}\"/pause 500/globalFade/viewport -1000 -1000/pause 2000/speak Leah \"{{i18n:Leah.XDV10h.p3.10}}\"/pause 1000/restoreClothes default/end dialogue Leah \"{{i18n:Leah.XDV10h.p3.11}}\"
+                ^
+                pause 1000/message \"{{i18n:Generic.XDV.nofemale}}\"/end}$",
+            }
+        },
+    ]
+}

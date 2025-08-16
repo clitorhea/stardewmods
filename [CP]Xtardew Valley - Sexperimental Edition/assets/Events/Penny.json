@@ -1,0 +1,56 @@
+{
+    "Changes":[
+//PORTRAITS
+{
+  "Action": "Load",
+  "Target": "Portraits/Penny_Nude",
+  "FromFile": "assets/Portraits/Penny_Nude.png",
+  },
+  {
+    "Action": "Load",
+    "Target": "Portraits/Penny_ClothedBJ",
+    "FromFile": "assets/Portraits/Penny_ClothedBJ.png",
+  },
+//SPRITES
+  {
+    "Action": "Load",
+    "Target": "Characters/Penny_XDVNude",
+    "FromFile": "assets/Sprites/Penny_XDVNude.png",
+},
+{
+  "Action": "Load",
+  "Target": "Characters/Penny_XDVClothed",
+  "FromFile": "assets/Sprites/Penny_XDVClothed.png",
+},
+//EVENTS
+{
+  "Action": "EditData",
+  "Target": "Data/Events/ArchaeologyHouse",
+  "Entries": {
+    "7395540/e 38/f Penny 3000/t 1300 1600/w sunny/d Tue Wed Thu Fri Sat Sun": "50s/-1000 -1000/Gunther 5 8 2 farmer 5 10 0 Penny 17 5 2/skippable/changeSprite Penny XDVClothed/positionOffset Penny 0 -24/animate Penny false true 300 0 1 2 1/pause 800/viewport 4 6 true/pause 1300/textAboveHead Gunther \"{{i18n:Penny.XDVpm.1}}\"/pause 1500/faceDirection farmer 1/move farmer 3 0 0/move farmer 0 -5 1/viewport move 5 0 2500 true/textAboveHead Penny \"{{i18n:Penny.XDVpm.2}}\"/move farmer 6 0 1/pause 250/emote farmer 16/pause 500/stopAnimation Penny/showFrame Penny 3/pause 500/positionOffset Penny 0 24/showFrame Penny 4/playSound batScreech/textAboveHead Penny \"{{i18n:Penny.XDVpm.3}}\"/jump Penny/showFrame Penny 5/shake Penny 1000/pause 1000/speed farmer 6/move farmer 2 0 1/animate farmer false true 100 101/positionOffset farmer 3 0/pause 50/positionOffset farmer 3 0/pause 50/positionOffset farmer 3 0/pause 500/changeSprite Penny/showFrame Penny 12/faceDirection Penny 3/speak Penny \"{{i18n:Penny.XDVpm.4}}\"/pause 250/animate Penny true true 500 35/positionOffset Penny -3 0/pause 50/positionOffset Penny -3 0/pause 50/positionOffset Penny -3 0/specificTemporarySprite heart 17 4/pause 700/speak Penny \"{{i18n:Penny.XDVpm.5}}\"/pause 1500/stopAnimation Penny/stopAnimation farmer/pause 500/emote farmer 8/speak Penny \"{{i18n:Penny.XDVpm.6}}\"/pause 50/emote farmer 32/speak Penny \"{{i18n:Penny.XDVpm.7}}\"/globalFade/viewport -1000 -1000/message \".......\"/message \".....\"/message \"...\"/pause 500/speak Penny \"{{i18n:Penny.XDVpm.8}}\"/pause 450/message \".......\"/message \".....\"/message \"...\"/pause 300/speak Penny \"{{i18n:Penny.XDVpm.9}}\"/pause 500/message \".......\"/message \".....\"/message \"...\"/pause 150/speak Penny \"{{i18n:Penny.XDVpm.10}}\"/pause 500/message \".......\"/message \".....\"/message \"...\"/pause 300/speak Penny \"{{i18n:Penny.XDVpm.11}}\"/pause 2500/speak Penny \"{{i18n:Penny.XDVpm.12}}\"/
+    ${
+    pause 500/warp farmer 42 14/warp Penny 41 14/faceDirection farmer 3/positionOffset farmer -33 17/positionOffset Penny 0 16/saveClothes default/removeClothes bottom/saveClothes noPants/animate farmer true true 500 144/playSound swordswipe/message \"{{i18n:Penny.XDVpm.13}}\"/changePortrait Penny ClothedBJ/changeSprite Penny XDVClothed/animate Penny false true 150 8 9 10 11 12 13 12 11 10 9/speak Penny \"{{i18n:Penny.XDVpm.14}}\"/message \"{{i18n:Penny.XDVpm.15}}\"/pause 500/loopSound gulp 70/pause 1500/viewport 41 14 true/pause 6500/animate Penny false true 220 8/speak Penny \"{{i18n:Penny.XDVpm.16}}\"/animate Penny false true 120 8 9 10 11 12 13 12 11 10 9/pause 7000/textAboveHead Penny \"{{i18n:Penny.XDVpm.17}}\"/animate Penny false true 100 8 9 10 11 12 13 12 11 10 9/loopSound gulp 60/pause 5600/animate Penny false true 220 8/speak Penny \"{{i18n:Penny.XDVpm.18}}\"/animate Penny false true 100 8 9 10 11 12 13 12 11 10 9/pause 5600/textAboveHead Penny \"{{i18n:Penny.XDVpm.19}}\"/animate Penny false true 80 8 9 10 11 12 13 12 11 10 9/loopSound gulp 50/pause 4500/animate Penny false true 220 8/speak Penny \"{{i18n:Penny.XDVpm.20}}\"/quickQuestion {{i18n:Penny.XDVpm.21}} (break)
+      --cum in mouth\\speak Penny \"{{i18n:Penny.XDVpm.22}}\"\\animate Penny false true 60 8 9 10 11 12 13 12 11 10 9\\loopSound gulp 40\\pause 4500\\textAboveHead Penny \"{{i18n:Penny.XDVpm.23}}\"\\animate Penny false true 180 13\\loopSoundStop gulp\\pause 200\\screenFlash 2\\playSound slimedead\\speak Penny \"{{i18n:Penny.XDVpm.24a1}}\"\\pause 500\\loopSound fishSlap 70\\pause 1500\\loopSoundStop fishSlap\\pause 500\\playSound slimedead\\pause 1500\\playSound gulp\\pause 300\\playSound gulp\\pause 300\\playSound gulp\\pause 300\\playSound gulp\\pause 1200\\emote Penny 20\\pause 1000\\globalFade\\viewport -1000 -1000\\pause 500\\speak Penny \"{{i18n:Penny.XDVpm.24a2}}\"\\pause 1000\\changePortrait Penny
+      (break)
+      --cum on face\\speak Penny \"{{i18n:Penny.XDVpm.22}}\"\\animate Penny false true 60 8 9 10 11 12 13 12 11 10 9\\loopSound gulp 40\\pause 4500\\textAboveHead Penny \"{{i18n:Penny.XDVpm.23}}\"\\animate Penny false true 180 14\\animate farmer true true 500 145\\loopSoundStop gulp\\pause 200\\screenFlash 2\\playSound slimedead\\speak Penny \"{{i18n:Penny.XDVpm.24b1}}\"\\pause 500\\loopSound fishSlap 70\\pause 1500\\loopSoundStop fishSlap\\pause 500\\playSound slimedead\\pause 500\\playSound slimedead\\pause 2500\\speak Penny \"{{i18n:Penny.XDVpm.24b2}}\"\\pause 2500\\globalFade\\viewport -1000 -1000\\pause 1000\\changePortrait Penny\\speak Penny \"{{i18n:Penny.XDVpm.24b3}}\"\\pause 500/
+    restoreClothes default/speak Penny \"{{i18n:Penny.XDVpm.25}}\"/end
+    ^
+    pause 5000/message \"{{i18n:Generic.XDV.nofemale}}\"/end}$",
+                            }
+            },
+            
+{
+  "Action": "EditData",
+  "Target": "Data/Events/BathHouse_Pool",
+  "Entries": {
+    "38/f Penny 2500/t 1900 2400/n pennySpa": "echos/-1000 -1000/farmer 13 23 2 Penny 9 29 1/swimming farmer/swimming Penny/showFrame Penny 31/viewport 13 27 true/pause 2000/playSound slosh/move farmer 0 6 3/positionOffset farmer 0 16/pause 700/speak Penny \"{{i18n:Penny.XDV10h.1}}\"/playSound slosh/move Penny 1 0 1/pause 1500/faceDirection Penny 0/speak Penny \"{{i18n:Penny.XDV10h.2}}\"/pause 800/speak Penny \"{{i18n:Penny.XDV10h.3}}\"/faceDirection farmer 0/pause 1300/faceDirection Penny 1/pause 500/playSound slosh/move Penny 1 0 1/faceDirection farmer 3/speak Penny \"{{i18n:Penny.XDV10h.4}}\"/faceDirection Penny 3/pause 800/faceDirection Penny 1/speak Penny \"{{i18n:Penny.XDV10h.5}}\"/pause 1000/playSound slosh/move Penny 1 0 1/pause 500/speak Penny \"{{i18n:Penny.XDV10h.6}}\"/speak Penny \"{{i18n:Penny.XDV10h.7}}\"/fork pennyHeartbroken/pause 1000/showFrame Penny 32/pause 200/playSound slosh/positionOffset Penny 2 0/pause 50/positionOffset Penny 2 0/pause 50/positionOffset Penny 2 0/pause 50/positionOffset Penny 2 0/positionOffset farmer -2 0/pause 50/positionOffset Penny 2 0/positionOffset farmer -2 0/pause 50/eyes 1 -10000/positionOffset Penny 2 0/positionOffset farmer -2 2/pause 50/positionOffset Penny 2 0/positionOffset farmer -2 0/pause 50/positionOffset Penny 2 0/positionOffset farmer -2 0/pause 50/positionOffset Penny 2 0/positionOffset farmer -2 0/pause 50/positionOffset Penny 2 0/positionOffset farmer -2 0/specificTemporarySprite heart 13 29/pause 4000/faceDirection Penny 1/stopAnimation Penny/stopAnimation farmer/pause 300/speak Penny \"{{i18n:Penny.XDV10h.8}}\"/pause 300/emote farmer 20/pause 80/emote Penny 20/globalFade/viewport -1000 -1000/pause 1000/speak Penny \"{{i18n:Penny.XDV10h.9}}\"/pause 300/playSound slosh/pause 1300/playSound slosh/pause 1300/playSound slosh/pause 1300/playSound slosh/pause 1300/playSound slosh/stopSwimming farmer/stopSwimming Penny/stopAnimation Penny/stopAnimation farmer/pause 200/warp Penny 4 28/faceDirection farmer 1/warp farmer 4 28/positionOffset farmer 36 3/positionOffset Penny 64 -11/playSound grassyStep/pause 1500/playSound grassyStep/pause 2000/speak Penny \"{{i18n:Penny.XDV10h.10}}\"/pause 1500/playSound dwop/pause 2000/playSound dwop/pause 2000/playSound dwop/pause 2000/speak Penny \"{{i18n:Penny.XDV10h.11}}\"/pause 1000/changePortrait Penny Nude/changeSprite Penny XDVNude/playSound shwip/pause 1000/playSound daggerswipe/pause 1000/playSound shwip/pause 1500/
+    ${
+      speak Penny \"{{i18n:Penny.XDV10h.12}}\"/pause 1000/playSound grassyStep/pause 1500/playSound grassyStep/pause 1500/speak Penny \"{{i18n:Penny.XDV10h.13}}\"/message \"{{i18n:Penny.XDV10h.14}}\"/pause 2000/playSound fishSlap/pause 300/speak Penny \"{{i18n:Penny.XDV10h.15}}\"/pause 500/animate farmer false true 500 138/saveClothes default/removeClothes all/animate Penny false true 300 16 17 18 17/loopSound slimeHit 60/viewport 4 28 true/pause 11000/message \"{{i18n:Penny.XDV10h.16}}\"/speak Penny \"{{i18n:Penny.XDV10h.17}}\"/animate Penny false true 200 16 17 18 17/pause 100/loopSound slimeHit 50/pause 11000/speak Penny \"{{i18n:Penny.XDV10h.18}}\"/animate Penny false true 150 16 17 18 17/pause 100/loopSound slimeHit 40/pause 10000/message \"{{i18n:Penny.XDV10h.19}}\"/speak Penny \"{{i18n:Penny.XDV10h.20}}\"/positionOffset Penny -12 0/animate Penny false true 100 19 20 21 22/pause 100/loopSound slimeHit 30/pause 8000/speak Penny \"{{i18n:Penny.XDV10h.21}}\"/message \"{{i18n:Penny.XDV10h.22}}\"/animate Penny false true 80 19 20 21 22/pause 100/loopSound slimeHit 20/pause 8000/screenFlash 1/loopSoundStop slimeHit/playSound slimedead/speak Penny \"{{i18n:Penny.XDV10h.23}}\"/pause 500/loopSound fishSlap 40/pause 1500/loopSoundStop fishSlap/pause 500/playSound slimedead/animate Penny false true 200 21/shake Penny 1000/pause 1500/animate Penny false true 200 22/emote Penny 20/pause 1500/speak Penny \"{{i18n:Penny.XDV10h.24}}\"/pause 200/emote Penny 32/pause 300/globalFade/viewport -1000 -1000/restoreClothes default/end warpOut
+    ^
+      message \"{{i18n:Generic.XDV.nofemale}}\"/end warpOut
+    }$",
+    "pennyHeartbroken": "move Penny 0 -2 0/faceDirection farmer 0/shake Penny 5000/globalFade/viewport -1000 -1000/stopSwimming farmer/stopSwimming Penny/end warpOut"
+    }
+  },
+    ]
+}

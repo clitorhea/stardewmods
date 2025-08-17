@@ -8,8 +8,17 @@
   "SideLoadHDPWhenNotInstalled": false,
   "SideLoadHDPWhenInstalled": false,
   "HPDOption": true,
-  "active": "Vanilla",
+  "active": "HDP",
   "presets": {
-    "Presets": []
+    "Presets": [
+      {
+        "Character": "Lance",
+        "Portraits": "HDP"
+      },
+      {
+        "Character": "Willy",
+        "Portraits": "HDP"
+      }
+    ]
   }
 }
